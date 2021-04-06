@@ -1,0 +1,105 @@
+plugins {
+    id 'com.jfrog.bintray'
+    id 'com.google.protobuf' version '0.8.12'
+    id 'maven-publish'
+}
+
+// 源码包
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+    classifier "sources"
+}
+
+////maven-publish 扩展名
+//publishing {
+//    // 配置发布的项目信息
+//    publications{
+//        library(MavenPublication){
+//            // MavenPublication 中有一些属性，主要包括groupId，artifactId，version,from,artifact
+//            // 其中groupId，artifactId，version，artifact都是选填的，不填默认去取项目的相关信息；
+//            groupId project.group // 项目的group
+//            artifactId 'client-'+project.name //项目name
+//            version project.version
+//            //如果打包成war包填写components.web，如果打成jar包填写components.java
+//            from components.java
+//            artifact sourceJar
+//        }
+//    }
+//    // 配置发布的地址
+//    repositories{
+//        maven{
+//            // 私服地址
+//            url = 'http://18.138.127.184:8081/nexus/content/repositories/releases/'
+//            // 验证信息
+//            credentials{
+//                // 私服的用户与密码
+//                username 'admin'
+//                password 'mgEVMquOZurl'
+//            }
+//        }
+//    }
+//}
+
+description 'Visionjsdk gRPC client classes'
+
+dependencies {
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation project(':utils')
+    implementation project(':abi')
+
+    implementation 'io.grpc:grpc-netty-shaded:1.31.0'
+    implementation 'io.grpc:grpc-netty:1.31.0'
+    implementation 'io.grpc:grpc-okhttp:1.31.0'
+    implementation 'io.grpc:grpc-protobuf:1.31.0'
+    implementation 'io.grpc:grpc-stub:1.31.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
+
+    implementation 'com.google.protobuf:protobuf-java-util:3.11.0'
+
+    implementation "org.bouncycastle:bcprov-jdk15on:$bouncycastleVersion"
+    // implementation 'org.apache.tuweni:tuweni-bytes:0.8.2'
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.12.0'
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.31.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc { }
+        }
+    }
+    generatedFilesBaseDir = "$projectDir/src"
+}
+
+bintray {
+    user = System.getenv('BINTRAY_USER_VISION')
+    key = System.getenv('BINTRAY_KEY_VISION')
+
+    configurations = ['archives']
+
+    pkg {
+        repo = 'visionjsdk'
+        name = 'client'
+        // userOrg = 'visionjsdk'
+        // configurations = ['archives']
+        desc = description
+        websiteUrl = 'https://github.com/visionprotocol/visionjsdk'
+        vcsUrl = 'https://github.com/visionprotocol/visionjsdk.git'
+        licenses = ['Apache-2.0']
+        publish = true
+        publicDownloadNumbers = true
+        version {
+            afterEvaluate {
+                name = "${project.version}"
+                released = new Date()
+            }
+        }
+    }
+}
