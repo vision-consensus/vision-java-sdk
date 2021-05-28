@@ -122,7 +122,7 @@ public class VisionClient {
      * @return a VisionClient object
      */
     public static VisionClient ofVtest(String hexPrivateKey) {
-        return new VisionClient("3.22.117.236:50051", "3.22.117.236:50061", hexPrivateKey);
+        return new VisionClient("172.26.2.239:50051", "172.26.2.239:50061", hexPrivateKey);
     }
 
 
