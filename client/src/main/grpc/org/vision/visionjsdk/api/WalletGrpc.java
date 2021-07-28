@@ -5069,7 +5069,7 @@ public final class WalletGrpc {
               new MethodHandlers<
                 org.vision.visionjsdk.api.GrpcAPI.AccountAddressMessage,
                 org.vision.visionjsdk.proto.Response.AccountNetMessage>(
-                  this, METHODID_GET_ACCOUNT_NET)))
+                  this, METHODID_GET_ACCOUNT_PHOTON)))
           .addMethod(
             getGetAccountResourceMethod(),
             asyncUnaryCall(
@@ -8451,7 +8451,7 @@ public final class WalletGrpc {
   private static final int METHODID_GET_TRANSACTION_APPROVED_LIST = 54;
   private static final int METHODID_GET_ACCOUNT = 55;
   private static final int METHODID_GET_ACCOUNT_BY_ID = 56;
-  private static final int METHODID_GET_ACCOUNT_NET = 57;
+  private static final int METHODID_GET_ACCOUNT_PHOTON = 57;
   private static final int METHODID_GET_ACCOUNT_RESOURCE = 58;
   private static final int METHODID_GET_ASSET_ISSUE_BY_ACCOUNT = 59;
   private static final int METHODID_GET_ASSET_ISSUE_BY_NAME = 60;
@@ -8760,7 +8760,7 @@ public final class WalletGrpc {
           serviceImpl.getAccountById((org.vision.visionjsdk.api.GrpcAPI.AccountIdMessage) request,
               (io.grpc.stub.StreamObserver<org.vision.visionjsdk.proto.Response.Account>) responseObserver);
           break;
-        case METHODID_GET_ACCOUNT_NET:
+        case METHODID_GET_ACCOUNT_PHOTON:
           serviceImpl.getAccountPhoton((org.vision.visionjsdk.api.GrpcAPI.AccountAddressMessage) request,
               (io.grpc.stub.StreamObserver<org.vision.visionjsdk.proto.Response.AccountNetMessage>) responseObserver);
           break;

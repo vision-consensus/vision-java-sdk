@@ -115,14 +115,34 @@ public class VisionClient {
         return new VisionClient("vpionner.infragrid.v.network:50051", "vpionner.infragrid.v.network:50052",hexPrivateKey);
     }
 
+    /**
+     * The constuctor for vtest test net.
+     * @param hexPrivateKey the binding private key. Operations require private key will all use this unless the private key is specified elsewhere.
+     * @return a VisionClient object
+     */
+    public static VisionClient ofVtest(String hexPrivateKey) {
+        // return new VisionClient("vtest.infragrid.v.network:50051", "vtest.infragrid.v.network:50061", hexPrivateKey);
+        return new VisionClient("vtest.infragrid.v.network:50051", "vtest.infragrid.v.network:50052", hexPrivateKey);
+    }
+
+    /**
+     * The constuctor for vtest test net.
+     * @param hexPrivateKey the binding private key. Operations require private key will all use this unless the private key is specified elsewhere.
+     * @return a VisionClient object
+     */
+    public static VisionClient ofVtestIp(String hexPrivateKey) {
+        // return new VisionClient("vtest.infragrid.v.network:50051", "vtest.infragrid.v.network:50061", hexPrivateKey);
+        return new VisionClient("18.191.204.246:50051", "18.191.204.246:50052", hexPrivateKey);
+    }
 
     /**
      * The constuctor for Nile test net.
      * @param hexPrivateKey the binding private key. Operations require private key will all use this unless the private key is specified elsewhere.
      * @return a VisionClient object
      */
-    public static VisionClient ofVtest(String hexPrivateKey) {
-        return new VisionClient("172.26.2.239:50051", "172.26.2.239:50061", hexPrivateKey);
+    public static VisionClient ofLocal(String hexPrivateKey) {
+        // return new VisionClient("172.26.2.239:50051", "172.26.2.239:50061", hexPrivateKey);
+        return new VisionClient("192.168.91.145:50051", "192.168.91.145:50061", hexPrivateKey);
     }
 
 
@@ -1066,6 +1086,19 @@ public class VisionClient {
         } else {
             throw new RuntimeException("Function not found in the contract");
         }
+    }
+
+    /**
+     * make a constant call - no broadcasting
+     * @param ownerAddr the current caller.
+     * @param contractAddr smart contract address.
+     * @param function contract function.
+     * @return TransactionExtention.
+     */
+    public TransactionExtention constantCallIgnore(String ownerAddr, String contractAddr, Function function) {
+        Contract cntr = getContract(contractAddr);
+        return callWithoutBroadcast(ownerAddr, cntr, function);
+
     }
 
     /**

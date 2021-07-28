@@ -142,7 +142,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -591,7 +591,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + NUM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -1081,7 +1081,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getValue().hashCode();
@@ -1603,7 +1603,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + STARTNUM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -2137,7 +2137,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getAddress().hashCode();
@@ -2633,7 +2633,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ID_FIELD_NUMBER;
       hash = (53 * hash) + getId().hashCode();
@@ -3159,7 +3159,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OFFSET_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -3756,7 +3756,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PASSPHRASE_FIELD_NUMBER;
       hash = (53 * hash) + getPassPhrase().hashCode();
@@ -4458,7 +4458,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PASSPHRASE_FIELD_NUMBER;
       hash = (53 * hash) + getPassPhrase().hashCode();
@@ -5180,7 +5180,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PRIVATEKEY_FIELD_NUMBER;
       hash = (53 * hash) + getPrivateKey().hashCode();
@@ -5882,7 +5882,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PRIVATEKEY_FIELD_NUMBER;
       hash = (53 * hash) + getPrivateKey().hashCode();
@@ -6577,7 +6577,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + AK_FIELD_NUMBER;
       hash = (53 * hash) + getAk().hashCode();
@@ -7436,7 +7436,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SK_FIELD_NUMBER;
       hash = (53 * hash) + getSk().hashCode();
@@ -8203,7 +8203,9 @@ public final class GrpcAPI {
      * @return The d.
      */
     org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage getD();
-
+    /**
+     * <code>.protocol.DiversifierMessage d = 1;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder();
 
     /**
@@ -8345,7 +8347,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage getD() {
       return d_ == null ? org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.getDefaultInstance() : d_;
     }
-
+    /**
+     * <code>.protocol.DiversifierMessage d = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder() {
       return getD();
@@ -8476,7 +8480,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasD()) {
         hash = (37 * hash) + D_FIELD_NUMBER;
@@ -8770,7 +8774,9 @@ public final class GrpcAPI {
           return dBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public Builder setD(org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage value) {
         if (dBuilder_ == null) {
           if (value == null) {
@@ -8784,7 +8790,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public Builder setD(
           org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder builderForValue) {
         if (dBuilder_ == null) {
@@ -8796,7 +8804,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public Builder mergeD(org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage value) {
         if (dBuilder_ == null) {
           if (d_ != null) {
@@ -8812,7 +8822,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public Builder clearD() {
         if (dBuilder_ == null) {
           d_ = null;
@@ -8824,13 +8836,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder getDBuilder() {
         
         onChanged();
         return getDFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder() {
         if (dBuilder_ != null) {
           return dBuilder_.getMessageOrBuilder();
@@ -8839,7 +8855,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.getDefaultInstance() : d_;
         }
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage, org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder, org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder> 
           getDFieldBuilder() {
@@ -9176,7 +9194,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + D_FIELD_NUMBER;
       hash = (53 * hash) + getD().hashCode();
@@ -9732,7 +9750,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ASK_FIELD_NUMBER;
       hash = (53 * hash) + getAsk().hashCode();
@@ -10308,7 +10326,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + IVK_FIELD_NUMBER;
       hash = (53 * hash) + getIvk().hashCode();
@@ -10654,7 +10672,9 @@ public final class GrpcAPI {
      * @return The ivk.
      */
     org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage getIvk();
-
+    /**
+     * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessageOrBuilder getIvkOrBuilder();
 
     /**
@@ -10667,7 +10687,9 @@ public final class GrpcAPI {
      * @return The d.
      */
     org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage getD();
-
+    /**
+     * <code>.protocol.DiversifierMessage d = 2;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder();
   }
   /**
@@ -10795,7 +10817,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage getIvk() {
       return ivk_ == null ? org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage.getDefaultInstance() : ivk_;
     }
-
+    /**
+     * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessageOrBuilder getIvkOrBuilder() {
       return getIvk();
@@ -10819,7 +10843,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage getD() {
       return d_ == null ? org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.getDefaultInstance() : d_;
     }
-
+    /**
+     * <code>.protocol.DiversifierMessage d = 2;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder() {
       return getD();
@@ -10896,7 +10922,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasIvk()) {
         hash = (37 * hash) + IVK_FIELD_NUMBER;
@@ -11195,7 +11221,9 @@ public final class GrpcAPI {
           return ivkBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public Builder setIvk(org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage value) {
         if (ivkBuilder_ == null) {
           if (value == null) {
@@ -11209,7 +11237,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public Builder setIvk(
           org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage.Builder builderForValue) {
         if (ivkBuilder_ == null) {
@@ -11221,7 +11251,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public Builder mergeIvk(org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage value) {
         if (ivkBuilder_ == null) {
           if (ivk_ != null) {
@@ -11237,7 +11269,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public Builder clearIvk() {
         if (ivkBuilder_ == null) {
           ivk_ = null;
@@ -11249,13 +11283,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage.Builder getIvkBuilder() {
         
         onChanged();
         return getIvkFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessageOrBuilder getIvkOrBuilder() {
         if (ivkBuilder_ != null) {
           return ivkBuilder_.getMessageOrBuilder();
@@ -11264,7 +11302,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage.getDefaultInstance() : ivk_;
         }
       }
-
+      /**
+       * <code>.protocol.IncomingViewingKeyMessage ivk = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage, org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessage.Builder, org.vision.visionjsdk.api.GrpcAPI.IncomingViewingKeyMessageOrBuilder> 
           getIvkFieldBuilder() {
@@ -11300,7 +11340,9 @@ public final class GrpcAPI {
           return dBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public Builder setD(org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage value) {
         if (dBuilder_ == null) {
           if (value == null) {
@@ -11314,7 +11356,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public Builder setD(
           org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder builderForValue) {
         if (dBuilder_ == null) {
@@ -11326,7 +11370,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public Builder mergeD(org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage value) {
         if (dBuilder_ == null) {
           if (d_ != null) {
@@ -11342,7 +11388,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public Builder clearD() {
         if (dBuilder_ == null) {
           d_ = null;
@@ -11354,13 +11402,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder getDBuilder() {
         
         onChanged();
         return getDFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder getDOrBuilder() {
         if (dBuilder_ != null) {
           return dBuilder_.getMessageOrBuilder();
@@ -11369,7 +11421,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.getDefaultInstance() : d_;
         }
       }
-
+      /**
+       * <code>.protocol.DiversifierMessage d = 2;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage, org.vision.visionjsdk.api.GrpcAPI.DiversifierMessage.Builder, org.vision.visionjsdk.api.GrpcAPI.DiversifierMessageOrBuilder> 
           getDFieldBuilder() {
@@ -11450,7 +11504,9 @@ public final class GrpcAPI {
      * @return The note.
      */
     org.vision.visionjsdk.proto.Common.Note getNote();
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder();
   }
   /**
@@ -11561,7 +11617,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.proto.Common.Note getNote() {
       return note_ == null ? org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
     }
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
       return getNote();
@@ -11626,7 +11684,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNote()) {
         hash = (37 * hash) + NOTE_FIELD_NUMBER;
@@ -11903,7 +11961,9 @@ public final class GrpcAPI {
           return noteBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (value == null) {
@@ -11917,7 +11977,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(
           org.vision.visionjsdk.proto.Common.Note.Builder builderForValue) {
         if (noteBuilder_ == null) {
@@ -11929,7 +11991,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder mergeNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (note_ != null) {
@@ -11945,7 +12009,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder clearNote() {
         if (noteBuilder_ == null) {
           note_ = null;
@@ -11957,13 +12023,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Note.Builder getNoteBuilder() {
         
         onChanged();
         return getNoteFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
         if (noteBuilder_ != null) {
           return noteBuilder_.getMessageOrBuilder();
@@ -11972,7 +12042,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Note, org.vision.visionjsdk.proto.Common.Note.Builder, org.vision.visionjsdk.proto.Common.NoteOrBuilder> 
           getNoteFieldBuilder() {
@@ -12053,7 +12125,9 @@ public final class GrpcAPI {
      * @return The note.
      */
     org.vision.visionjsdk.proto.Common.Note getNote();
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder();
 
     /**
@@ -12211,7 +12285,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.proto.Common.Note getNote() {
       return note_ == null ? org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
     }
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
       return getNote();
@@ -12356,7 +12432,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNote()) {
         hash = (37 * hash) + NOTE_FIELD_NUMBER;
@@ -12666,7 +12742,9 @@ public final class GrpcAPI {
           return noteBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (value == null) {
@@ -12680,7 +12758,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(
           org.vision.visionjsdk.proto.Common.Note.Builder builderForValue) {
         if (noteBuilder_ == null) {
@@ -12692,7 +12772,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder mergeNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (note_ != null) {
@@ -12708,7 +12790,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder clearNote() {
         if (noteBuilder_ == null) {
           note_ = null;
@@ -12720,13 +12804,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Note.Builder getNoteBuilder() {
         
         onChanged();
         return getNoteFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
         if (noteBuilder_ != null) {
           return noteBuilder_.getMessageOrBuilder();
@@ -12735,7 +12823,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Note, org.vision.visionjsdk.proto.Common.Note.Builder, org.vision.visionjsdk.proto.Common.NoteOrBuilder> 
           getNoteFieldBuilder() {
@@ -12969,31 +13059,51 @@ public final class GrpcAPI {
     com.google.protobuf.ByteString
         getFromAmountBytes();
 
-
-    java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20>
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
+    java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> 
         getShieldedSpendsList();
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index);
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     int getShieldedSpendsCount();
-
-    java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
         getShieldedSpendsOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
         int index);
 
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> 
         getShieldedReceivesList();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index);
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     int getShieldedReceivesCount();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
         getShieldedReceivesOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
         int index);
 
@@ -13242,28 +13352,38 @@ public final class GrpcAPI {
 
     public static final int SHIELDED_SPENDS_FIELD_NUMBER = 5;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> shieldedSpends_;
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> getShieldedSpendsList() {
       return shieldedSpends_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
         getShieldedSpendsOrBuilderList() {
       return shieldedSpends_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public int getShieldedSpendsCount() {
       return shieldedSpends_.size();
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index) {
       return shieldedSpends_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
         int index) {
@@ -13272,28 +13392,38 @@ public final class GrpcAPI {
 
     public static final int SHIELDED_RECEIVES_FIELD_NUMBER = 6;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> shieldedReceives_;
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> getShieldedReceivesList() {
       return shieldedReceives_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
         getShieldedReceivesOrBuilderList() {
       return shieldedReceives_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public int getShieldedReceivesCount() {
       return shieldedReceives_.size();
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index) {
       return shieldedReceives_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
         int index) {
@@ -13486,7 +13616,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ASK_FIELD_NUMBER;
       hash = (53 * hash) + getAsk().hashCode();
@@ -14066,7 +14196,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> shieldedSpendsBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> getShieldedSpendsList() {
         if (shieldedSpendsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(shieldedSpends_);
@@ -14074,7 +14206,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public int getShieldedSpendsCount() {
         if (shieldedSpendsBuilder_ == null) {
           return shieldedSpends_.size();
@@ -14082,7 +14216,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index) {
         if (shieldedSpendsBuilder_ == null) {
           return shieldedSpends_.get(index);
@@ -14090,7 +14226,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder setShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14105,7 +14243,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder setShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14117,7 +14257,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
           if (value == null) {
@@ -14131,7 +14273,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14146,7 +14290,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14158,7 +14304,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14170,7 +14318,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addAllShieldedSpends(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> values) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14183,7 +14333,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder clearShieldedSpends() {
         if (shieldedSpendsBuilder_ == null) {
           shieldedSpends_ = java.util.Collections.emptyList();
@@ -14194,7 +14346,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder removeShieldedSpends(int index) {
         if (shieldedSpendsBuilder_ == null) {
           ensureShieldedSpendsIsMutable();
@@ -14205,12 +14359,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder getShieldedSpendsBuilder(
           int index) {
         return getShieldedSpendsFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
           int index) {
         if (shieldedSpendsBuilder_ == null) {
@@ -14218,8 +14376,10 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
            getShieldedSpendsOrBuilderList() {
         if (shieldedSpendsBuilder_ != null) {
           return shieldedSpendsBuilder_.getMessageOrBuilderList();
@@ -14227,24 +14387,30 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(shieldedSpends_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder addShieldedSpendsBuilder() {
         return getShieldedSpendsFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder addShieldedSpendsBuilder(
           int index) {
         return getShieldedSpendsFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.getDefaultInstance());
       }
-
-      public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder>
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder> 
            getShieldedSpendsBuilderList() {
         return getShieldedSpendsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+          org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
           getShieldedSpendsFieldBuilder() {
         if (shieldedSpendsBuilder_ == null) {
           shieldedSpendsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -14270,7 +14436,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.ReceiveNote, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder, org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> shieldedReceivesBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> getShieldedReceivesList() {
         if (shieldedReceivesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(shieldedReceives_);
@@ -14278,7 +14446,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public int getShieldedReceivesCount() {
         if (shieldedReceivesBuilder_ == null) {
           return shieldedReceives_.size();
@@ -14286,7 +14456,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index) {
         if (shieldedReceivesBuilder_ == null) {
           return shieldedReceives_.get(index);
@@ -14294,7 +14466,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder setShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14309,7 +14483,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder setShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14321,7 +14497,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
           if (value == null) {
@@ -14335,7 +14513,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14350,7 +14530,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14362,7 +14544,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14374,7 +14558,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addAllShieldedReceives(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> values) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14387,7 +14573,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder clearShieldedReceives() {
         if (shieldedReceivesBuilder_ == null) {
           shieldedReceives_ = java.util.Collections.emptyList();
@@ -14398,7 +14586,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder removeShieldedReceives(int index) {
         if (shieldedReceivesBuilder_ == null) {
           ensureShieldedReceivesIsMutable();
@@ -14409,12 +14599,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder getShieldedReceivesBuilder(
           int index) {
         return getShieldedReceivesFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
           int index) {
         if (shieldedReceivesBuilder_ == null) {
@@ -14422,7 +14616,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessageOrBuilder(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
            getShieldedReceivesOrBuilderList() {
         if (shieldedReceivesBuilder_ != null) {
@@ -14431,18 +14627,24 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(shieldedReceives_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder addShieldedReceivesBuilder() {
         return getShieldedReceivesFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder addShieldedReceivesBuilder(
           int index) {
         return getShieldedReceivesFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder> 
            getShieldedReceivesBuilderList() {
         return getShieldedReceivesFieldBuilder().getBuilderList();
@@ -14692,31 +14894,51 @@ public final class GrpcAPI {
     com.google.protobuf.ByteString
         getFromAmountBytes();
 
-
-    java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20>
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
+    java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> 
         getShieldedSpendsList();
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index);
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     int getShieldedSpendsCount();
-
-    java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
         getShieldedSpendsOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
         int index);
 
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> 
         getShieldedReceivesList();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index);
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     int getShieldedReceivesCount();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
         getShieldedReceivesOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
         int index);
 
@@ -14965,28 +15187,38 @@ public final class GrpcAPI {
 
     public static final int SHIELDED_SPENDS_FIELD_NUMBER = 5;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> shieldedSpends_;
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> getShieldedSpendsList() {
       return shieldedSpends_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
         getShieldedSpendsOrBuilderList() {
       return shieldedSpends_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public int getShieldedSpendsCount() {
       return shieldedSpends_.size();
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index) {
       return shieldedSpends_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
         int index) {
@@ -14995,28 +15227,38 @@ public final class GrpcAPI {
 
     public static final int SHIELDED_RECEIVES_FIELD_NUMBER = 6;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> shieldedReceives_;
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> getShieldedReceivesList() {
       return shieldedReceives_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
         getShieldedReceivesOrBuilderList() {
       return shieldedReceives_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public int getShieldedReceivesCount() {
       return shieldedReceives_.size();
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index) {
       return shieldedReceives_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
         int index) {
@@ -15209,7 +15451,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + AK_FIELD_NUMBER;
       hash = (53 * hash) + getAk().hashCode();
@@ -15789,7 +16031,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> shieldedSpendsBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> getShieldedSpendsList() {
         if (shieldedSpendsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(shieldedSpends_);
@@ -15797,7 +16041,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public int getShieldedSpendsCount() {
         if (shieldedSpendsBuilder_ == null) {
           return shieldedSpends_.size();
@@ -15805,7 +16051,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 getShieldedSpends(int index) {
         if (shieldedSpendsBuilder_ == null) {
           return shieldedSpends_.get(index);
@@ -15813,7 +16061,9 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder setShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15828,7 +16078,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder setShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15840,7 +16092,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
           if (value == null) {
@@ -15854,7 +16108,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20 value) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15869,7 +16125,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15881,7 +16139,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addShieldedSpends(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder builderForValue) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15893,7 +16153,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder addAllShieldedSpends(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20> values) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15906,7 +16168,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder clearShieldedSpends() {
         if (shieldedSpendsBuilder_ == null) {
           shieldedSpends_ = java.util.Collections.emptyList();
@@ -15917,7 +16181,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public Builder removeShieldedSpends(int index) {
         if (shieldedSpendsBuilder_ == null) {
           ensureShieldedSpendsIsMutable();
@@ -15928,12 +16194,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder getShieldedSpendsBuilder(
           int index) {
         return getShieldedSpendsFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder getShieldedSpendsOrBuilder(
           int index) {
         if (shieldedSpendsBuilder_ == null) {
@@ -15941,8 +16211,10 @@ public final class GrpcAPI {
           return shieldedSpendsBuilder_.getMessageOrBuilder(index);
         }
       }
-
-      public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
            getShieldedSpendsOrBuilderList() {
         if (shieldedSpendsBuilder_ != null) {
           return shieldedSpendsBuilder_.getMessageOrBuilderList();
@@ -15950,24 +16222,30 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(shieldedSpends_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder addShieldedSpendsBuilder() {
         return getShieldedSpendsFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder addShieldedSpendsBuilder(
           int index) {
         return getShieldedSpendsFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.getDefaultInstance());
       }
-
-      public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder>
+      /**
+       * <code>repeated .protocol.SpendNoteVRC20 shielded_spends = 5;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder> 
            getShieldedSpendsBuilderList() {
         return getShieldedSpendsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder>
+          org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendNoteVRC20OrBuilder> 
           getShieldedSpendsFieldBuilder() {
         if (shieldedSpendsBuilder_ == null) {
           shieldedSpendsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -15993,7 +16271,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.ReceiveNote, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder, org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> shieldedReceivesBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> getShieldedReceivesList() {
         if (shieldedReceivesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(shieldedReceives_);
@@ -16001,7 +16281,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public int getShieldedReceivesCount() {
         if (shieldedReceivesBuilder_ == null) {
           return shieldedReceives_.size();
@@ -16009,7 +16291,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote getShieldedReceives(int index) {
         if (shieldedReceivesBuilder_ == null) {
           return shieldedReceives_.get(index);
@@ -16017,7 +16301,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder setShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16032,7 +16318,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder setShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16044,7 +16332,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
           if (value == null) {
@@ -16058,7 +16348,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote value) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16073,7 +16365,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16085,7 +16379,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addShieldedReceives(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder builderForValue) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16097,7 +16393,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder addAllShieldedReceives(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNote> values) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16110,7 +16408,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder clearShieldedReceives() {
         if (shieldedReceivesBuilder_ == null) {
           shieldedReceives_ = java.util.Collections.emptyList();
@@ -16121,7 +16421,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public Builder removeShieldedReceives(int index) {
         if (shieldedReceivesBuilder_ == null) {
           ensureShieldedReceivesIsMutable();
@@ -16132,12 +16434,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder getShieldedReceivesBuilder(
           int index) {
         return getShieldedReceivesFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder getShieldedReceivesOrBuilder(
           int index) {
         if (shieldedReceivesBuilder_ == null) {
@@ -16145,7 +16451,9 @@ public final class GrpcAPI {
           return shieldedReceivesBuilder_.getMessageOrBuilder(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveNoteOrBuilder> 
            getShieldedReceivesOrBuilderList() {
         if (shieldedReceivesBuilder_ != null) {
@@ -16154,18 +16462,24 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(shieldedReceives_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder addShieldedReceivesBuilder() {
         return getShieldedReceivesFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder addShieldedReceivesBuilder(
           int index) {
         return getShieldedReceivesFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveNote shielded_receives = 6;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveNote.Builder> 
            getShieldedReceivesBuilderList() {
         return getShieldedReceivesFieldBuilder().getBuilderList();
@@ -16725,7 +17039,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + VALUE_COMMITMENT_FIELD_NUMBER;
       hash = (53 * hash) + getValueCommitment().hashCode();
@@ -17647,7 +17961,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + VALUE_COMMITMENT_FIELD_NUMBER;
       hash = (53 * hash) + getValueCommitment().hashCode();
@@ -18229,31 +18543,51 @@ public final class GrpcAPI {
       // @@protoc_insertion_point(interface_extends:protocol.ShieldedVRC20Parameters)
       com.google.protobuf.MessageOrBuilder {
 
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendDescription> 
         getSpendDescriptionList();
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendDescription getSpendDescription(int index);
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     int getSpendDescriptionCount();
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder> 
         getSpendDescriptionOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder getSpendDescriptionOrBuilder(
         int index);
 
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription> 
         getReceiveDescriptionList();
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription getReceiveDescription(int index);
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     int getReceiveDescriptionCount();
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder> 
         getReceiveDescriptionOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder getReceiveDescriptionOrBuilder(
         int index);
 
@@ -18425,28 +18759,38 @@ public final class GrpcAPI {
 
     public static final int SPEND_DESCRIPTION_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendDescription> spendDescription_;
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendDescription> getSpendDescriptionList() {
       return spendDescription_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder> 
         getSpendDescriptionOrBuilderList() {
       return spendDescription_;
     }
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     @java.lang.Override
     public int getSpendDescriptionCount() {
       return spendDescription_.size();
     }
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendDescription getSpendDescription(int index) {
       return spendDescription_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder getSpendDescriptionOrBuilder(
         int index) {
@@ -18455,28 +18799,38 @@ public final class GrpcAPI {
 
     public static final int RECEIVE_DESCRIPTION_FIELD_NUMBER = 2;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription> receiveDescription_;
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription> getReceiveDescriptionList() {
       return receiveDescription_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder> 
         getReceiveDescriptionOrBuilderList() {
       return receiveDescription_;
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     @java.lang.Override
     public int getReceiveDescriptionCount() {
       return receiveDescription_.size();
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription getReceiveDescription(int index) {
       return receiveDescription_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder getReceiveDescriptionOrBuilder(
         int index) {
@@ -18680,7 +19034,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getSpendDescriptionCount() > 0) {
         hash = (37 * hash) + SPEND_DESCRIPTION_FIELD_NUMBER;
@@ -19058,7 +19412,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.SpendDescription, org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder, org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder> spendDescriptionBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendDescription> getSpendDescriptionList() {
         if (spendDescriptionBuilder_ == null) {
           return java.util.Collections.unmodifiableList(spendDescription_);
@@ -19066,7 +19422,9 @@ public final class GrpcAPI {
           return spendDescriptionBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public int getSpendDescriptionCount() {
         if (spendDescriptionBuilder_ == null) {
           return spendDescription_.size();
@@ -19074,7 +19432,9 @@ public final class GrpcAPI {
           return spendDescriptionBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendDescription getSpendDescription(int index) {
         if (spendDescriptionBuilder_ == null) {
           return spendDescription_.get(index);
@@ -19082,7 +19442,9 @@ public final class GrpcAPI {
           return spendDescriptionBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder setSpendDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendDescription value) {
         if (spendDescriptionBuilder_ == null) {
@@ -19097,7 +19459,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder setSpendDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder builderForValue) {
         if (spendDescriptionBuilder_ == null) {
@@ -19109,7 +19473,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder addSpendDescription(org.vision.visionjsdk.api.GrpcAPI.SpendDescription value) {
         if (spendDescriptionBuilder_ == null) {
           if (value == null) {
@@ -19123,7 +19489,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder addSpendDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendDescription value) {
         if (spendDescriptionBuilder_ == null) {
@@ -19138,7 +19506,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder addSpendDescription(
           org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder builderForValue) {
         if (spendDescriptionBuilder_ == null) {
@@ -19150,7 +19520,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder addSpendDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder builderForValue) {
         if (spendDescriptionBuilder_ == null) {
@@ -19162,7 +19534,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder addAllSpendDescription(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.SpendDescription> values) {
         if (spendDescriptionBuilder_ == null) {
@@ -19175,7 +19549,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder clearSpendDescription() {
         if (spendDescriptionBuilder_ == null) {
           spendDescription_ = java.util.Collections.emptyList();
@@ -19186,7 +19562,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public Builder removeSpendDescription(int index) {
         if (spendDescriptionBuilder_ == null) {
           ensureSpendDescriptionIsMutable();
@@ -19197,12 +19575,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder getSpendDescriptionBuilder(
           int index) {
         return getSpendDescriptionFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder getSpendDescriptionOrBuilder(
           int index) {
         if (spendDescriptionBuilder_ == null) {
@@ -19210,7 +19592,9 @@ public final class GrpcAPI {
           return spendDescriptionBuilder_.getMessageOrBuilder(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.SpendDescriptionOrBuilder> 
            getSpendDescriptionOrBuilderList() {
         if (spendDescriptionBuilder_ != null) {
@@ -19219,18 +19603,24 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(spendDescription_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder addSpendDescriptionBuilder() {
         return getSpendDescriptionFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.SpendDescription.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder addSpendDescriptionBuilder(
           int index) {
         return getSpendDescriptionFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.SpendDescription.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.SpendDescription spend_description = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.SpendDescription.Builder> 
            getSpendDescriptionBuilderList() {
         return getSpendDescriptionFieldBuilder().getBuilderList();
@@ -19262,7 +19652,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder> receiveDescriptionBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription> getReceiveDescriptionList() {
         if (receiveDescriptionBuilder_ == null) {
           return java.util.Collections.unmodifiableList(receiveDescription_);
@@ -19270,7 +19662,9 @@ public final class GrpcAPI {
           return receiveDescriptionBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public int getReceiveDescriptionCount() {
         if (receiveDescriptionBuilder_ == null) {
           return receiveDescription_.size();
@@ -19278,7 +19672,9 @@ public final class GrpcAPI {
           return receiveDescriptionBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription getReceiveDescription(int index) {
         if (receiveDescriptionBuilder_ == null) {
           return receiveDescription_.get(index);
@@ -19286,7 +19682,9 @@ public final class GrpcAPI {
           return receiveDescriptionBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder setReceiveDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription value) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19301,7 +19699,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder setReceiveDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder builderForValue) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19313,7 +19713,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder addReceiveDescription(org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription value) {
         if (receiveDescriptionBuilder_ == null) {
           if (value == null) {
@@ -19327,7 +19729,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder addReceiveDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription value) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19342,7 +19746,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder addReceiveDescription(
           org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder builderForValue) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19354,7 +19760,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder addReceiveDescription(
           int index, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder builderForValue) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19366,7 +19774,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder addAllReceiveDescription(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription> values) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19379,7 +19789,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder clearReceiveDescription() {
         if (receiveDescriptionBuilder_ == null) {
           receiveDescription_ = java.util.Collections.emptyList();
@@ -19390,7 +19802,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public Builder removeReceiveDescription(int index) {
         if (receiveDescriptionBuilder_ == null) {
           ensureReceiveDescriptionIsMutable();
@@ -19401,12 +19815,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder getReceiveDescriptionBuilder(
           int index) {
         return getReceiveDescriptionFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder getReceiveDescriptionOrBuilder(
           int index) {
         if (receiveDescriptionBuilder_ == null) {
@@ -19414,7 +19832,9 @@ public final class GrpcAPI {
           return receiveDescriptionBuilder_.getMessageOrBuilder(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.ReceiveDescriptionOrBuilder> 
            getReceiveDescriptionOrBuilderList() {
         if (receiveDescriptionBuilder_ != null) {
@@ -19423,18 +19843,24 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(receiveDescription_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder addReceiveDescriptionBuilder() {
         return getReceiveDescriptionFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder addReceiveDescriptionBuilder(
           int index) {
         return getReceiveDescriptionFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.ReceiveDescription receive_description = 2;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.ReceiveDescription.Builder> 
            getReceiveDescriptionBuilderList() {
         return getReceiveDescriptionFieldBuilder().getBuilderList();
@@ -20131,7 +20557,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + START_BLOCK_INDEX_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -21143,7 +21569,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + START_BLOCK_INDEX_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -21744,7 +22170,9 @@ public final class GrpcAPI {
      * @return The note.
      */
     org.vision.visionjsdk.proto.Common.Note getNote();
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder();
 
     /**
@@ -21902,7 +22330,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.proto.Common.Note getNote() {
       return note_ == null ? org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
     }
-
+    /**
+     * <code>.protocol.Note note = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
       return getNote();
@@ -22047,7 +22477,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasNote()) {
         hash = (37 * hash) + NOTE_FIELD_NUMBER;
@@ -22357,7 +22787,9 @@ public final class GrpcAPI {
           return noteBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (value == null) {
@@ -22371,7 +22803,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder setNote(
           org.vision.visionjsdk.proto.Common.Note.Builder builderForValue) {
         if (noteBuilder_ == null) {
@@ -22383,7 +22817,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder mergeNote(org.vision.visionjsdk.proto.Common.Note value) {
         if (noteBuilder_ == null) {
           if (note_ != null) {
@@ -22399,7 +22835,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public Builder clearNote() {
         if (noteBuilder_ == null) {
           note_ = null;
@@ -22411,13 +22849,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Note.Builder getNoteBuilder() {
         
         onChanged();
         return getNoteFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.NoteOrBuilder getNoteOrBuilder() {
         if (noteBuilder_ != null) {
           return noteBuilder_.getMessageOrBuilder();
@@ -22426,7 +22868,9 @@ public final class GrpcAPI {
               org.vision.visionjsdk.proto.Common.Note.getDefaultInstance() : note_;
         }
       }
-
+      /**
+       * <code>.protocol.Note note = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Note, org.vision.visionjsdk.proto.Common.Note.Builder, org.vision.visionjsdk.proto.Common.NoteOrBuilder> 
           getNoteFieldBuilder() {
@@ -22640,20 +23084,32 @@ public final class GrpcAPI {
      * @return The shieldedVRC20Parameters.
      */
     org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters getShieldedVRC20Parameters();
-
+    /**
+     * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20ParametersOrBuilder getShieldedVRC20ParametersOrBuilder();
 
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     java.util.List<org.vision.visionjsdk.api.GrpcAPI.BytesMessage> 
         getSpendAuthoritySignatureList();
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.BytesMessage getSpendAuthoritySignature(int index);
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     int getSpendAuthoritySignatureCount();
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder> 
         getSpendAuthoritySignatureOrBuilderList();
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder getSpendAuthoritySignatureOrBuilder(
         int index);
 
@@ -22810,7 +23266,9 @@ public final class GrpcAPI {
     public org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters getShieldedVRC20Parameters() {
       return shieldedVRC20Parameters_ == null ? org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.getDefaultInstance() : shieldedVRC20Parameters_;
     }
-
+    /**
+     * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20ParametersOrBuilder getShieldedVRC20ParametersOrBuilder() {
       return getShieldedVRC20Parameters();
@@ -22818,28 +23276,38 @@ public final class GrpcAPI {
 
     public static final int SPEND_AUTHORITY_SIGNATURE_FIELD_NUMBER = 2;
     private java.util.List<org.vision.visionjsdk.api.GrpcAPI.BytesMessage> spendAuthoritySignature_;
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.api.GrpcAPI.BytesMessage> getSpendAuthoritySignatureList() {
       return spendAuthoritySignature_;
     }
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     @java.lang.Override
     public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder> 
         getSpendAuthoritySignatureOrBuilderList() {
       return spendAuthoritySignature_;
     }
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     @java.lang.Override
     public int getSpendAuthoritySignatureCount() {
       return spendAuthoritySignature_.size();
     }
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.BytesMessage getSpendAuthoritySignature(int index) {
       return spendAuthoritySignature_.get(index);
     }
-
+    /**
+     * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder getSpendAuthoritySignatureOrBuilder(
         int index) {
@@ -22980,7 +23448,7 @@ public final class GrpcAPI {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasShieldedVRC20Parameters()) {
         hash = (37 * hash) + SHIELDED_VRC20_PARAMETERS_FIELD_NUMBER;
@@ -23322,7 +23790,9 @@ public final class GrpcAPI {
           return shieldedVRC20ParametersBuilder_.getMessage();
         }
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public Builder setShieldedVRC20Parameters(org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters value) {
         if (shieldedVRC20ParametersBuilder_ == null) {
           if (value == null) {
@@ -23336,7 +23806,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public Builder setShieldedVRC20Parameters(
           org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.Builder builderForValue) {
         if (shieldedVRC20ParametersBuilder_ == null) {
@@ -23348,7 +23820,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public Builder mergeShieldedVRC20Parameters(org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters value) {
         if (shieldedVRC20ParametersBuilder_ == null) {
           if (shieldedVRC20Parameters_ != null) {
@@ -23364,7 +23838,9 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public Builder clearShieldedVRC20Parameters() {
         if (shieldedVRC20ParametersBuilder_ == null) {
           shieldedVRC20Parameters_ = null;
@@ -23376,13 +23852,17 @@ public final class GrpcAPI {
 
         return this;
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.Builder getShieldedVRC20ParametersBuilder() {
         
         onChanged();
         return getShieldedVRC20ParametersFieldBuilder().getBuilder();
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20ParametersOrBuilder getShieldedVRC20ParametersOrBuilder() {
         if (shieldedVRC20ParametersBuilder_ != null) {
           return shieldedVRC20ParametersBuilder_.getMessageOrBuilder();
@@ -23391,9 +23871,11 @@ public final class GrpcAPI {
               org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.getDefaultInstance() : shieldedVRC20Parameters_;
         }
       }
-
+      /**
+       * <code>.protocol.ShieldedVRC20Parameters shielded_VRC20_Parameters = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters, org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.Builder, org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20ParametersOrBuilder>
+          org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters, org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20Parameters.Builder, org.vision.visionjsdk.api.GrpcAPI.ShieldedVRC20ParametersOrBuilder> 
           getShieldedVRC20ParametersFieldBuilder() {
         if (shieldedVRC20ParametersBuilder_ == null) {
           shieldedVRC20ParametersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -23418,7 +23900,9 @@ public final class GrpcAPI {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.api.GrpcAPI.BytesMessage, org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder, org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder> spendAuthoritySignatureBuilder_;
 
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.BytesMessage> getSpendAuthoritySignatureList() {
         if (spendAuthoritySignatureBuilder_ == null) {
           return java.util.Collections.unmodifiableList(spendAuthoritySignature_);
@@ -23426,7 +23910,9 @@ public final class GrpcAPI {
           return spendAuthoritySignatureBuilder_.getMessageList();
         }
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public int getSpendAuthoritySignatureCount() {
         if (spendAuthoritySignatureBuilder_ == null) {
           return spendAuthoritySignature_.size();
@@ -23434,7 +23920,9 @@ public final class GrpcAPI {
           return spendAuthoritySignatureBuilder_.getCount();
         }
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.BytesMessage getSpendAuthoritySignature(int index) {
         if (spendAuthoritySignatureBuilder_ == null) {
           return spendAuthoritySignature_.get(index);
@@ -23442,7 +23930,9 @@ public final class GrpcAPI {
           return spendAuthoritySignatureBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder setSpendAuthoritySignature(
           int index, org.vision.visionjsdk.api.GrpcAPI.BytesMessage value) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23457,7 +23947,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder setSpendAuthoritySignature(
           int index, org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder builderForValue) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23469,7 +23961,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder addSpendAuthoritySignature(org.vision.visionjsdk.api.GrpcAPI.BytesMessage value) {
         if (spendAuthoritySignatureBuilder_ == null) {
           if (value == null) {
@@ -23483,7 +23977,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder addSpendAuthoritySignature(
           int index, org.vision.visionjsdk.api.GrpcAPI.BytesMessage value) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23498,7 +23994,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder addSpendAuthoritySignature(
           org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder builderForValue) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23510,7 +24008,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder addSpendAuthoritySignature(
           int index, org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder builderForValue) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23522,7 +24022,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder addAllSpendAuthoritySignature(
           java.lang.Iterable<? extends org.vision.visionjsdk.api.GrpcAPI.BytesMessage> values) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23535,7 +24037,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder clearSpendAuthoritySignature() {
         if (spendAuthoritySignatureBuilder_ == null) {
           spendAuthoritySignature_ = java.util.Collections.emptyList();
@@ -23546,7 +24050,9 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public Builder removeSpendAuthoritySignature(int index) {
         if (spendAuthoritySignatureBuilder_ == null) {
           ensureSpendAuthoritySignatureIsMutable();
@@ -23557,12 +24063,16 @@ public final class GrpcAPI {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder getSpendAuthoritySignatureBuilder(
           int index) {
         return getSpendAuthoritySignatureFieldBuilder().getBuilder(index);
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder getSpendAuthoritySignatureOrBuilder(
           int index) {
         if (spendAuthoritySignatureBuilder_ == null) {
@@ -23570,7 +24080,9 @@ public final class GrpcAPI {
           return spendAuthoritySignatureBuilder_.getMessageOrBuilder(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public java.util.List<? extends org.vision.visionjsdk.api.GrpcAPI.BytesMessageOrBuilder> 
            getSpendAuthoritySignatureOrBuilderList() {
         if (spendAuthoritySignatureBuilder_ != null) {
@@ -23579,18 +24091,24 @@ public final class GrpcAPI {
           return java.util.Collections.unmodifiableList(spendAuthoritySignature_);
         }
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder addSpendAuthoritySignatureBuilder() {
         return getSpendAuthoritySignatureFieldBuilder().addBuilder(
             org.vision.visionjsdk.api.GrpcAPI.BytesMessage.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder addSpendAuthoritySignatureBuilder(
           int index) {
         return getSpendAuthoritySignatureFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.api.GrpcAPI.BytesMessage.getDefaultInstance());
       }
-
+      /**
+       * <code>repeated .protocol.BytesMessage spend_authority_signature = 2;</code>
+       */
       public java.util.List<org.vision.visionjsdk.api.GrpcAPI.BytesMessage.Builder> 
            getSpendAuthoritySignatureBuilderList() {
         return getSpendAuthoritySignatureFieldBuilder().getBuilderList();
@@ -24007,7 +24525,7 @@ public final class GrpcAPI {
       "rotocol.ShieldedVRC20Parameters\0229\n\031spend" +
       "_authority_signature\030\002 \003(\0132\026.protocol.By" +
       "tesMessage\022\016\n\006amount\030\003 \001(\t\022\036\n\026transparen" +
-      "t_to_address\030\004 \001(\0142\263L\n\006Wallet\022L\n\024Broadca" +
+      "t_to_address\030\004 \001(\0142\270L\n\006Wallet\022L\n\024Broadca" +
       "stTransaction\022\025.protocol.Transaction\032\033.p" +
       "rotocol.TransactionReturn\"\000\022R\n\027CreateCom" +
       "monTransaction\022\025.protocol.Transaction\032\036." +
@@ -24086,181 +24604,181 @@ public final class GrpcAPI {
       "tContract\032\036.protocol.TransactionExtentio" +
       "n\"\000\022R\n\rUpdateSetting\022\037.protocol.UpdateSe" +
       "ttingContract\032\036.protocol.TransactionExte" +
-      "ntion\"\000\022Z\n\021UpdateEntropyLimit\022#.protocol." +
-      "UpdateEntropyLimitContract\032\036.protocol.Tra" +
-      "nsactionExtention\"\000\022P\n\020ClearContractABI\022" +
-      "\032.protocol.ClearABIContract\032\036.protocol.T" +
-      "ransactionExtention\"\000\022S\n\017TriggerContract" +
-      "\022\036.protocol.TriggerSmartContract\032\036.proto" +
-      "col.TransactionExtention\"\000\022[\n\027TriggerCon" +
-      "stantContract\022\036.protocol.TriggerSmartCon" +
+      "ntion\"\000\022\\\n\022UpdateEntropyLimit\022$.protocol" +
+      ".UpdateEntropyLimitContract\032\036.protocol.T" +
+      "ransactionExtention\"\000\022P\n\020ClearContractAB" +
+      "I\022\032.protocol.ClearABIContract\032\036.protocol" +
+      ".TransactionExtention\"\000\022S\n\017TriggerContra" +
+      "ct\022\036.protocol.TriggerSmartContract\032\036.pro" +
+      "tocol.TransactionExtention\"\000\022[\n\027TriggerC" +
+      "onstantContract\022\036.protocol.TriggerSmartC" +
+      "ontract\032\036.protocol.TransactionExtention\"" +
+      "\000\022T\n\016ExchangeCreate\022 .protocol.ExchangeC" +
+      "reateContract\032\036.protocol.TransactionExte" +
+      "ntion\"\000\022T\n\016ExchangeInject\022 .protocol.Exc" +
+      "hangeInjectContract\032\036.protocol.Transacti" +
+      "onExtention\"\000\022X\n\020ExchangeWithdraw\022\".prot" +
+      "ocol.ExchangeWithdrawContract\032\036.protocol" +
+      ".TransactionExtention\"\000\022^\n\023ExchangeTrans" +
+      "action\022%.protocol.ExchangeTransactionCon" +
       "tract\032\036.protocol.TransactionExtention\"\000\022" +
-      "T\n\016ExchangeCreate\022 .protocol.ExchangeCre" +
-      "ateContract\032\036.protocol.TransactionExtent" +
-      "ion\"\000\022T\n\016ExchangeInject\022 .protocol.Excha" +
-      "ngeInjectContract\032\036.protocol.Transaction" +
-      "Extention\"\000\022X\n\020ExchangeWithdraw\022\".protoc" +
-      "ol.ExchangeWithdrawContract\032\036.protocol.T" +
-      "ransactionExtention\"\000\022^\n\023ExchangeTransac" +
-      "tion\022%.protocol.ExchangeTransactionContr" +
-      "act\032\036.protocol.TransactionExtention\"\000\022V\n" +
-      "\017MarketSellAsset\022!.protocol.MarketSellAs" +
-      "setContract\032\036.protocol.TransactionExtent" +
-      "ion\"\000\022Z\n\021MarketCancelOrder\022#.protocol.Ma" +
-      "rketCancelOrderContract\032\036.protocol.Trans" +
-      "actionExtention\"\000\022;\n\013GetNodeInfo\022\026.proto" +
-      "col.EmptyMessage\032\022.protocol.NodeInfo\"\000\0229" +
-      "\n\tListNodes\022\026.protocol.EmptyMessage\032\022.pr" +
-      "otocol.NodeList\"\000\022I\n\022GetChainParameters\022" +
-      "\026.protocol.EmptyMessage\032\031.protocol.Chain" +
-      "Parameters\"\000\022E\n\020TotalTransaction\022\026.proto" +
-      "col.EmptyMessage\032\027.protocol.NumberMessag" +
-      "e\"\000\022K\n\026GetNextMaintenanceTime\022\026.protocol" +
-      ".EmptyMessage\032\027.protocol.NumberMessage\"\000" +
-      "\022T\n\030GetTransactionSignWeight\022\025.protocol." +
-      "Transaction\032\037.protocol.TransactionSignWe" +
-      "ight\"\000\022X\n\032GetTransactionApprovedList\022\025.p" +
-      "rotocol.Transaction\032!.protocol.Transacti" +
-      "onApprovedList\"\000\022B\n\nGetAccount\022\037.protoco" +
-      "l.AccountAddressMessage\032\021.protocol.Accou" +
-      "nt\"\000\022A\n\016GetAccountById\022\032.protocol.Accoun" +
-      "tIdMessage\032\021.protocol.Account\"\000\022O\n\rGetAc" +
-      "countNet\022\037.protocol.AccountAddressMessag" +
-      "e\032\033.protocol.AccountNetMessage\"\000\022Y\n\022GetA" +
-      "ccountResource\022\037.protocol.AccountAddress" +
-      "Message\032 .protocol.AccountResourceMessag" +
-      "e\"\000\022U\n\026GetAssetIssueByAccount\022\037.protocol" +
-      ".AccountAddressMessage\032\030.protocol.AssetI" +
-      "ssueList\"\000\022M\n\023GetAssetIssueByName\022\026.prot" +
-      "ocol.BytesMessage\032\034.protocol.AssetIssueC" +
-      "ontract\"\000\022M\n\027GetAssetIssueListByName\022\026.p" +
-      "rotocol.BytesMessage\032\030.protocol.AssetIss" +
-      "ueList\"\000\022K\n\021GetAssetIssueById\022\026.protocol" +
-      ".BytesMessage\032\034.protocol.AssetIssueContr" +
-      "act\"\000\022G\n\021GetAssetIssueList\022\026.protocol.Em" +
-      "ptyMessage\032\030.protocol.AssetIssueList\"\000\022T" +
-      "\n\032GetPaginatedAssetIssueList\022\032.protocol." +
-      "PaginatedMessage\032\030.protocol.AssetIssueLi" +
-      "st\"\000\0228\n\013GetNowBlock\022\026.protocol.EmptyMess" +
-      "age\032\017.protocol.Block\"\000\022B\n\014GetNowBlock2\022\026" +
-      ".protocol.EmptyMessage\032\030.protocol.BlockE" +
-      "xtention\"\000\022;\n\rGetBlockByNum\022\027.protocol.N" +
-      "umberMessage\032\017.protocol.Block\"\000\022E\n\016GetBl" +
-      "ockByNum2\022\027.protocol.NumberMessage\032\030.pro" +
-      "tocol.BlockExtention\"\000\0229\n\014GetBlockById\022\026" +
-      ".protocol.BytesMessage\032\017.protocol.Block\"" +
-      "\000\022B\n\023GetBlockByLimitNext\022\024.protocol.Bloc" +
-      "kLimit\032\023.protocol.BlockList\"\000\022L\n\024GetBloc" +
-      "kByLimitNext2\022\024.protocol.BlockLimit\032\034.pr" +
-      "otocol.BlockListExtention\"\000\022E\n\023GetBlockB" +
-      "yLatestNum\022\027.protocol.NumberMessage\032\023.pr" +
-      "otocol.BlockList\"\000\022O\n\024GetBlockByLatestNu" +
-      "m2\022\027.protocol.NumberMessage\032\034.protocol.B" +
-      "lockListExtention\"\000\022S\n\035GetTransactionCou" +
-      "ntByBlockNum\022\027.protocol.NumberMessage\032\027." +
-      "protocol.NumberMessage\"\000\022E\n\022GetTransacti" +
-      "onById\022\026.protocol.BytesMessage\032\025.protoco" +
-      "l.Transaction\"\000\022M\n\026GetTransactionInfoByI" +
-      "d\022\026.protocol.BytesMessage\032\031.protocol.Tra" +
-      "nsactionInfo\"\000\022X\n\034GetTransactionInfoByBl" +
-      "ockNum\022\027.protocol.NumberMessage\032\035.protoc" +
-      "ol.TransactionInfoList\"\000\022@\n\013GetContract\022" +
-      "\026.protocol.BytesMessage\032\027.protocol.Smart" +
-      "Contract\"\000\022O\n\017GetContractInfo\022\026.protocol" +
-      ".BytesMessage\032\".protocol.SmartContractDa" +
-      "taWrapper\"\000\022@\n\rListWitnesses\022\026.protocol." +
-      "EmptyMessage\032\025.protocol.WitnessList\"\000\022E\n" +
-      "\020GetBrokerageInfo\022\026.protocol.BytesMessag" +
-      "e\032\027.protocol.NumberMessage\"\000\022B\n\rGetRewar" +
-      "dInfo\022\026.protocol.BytesMessage\032\027.protocol" +
-      ".NumberMessage\"\000\022]\n\024GetDelegatedResource" +
-      "\022\".protocol.DelegatedResourceMessage\032\037.p" +
-      "rotocol.DelegatedResourceList\"\000\022e\n GetDe" +
-      "legatedResourceAccountIndex\022\026.protocol.B" +
-      "ytesMessage\032\'.protocol.DelegatedResource" +
-      "AccountIndex\"\000\022A\n\rListProposals\022\026.protoc" +
-      "ol.EmptyMessage\032\026.protocol.ProposalList\"" +
-      "\000\022?\n\017GetProposalById\022\026.protocol.BytesMes" +
-      "sage\032\022.protocol.Proposal\"\000\022P\n\030GetPaginat" +
-      "edProposalList\022\032.protocol.PaginatedMessa" +
-      "ge\032\026.protocol.ProposalList\"\000\022A\n\rListExch" +
-      "anges\022\026.protocol.EmptyMessage\032\026.protocol" +
-      ".ExchangeList\"\000\022?\n\017GetExchangeById\022\026.pro" +
-      "tocol.BytesMessage\032\022.protocol.Exchange\"\000" +
-      "\022P\n\030GetPaginatedExchangeList\022\032.protocol." +
-      "PaginatedMessage\032\026.protocol.ExchangeList" +
-      "\"\000\022a\n\033ScanShieldedVRC20NotesByIvk\022#.prot" +
-      "ocol.IvkDecryptVRC20Parameters\032\033.protoco" +
-      "l.DecryptNotesVRC20\"\000\022a\n\033ScanShieldedVRC" +
-      "20NotesByOvk\022#.protocol.OvkDecryptVRC20P" +
-      "arameters\032\033.protocol.DecryptNotesVRC20\"\000" +
-      "\022\\\n IsShieldedVRC20ContractNoteSpent\022\033.p" +
-      "rotocol.NfVRC20Parameters\032\031.protocol.Nul" +
-      "lifierResult\"\000\022N\n\027GetMarketOrderByAccoun" +
-      "t\022\026.protocol.BytesMessage\032\031.protocol.Mar" +
-      "ketOrderList\"\000\022E\n\022GetMarketOrderById\022\026.p" +
-      "rotocol.BytesMessage\032\025.protocol.MarketOr" +
-      "der\"\000\022N\n\024GetMarketPriceByPair\022\031.protocol" +
-      ".MarketOrderPair\032\031.protocol.MarketPriceL" +
-      "ist\"\000\022R\n\030GetMarketOrderListByPair\022\031.prot" +
-      "ocol.MarketOrderPair\032\031.protocol.MarketOr" +
-      "derList\"\000\022L\n\021GetMarketPairList\022\026.protoco" +
-      "l.EmptyMessage\032\035.protocol.MarketOrderPai" +
-      "rList\"\000\022H\n\022GetTransactionSign\022\031.protocol" +
-      ".TransactionSign\032\025.protocol.Transaction\"" +
-      "\000\022R\n\023GetTransactionSign2\022\031.protocol.Tran" +
-      "sactionSign\032\036.protocol.TransactionExtent" +
-      "ion\"\000\022Y\n\021EasyTransferAsset\022\".protocol.Ea" +
-      "syTransferAssetMessage\032\036.protocol.EasyTr" +
-      "ansferResponse\"\000\022k\n\032EasyTransferAssetByP" +
-      "rivate\022+.protocol.EasyTransferAssetByPri" +
-      "vateMessage\032\036.protocol.EasyTransferRespo" +
-      "nse\"\000\022O\n\014EasyTransfer\022\035.protocol.EasyTra" +
-      "nsferMessage\032\036.protocol.EasyTransferResp" +
-      "onse\"\000\022a\n\025EasyTransferByPrivate\022&.protoc" +
-      "ol.EasyTransferByPrivateMessage\032\036.protoc" +
-      "ol.EasyTransferResponse\"\000\022A\n\rCreateAddre" +
-      "ss\022\026.protocol.BytesMessage\032\026.protocol.By" +
-      "tesMessage\"\000\022N\n\017GenerateAddress\022\026.protoc" +
-      "ol.EmptyMessage\032!.protocol.AddressPrKeyP" +
-      "airMessage\"\000\022F\n\007AddSign\022\031.protocol.Trans" +
-      "actionSign\032\036.protocol.TransactionExtenti" +
-      "on\"\000\022B\n\016GetSpendingKey\022\026.protocol.EmptyM" +
-      "essage\032\026.protocol.BytesMessage\"\000\022X\n\026GetE" +
-      "xpandedSpendingKey\022\026.protocol.BytesMessa" +
-      "ge\032$.protocol.ExpandedSpendingKeyMessage" +
-      "\"\000\022@\n\014GetAkFromAsk\022\026.protocol.BytesMessa" +
-      "ge\032\026.protocol.BytesMessage\"\000\022@\n\014GetNkFro" +
-      "mNsk\022\026.protocol.BytesMessage\032\026.protocol." +
-      "BytesMessage\"\000\022[\n\025GetIncomingViewingKey\022" +
-      "\033.protocol.ViewingKeyMessage\032#.protocol." +
-      "IncomingViewingKeyMessage\"\000\022H\n\016GetDivers" +
-      "ifier\022\026.protocol.EmptyMessage\032\034.protocol" +
-      ".DiversifierMessage\"\000\022i\n\024GetZenPaymentAd" +
-      "dress\022..protocol.IncomingViewingKeyDiver" +
-      "sifierMessage\032\037.protocol.PaymentAddressM" +
-      "essage\"\000\022P\n\025GetNewShieldedAddress\022\026.prot" +
-      "ocol.EmptyMessage\032\035.protocol.ShieldedAdd" +
-      "ressInfo\"\000\022:\n\006GetRcm\022\026.protocol.EmptyMes" +
-      "sage\032\026.protocol.BytesMessage\"\000\022q\n Create" +
-      "ShieldedContractParameters\022(.protocol.Pr" +
-      "ivateShieldedVRC20Parameters\032!.protocol." +
-      "ShieldedVRC20Parameters\"\000\022\205\001\n*CreateShie" +
-      "ldedContractParametersWithoutAsk\0222.proto" +
-      "col.PrivateShieldedVRC20ParametersWithou" +
-      "tAsk\032!.protocol.ShieldedVRC20Parameters\"" +
-      "\000\022u\n\'GetTriggerInputForShieldedVRC20Cont" +
-      "ract\0220.protocol.ShieldedVRC20TriggerCont" +
-      "ractParameters\032\026.protocol.BytesMessage\"\000" +
-      "2\243\002\n\016WalletSolidity\022B\n\nGetAccount\022\037.prot" +
-      "ocol.AccountAddressMessage\032\021.protocol.Ac" +
-      "count\"\000\022B\n\014GetNowBlock2\022\026.protocol.Empty" +
-      "Message\032\030.protocol.BlockExtention\"\000\022E\n\022G" +
-      "etTransactionById\022\026.protocol.BytesMessag" +
-      "e\032\025.protocol.Transaction\"\000\022B\n\rGetRewardI" +
-      "nfo\022\026.protocol.BytesMessage\032\027.protocol.N" +
-      "umberMessage\"\000B$\n\031org.vision.visionjsdk." +
-      "apiB\007GrpcAPIb\006proto3"
+      "V\n\017MarketSellAsset\022!.protocol.MarketSell" +
+      "AssetContract\032\036.protocol.TransactionExte" +
+      "ntion\"\000\022Z\n\021MarketCancelOrder\022#.protocol." +
+      "MarketCancelOrderContract\032\036.protocol.Tra" +
+      "nsactionExtention\"\000\022;\n\013GetNodeInfo\022\026.pro" +
+      "tocol.EmptyMessage\032\022.protocol.NodeInfo\"\000" +
+      "\0229\n\tListNodes\022\026.protocol.EmptyMessage\032\022." +
+      "protocol.NodeList\"\000\022I\n\022GetChainParameter" +
+      "s\022\026.protocol.EmptyMessage\032\031.protocol.Cha" +
+      "inParameters\"\000\022E\n\020TotalTransaction\022\026.pro" +
+      "tocol.EmptyMessage\032\027.protocol.NumberMess" +
+      "age\"\000\022K\n\026GetNextMaintenanceTime\022\026.protoc" +
+      "ol.EmptyMessage\032\027.protocol.NumberMessage" +
+      "\"\000\022T\n\030GetTransactionSignWeight\022\025.protoco" +
+      "l.Transaction\032\037.protocol.TransactionSign" +
+      "Weight\"\000\022X\n\032GetTransactionApprovedList\022\025" +
+      ".protocol.Transaction\032!.protocol.Transac" +
+      "tionApprovedList\"\000\022B\n\nGetAccount\022\037.proto" +
+      "col.AccountAddressMessage\032\021.protocol.Acc" +
+      "ount\"\000\022A\n\016GetAccountById\022\032.protocol.Acco" +
+      "untIdMessage\032\021.protocol.Account\"\000\022R\n\020Get" +
+      "AccountPhoton\022\037.protocol.AccountAddressM" +
+      "essage\032\033.protocol.AccountNetMessage\"\000\022Y\n" +
+      "\022GetAccountResource\022\037.protocol.AccountAd" +
+      "dressMessage\032 .protocol.AccountResourceM" +
+      "essage\"\000\022U\n\026GetAssetIssueByAccount\022\037.pro" +
+      "tocol.AccountAddressMessage\032\030.protocol.A" +
+      "ssetIssueList\"\000\022M\n\023GetAssetIssueByName\022\026" +
+      ".protocol.BytesMessage\032\034.protocol.AssetI" +
+      "ssueContract\"\000\022M\n\027GetAssetIssueListByNam" +
+      "e\022\026.protocol.BytesMessage\032\030.protocol.Ass" +
+      "etIssueList\"\000\022K\n\021GetAssetIssueById\022\026.pro" +
+      "tocol.BytesMessage\032\034.protocol.AssetIssue" +
+      "Contract\"\000\022G\n\021GetAssetIssueList\022\026.protoc" +
+      "ol.EmptyMessage\032\030.protocol.AssetIssueLis" +
+      "t\"\000\022T\n\032GetPaginatedAssetIssueList\022\032.prot" +
+      "ocol.PaginatedMessage\032\030.protocol.AssetIs" +
+      "sueList\"\000\0228\n\013GetNowBlock\022\026.protocol.Empt" +
+      "yMessage\032\017.protocol.Block\"\000\022B\n\014GetNowBlo" +
+      "ck2\022\026.protocol.EmptyMessage\032\030.protocol.B" +
+      "lockExtention\"\000\022;\n\rGetBlockByNum\022\027.proto" +
+      "col.NumberMessage\032\017.protocol.Block\"\000\022E\n\016" +
+      "GetBlockByNum2\022\027.protocol.NumberMessage\032" +
+      "\030.protocol.BlockExtention\"\000\0229\n\014GetBlockB" +
+      "yId\022\026.protocol.BytesMessage\032\017.protocol.B" +
+      "lock\"\000\022B\n\023GetBlockByLimitNext\022\024.protocol" +
+      ".BlockLimit\032\023.protocol.BlockList\"\000\022L\n\024Ge" +
+      "tBlockByLimitNext2\022\024.protocol.BlockLimit" +
+      "\032\034.protocol.BlockListExtention\"\000\022E\n\023GetB" +
+      "lockByLatestNum\022\027.protocol.NumberMessage" +
+      "\032\023.protocol.BlockList\"\000\022O\n\024GetBlockByLat" +
+      "estNum2\022\027.protocol.NumberMessage\032\034.proto" +
+      "col.BlockListExtention\"\000\022S\n\035GetTransacti" +
+      "onCountByBlockNum\022\027.protocol.NumberMessa" +
+      "ge\032\027.protocol.NumberMessage\"\000\022E\n\022GetTran" +
+      "sactionById\022\026.protocol.BytesMessage\032\025.pr" +
+      "otocol.Transaction\"\000\022M\n\026GetTransactionIn" +
+      "foById\022\026.protocol.BytesMessage\032\031.protoco" +
+      "l.TransactionInfo\"\000\022X\n\034GetTransactionInf" +
+      "oByBlockNum\022\027.protocol.NumberMessage\032\035.p" +
+      "rotocol.TransactionInfoList\"\000\022@\n\013GetCont" +
+      "ract\022\026.protocol.BytesMessage\032\027.protocol." +
+      "SmartContract\"\000\022O\n\017GetContractInfo\022\026.pro" +
+      "tocol.BytesMessage\032\".protocol.SmartContr" +
+      "actDataWrapper\"\000\022@\n\rListWitnesses\022\026.prot" +
+      "ocol.EmptyMessage\032\025.protocol.WitnessList" +
+      "\"\000\022E\n\020GetBrokerageInfo\022\026.protocol.BytesM" +
+      "essage\032\027.protocol.NumberMessage\"\000\022B\n\rGet" +
+      "RewardInfo\022\026.protocol.BytesMessage\032\027.pro" +
+      "tocol.NumberMessage\"\000\022]\n\024GetDelegatedRes" +
+      "ource\022\".protocol.DelegatedResourceMessag" +
+      "e\032\037.protocol.DelegatedResourceList\"\000\022e\n " +
+      "GetDelegatedResourceAccountIndex\022\026.proto" +
+      "col.BytesMessage\032\'.protocol.DelegatedRes" +
+      "ourceAccountIndex\"\000\022A\n\rListProposals\022\026.p" +
+      "rotocol.EmptyMessage\032\026.protocol.Proposal" +
+      "List\"\000\022?\n\017GetProposalById\022\026.protocol.Byt" +
+      "esMessage\032\022.protocol.Proposal\"\000\022P\n\030GetPa" +
+      "ginatedProposalList\022\032.protocol.Paginated" +
+      "Message\032\026.protocol.ProposalList\"\000\022A\n\rLis" +
+      "tExchanges\022\026.protocol.EmptyMessage\032\026.pro" +
+      "tocol.ExchangeList\"\000\022?\n\017GetExchangeById\022" +
+      "\026.protocol.BytesMessage\032\022.protocol.Excha" +
+      "nge\"\000\022P\n\030GetPaginatedExchangeList\022\032.prot" +
+      "ocol.PaginatedMessage\032\026.protocol.Exchang" +
+      "eList\"\000\022a\n\033ScanShieldedVRC20NotesByIvk\022#" +
+      ".protocol.IvkDecryptVRC20Parameters\032\033.pr" +
+      "otocol.DecryptNotesVRC20\"\000\022a\n\033ScanShield" +
+      "edVRC20NotesByOvk\022#.protocol.OvkDecryptV" +
+      "RC20Parameters\032\033.protocol.DecryptNotesVR" +
+      "C20\"\000\022\\\n IsShieldedVRC20ContractNoteSpen" +
+      "t\022\033.protocol.NfVRC20Parameters\032\031.protoco" +
+      "l.NullifierResult\"\000\022N\n\027GetMarketOrderByA" +
+      "ccount\022\026.protocol.BytesMessage\032\031.protoco" +
+      "l.MarketOrderList\"\000\022E\n\022GetMarketOrderByI" +
+      "d\022\026.protocol.BytesMessage\032\025.protocol.Mar" +
+      "ketOrder\"\000\022N\n\024GetMarketPriceByPair\022\031.pro" +
+      "tocol.MarketOrderPair\032\031.protocol.MarketP" +
+      "riceList\"\000\022R\n\030GetMarketOrderListByPair\022\031" +
+      ".protocol.MarketOrderPair\032\031.protocol.Mar" +
+      "ketOrderList\"\000\022L\n\021GetMarketPairList\022\026.pr" +
+      "otocol.EmptyMessage\032\035.protocol.MarketOrd" +
+      "erPairList\"\000\022H\n\022GetTransactionSign\022\031.pro" +
+      "tocol.TransactionSign\032\025.protocol.Transac" +
+      "tion\"\000\022R\n\023GetTransactionSign2\022\031.protocol" +
+      ".TransactionSign\032\036.protocol.TransactionE" +
+      "xtention\"\000\022Y\n\021EasyTransferAsset\022\".protoc" +
+      "ol.EasyTransferAssetMessage\032\036.protocol.E" +
+      "asyTransferResponse\"\000\022k\n\032EasyTransferAss" +
+      "etByPrivate\022+.protocol.EasyTransferAsset" +
+      "ByPrivateMessage\032\036.protocol.EasyTransfer" +
+      "Response\"\000\022O\n\014EasyTransfer\022\035.protocol.Ea" +
+      "syTransferMessage\032\036.protocol.EasyTransfe" +
+      "rResponse\"\000\022a\n\025EasyTransferByPrivate\022&.p" +
+      "rotocol.EasyTransferByPrivateMessage\032\036.p" +
+      "rotocol.EasyTransferResponse\"\000\022A\n\rCreate" +
+      "Address\022\026.protocol.BytesMessage\032\026.protoc" +
+      "ol.BytesMessage\"\000\022N\n\017GenerateAddress\022\026.p" +
+      "rotocol.EmptyMessage\032!.protocol.AddressP" +
+      "rKeyPairMessage\"\000\022F\n\007AddSign\022\031.protocol." +
+      "TransactionSign\032\036.protocol.TransactionEx" +
+      "tention\"\000\022B\n\016GetSpendingKey\022\026.protocol.E" +
+      "mptyMessage\032\026.protocol.BytesMessage\"\000\022X\n" +
+      "\026GetExpandedSpendingKey\022\026.protocol.Bytes" +
+      "Message\032$.protocol.ExpandedSpendingKeyMe" +
+      "ssage\"\000\022@\n\014GetAkFromAsk\022\026.protocol.Bytes" +
+      "Message\032\026.protocol.BytesMessage\"\000\022@\n\014Get" +
+      "NkFromNsk\022\026.protocol.BytesMessage\032\026.prot" +
+      "ocol.BytesMessage\"\000\022[\n\025GetIncomingViewin" +
+      "gKey\022\033.protocol.ViewingKeyMessage\032#.prot" +
+      "ocol.IncomingViewingKeyMessage\"\000\022H\n\016GetD" +
+      "iversifier\022\026.protocol.EmptyMessage\032\034.pro" +
+      "tocol.DiversifierMessage\"\000\022i\n\024GetZenPaym" +
+      "entAddress\022..protocol.IncomingViewingKey" +
+      "DiversifierMessage\032\037.protocol.PaymentAdd" +
+      "ressMessage\"\000\022P\n\025GetNewShieldedAddress\022\026" +
+      ".protocol.EmptyMessage\032\035.protocol.Shield" +
+      "edAddressInfo\"\000\022:\n\006GetRcm\022\026.protocol.Emp" +
+      "tyMessage\032\026.protocol.BytesMessage\"\000\022q\n C" +
+      "reateShieldedContractParameters\022(.protoc" +
+      "ol.PrivateShieldedVRC20Parameters\032!.prot" +
+      "ocol.ShieldedVRC20Parameters\"\000\022\205\001\n*Creat" +
+      "eShieldedContractParametersWithoutAsk\0222." +
+      "protocol.PrivateShieldedVRC20ParametersW" +
+      "ithoutAsk\032!.protocol.ShieldedVRC20Parame" +
+      "ters\"\000\022u\n\'GetTriggerInputForShieldedVRC2" +
+      "0Contract\0220.protocol.ShieldedVRC20Trigge" +
+      "rContractParameters\032\026.protocol.BytesMess" +
+      "age\"\0002\243\002\n\016WalletSolidity\022B\n\nGetAccount\022\037" +
+      ".protocol.AccountAddressMessage\032\021.protoc" +
+      "ol.Account\"\000\022B\n\014GetNowBlock2\022\026.protocol." +
+      "EmptyMessage\032\030.protocol.BlockExtention\"\000" +
+      "\022E\n\022GetTransactionById\022\026.protocol.BytesM" +
+      "essage\032\025.protocol.Transaction\"\000\022B\n\rGetRe" +
+      "wardInfo\022\026.protocol.BytesMessage\032\027.proto" +
+      "col.NumberMessage\"\000B$\n\031org.vision.vision" +
+      "jsdk.apiB\007GrpcAPIb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -431,7 +431,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + NAME_FIELD_NUMBER;
       hash = (53 * hash) + getName().hashCode();
@@ -821,7 +821,6 @@ public final class Common {
     org.vision.visionjsdk.proto.Common.AccountId getAccount();
     /**
      * <code>.protocol.AccountId account = 1;</code>
-     * @return org.vision.visionjsdk.proto.Common.AccountIdOrBuilder
      */
     org.vision.visionjsdk.proto.Common.AccountIdOrBuilder getAccountOrBuilder();
 
@@ -1032,7 +1031,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasAccount()) {
         hash = (37 * hash) + ACCOUNT_FIELD_NUMBER;
@@ -1319,8 +1318,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setAccount(org.vision.visionjsdk.proto.Common.AccountId value) {
         if (accountBuilder_ == null) {
@@ -1337,8 +1334,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setAccount(
           org.vision.visionjsdk.proto.Common.AccountId.Builder builderForValue) {
@@ -1353,8 +1348,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeAccount(org.vision.visionjsdk.proto.Common.AccountId value) {
         if (accountBuilder_ == null) {
@@ -1373,7 +1366,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @return Builder
        */
       public Builder clearAccount() {
         if (accountBuilder_ == null) {
@@ -1388,7 +1380,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.AccountId.Builder getAccountBuilder() {
         
@@ -1397,7 +1388,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @return AccountIdOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.AccountIdOrBuilder getAccountOrBuilder() {
         if (accountBuilder_ != null) {
@@ -1409,7 +1399,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.AccountId account = 1;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.AccountId, org.vision.visionjsdk.proto.Common.AccountId.Builder, org.vision.visionjsdk.proto.Common.AccountIdOrBuilder> 
@@ -1702,7 +1691,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getAddress().hashCode();
@@ -2135,31 +2124,24 @@ public final class Common {
 
     /**
      * <code>repeated .protocol.Key keys = 7;</code>
-     * @return list
      */
     java.util.List<org.vision.visionjsdk.proto.Common.Key> 
         getKeysList();
     /**
      * <code>repeated .protocol.Key keys = 7;</code>
-     * @param index index
-     * @return org.vision.visionjsdk.proto.Common.key
      */
     org.vision.visionjsdk.proto.Common.Key getKeys(int index);
     /**
      * <code>repeated .protocol.Key keys = 7;</code>
-     * @return int
      */
     int getKeysCount();
     /**
      * <code>repeated .protocol.Key keys = 7;</code>
-     * @return list
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Common.KeyOrBuilder> 
         getKeysOrBuilderList();
     /**
      * <code>repeated .protocol.Key keys = 7;</code>
-     * @param index index
-     * @return KeyOrBuilder
      */
     org.vision.visionjsdk.proto.Common.KeyOrBuilder getKeysOrBuilder(
         int index);
@@ -2664,7 +2646,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TYPE_FIELD_NUMBER;
       hash = (53 * hash) + type_;
@@ -3315,8 +3297,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @return org.vision.visionjsdk.proto.Common.Key
        */
       public org.vision.visionjsdk.proto.Common.Key getKeys(int index) {
         if (keysBuilder_ == null) {
@@ -3327,9 +3307,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setKeys(
           int index, org.vision.visionjsdk.proto.Common.Key value) {
@@ -3347,9 +3324,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setKeys(
           int index, org.vision.visionjsdk.proto.Common.Key.Builder builderForValue) {
@@ -3364,8 +3338,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addKeys(org.vision.visionjsdk.proto.Common.Key value) {
         if (keysBuilder_ == null) {
@@ -3382,9 +3354,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addKeys(
           int index, org.vision.visionjsdk.proto.Common.Key value) {
@@ -3402,8 +3371,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addKeys(
           org.vision.visionjsdk.proto.Common.Key.Builder builderForValue) {
@@ -3418,9 +3385,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addKeys(
           int index, org.vision.visionjsdk.proto.Common.Key.Builder builderForValue) {
@@ -3435,8 +3399,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllKeys(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.Key> values) {
@@ -3452,7 +3414,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @return Builder
        */
       public Builder clearKeys() {
         if (keysBuilder_ == null) {
@@ -3466,8 +3427,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeKeys(int index) {
         if (keysBuilder_ == null) {
@@ -3481,8 +3440,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Key.Builder getKeysBuilder(
           int index) {
@@ -3490,8 +3447,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @return KeyOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.KeyOrBuilder getKeysOrBuilder(
           int index) {
@@ -3502,7 +3457,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @return list
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Common.KeyOrBuilder> 
            getKeysOrBuilderList() {
@@ -3514,7 +3468,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Key.Builder addKeysBuilder() {
         return getKeysFieldBuilder().addBuilder(
@@ -3522,8 +3475,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Key.Builder addKeysBuilder(
           int index) {
@@ -3532,7 +3483,6 @@ public final class Common {
       }
       /**
        * <code>repeated .protocol.Key keys = 7;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Common.Key.Builder> 
            getKeysBuilderList() {
@@ -3633,7 +3583,6 @@ public final class Common {
     org.vision.visionjsdk.proto.Common.SmartContract.ABI getAbi();
     /**
      * <code>.protocol.SmartContract.ABI abi = 3;</code>
-     * @return ABIOrBuilder
      */
     org.vision.visionjsdk.proto.Common.SmartContract.ABIOrBuilder getAbiOrBuilder();
 
@@ -3680,7 +3629,13 @@ public final class Common {
     com.google.protobuf.ByteString getCodeHash();
 
     /**
-     * <code>bytes vs_hash = 10;</code>
+     * <code>bytes trx_hash = 10;</code>
+     * @return The trxHash.
+     */
+    com.google.protobuf.ByteString getTrxHash();
+
+    /**
+     * <code>bytes vs_hash = 11;</code>
      * @return The vsHash.
      */
     com.google.protobuf.ByteString getVsHash();
@@ -3703,6 +3658,7 @@ public final class Common {
       bytecode_ = com.google.protobuf.ByteString.EMPTY;
       name_ = "";
       codeHash_ = com.google.protobuf.ByteString.EMPTY;
+      trxHash_ = com.google.protobuf.ByteString.EMPTY;
       vsHash_ = com.google.protobuf.ByteString.EMPTY;
     }
 
@@ -3792,6 +3748,11 @@ public final class Common {
             }
             case 82: {
 
+              trxHash_ = input.readBytes();
+              break;
+            }
+            case 90: {
+
               vsHash_ = input.readBytes();
               break;
             }
@@ -3833,31 +3794,24 @@ public final class Common {
 
       /**
        * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-       * @return list
        */
       java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry> 
           getEntrysList();
       /**
        * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-       * @param index index
-       * @return Entry
        */
       org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry getEntrys(int index);
       /**
        * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-       * @return index
        */
       int getEntrysCount();
       /**
        * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-       * @return list
        */
       java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.EntryOrBuilder> 
           getEntrysOrBuilderList();
       /**
        * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-       * @param index index
-       * @return EntryOrBuilder
        */
       org.vision.visionjsdk.proto.Common.SmartContract.ABI.EntryOrBuilder getEntrysOrBuilder(
           int index);
@@ -3983,62 +3937,48 @@ public final class Common {
 
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-         * @return list
          */
         java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> 
             getInputsList();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-         * @param index index
-         * @return Param
          */
         org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param getInputs(int index);
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-         * @return int
          */
         int getInputsCount();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-         * @return list
          */
         java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder> 
             getInputsOrBuilderList();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-         * @param index index
-         * @return ParamOrBuilder
          */
         org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder getInputsOrBuilder(
             int index);
 
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-         * @return list
          */
         java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> 
             getOutputsList();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-         * @param index index
-         * @return Param
          */
         org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param getOutputs(int index);
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-         * @return int
          */
         int getOutputsCount();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-         * @return list
          */
         java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder> 
             getOutputsOrBuilderList();
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-         * @param index index
-         * @return ParamOrBuilder
          */
         org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder getOutputsOrBuilder(
             int index);
@@ -4786,7 +4726,7 @@ public final class Common {
             if (memoizedHashCode != 0) {
               return memoizedHashCode;
             }
-            int hash = 46;
+            int hash = 41;
             hash = (19 * hash) + getDescriptor().hashCode();
             hash = (37 * hash) + INDEXED_FIELD_NUMBER;
             hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -5611,7 +5551,7 @@ public final class Common {
           if (memoizedHashCode != 0) {
             return memoizedHashCode;
           }
-          int hash = 46;
+          int hash = 41;
           hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + ANONYMOUS_FIELD_NUMBER;
           hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -6147,7 +6087,6 @@ public final class Common {
 
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return list
            */
           public java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> getInputsList() {
             if (inputsBuilder_ == null) {
@@ -6158,7 +6097,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return int
            */
           public int getInputsCount() {
             if (inputsBuilder_ == null) {
@@ -6169,8 +6107,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @return Param
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param getInputs(int index) {
             if (inputsBuilder_ == null) {
@@ -6181,9 +6117,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @param value value
-           * @return Builder
            */
           public Builder setInputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
@@ -6201,9 +6134,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @param builderForValue builderForValue
-           * @return Builder
            */
           public Builder setInputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6218,8 +6148,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param value value
-           * @return Builder
            */
           public Builder addInputs(org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
             if (inputsBuilder_ == null) {
@@ -6236,9 +6164,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param value value
-           * @param index index
-           * @return Builder
            */
           public Builder addInputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
@@ -6256,8 +6181,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param builderForValue builderForValue
-           * @return Builder
            */
           public Builder addInputs(
               org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6272,9 +6195,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param builderForValue builderForValue
-           * @param index index
-           * @return Builder
            */
           public Builder addInputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6289,8 +6209,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param values values
-           * @return Builder
            */
           public Builder addAllInputs(
               java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> values) {
@@ -6306,7 +6224,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return Builder
            */
           public Builder clearInputs() {
             if (inputsBuilder_ == null) {
@@ -6320,8 +6237,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @return Builder
            */
           public Builder removeInputs(int index) {
             if (inputsBuilder_ == null) {
@@ -6335,8 +6250,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder getInputsBuilder(
               int index) {
@@ -6344,8 +6257,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @return ParamOrBuilder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder getInputsOrBuilder(
               int index) {
@@ -6356,7 +6267,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return list
            */
           public java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder> 
                getInputsOrBuilderList() {
@@ -6368,7 +6278,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder addInputsBuilder() {
             return getInputsFieldBuilder().addBuilder(
@@ -6376,8 +6285,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @param index index
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder addInputsBuilder(
               int index) {
@@ -6386,7 +6293,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param inputs = 4;</code>
-           * @return list
            */
           public java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder> 
                getInputsBuilderList() {
@@ -6421,7 +6327,6 @@ public final class Common {
 
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return list
            */
           public java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> getOutputsList() {
             if (outputsBuilder_ == null) {
@@ -6432,7 +6337,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return int
            */
           public int getOutputsCount() {
             if (outputsBuilder_ == null) {
@@ -6443,8 +6347,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @return Param
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param getOutputs(int index) {
             if (outputsBuilder_ == null) {
@@ -6455,9 +6357,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @param value value
-           * @return Builder
            */
           public Builder setOutputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
@@ -6475,9 +6374,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @param builderForValue builderForValue
-           * @return Builder
            */
           public Builder setOutputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6492,8 +6388,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param value value
-           * @return Builder
            */
           public Builder addOutputs(org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
             if (outputsBuilder_ == null) {
@@ -6510,9 +6404,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param value value
-           * @param index index
-           * @return Builder
            */
           public Builder addOutputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param value) {
@@ -6530,8 +6421,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param builderForValue builderForValue
-           * @return Builder
            */
           public Builder addOutputs(
               org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6546,9 +6435,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param builderForValue builderForValue
-           * @param index index
-           * @return Builder
            */
           public Builder addOutputs(
               int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder builderForValue) {
@@ -6563,8 +6449,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param values values
-           * @return Builder
            */
           public Builder addAllOutputs(
               java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param> values) {
@@ -6580,7 +6464,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return Builder
            */
           public Builder clearOutputs() {
             if (outputsBuilder_ == null) {
@@ -6594,8 +6477,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @return Builder
            */
           public Builder removeOutputs(int index) {
             if (outputsBuilder_ == null) {
@@ -6609,8 +6490,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder getOutputsBuilder(
               int index) {
@@ -6618,8 +6497,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @return ParamOrBuilder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder getOutputsOrBuilder(
               int index) {
@@ -6630,7 +6507,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return list
            */
           public java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.ParamOrBuilder> 
                getOutputsOrBuilderList() {
@@ -6642,7 +6518,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder addOutputsBuilder() {
             return getOutputsFieldBuilder().addBuilder(
@@ -6650,8 +6525,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @param index index
-           * @return Builder
            */
           public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder addOutputsBuilder(
               int index) {
@@ -6660,7 +6533,6 @@ public final class Common {
           }
           /**
            * <code>repeated .protocol.SmartContract.ABI.Entry.Param outputs = 5;</code>
-           * @return list
            */
           public java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Param.Builder> 
                getOutputsBuilderList() {
@@ -6968,7 +6840,7 @@ public final class Common {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         if (getEntrysCount() > 0) {
           hash = (37 * hash) + ENTRYS_FIELD_NUMBER;
@@ -7288,8 +7160,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @return org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry
          */
         public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry getEntrys(int index) {
           if (entrysBuilder_ == null) {
@@ -7300,9 +7170,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder setEntrys(
             int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry value) {
@@ -7320,9 +7187,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder setEntrys(
             int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder builderForValue) {
@@ -7337,8 +7201,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param value value
-         * @return return
          */
         public Builder addEntrys(org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry value) {
           if (entrysBuilder_ == null) {
@@ -7355,9 +7217,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder addEntrys(
             int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry value) {
@@ -7375,8 +7234,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addEntrys(
             org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder builderForValue) {
@@ -7391,9 +7248,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addEntrys(
             int index, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder builderForValue) {
@@ -7408,8 +7262,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param values values
-         * @return Builder
          */
         public Builder addAllEntrys(
             java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry> values) {
@@ -7425,7 +7277,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @return Builder
          */
         public Builder clearEntrys() {
           if (entrysBuilder_ == null) {
@@ -7439,8 +7290,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @return * @return Builder
          */
         public Builder removeEntrys(int index) {
           if (entrysBuilder_ == null) {
@@ -7454,8 +7303,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @return * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder getEntrysBuilder(
             int index) {
@@ -7463,8 +7310,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @return EntryOrBuilder
          */
         public org.vision.visionjsdk.proto.Common.SmartContract.ABI.EntryOrBuilder getEntrysOrBuilder(
             int index) {
@@ -7475,7 +7320,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @return list
          */
         public java.util.List<? extends org.vision.visionjsdk.proto.Common.SmartContract.ABI.EntryOrBuilder> 
              getEntrysOrBuilderList() {
@@ -7487,7 +7331,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder addEntrysBuilder() {
           return getEntrysFieldBuilder().addBuilder(
@@ -7495,8 +7338,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @param index index
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder addEntrysBuilder(
             int index) {
@@ -7505,7 +7346,6 @@ public final class Common {
         }
         /**
          * <code>repeated .protocol.SmartContract.ABI.Entry entrys = 1;</code>
-         * @return list
          */
         public java.util.List<org.vision.visionjsdk.proto.Common.SmartContract.ABI.Entry.Builder> 
              getEntrysBuilderList() {
@@ -7719,10 +7559,21 @@ public final class Common {
       return codeHash_;
     }
 
-    public static final int VRC_HASH_FIELD_NUMBER = 10;
+    public static final int TRX_HASH_FIELD_NUMBER = 10;
+    private com.google.protobuf.ByteString trxHash_;
+    /**
+     * <code>bytes trx_hash = 10;</code>
+     * @return The trxHash.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString getTrxHash() {
+      return trxHash_;
+    }
+
+    public static final int VS_HASH_FIELD_NUMBER = 11;
     private com.google.protobuf.ByteString vsHash_;
     /**
-     * <code>bytes vs_hash = 10;</code>
+     * <code>bytes vs_hash = 11;</code>
      * @return The vsHash.
      */
     @java.lang.Override
@@ -7771,8 +7622,11 @@ public final class Common {
       if (!codeHash_.isEmpty()) {
         output.writeBytes(9, codeHash_);
       }
+      if (!trxHash_.isEmpty()) {
+        output.writeBytes(10, trxHash_);
+      }
       if (!vsHash_.isEmpty()) {
-        output.writeBytes(10, vsHash_);
+        output.writeBytes(11, vsHash_);
       }
       unknownFields.writeTo(output);
     }
@@ -7818,9 +7672,13 @@ public final class Common {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(9, codeHash_);
       }
+      if (!trxHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(10, trxHash_);
+      }
       if (!vsHash_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(10, vsHash_);
+          .computeBytesSize(11, vsHash_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -7858,6 +7716,8 @@ public final class Common {
           != other.getOriginEntropyLimit()) return false;
       if (!getCodeHash()
           .equals(other.getCodeHash())) return false;
+      if (!getTrxHash()
+          .equals(other.getTrxHash())) return false;
       if (!getVsHash()
           .equals(other.getVsHash())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -7869,7 +7729,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ORIGIN_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOriginAddress().hashCode();
@@ -7894,7 +7754,9 @@ public final class Common {
           getOriginEntropyLimit());
       hash = (37 * hash) + CODE_HASH_FIELD_NUMBER;
       hash = (53 * hash) + getCodeHash().hashCode();
-      hash = (37 * hash) + VRC_HASH_FIELD_NUMBER;
+      hash = (37 * hash) + TRX_HASH_FIELD_NUMBER;
+      hash = (53 * hash) + getTrxHash().hashCode();
+      hash = (37 * hash) + VS_HASH_FIELD_NUMBER;
       hash = (53 * hash) + getVsHash().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -8051,6 +7913,8 @@ public final class Common {
 
         codeHash_ = com.google.protobuf.ByteString.EMPTY;
 
+        trxHash_ = com.google.protobuf.ByteString.EMPTY;
+
         vsHash_ = com.google.protobuf.ByteString.EMPTY;
 
         return this;
@@ -8092,6 +7956,7 @@ public final class Common {
         result.name_ = name_;
         result.originEntropyLimit_ = originEntropyLimit_;
         result.codeHash_ = codeHash_;
+        result.trxHash_ = trxHash_;
         result.vsHash_ = vsHash_;
         onBuilt();
         return result;
@@ -8168,6 +8033,9 @@ public final class Common {
         }
         if (other.getCodeHash() != com.google.protobuf.ByteString.EMPTY) {
           setCodeHash(other.getCodeHash());
+        }
+        if (other.getTrxHash() != com.google.protobuf.ByteString.EMPTY) {
+          setTrxHash(other.getTrxHash());
         }
         if (other.getVsHash() != com.google.protobuf.ByteString.EMPTY) {
           setVsHash(other.getVsHash());
@@ -8292,8 +8160,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setAbi(org.vision.visionjsdk.proto.Common.SmartContract.ABI value) {
         if (abiBuilder_ == null) {
@@ -8310,8 +8176,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setAbi(
           org.vision.visionjsdk.proto.Common.SmartContract.ABI.Builder builderForValue) {
@@ -8326,8 +8190,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeAbi(org.vision.visionjsdk.proto.Common.SmartContract.ABI value) {
         if (abiBuilder_ == null) {
@@ -8346,7 +8208,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @return Builder
        */
       public Builder clearAbi() {
         if (abiBuilder_ == null) {
@@ -8361,7 +8222,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.SmartContract.ABI.Builder getAbiBuilder() {
         
@@ -8370,7 +8230,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @return ABIOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.SmartContract.ABIOrBuilder getAbiOrBuilder() {
         if (abiBuilder_ != null) {
@@ -8382,7 +8241,6 @@ public final class Common {
       }
       /**
        * <code>.protocol.SmartContract.ABI abi = 3;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.SmartContract.ABI, org.vision.visionjsdk.proto.Common.SmartContract.ABI.Builder, org.vision.visionjsdk.proto.Common.SmartContract.ABIOrBuilder> 
@@ -8635,9 +8493,43 @@ public final class Common {
         return this;
       }
 
+      private com.google.protobuf.ByteString trxHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes trx_hash = 10;</code>
+       * @return The trxHash.
+       */
+      @java.lang.Override
+      public com.google.protobuf.ByteString getTrxHash() {
+        return trxHash_;
+      }
+      /**
+       * <code>bytes trx_hash = 10;</code>
+       * @param value The trxHash to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTrxHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        trxHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bytes trx_hash = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTrxHash() {
+        
+        trxHash_ = getDefaultInstance().getTrxHash();
+        onChanged();
+        return this;
+      }
+
       private com.google.protobuf.ByteString vsHash_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes vs_hash = 10;</code>
+       * <code>bytes vs_hash = 11;</code>
        * @return The vsHash.
        */
       @java.lang.Override
@@ -8645,7 +8537,7 @@ public final class Common {
         return vsHash_;
       }
       /**
-       * <code>bytes vs_hash = 10;</code>
+       * <code>bytes vs_hash = 11;</code>
        * @param value The vsHash to set.
        * @return This builder for chaining.
        */
@@ -8659,7 +8551,7 @@ public final class Common {
         return this;
       }
       /**
-       * <code>bytes vs_hash = 10;</code>
+       * <code>bytes vs_hash = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearVsHash() {
@@ -8912,7 +8804,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + VOTE_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getVoteAddress().hashCode();
@@ -9580,7 +9472,7 @@ public final class Common {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + VALUE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -10160,36 +10052,37 @@ public final class Common {
       "n_name\030\003 \001(\t\022\021\n\tthreshold\030\004 \001(\003\022\021\n\tparen" +
       "t_id\030\005 \001(\005\022\022\n\noperations\030\006 \001(\014\022\033\n\004keys\030\007" +
       " \003(\0132\r.protocol.Key\"4\n\016PermissionType\022\t\n" +
-      "\005Owner\020\000\022\013\n\007Witness\020\001\022\n\n\006Active\020\002\"\203\007\n\rSm" +
+      "\005Owner\020\000\022\013\n\007Witness\020\001\022\n\n\006Active\020\002\"\225\007\n\rSm" +
       "artContract\022\026\n\016origin_address\030\001 \001(\014\022\030\n\020c" +
       "ontract_address\030\002 \001(\014\022(\n\003abi\030\003 \001(\0132\033.pro" +
       "tocol.SmartContract.ABI\022\020\n\010bytecode\030\004 \001(" +
       "\014\022\022\n\ncall_value\030\005 \001(\003\022%\n\035consume_user_re" +
-      "source_percent\030\006 \001(\003\022\014\n\004name\030\007 \001(\t\022\033\n\023or" +
-      "igin_entropy_limit\030\010 \001(\003\022\021\n\tcode_hash\030\t \001" +
-      "(\014\022\020\n\010vs_hash\030\n \001(\014\032\370\004\n\003ABI\0221\n\006entrys\030\001" +
-      " \003(\0132!.protocol.SmartContract.ABI.Entry\032" +
-      "\275\004\n\005Entry\022\021\n\tanonymous\030\001 \001(\010\022\020\n\010constant" +
-      "\030\002 \001(\010\022\014\n\004name\030\003 \001(\t\0227\n\006inputs\030\004 \003(\0132\'.p" +
-      "rotocol.SmartContract.ABI.Entry.Param\0228\n" +
-      "\007outputs\030\005 \003(\0132\'.protocol.SmartContract." +
-      "ABI.Entry.Param\0229\n\004type\030\006 \001(\0162+.protocol" +
-      ".SmartContract.ABI.Entry.EntryType\022\017\n\007pa" +
-      "yable\030\007 \001(\010\022N\n\017stateMutability\030\010 \001(\01625.p" +
-      "rotocol.SmartContract.ABI.Entry.StateMut" +
-      "abilityType\0324\n\005Param\022\017\n\007indexed\030\001 \001(\010\022\014\n" +
-      "\004name\030\002 \001(\t\022\014\n\004type\030\003 \001(\t\"Y\n\tEntryType\022\024" +
-      "\n\020UnknownEntryType\020\000\022\017\n\013Constructor\020\001\022\014\n" +
-      "\010Function\020\002\022\t\n\005Event\020\003\022\014\n\010Fallback\020\004\"a\n\023" +
-      "StateMutabilityType\022\031\n\025UnknownMutability" +
-      "Type\020\000\022\010\n\004Pure\020\001\022\010\n\004View\020\002\022\016\n\nNonpayable" +
-      "\020\003\022\013\n\007Payable\020\004\"0\n\004Vote\022\024\n\014vote_address\030" +
-      "\001 \001(\014\022\022\n\nvote_count\030\002 \001(\003\"I\n\004Note\022\r\n\005val" +
-      "ue\030\001 \001(\003\022\027\n\017payment_address\030\002 \001(\t\022\013\n\003rcm" +
-      "\030\003 \001(\014\022\014\n\004memo\030\004 \001(\014*)\n\014ResourceCode\022\r\n\t" +
-      "PHOTON\020\000\022\n\n\006ENTROPY\020\001*7\n\013AccountType\022\n" +
-      "\n\006Normal\020\000\022\016\n\nAssetIssue\020\001\022\014\n\010Contract\020\002" +
-      "B\035\n\033org.vision.visionjsdk.protob\006proto3"
+      "source_percent\030\006 \001(\003\022\014\n\004name\030\007 \001(\t\022\034\n\024or" +
+      "igin_entropy_limit\030\010 \001(\003\022\021\n\tcode_hash\030\t " +
+      "\001(\014\022\020\n\010trx_hash\030\n \001(\014\022\017\n\007vs_hash\030\013 \001(\014\032\370" +
+      "\004\n\003ABI\0221\n\006entrys\030\001 \003(\0132!.protocol.SmartC" +
+      "ontract.ABI.Entry\032\275\004\n\005Entry\022\021\n\tanonymous" +
+      "\030\001 \001(\010\022\020\n\010constant\030\002 \001(\010\022\014\n\004name\030\003 \001(\t\0227" +
+      "\n\006inputs\030\004 \003(\0132\'.protocol.SmartContract." +
+      "ABI.Entry.Param\0228\n\007outputs\030\005 \003(\0132\'.proto" +
+      "col.SmartContract.ABI.Entry.Param\0229\n\004typ" +
+      "e\030\006 \001(\0162+.protocol.SmartContract.ABI.Ent" +
+      "ry.EntryType\022\017\n\007payable\030\007 \001(\010\022N\n\017stateMu" +
+      "tability\030\010 \001(\01625.protocol.SmartContract." +
+      "ABI.Entry.StateMutabilityType\0324\n\005Param\022\017" +
+      "\n\007indexed\030\001 \001(\010\022\014\n\004name\030\002 \001(\t\022\014\n\004type\030\003 " +
+      "\001(\t\"Y\n\tEntryType\022\024\n\020UnknownEntryType\020\000\022\017" +
+      "\n\013Constructor\020\001\022\014\n\010Function\020\002\022\t\n\005Event\020\003" +
+      "\022\014\n\010Fallback\020\004\"a\n\023StateMutabilityType\022\031\n" +
+      "\025UnknownMutabilityType\020\000\022\010\n\004Pure\020\001\022\010\n\004Vi" +
+      "ew\020\002\022\016\n\nNonpayable\020\003\022\013\n\007Payable\020\004\"0\n\004Vot" +
+      "e\022\024\n\014vote_address\030\001 \001(\014\022\022\n\nvote_count\030\002 " +
+      "\001(\003\"I\n\004Note\022\r\n\005value\030\001 \001(\003\022\027\n\017payment_ad" +
+      "dress\030\002 \001(\t\022\013\n\003rcm\030\003 \001(\014\022\014\n\004memo\030\004 \001(\014*\'" +
+      "\n\014ResourceCode\022\n\n\006PHOTON\020\000\022\013\n\007ENTROPY\020\001*" +
+      "7\n\013AccountType\022\n\n\006Normal\020\000\022\016\n\nAssetIssue" +
+      "\020\001\022\014\n\010Contract\020\002B\035\n\033org.vision.visionjsd" +
+      "k.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -10224,7 +10117,7 @@ public final class Common {
     internal_static_protocol_SmartContract_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_protocol_SmartContract_descriptor,
-        new java.lang.String[] { "OriginAddress", "ContractAddress", "Abi", "Bytecode", "CallValue", "ConsumeUserResourcePercent", "Name", "OriginEntropyLimit", "CodeHash", "VsHash", });
+        new java.lang.String[] { "OriginAddress", "ContractAddress", "Abi", "Bytecode", "CallValue", "ConsumeUserResourcePercent", "Name", "OriginEntropyLimit", "CodeHash", "TrxHash", "VsHash", });
     internal_static_protocol_SmartContract_ABI_descriptor =
       internal_static_protocol_SmartContract_descriptor.getNestedTypes().get(0);
     internal_static_protocol_SmartContract_ABI_fieldAccessorTable = new

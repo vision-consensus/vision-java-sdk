@@ -30,7 +30,6 @@ public final class Chain {
     org.vision.visionjsdk.proto.Chain.Transaction.raw getRawData();
     /**
      * <code>.protocol.Transaction.raw raw_data = 1;</code>
-     * @return org.vision.visionjsdk.proto.Chain.Transaction.rawOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.Transaction.rawOrBuilder getRawDataOrBuilder();
 
@@ -65,31 +64,24 @@ public final class Chain {
 
     /**
      * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-     * @return list
      */
     java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Result> 
         getRetList();
     /**
      * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-     * @param index index
-     * @return org.vision.visionjsdk.proto.Chain.Transaction.Result
      */
     org.vision.visionjsdk.proto.Chain.Transaction.Result getRet(int index);
     /**
      * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-     * @return int
      */
     int getRetCount();
     /**
      * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-     * @return list
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Chain.Transaction.ResultOrBuilder> 
         getRetOrBuilderList();
     /**
      * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-     * @param index index
-     * @return ResultOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.Transaction.ResultOrBuilder getRetOrBuilder(
         int index);
@@ -237,7 +229,6 @@ public final class Chain {
       com.google.protobuf.Any getParameter();
       /**
        * <code>.google.protobuf.Any parameter = 2;</code>
-       * @return AnyOrBuilder
        */
       com.google.protobuf.AnyOrBuilder getParameterOrBuilder();
 
@@ -950,7 +941,7 @@ public final class Chain {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + TYPE_FIELD_NUMBER;
         hash = (53 * hash) + type_;
@@ -1315,8 +1306,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder setParameter(com.google.protobuf.Any value) {
           if (parameterBuilder_ == null) {
@@ -1333,8 +1322,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @param builderForValue value
-         * @return Builder
          */
         public Builder setParameter(
             com.google.protobuf.Any.Builder builderForValue) {
@@ -1349,8 +1336,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder mergeParameter(com.google.protobuf.Any value) {
           if (parameterBuilder_ == null) {
@@ -1369,7 +1354,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @return Builder
          */
         public Builder clearParameter() {
           if (parameterBuilder_ == null) {
@@ -1384,7 +1368,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @return Builder
          */
         public com.google.protobuf.Any.Builder getParameterBuilder() {
           
@@ -1393,7 +1376,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @return AnyOrBuilder
          */
         public com.google.protobuf.AnyOrBuilder getParameterOrBuilder() {
           if (parameterBuilder_ != null) {
@@ -1405,7 +1387,6 @@ public final class Chain {
         }
         /**
          * <code>.google.protobuf.Any parameter = 2;</code>
-         * @return SingleFieldBuilderV3
          */
         private com.google.protobuf.SingleFieldBuilderV3<
             com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder> 
@@ -2436,7 +2417,7 @@ public final class Chain {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FEE_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -3285,31 +3266,24 @@ public final class Chain {
 
       /**
        * <code>repeated .protocol.authority auths = 9;</code>
-       * @return list
        */
       java.util.List<org.vision.visionjsdk.proto.Common.authority> 
           getAuthsList();
       /**
        * <code>repeated .protocol.authority auths = 9;</code>
-       * @param index index
-       * @return org.vision.visionjsdk.proto.Common.authority
        */
       org.vision.visionjsdk.proto.Common.authority getAuths(int index);
       /**
        * <code>repeated .protocol.authority auths = 9;</code>
-       * @return int
        */
       int getAuthsCount();
       /**
        * <code>repeated .protocol.authority auths = 9;</code>
-       * @return list
        */
       java.util.List<? extends org.vision.visionjsdk.proto.Common.authorityOrBuilder> 
           getAuthsOrBuilderList();
       /**
        * <code>repeated .protocol.authority auths = 9;</code>
-       * @param index index
-       * @return org.vision.visionjsdk.proto.Common.authorityOrBuilde
        */
       org.vision.visionjsdk.proto.Common.authorityOrBuilder getAuthsOrBuilder(
           int index);
@@ -3330,7 +3304,6 @@ public final class Chain {
        * </pre>
        *
        * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-       * @return list
        */
       java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Contract> 
           getContractList();
@@ -3340,8 +3313,6 @@ public final class Chain {
        * </pre>
        *
        * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-       * @param index index
-       * @return Contract
        */
       org.vision.visionjsdk.proto.Chain.Transaction.Contract getContract(int index);
       /**
@@ -3350,7 +3321,6 @@ public final class Chain {
        * </pre>
        *
        * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-       * @return int
        */
       int getContractCount();
       /**
@@ -3359,7 +3329,6 @@ public final class Chain {
        * </pre>
        *
        * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-       * @return list
        */
       java.util.List<? extends org.vision.visionjsdk.proto.Chain.Transaction.ContractOrBuilder> 
           getContractOrBuilderList();
@@ -3369,8 +3338,6 @@ public final class Chain {
        * </pre>
        *
        * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-       * @param index index
-       * @return ContractOrBuilder
        */
       org.vision.visionjsdk.proto.Chain.Transaction.ContractOrBuilder getContractOrBuilder(
           int index);
@@ -3878,7 +3845,7 @@ public final class Chain {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + REF_BLOCK_BYTES_FIELD_NUMBER;
         hash = (53 * hash) + getRefBlockBytes().hashCode();
@@ -4422,7 +4389,6 @@ public final class Chain {
 
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return org.vision.visionjsdk.proto.Common.authority
          */
         public java.util.List<org.vision.visionjsdk.proto.Common.authority> getAuthsList() {
           if (authsBuilder_ == null) {
@@ -4433,7 +4399,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return int
          */
         public int getAuthsCount() {
           if (authsBuilder_ == null) {
@@ -4444,8 +4409,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @return authority
          */
         public org.vision.visionjsdk.proto.Common.authority getAuths(int index) {
           if (authsBuilder_ == null) {
@@ -4456,9 +4419,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder setAuths(
             int index, org.vision.visionjsdk.proto.Common.authority value) {
@@ -4476,9 +4436,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder setAuths(
             int index, org.vision.visionjsdk.proto.Common.authority.Builder builderForValue) {
@@ -4493,8 +4450,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder addAuths(org.vision.visionjsdk.proto.Common.authority value) {
           if (authsBuilder_ == null) {
@@ -4511,9 +4466,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder addAuths(
             int index, org.vision.visionjsdk.proto.Common.authority value) {
@@ -4531,8 +4483,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addAuths(
             org.vision.visionjsdk.proto.Common.authority.Builder builderForValue) {
@@ -4547,9 +4497,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addAuths(
             int index, org.vision.visionjsdk.proto.Common.authority.Builder builderForValue) {
@@ -4564,8 +4511,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param values values
-         * @return Builder
          */
         public Builder addAllAuths(
             java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.authority> values) {
@@ -4581,7 +4526,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return Builder
          */
         public Builder clearAuths() {
           if (authsBuilder_ == null) {
@@ -4595,8 +4539,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @return Builder
          */
         public Builder removeAuths(int index) {
           if (authsBuilder_ == null) {
@@ -4610,8 +4552,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.authority.Builder getAuthsBuilder(
             int index) {
@@ -4619,8 +4559,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @return org.vision.visionjsdk.proto.Common.authorityOrBuilder
          */
         public org.vision.visionjsdk.proto.Common.authorityOrBuilder getAuthsOrBuilder(
             int index) {
@@ -4631,7 +4569,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return list
          */
         public java.util.List<? extends org.vision.visionjsdk.proto.Common.authorityOrBuilder> 
              getAuthsOrBuilderList() {
@@ -4643,7 +4580,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.authority.Builder addAuthsBuilder() {
           return getAuthsFieldBuilder().addBuilder(
@@ -4651,8 +4587,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @param index index
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Common.authority.Builder addAuthsBuilder(
             int index) {
@@ -4661,7 +4595,6 @@ public final class Chain {
         }
         /**
          * <code>repeated .protocol.authority auths = 9;</code>
-         * @return list
          */
         public java.util.List<org.vision.visionjsdk.proto.Common.authority.Builder> 
              getAuthsBuilderList() {
@@ -4774,8 +4707,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @return org.vision.visionjsdk.proto.Chain.Transaction.Contract
          */
         public org.vision.visionjsdk.proto.Chain.Transaction.Contract getContract(int index) {
           if (contractBuilder_ == null) {
@@ -4790,9 +4721,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder setContract(
             int index, org.vision.visionjsdk.proto.Chain.Transaction.Contract value) {
@@ -4814,9 +4742,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder setContract(
             int index, org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder builderForValue) {
@@ -4835,8 +4760,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder addContract(org.vision.visionjsdk.proto.Chain.Transaction.Contract value) {
           if (contractBuilder_ == null) {
@@ -4857,9 +4780,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @param value value
-         * @return Builder
          */
         public Builder addContract(
             int index, org.vision.visionjsdk.proto.Chain.Transaction.Contract value) {
@@ -4881,8 +4801,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addContract(
             org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder builderForValue) {
@@ -4901,9 +4819,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder addContract(
             int index, org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder builderForValue) {
@@ -4922,8 +4837,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param values values
-         * @return Builder
          */
         public Builder addAllContract(
             java.lang.Iterable<? extends org.vision.visionjsdk.proto.Chain.Transaction.Contract> values) {
@@ -4943,7 +4856,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @return Builder
          */
         public Builder clearContract() {
           if (contractBuilder_ == null) {
@@ -4961,8 +4873,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @return Builder
          */
         public Builder removeContract(int index) {
           if (contractBuilder_ == null) {
@@ -4980,8 +4890,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder getContractBuilder(
             int index) {
@@ -4993,8 +4901,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @return ContractOrBuilder
          */
         public org.vision.visionjsdk.proto.Chain.Transaction.ContractOrBuilder getContractOrBuilder(
             int index) {
@@ -5009,7 +4915,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @return list
          */
         public java.util.List<? extends org.vision.visionjsdk.proto.Chain.Transaction.ContractOrBuilder> 
              getContractOrBuilderList() {
@@ -5025,7 +4930,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder addContractBuilder() {
           return getContractFieldBuilder().addBuilder(
@@ -5037,8 +4941,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @param index index
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder addContractBuilder(
             int index) {
@@ -5051,7 +4953,6 @@ public final class Chain {
          * </pre>
          *
          * <code>repeated .protocol.Transaction.Contract contract = 11;</code>
-         * @return list
          */
         public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Contract.Builder> 
              getContractBuilderList() {
@@ -5419,7 +5320,7 @@ public final class Chain {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasRawData()) {
         hash = (37 * hash) + RAW_DATA_FIELD_NUMBER;
@@ -5767,8 +5668,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setRawData(org.vision.visionjsdk.proto.Chain.Transaction.raw value) {
         if (rawDataBuilder_ == null) {
@@ -5785,8 +5684,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setRawData(
           org.vision.visionjsdk.proto.Chain.Transaction.raw.Builder builderForValue) {
@@ -5801,8 +5698,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeRawData(org.vision.visionjsdk.proto.Chain.Transaction.raw value) {
         if (rawDataBuilder_ == null) {
@@ -5821,7 +5716,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @return Builder
        */
       public Builder clearRawData() {
         if (rawDataBuilder_ == null) {
@@ -5836,7 +5730,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.raw.Builder getRawDataBuilder() {
         
@@ -5845,7 +5738,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @return org.vision.visionjsdk.proto.Chain.Transaction.rawOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.rawOrBuilder getRawDataOrBuilder() {
         if (rawDataBuilder_ != null) {
@@ -5857,7 +5749,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.Transaction.raw raw_data = 1;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.Transaction.raw, org.vision.visionjsdk.proto.Chain.Transaction.raw.Builder, org.vision.visionjsdk.proto.Chain.Transaction.rawOrBuilder> 
@@ -6020,8 +5911,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @return org.vision.visionjsdk.proto.Chain.Transaction.Result
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Result getRet(int index) {
         if (retBuilder_ == null) {
@@ -6032,9 +5921,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setRet(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Result value) {
@@ -6052,9 +5938,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @param builderForValue value
-       * @return Builder
        */
       public Builder setRet(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder builderForValue) {
@@ -6069,8 +5952,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addRet(org.vision.visionjsdk.proto.Chain.Transaction.Result value) {
         if (retBuilder_ == null) {
@@ -6087,9 +5968,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addRet(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Result value) {
@@ -6107,8 +5985,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addRet(
           org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder builderForValue) {
@@ -6123,9 +5999,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addRet(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder builderForValue) {
@@ -6140,8 +6013,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllRet(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Chain.Transaction.Result> values) {
@@ -6157,7 +6028,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @return Builder
        */
       public Builder clearRet() {
         if (retBuilder_ == null) {
@@ -6171,8 +6041,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeRet(int index) {
         if (retBuilder_ == null) {
@@ -6186,8 +6054,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder getRetBuilder(
           int index) {
@@ -6195,8 +6061,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @return ResultOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.ResultOrBuilder getRetOrBuilder(
           int index) {
@@ -6207,7 +6071,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @return list
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Chain.Transaction.ResultOrBuilder> 
            getRetOrBuilderList() {
@@ -6219,7 +6082,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder addRetBuilder() {
         return getRetFieldBuilder().addBuilder(
@@ -6227,8 +6089,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder addRetBuilder(
           int index) {
@@ -6237,7 +6097,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction.Result ret = 5;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Result.Builder> 
            getRetBuilderList() {
@@ -6326,7 +6185,6 @@ public final class Chain {
     org.vision.visionjsdk.proto.Chain.BlockHeader.raw getRawData();
     /**
      * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-     * @return org.vision.visionjsdk.proto.Chain.BlockHeader.rawOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.BlockHeader.rawOrBuilder getRawDataOrBuilder();
 
@@ -6822,7 +6680,7 @@ public final class Chain {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + TIMESTAMP_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -7559,7 +7417,7 @@ public final class Chain {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasRawData()) {
         hash = (37 * hash) + RAW_DATA_FIELD_NUMBER;
@@ -7846,8 +7704,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setRawData(org.vision.visionjsdk.proto.Chain.BlockHeader.raw value) {
         if (rawDataBuilder_ == null) {
@@ -7864,8 +7720,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setRawData(
           org.vision.visionjsdk.proto.Chain.BlockHeader.raw.Builder builderForValue) {
@@ -7880,8 +7734,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeRawData(org.vision.visionjsdk.proto.Chain.BlockHeader.raw value) {
         if (rawDataBuilder_ == null) {
@@ -7900,7 +7752,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @return Builder
        */
       public Builder clearRawData() {
         if (rawDataBuilder_ == null) {
@@ -7915,7 +7766,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @return org.vision.visionjsdk.proto.Chain.BlockHeader.raw.Builder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeader.raw.Builder getRawDataBuilder() {
         
@@ -7924,7 +7774,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @return org.vision.visionjsdk.proto.Chain.BlockHeader.rawOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeader.rawOrBuilder getRawDataOrBuilder() {
         if (rawDataBuilder_ != null) {
@@ -7936,7 +7785,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader.raw raw_data = 1;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.BlockHeader.raw, org.vision.visionjsdk.proto.Chain.BlockHeader.raw.Builder, org.vision.visionjsdk.proto.Chain.BlockHeader.rawOrBuilder> 
@@ -8044,31 +7892,24 @@ public final class Chain {
 
     /**
      * <code>repeated .protocol.Transaction transactions = 1;</code>
-     * @return org.vision.visionjsdk.proto.Chain.Transaction
      */
     java.util.List<org.vision.visionjsdk.proto.Chain.Transaction> 
         getTransactionsList();
     /**
      * <code>repeated .protocol.Transaction transactions = 1;</code>
-     * @param index index
-     * @return org.vision.visionjsdk.proto.Chain.Transaction
      */
     org.vision.visionjsdk.proto.Chain.Transaction getTransactions(int index);
     /**
      * <code>repeated .protocol.Transaction transactions = 1;</code>
-     * @return int
      */
     int getTransactionsCount();
     /**
      * <code>repeated .protocol.Transaction transactions = 1;</code>
-     * @return org.vision.visionjsdk.proto.Chain.TransactionOrBuilder
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
         getTransactionsOrBuilderList();
     /**
      * <code>repeated .protocol.Transaction transactions = 1;</code>
-     * @param index index
-     * @return org.vision.visionjsdk.proto.Chain.TransactionOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionsOrBuilder(
         int index);
@@ -8085,7 +7926,6 @@ public final class Chain {
     org.vision.visionjsdk.proto.Chain.BlockHeader getBlockHeader();
     /**
      * <code>.protocol.BlockHeader block_header = 2;</code>
-     * @return org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder getBlockHeaderOrBuilder();
   }
@@ -8331,7 +8171,7 @@ public final class Chain {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getTransactionsCount() > 0) {
         hash = (37 * hash) + TRANSACTIONS_FIELD_NUMBER;
@@ -8673,8 +8513,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @return org.vision.visionjsdk.proto.Chain.Transaction
        */
       public org.vision.visionjsdk.proto.Chain.Transaction getTransactions(int index) {
         if (transactionsBuilder_ == null) {
@@ -8685,9 +8523,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setTransactions(
           int index, org.vision.visionjsdk.proto.Chain.Transaction value) {
@@ -8705,9 +8540,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setTransactions(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
@@ -8722,8 +8554,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addTransactions(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionsBuilder_ == null) {
@@ -8740,9 +8570,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addTransactions(
           int index, org.vision.visionjsdk.proto.Chain.Transaction value) {
@@ -8760,8 +8587,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addTransactions(
           org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
@@ -8776,9 +8601,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addTransactions(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
@@ -8793,8 +8615,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllTransactions(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Chain.Transaction> values) {
@@ -8810,7 +8630,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @return Builder
        */
       public Builder clearTransactions() {
         if (transactionsBuilder_ == null) {
@@ -8824,8 +8643,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeTransactions(int index) {
         if (transactionsBuilder_ == null) {
@@ -8839,8 +8656,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder getTransactionsBuilder(
           int index) {
@@ -8848,8 +8663,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @return TransactionOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionsOrBuilder(
           int index) {
@@ -8860,7 +8673,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @return extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
            getTransactionsOrBuilderList() {
@@ -8872,7 +8684,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder addTransactionsBuilder() {
         return getTransactionsFieldBuilder().addBuilder(
@@ -8880,8 +8691,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder addTransactionsBuilder(
           int index) {
@@ -8890,7 +8699,6 @@ public final class Chain {
       }
       /**
        * <code>repeated .protocol.Transaction transactions = 1;</code>
-       * @return org.vision.visionjsdk.proto.Chain.Transaction.Builder
        */
       public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Builder> 
            getTransactionsBuilderList() {
@@ -8934,8 +8742,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setBlockHeader(org.vision.visionjsdk.proto.Chain.BlockHeader value) {
         if (blockHeaderBuilder_ == null) {
@@ -8952,8 +8758,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setBlockHeader(
           org.vision.visionjsdk.proto.Chain.BlockHeader.Builder builderForValue) {
@@ -8968,8 +8772,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeBlockHeader(org.vision.visionjsdk.proto.Chain.BlockHeader value) {
         if (blockHeaderBuilder_ == null) {
@@ -8988,7 +8790,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return Builder
        */
       public Builder clearBlockHeader() {
         if (blockHeaderBuilder_ == null) {
@@ -9003,7 +8804,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeader.Builder getBlockHeaderBuilder() {
         
@@ -9012,7 +8812,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return BlockHeaderOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder getBlockHeaderOrBuilder() {
         if (blockHeaderBuilder_ != null) {
@@ -9024,7 +8823,6 @@ public final class Chain {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.BlockHeader, org.vision.visionjsdk.proto.Chain.BlockHeader.Builder, org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder> 
@@ -9137,15 +8935,15 @@ public final class Chain {
   static {
     java.lang.String[] descriptorData = {
       "\n\020core/chain.proto\022\010protocol\032\031google/pro" +
-      "tobuf/any.proto\032\021core/common.proto\"\304\021\n\013T" +
+      "tobuf/any.proto\032\021core/common.proto\"\306\021\n\013T" +
       "ransaction\022+\n\010raw_data\030\001 \001(\0132\031.protocol." +
       "Transaction.raw\022\021\n\tsignature\030\002 \003(\014\022)\n\003re" +
-      "t\030\005 \003(\0132\034.protocol.Transaction.Result\032\371\010" +
+      "t\030\005 \003(\0132\034.protocol.Transaction.Result\032\372\010" +
       "\n\010Contract\0229\n\004type\030\001 \001(\0162+.protocol.Tran" +
       "saction.Contract.ContractType\022\'\n\tparamet" +
       "er\030\002 \001(\0132\024.google.protobuf.Any\022\020\n\010provid" +
       "er\030\003 \001(\014\022\024\n\014ContractName\030\004 \001(\014\022\025\n\rPermis" +
-      "sion_id\030\005 \001(\005\"\311\007\n\014ContractType\022\031\n\025Accoun" +
+      "sion_id\030\005 \001(\005\"\312\007\n\014ContractType\022\031\n\025Accoun" +
       "tCreateContract\020\000\022\024\n\020TransferContract\020\001\022" +
       "\031\n\025TransferAssetContract\020\002\022\025\n\021VoteAssetC" +
       "ontract\020\003\022\027\n\023VoteWitnessContract\020\004\022\031\n\025Wi" +
@@ -9164,46 +8962,46 @@ public final class Chain {
       "SettingContract\020!\022\032\n\026ExchangeCreateContr" +
       "act\020)\022\032\n\026ExchangeInjectContract\020*\022\034\n\030Exc" +
       "hangeWithdrawContract\020+\022\037\n\033ExchangeTrans" +
-      "actionContract\020,\022\035\n\031UpdateEntropyLimitCon" +
-      "tract\020-\022#\n\037AccountPermissionUpdateContra" +
-      "ct\020.\022\024\n\020ClearABIContract\0200\022\033\n\027UpdateBrok" +
-      "erageContract\0201\022\034\n\030ShieldedTransferContr" +
-      "act\0203\022\033\n\027MarketSellAssetContract\0204\022\035\n\031Ma" +
-      "rketCancelOrderContract\0205\032\316\005\n\006Result\022\013\n\003" +
-      "fee\030\001 \001(\003\022.\n\003ret\030\002 \001(\0162!.protocol.Transa" +
-      "ction.Result.code\022@\n\013contractRet\030\003 \001(\0162+" +
-      ".protocol.Transaction.Result.contractRes" +
-      "ult\022\024\n\014assetIssueID\030\016 \001(\t\022\027\n\017withdraw_am" +
-      "ount\030\017 \001(\003\022\027\n\017unfreeze_amount\030\020 \001(\003\022 \n\030e" +
-      "xchange_received_amount\030\022 \001(\003\022&\n\036exchang" +
-      "e_inject_another_amount\030\023 \001(\003\022(\n exchang" +
-      "e_withdraw_another_amount\030\024 \001(\003\022\023\n\013excha" +
-      "nge_id\030\025 \001(\003\022 \n\030shielded_transaction_fee" +
-      "\030\026 \001(\003\"\036\n\004code\022\n\n\006SUCESS\020\000\022\n\n\006FAILED\020\001\"\261" +
-      "\002\n\016contractResult\022\013\n\007DEFAULT\020\000\022\013\n\007SUCCES" +
-      "S\020\001\022\n\n\006REVERT\020\002\022\030\n\024BAD_JUMP_DESTINATION\020" +
-      "\003\022\021\n\rOUT_OF_MEMORY\020\004\022\030\n\024PRECOMPILED_CONT" +
-      "RACT\020\005\022\023\n\017STACK_TOO_SMALL\020\006\022\023\n\017STACK_TOO" +
-      "_LARGE\020\007\022\025\n\021ILLEGAL_OPERATION\020\010\022\022\n\016STACK" +
-      "_OVERFLOW\020\t\022\021\n\rOUT_OF_ENTROPY\020\n\022\017\n\013OUT_OF" +
-      "_TIME\020\013\022\027\n\023JVM_STACK_OVER_FLOW\020\014\022\013\n\007UNKN" +
-      "OWN\020\r\022\023\n\017TRANSFER_FAILED\020\016\032\374\001\n\003raw\022\027\n\017re" +
-      "f_block_bytes\030\001 \001(\014\022\025\n\rref_block_num\030\003 \001" +
-      "(\003\022\026\n\016ref_block_hash\030\004 \001(\014\022\022\n\nexpiration" +
-      "\030\010 \001(\003\022\"\n\005auths\030\t \003(\0132\023.protocol.authori" +
-      "ty\022\014\n\004data\030\n \001(\014\0220\n\010contract\030\013 \003(\0132\036.pro" +
-      "tocol.Transaction.Contract\022\017\n\007scripts\030\014 " +
-      "\001(\014\022\021\n\ttimestamp\030\016 \001(\003\022\021\n\tfee_limit\030\022 \001(" +
-      "\003\"\200\002\n\013BlockHeader\022+\n\010raw_data\030\001 \001(\0132\031.pr" +
-      "otocol.BlockHeader.raw\022\031\n\021witness_signat" +
-      "ure\030\002 \001(\014\032\250\001\n\003raw\022\021\n\ttimestamp\030\001 \001(\003\022\022\n\n" +
-      "txTrieRoot\030\002 \001(\014\022\022\n\nparentHash\030\003 \001(\014\022\016\n\006" +
-      "number\030\007 \001(\003\022\022\n\nwitness_id\030\010 \001(\003\022\027\n\017witn" +
-      "ess_address\030\t \001(\014\022\017\n\007version\030\n \001(\005\022\030\n\020ac" +
-      "countStateRoot\030\013 \001(\014\"a\n\005Block\022+\n\014transac" +
-      "tions\030\001 \003(\0132\025.protocol.Transaction\022+\n\014bl" +
-      "ock_header\030\002 \001(\0132\025.protocol.BlockHeaderB" +
-      "\035\n\033org.vision.visionjsdk.protob\006proto3"
+      "actionContract\020,\022\036\n\032UpdateEntropyLimitCo" +
+      "ntract\020-\022#\n\037AccountPermissionUpdateContr" +
+      "act\020.\022\024\n\020ClearABIContract\0200\022\033\n\027UpdateBro" +
+      "kerageContract\0201\022\034\n\030ShieldedTransferCont" +
+      "ract\0203\022\033\n\027MarketSellAssetContract\0204\022\035\n\031M" +
+      "arketCancelOrderContract\0205\032\317\005\n\006Result\022\013\n" +
+      "\003fee\030\001 \001(\003\022.\n\003ret\030\002 \001(\0162!.protocol.Trans" +
+      "action.Result.code\022@\n\013contractRet\030\003 \001(\0162" +
+      "+.protocol.Transaction.Result.contractRe" +
+      "sult\022\024\n\014assetIssueID\030\016 \001(\t\022\027\n\017withdraw_a" +
+      "mount\030\017 \001(\003\022\027\n\017unfreeze_amount\030\020 \001(\003\022 \n\030" +
+      "exchange_received_amount\030\022 \001(\003\022&\n\036exchan" +
+      "ge_inject_another_amount\030\023 \001(\003\022(\n exchan" +
+      "ge_withdraw_another_amount\030\024 \001(\003\022\023\n\013exch" +
+      "ange_id\030\025 \001(\003\022 \n\030shielded_transaction_fe" +
+      "e\030\026 \001(\003\"\036\n\004code\022\n\n\006SUCESS\020\000\022\n\n\006FAILED\020\001\"" +
+      "\262\002\n\016contractResult\022\013\n\007DEFAULT\020\000\022\013\n\007SUCCE" +
+      "SS\020\001\022\n\n\006REVERT\020\002\022\030\n\024BAD_JUMP_DESTINATION" +
+      "\020\003\022\021\n\rOUT_OF_MEMORY\020\004\022\030\n\024PRECOMPILED_CON" +
+      "TRACT\020\005\022\023\n\017STACK_TOO_SMALL\020\006\022\023\n\017STACK_TO" +
+      "O_LARGE\020\007\022\025\n\021ILLEGAL_OPERATION\020\010\022\022\n\016STAC" +
+      "K_OVERFLOW\020\t\022\022\n\016OUT_OF_ENTROPY\020\n\022\017\n\013OUT_" +
+      "OF_TIME\020\013\022\027\n\023JVM_STACK_OVER_FLOW\020\014\022\013\n\007UN" +
+      "KNOWN\020\r\022\023\n\017TRANSFER_FAILED\020\016\032\374\001\n\003raw\022\027\n\017" +
+      "ref_block_bytes\030\001 \001(\014\022\025\n\rref_block_num\030\003" +
+      " \001(\003\022\026\n\016ref_block_hash\030\004 \001(\014\022\022\n\nexpirati" +
+      "on\030\010 \001(\003\022\"\n\005auths\030\t \003(\0132\023.protocol.autho" +
+      "rity\022\014\n\004data\030\n \001(\014\0220\n\010contract\030\013 \003(\0132\036.p" +
+      "rotocol.Transaction.Contract\022\017\n\007scripts\030" +
+      "\014 \001(\014\022\021\n\ttimestamp\030\016 \001(\003\022\021\n\tfee_limit\030\022 " +
+      "\001(\003\"\200\002\n\013BlockHeader\022+\n\010raw_data\030\001 \001(\0132\031." +
+      "protocol.BlockHeader.raw\022\031\n\021witness_sign" +
+      "ature\030\002 \001(\014\032\250\001\n\003raw\022\021\n\ttimestamp\030\001 \001(\003\022\022" +
+      "\n\ntxTrieRoot\030\002 \001(\014\022\022\n\nparentHash\030\003 \001(\014\022\016" +
+      "\n\006number\030\007 \001(\003\022\022\n\nwitness_id\030\010 \001(\003\022\027\n\017wi" +
+      "tness_address\030\t \001(\014\022\017\n\007version\030\n \001(\005\022\030\n\020" +
+      "accountStateRoot\030\013 \001(\014\"a\n\005Block\022+\n\014trans" +
+      "actions\030\001 \003(\0132\025.protocol.Transaction\022+\n\014" +
+      "block_header\030\002 \001(\0132\025.protocol.BlockHeade" +
+      "rB\035\n\033org.vision.visionjsdk.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
