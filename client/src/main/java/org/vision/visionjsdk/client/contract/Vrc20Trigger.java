@@ -17,8 +17,13 @@ import java.util.Collections;
 
 
 public class Vrc20Trigger {
-    public static BigInteger decimalsVrc20Transaction(String hexAddressContract) {
-        VisionClient client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+    public static BigInteger decimalsVrc20Transaction(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
+        VisionClient client;
+        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+        } else {
+            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+        }
 
         Function decimals = new Function("decimals",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint8>() {}));
@@ -38,8 +43,13 @@ public class Vrc20Trigger {
         return null;
     }
 
-    public static BigInteger totalSupplyVrc20Transaction(String hexAddressContract) {
-        VisionClient client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+    public static BigInteger totalSupplyVrc20Transaction(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
+        VisionClient client;
+        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+        } else {
+            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+        }
 
         Function totalSupply = new Function("totalSupply",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint256>() {}));
@@ -74,5 +84,9 @@ public class Vrc20Trigger {
             data = "0" + data;
         }
         return Hex.decode(data);
+    }
+
+    private static boolean isBlank(String value) {
+        return null == value || value.length() == 0;
     }
 }
