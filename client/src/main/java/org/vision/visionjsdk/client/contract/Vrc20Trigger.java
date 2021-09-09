@@ -33,10 +33,14 @@ public class Vrc20Trigger {
             Response.TransactionExtention txnExt = client.constantCallIgnore(Base58Check.bytesToBase58(ownerAddr),
                     Base58Check.bytesToBase58(cntrAddr), decimals);
             //Convert constant result to human readable text
-            String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
-            BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, decimals.getOutputParameters()).get(0).getValue();
-            // System.out.println("testDecimalsVrc20Transaction.result=" + i);
-            return i;
+            int resultCount = txnExt.getConstantResultCount();
+            if (resultCount > 0) {
+                String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
+                BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, decimals.getOutputParameters()).get(0).getValue();
+                // System.out.println("testDecimalsVrc20Transaction.result=" + i);
+                return i;
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -59,10 +63,14 @@ public class Vrc20Trigger {
             Response.TransactionExtention txnExt = client.constantCallIgnore(Base58Check.bytesToBase58(ownerAddr),
                     Base58Check.bytesToBase58(cntrAddr), totalSupply);
             //Convert constant result to human readable text
-            String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
-            BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, totalSupply.getOutputParameters()).get(0).getValue();
-            // System.out.println("testDecimalsVrc20Transaction.result=" + i);
-            return i;
+            int resultCount = txnExt.getConstantResultCount();
+            if (resultCount > 0) {
+                String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
+                BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, totalSupply.getOutputParameters()).get(0).getValue();
+                // System.out.println("testDecimalsVrc20Transaction.result=" + i);
+                return i;
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
