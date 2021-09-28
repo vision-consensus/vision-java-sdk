@@ -17,6 +17,7 @@ package org.vision.visionjsdk.client.Transaction;
  * along with the ethereumJ library. If not, see <http://www.gnu.org/licenses/>.
  */
 
+import org.spongycastle.util.encoders.Base64;
 import org.spongycastle.asn1.ASN1InputStream;
 import org.spongycastle.asn1.ASN1Integer;
 import org.spongycastle.asn1.DLSequence;
@@ -37,7 +38,6 @@ import org.spongycastle.jce.spec.ECPrivateKeySpec;
 import org.spongycastle.math.ec.ECAlgorithms;
 import org.spongycastle.math.ec.ECCurve;
 import org.spongycastle.math.ec.ECPoint;
-import org.spongycastle.util.encoders.Base64;
 import org.spongycastle.util.encoders.Hex;
 import org.vision.visionjsdk.crypto.Hash;
 
@@ -256,6 +256,37 @@ public class ECKey implements Serializable, SignInterface {
                                byte[] pub) {
     return verify(data, ECDSASignature.decodeFromDER(signature), pub);
   }
+
+
+
+
+  public static boolean verify(String srcStr, String sign, String pubKey) throws Exception {
+    // byte[] hash256 = BaseAlgorithm.encode("SHA-256", srcStr.getBytes("UTF-8"));
+    MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+    byte[] hash256 = messageDigest.digest(srcStr.getBytes("UTF-8"));
+    ECDSASignature eCDSASignature = ECDSASignature.decodeFromDER(org.apache.commons.codec.binary.Base64.decodeBase64(sign));
+    ECDSASigner signer = new ECDSASigner();
+    ECPoint pub = CURVE.getCurve().decodePoint(org.apache.commons.codec.binary.Base64.decodeBase64(pubKey));
+    ECPublicKeyParameters params = new ECPublicKeyParameters(CURVE.getCurve().decodePoint(pub.getEncoded()), CURVE);
+    signer.init(false, params);
+    return signer.verifySignature(hash256, eCDSASignature.r, eCDSASignature.s);
+  }
+
+  public static boolean verify(String srcStr, boolean isHash256, String sign, String pubKey) throws Exception {
+    byte[] hash256 = srcStr.getBytes("UTF-8");
+    if(!isHash256) {
+      // hash256 = BaseAlgorithm.encode("SHA—256", srcStr.getBytes("UTF-8"));
+      MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+      hash256 = messageDigest.digest(srcStr.getBytes("UTF-8"));
+    }
+    ECDSASignature eCDSASignature = ECDSASignature.decodeFromDER(org.apache.commons.codec.binary.Base64.decodeBase64(sign));
+    ECDSASigner signer = new ECDSASigner();
+    org.spongycastle.math.ec.ECPoint pub = CURVE.getCurve().decodePoint(org.apache.commons.codec.binary.Base64.decodeBase64(pubKey));
+    ECPublicKeyParameters params = new ECPublicKeyParameters(CURVE.getCurve().decodePoint(pub.getEncoded()), CURVE);
+    signer.init(false, params);
+    return signer.verifySignature(hash256, eCDSASignature. r, eCDSASignature.s);
+  }
+
 
 
   /* Convert a Java JCE ECPublicKey into a BouncyCastle ECPoint
