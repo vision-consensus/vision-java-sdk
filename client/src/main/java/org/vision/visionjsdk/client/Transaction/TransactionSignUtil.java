@@ -22,7 +22,7 @@ public class TransactionSignUtil {
         System.out.println("k=" + k);
     }
 
-    private static boolean verifySignature(String rawData, String signature, String address) {
+    public static boolean verifySignature(String rawData, String signature, String address) {
         try {
             byte[] dataBytes = ByteUtils.HexToBytes(rawData);
             byte[] signatureEncoded = ByteUtils.HexToBytes(signature);
