@@ -4,6 +4,7 @@ import org.bouncycastle.util.encoders.Hex;
 import org.vision.visionjsdk.abi.FunctionReturnDecoder;
 import org.vision.visionjsdk.abi.TypeReference;
 import org.vision.visionjsdk.abi.datatypes.Function;
+import org.vision.visionjsdk.abi.datatypes.Utf8String;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint8;
 import org.vision.visionjsdk.client.VisionClient;
@@ -77,11 +78,43 @@ public class Vrc20Trigger {
         return null;
     }
 
+    public static String constantOfUtf8String(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort,
+                                                  String funcName) {
+        VisionClient client;
+        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+        } else {
+            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+        }
+
+        Function function = new Function(funcName,
+                Collections.emptyList(), Arrays.asList(new TypeReference<Utf8String>() {}));
+
+        byte[] ownerAddr = fromHexString("460000000000000000000000000000000000000000");
+        byte[] cntrAddr = fromHexString(hexAddressContract);
+        try {
+            Response.TransactionExtention txnExt = client.constantCallIgnore(Base58Check.bytesToBase58(ownerAddr),
+                    Base58Check.bytesToBase58(cntrAddr), function);
+            //Convert constant result to human readable text
+            int resultCount = txnExt.getConstantResultCount();
+            if (resultCount > 0) {
+                String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
+                String i = (String) FunctionReturnDecoder.decode(result, function.getOutputParameters()).get(0).getValue();
+                // System.out.println("testDecimalsVrc20Transaction.result=" + i);
+                return i;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static final byte[] EMPTY_BYTE_ARRAY = new byte[0];
     /**
      * get bytes data from hex string data.
      */
-    private static byte[] fromHexString(String data) {
+    public static byte[] fromHexString(String data) {
         if (data == null) {
             return EMPTY_BYTE_ARRAY;
         }
@@ -94,7 +127,7 @@ public class Vrc20Trigger {
         return Hex.decode(data);
     }
 
-    private static boolean isBlank(String value) {
+    public static boolean isBlank(String value) {
         return null == value || value.length() == 0;
     }
 }
