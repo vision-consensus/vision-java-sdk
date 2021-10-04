@@ -1,6 +1,7 @@
 package org.vision.visionjsdk.client.Transaction.visioncore;
 
 import com.google.protobuf.GeneratedMessageV3;
+import org.vision.protos.contract.ShieldContract;
 import org.vision.visionjsdk.proto.Contract;
 
 import java.util.Map;
@@ -33,7 +34,7 @@ public class TransactionFactory {
     register(ContractType.ProposalCreateContract, null, Contract.ProposalCreateContract.class);
     register(ContractType.ProposalDeleteContract, null, Contract.ProposalDeleteContract.class);
     register(ContractType.SetAccountIdContract, null, Contract.SetAccountIdContract.class);
-    // register(ContractType.ShieldedTransferContract, null, ShieldedTransferContract.class);
+    register(ContractType.ShieldedTransferContract, null, ShieldContract.ShieldedTransferContract.class);
     register(ContractType.TransferContract, null, Contract.TransferContract.class);
     register(ContractType.TransferAssetContract, null, Contract.TransferAssetContract.class);
     register(ContractType.UnfreezeAssetContract, null, Contract.UnfreezeAssetContract.class);
