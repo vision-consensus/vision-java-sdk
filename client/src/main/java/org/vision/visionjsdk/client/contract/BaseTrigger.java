@@ -4,6 +4,7 @@ import org.bouncycastle.util.encoders.Hex;
 import org.vision.visionjsdk.abi.FunctionReturnDecoder;
 import org.vision.visionjsdk.abi.TypeReference;
 import org.vision.visionjsdk.abi.datatypes.Function;
+import org.vision.visionjsdk.abi.datatypes.Type;
 import org.vision.visionjsdk.abi.datatypes.Utf8String;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint8;
 import org.vision.visionjsdk.client.VisionClient;
@@ -15,6 +16,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class BaseTrigger {
     public static String constantOfUtf8String(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort,
@@ -49,7 +51,8 @@ public class BaseTrigger {
         return null;
     }
 
-    public static BigDecimal constantOfBigDecimal(String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
+
+    public static BigInteger constantOfBigInteger(String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
                                                   String funcName) {
         VisionClient client;
         if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
@@ -69,7 +72,39 @@ public class BaseTrigger {
             int resultCount = txnExt.getConstantResultCount();
             if (resultCount > 0) {
                 String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
-                BigDecimal i = (BigDecimal) FunctionReturnDecoder.decode(result, function.getOutputParameters()).get(0).getValue();
+                BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, function.getOutputParameters()).get(0).getValue();
+                // System.out.println("testDecimalsVrc20Transaction.result=" + i);
+                return i;
+            }
+
+        } catch (Exception e) {
+            // e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static BigInteger constantOfBigInteger(String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
+                                                  String funcName,
+                                                  List<TypeReference<?>> outputParameters) {
+        VisionClient client;
+        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+        } else {
+            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+        }
+
+        Function function = new Function(funcName,
+                Collections.emptyList(), outputParameters);
+        byte[] ownerAddr = fromHexString("460000000000000000000000000000000000000000");
+        byte[] cntrAddr = fromHexString(hexAddressContract);
+        try {
+            Response.TransactionExtention txnExt = client.constantCallIgnore(Base58Check.bytesToBase58(ownerAddr),
+                    Base58Check.bytesToBase58(cntrAddr), function);
+            //Convert constant result to human readable text
+            int resultCount = txnExt.getConstantResultCount();
+            if (resultCount > 0) {
+                String result = Numeric.toHexString(txnExt.getConstantResult(0).toByteArray());
+                BigInteger i = (BigInteger) FunctionReturnDecoder.decode(result, function.getOutputParameters()).get(0).getValue();
                 // System.out.println("testDecimalsVrc20Transaction.result=" + i);
                 return i;
             }
@@ -78,6 +113,18 @@ public class BaseTrigger {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static BigDecimal convertToBigDecimal(BigInteger bi) {
+        if (null == bi) {
+            return null;
+        }
+        return new BigDecimal(bi);
+    }
+
+    public static void main(String[] args) {
+        BigDecimal bd = convertToBigDecimal(new BigInteger("3232"));
+        System.out.println("bd=" + bd);
     }
 
     public static final byte[] EMPTY_BYTE_ARRAY = new byte[0];
