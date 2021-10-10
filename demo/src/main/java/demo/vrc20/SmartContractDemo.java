@@ -26,7 +26,7 @@ public class SmartContractDemo {
      * any other attributes base on needs. The optional attributes are commented out
      * in this demo, refer to {@link org.vision.visionjsdk.client.contract.Contract}.
      * 
-     * Notice that call_token_value is the amount of TRC-10 token to be deposited.
+     * Notice that call_token_value is the amount of VRC-10 token to be deposited.
      * 
      * The demo contract is:
      * 
@@ -71,11 +71,11 @@ public class SmartContractDemo {
                                     // .setCallValue()
                                     // .setName()
                                     // .setConsumeUserResourcePercent()
-                                    // .setOriginEnergyLimit()
+                                    // .setOriginEntropyLimit()
                                     .build();
         
             TransactionBuilder builder = cntr.deploy();
-            //use the following method with parameters to call if has any TRC-10 deposit
+            //use the following method with parameters to call if has any VRC-10 deposit
             //TransactionBuilder builder = cntr.deploy(tokenId, callTokenValue);
             builder.setFeeLimit(1000000000L);
             builder.setMemo("Let's go!");
