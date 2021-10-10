@@ -20,31 +20,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention>
+    java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention> 
         getTransactionsList();
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @param index index
-     * @return TransactionExtention
      */
     org.vision.visionjsdk.proto.Response.TransactionExtention getTransactions(int index);
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return int
      */
     int getTransactionsCount();
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
         getTransactionsOrBuilderList();
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @param index index
-     * @return TransactionExtentionOrBuilder
      */
     org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder getTransactionsOrBuilder(
         int index);
@@ -61,7 +54,6 @@ public final class Response {
     org.vision.visionjsdk.proto.Chain.BlockHeader getBlockHeader();
     /**
      * <code>.protocol.BlockHeader block_header = 2;</code>
-     * @return BlockHeaderOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder getBlockHeaderOrBuilder();
 
@@ -185,7 +177,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention> transactions_;
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention> getTransactionsList() {
@@ -193,16 +184,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
         getTransactionsOrBuilderList() {
       return transactions_;
     }
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getTransactionsCount() {
@@ -210,8 +199,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @param index index
-     * @return TransactionExtention
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionExtention getTransactions(int index) {
@@ -219,8 +206,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-     * @param index index
-     * @return TransactionExtentionOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder getTransactionsOrBuilder(
@@ -248,7 +233,6 @@ public final class Response {
     }
     /**
      * <code>.protocol.BlockHeader block_header = 2;</code>
-     * @return BlockHeaderOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder getBlockHeaderOrBuilder() {
@@ -343,7 +327,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getTransactionsCount() > 0) {
         hash = (37 * hash) + TRANSACTIONS_FIELD_NUMBER;
@@ -611,7 +595,7 @@ public final class Response {
               transactionsBuilder_ = null;
               transactions_ = other.transactions_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              transactionsBuilder_ =
+              transactionsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTransactionsFieldBuilder() : null;
             } else {
@@ -669,7 +653,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention> getTransactionsList() {
         if (transactionsBuilder_ == null) {
@@ -680,7 +663,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return int
        */
       public int getTransactionsCount() {
         if (transactionsBuilder_ == null) {
@@ -691,8 +673,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @return TransactionExtention
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention getTransactions(int index) {
         if (transactionsBuilder_ == null) {
@@ -703,9 +683,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setTransactions(
           int index, org.vision.visionjsdk.proto.Response.TransactionExtention value) {
@@ -723,9 +700,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setTransactions(
           int index, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder builderForValue) {
@@ -740,8 +714,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addTransactions(org.vision.visionjsdk.proto.Response.TransactionExtention value) {
         if (transactionsBuilder_ == null) {
@@ -758,9 +730,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addTransactions(
           int index, org.vision.visionjsdk.proto.Response.TransactionExtention value) {
@@ -778,8 +747,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addTransactions(
           org.vision.visionjsdk.proto.Response.TransactionExtention.Builder builderForValue) {
@@ -794,9 +761,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addTransactions(
           int index, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder builderForValue) {
@@ -811,8 +775,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllTransactions(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.TransactionExtention> values) {
@@ -828,7 +790,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return Builder
        */
       public Builder clearTransactions() {
         if (transactionsBuilder_ == null) {
@@ -842,8 +803,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeTransactions(int index) {
         if (transactionsBuilder_ == null) {
@@ -857,8 +816,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention.Builder getTransactionsBuilder(
           int index) {
@@ -866,8 +823,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @return TransactionExtentionOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder getTransactionsOrBuilder(
           int index) {
@@ -878,9 +833,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
            getTransactionsOrBuilderList() {
         if (transactionsBuilder_ != null) {
           return transactionsBuilder_.getMessageOrBuilderList();
@@ -890,7 +844,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention.Builder addTransactionsBuilder() {
         return getTransactionsFieldBuilder().addBuilder(
@@ -898,8 +851,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention.Builder addTransactionsBuilder(
           int index) {
@@ -908,14 +859,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.TransactionExtention transactions = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionExtention.Builder> 
            getTransactionsBuilderList() {
         return getTransactionsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
           getTransactionsFieldBuilder() {
         if (transactionsBuilder_ == null) {
           transactionsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -952,8 +902,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setBlockHeader(org.vision.visionjsdk.proto.Chain.BlockHeader value) {
         if (blockHeaderBuilder_ == null) {
@@ -970,7 +918,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return Builder
        */
       public Builder setBlockHeader(
           org.vision.visionjsdk.proto.Chain.BlockHeader.Builder builderForValue) {
@@ -985,8 +932,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeBlockHeader(org.vision.visionjsdk.proto.Chain.BlockHeader value) {
         if (blockHeaderBuilder_ == null) {
@@ -1005,7 +950,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return Builder
        */
       public Builder clearBlockHeader() {
         if (blockHeaderBuilder_ == null) {
@@ -1020,16 +964,14 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeader.Builder getBlockHeaderBuilder() {
-
+        
         onChanged();
         return getBlockHeaderFieldBuilder().getBuilder();
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return BlockHeaderOrBuilder
        */
       public org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder getBlockHeaderOrBuilder() {
         if (blockHeaderBuilder_ != null) {
@@ -1041,10 +983,9 @@ public final class Response {
       }
       /**
        * <code>.protocol.BlockHeader block_header = 2;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.BlockHeader, org.vision.visionjsdk.proto.Chain.BlockHeader.Builder, org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder>
+          org.vision.visionjsdk.proto.Chain.BlockHeader, org.vision.visionjsdk.proto.Chain.BlockHeader.Builder, org.vision.visionjsdk.proto.Chain.BlockHeaderOrBuilder> 
           getBlockHeaderFieldBuilder() {
         if (blockHeaderBuilder_ == null) {
           blockHeaderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1075,7 +1016,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         blockid_ = value;
         onChanged();
         return this;
@@ -1085,7 +1026,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBlockid() {
-
+        
         blockid_ = getDefaultInstance().getBlockid();
         onChanged();
         return this;
@@ -1149,31 +1090,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention>
+    java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention> 
         getBlockList();
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @param index index
-     * @return BlockExtention
      */
     org.vision.visionjsdk.proto.Response.BlockExtention getBlock(int index);
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return int
      */
     int getBlockCount();
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder> 
         getBlockOrBuilderList();
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @param index index
-     * @return BlockExtentionOrBuilder
      */
     org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder getBlockOrBuilder(
         int index);
@@ -1273,7 +1207,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention> block_;
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention> getBlockList() {
@@ -1281,16 +1214,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder> 
         getBlockOrBuilderList() {
       return block_;
     }
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getBlockCount() {
@@ -1298,8 +1229,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @param index index
-     * @return BlockExtention
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.BlockExtention getBlock(int index) {
@@ -1307,8 +1236,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.BlockExtention block = 1;</code>
-     * @param index index
-     * @return BlockExtentionOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder getBlockOrBuilder(
@@ -1372,7 +1299,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getBlockCount() > 0) {
         hash = (37 * hash) + BLOCK_FIELD_NUMBER;
@@ -1620,7 +1547,7 @@ public final class Response {
               blockBuilder_ = null;
               block_ = other.block_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              blockBuilder_ =
+              blockBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBlockFieldBuilder() : null;
             } else {
@@ -1672,7 +1599,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention> getBlockList() {
         if (blockBuilder_ == null) {
@@ -1683,7 +1609,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return int
        */
       public int getBlockCount() {
         if (blockBuilder_ == null) {
@@ -1694,8 +1619,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @return BlockExtention
        */
       public org.vision.visionjsdk.proto.Response.BlockExtention getBlock(int index) {
         if (blockBuilder_ == null) {
@@ -1706,9 +1629,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setBlock(
           int index, org.vision.visionjsdk.proto.Response.BlockExtention value) {
@@ -1726,9 +1646,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setBlock(
           int index, org.vision.visionjsdk.proto.Response.BlockExtention.Builder builderForValue) {
@@ -1743,8 +1660,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addBlock(org.vision.visionjsdk.proto.Response.BlockExtention value) {
         if (blockBuilder_ == null) {
@@ -1761,9 +1676,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addBlock(
           int index, org.vision.visionjsdk.proto.Response.BlockExtention value) {
@@ -1781,8 +1693,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addBlock(
           org.vision.visionjsdk.proto.Response.BlockExtention.Builder builderForValue) {
@@ -1797,9 +1707,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addBlock(
           int index, org.vision.visionjsdk.proto.Response.BlockExtention.Builder builderForValue) {
@@ -1814,8 +1721,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllBlock(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.BlockExtention> values) {
@@ -1831,7 +1736,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return Builder
        */
       public Builder clearBlock() {
         if (blockBuilder_ == null) {
@@ -1845,8 +1749,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeBlock(int index) {
         if (blockBuilder_ == null) {
@@ -1860,8 +1762,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.BlockExtention.Builder getBlockBuilder(
           int index) {
@@ -1869,8 +1769,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @return BlockExtentionOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder getBlockOrBuilder(
           int index) {
@@ -1881,9 +1779,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder> 
            getBlockOrBuilderList() {
         if (blockBuilder_ != null) {
           return blockBuilder_.getMessageOrBuilderList();
@@ -1893,7 +1790,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.BlockExtention.Builder addBlockBuilder() {
         return getBlockFieldBuilder().addBuilder(
@@ -1901,8 +1797,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.BlockExtention.Builder addBlockBuilder(
           int index) {
@@ -1911,14 +1805,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.BlockExtention block = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.BlockExtention.Builder> 
            getBlockBuilderList() {
         return getBlockFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.BlockExtention, org.vision.visionjsdk.proto.Response.BlockExtention.Builder, org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder>
+          org.vision.visionjsdk.proto.Response.BlockExtention, org.vision.visionjsdk.proto.Response.BlockExtention.Builder, org.vision.visionjsdk.proto.Response.BlockExtentionOrBuilder> 
           getBlockFieldBuilder() {
         if (blockBuilder_ == null) {
           blockBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2132,9 +2025,9 @@ public final class Response {
        */
       CONTRACT_EXE_ERROR(3),
       /**
-       * <code>BANDWITH_ERROR = 4;</code>
+       * <code>PHOTON_ERROR = 4;</code>
        */
-      BANDWITH_ERROR(4),
+      PHOTON_ERROR(4),
       /**
        * <code>DUP_TRANSACTION_ERROR = 5;</code>
        */
@@ -2191,9 +2084,9 @@ public final class Response {
        */
       public static final int CONTRACT_EXE_ERROR_VALUE = 3;
       /**
-       * <code>BANDWITH_ERROR = 4;</code>
+       * <code>PHOTON_ERROR = 4;</code>
        */
-      public static final int BANDWITH_ERROR_VALUE = 4;
+      public static final int PHOTON_ERROR_VALUE = 4;
       /**
        * <code>DUP_TRANSACTION_ERROR = 5;</code>
        */
@@ -2256,7 +2149,7 @@ public final class Response {
           case 1: return SIGERROR;
           case 2: return CONTRACT_VALIDATE_ERROR;
           case 3: return CONTRACT_EXE_ERROR;
-          case 4: return BANDWITH_ERROR;
+          case 4: return PHOTON_ERROR;
           case 5: return DUP_TRANSACTION_ERROR;
           case 6: return TAPOS_ERROR;
           case 7: return TOO_BIG_TRANSACTION_ERROR;
@@ -2435,7 +2328,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + RESULT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -2713,7 +2606,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setResult(boolean value) {
-
+        
         result_ = value;
         onChanged();
         return this;
@@ -2723,7 +2616,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearResult() {
-
+        
         result_ = false;
         onChanged();
         return this;
@@ -2743,7 +2636,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCodeValue(int value) {
-
+        
         code_ = value;
         onChanged();
         return this;
@@ -2767,7 +2660,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         code_ = value.getNumber();
         onChanged();
         return this;
@@ -2777,7 +2670,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCode() {
-
+        
         code_ = 0;
         onChanged();
         return this;
@@ -2801,7 +2694,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         message_ = value;
         onChanged();
         return this;
@@ -2811,7 +2704,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearMessage() {
-
+        
         message_ = getDefaultInstance().getMessage();
         onChanged();
         return this;
@@ -2874,18 +2767,17 @@ public final class Response {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     boolean hasTransaction();
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     org.vision.visionjsdk.proto.Chain.Transaction getTransaction();
     /**
-     * 
-     * @return TransactionOrBuilder
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder();
 
@@ -2928,7 +2820,6 @@ public final class Response {
     org.vision.visionjsdk.proto.Response.TransactionReturn getResult();
     /**
      * <code>.protocol.TransactionReturn result = 4;</code>
-     * @return TransactionReturnOrBuilder
      */
     org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder();
   }
@@ -3057,7 +2948,7 @@ public final class Response {
     public static final int TRANSACTION_FIELD_NUMBER = 1;
     private org.vision.visionjsdk.proto.Chain.Transaction transaction_;
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     @java.lang.Override
@@ -3065,7 +2956,7 @@ public final class Response {
       return transaction_ != null;
     }
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     @java.lang.Override
@@ -3073,8 +2964,7 @@ public final class Response {
       return transaction_ == null ? org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance() : transaction_;
     }
     /**
-     * 
-     * @return TransactionOrBuilder
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
@@ -3143,7 +3033,6 @@ public final class Response {
     }
     /**
      * <code>.protocol.TransactionReturn result = 4;</code>
-     * @return TransactionReturnOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder() {
@@ -3244,7 +3133,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTransaction()) {
         hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
@@ -3553,14 +3442,14 @@ public final class Response {
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> transactionBuilder_;
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return Whether the transaction field is set.
        */
       public boolean hasTransaction() {
         return transactionBuilder_ != null || transaction_ != null;
       }
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return The transaction.
        */
       public org.vision.visionjsdk.proto.Chain.Transaction getTransaction() {
@@ -3571,9 +3460,7 @@ public final class Response {
         }
       }
       /**
-       * 
-       * @param value value
-       * @return Builder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public Builder setTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
@@ -3589,9 +3476,7 @@ public final class Response {
         return this;
       }
       /**
-       * 
-       * @param builderForValue builderForValue
-       * @return Builder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public Builder setTransaction(
           org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
@@ -3605,9 +3490,7 @@ public final class Response {
         return this;
       }
       /**
-       * 
-       * @param value value
-       * @return Builder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public Builder mergeTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
@@ -3625,8 +3508,7 @@ public final class Response {
         return this;
       }
       /**
-       * 
-       * @return Builder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public Builder clearTransaction() {
         if (transactionBuilder_ == null) {
@@ -3640,17 +3522,15 @@ public final class Response {
         return this;
       }
       /**
-       * 
-       * @return Builder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder getTransactionBuilder() {
-
+        
         onChanged();
         return getTransactionFieldBuilder().getBuilder();
       }
       /**
-       * 
-       * @return TransactionOrBuilder
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
         if (transactionBuilder_ != null) {
@@ -3661,11 +3541,10 @@ public final class Response {
         }
       }
       /**
-       * 
-       * @return SingleFieldBuilderV3
+       * <code>.protocol.Transaction transaction = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3704,7 +3583,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         txid_ = value;
         onChanged();
         return this;
@@ -3718,7 +3597,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTxid() {
-
+        
         txid_ = getDefaultInstance().getTxid();
         onChanged();
         return this;
@@ -3832,8 +3711,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setResult(org.vision.visionjsdk.proto.Response.TransactionReturn value) {
         if (resultBuilder_ == null) {
@@ -3850,8 +3727,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setResult(
           org.vision.visionjsdk.proto.Response.TransactionReturn.Builder builderForValue) {
@@ -3866,8 +3741,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeResult(org.vision.visionjsdk.proto.Response.TransactionReturn value) {
         if (resultBuilder_ == null) {
@@ -3886,7 +3759,6 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @return Builder
        */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
@@ -3901,16 +3773,14 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.TransactionReturn.Builder getResultBuilder() {
-
+        
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @return TransactionReturnOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
@@ -3922,10 +3792,9 @@ public final class Response {
       }
       /**
        * <code>.protocol.TransactionReturn result = 4;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionReturn, org.vision.visionjsdk.proto.Response.TransactionReturn.Builder, org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionReturn, org.vision.visionjsdk.proto.Response.TransactionReturn.Builder, org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3996,31 +3865,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.Witness>
+    java.util.List<org.vision.visionjsdk.proto.Response.Witness> 
         getWitnessesList();
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @param index index
-     * @return Witness
      */
     org.vision.visionjsdk.proto.Response.Witness getWitnesses(int index);
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return int
      */
     int getWitnessesCount();
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder> 
         getWitnessesOrBuilderList();
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @param index index
-     * @return WitnessOrBuilder
      */
     org.vision.visionjsdk.proto.Response.WitnessOrBuilder getWitnessesOrBuilder(
         int index);
@@ -4120,7 +3982,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Response.Witness> witnesses_;
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.Witness> getWitnessesList() {
@@ -4128,16 +3989,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder> 
         getWitnessesOrBuilderList() {
       return witnesses_;
     }
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getWitnessesCount() {
@@ -4145,8 +4004,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @param index index
-     * @return Witness
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Witness getWitnesses(int index) {
@@ -4154,8 +4011,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Witness witnesses = 1;</code>
-     * @param index index
-     * @return WitnessOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.WitnessOrBuilder getWitnessesOrBuilder(
@@ -4219,7 +4074,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getWitnessesCount() > 0) {
         hash = (37 * hash) + WITNESSES_FIELD_NUMBER;
@@ -4467,7 +4322,7 @@ public final class Response {
               witnessesBuilder_ = null;
               witnesses_ = other.witnesses_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              witnessesBuilder_ =
+              witnessesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWitnessesFieldBuilder() : null;
             } else {
@@ -4519,7 +4374,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.Witness> getWitnessesList() {
         if (witnessesBuilder_ == null) {
@@ -4530,7 +4384,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return int
        */
       public int getWitnessesCount() {
         if (witnessesBuilder_ == null) {
@@ -4541,8 +4394,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @return Witness
        */
       public org.vision.visionjsdk.proto.Response.Witness getWitnesses(int index) {
         if (witnessesBuilder_ == null) {
@@ -4553,9 +4404,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setWitnesses(
           int index, org.vision.visionjsdk.proto.Response.Witness value) {
@@ -4573,9 +4421,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setWitnesses(
           int index, org.vision.visionjsdk.proto.Response.Witness.Builder builderForValue) {
@@ -4590,8 +4435,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addWitnesses(org.vision.visionjsdk.proto.Response.Witness value) {
         if (witnessesBuilder_ == null) {
@@ -4608,9 +4451,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addWitnesses(
           int index, org.vision.visionjsdk.proto.Response.Witness value) {
@@ -4628,8 +4468,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addWitnesses(
           org.vision.visionjsdk.proto.Response.Witness.Builder builderForValue) {
@@ -4644,9 +4482,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addWitnesses(
           int index, org.vision.visionjsdk.proto.Response.Witness.Builder builderForValue) {
@@ -4661,8 +4496,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllWitnesses(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.Witness> values) {
@@ -4678,7 +4511,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return Builder
        */
       public Builder clearWitnesses() {
         if (witnessesBuilder_ == null) {
@@ -4692,8 +4524,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeWitnesses(int index) {
         if (witnessesBuilder_ == null) {
@@ -4707,8 +4537,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Witness.Builder getWitnessesBuilder(
           int index) {
@@ -4716,8 +4544,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @return WitnessOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.WitnessOrBuilder getWitnessesOrBuilder(
           int index) {
@@ -4728,9 +4554,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.WitnessOrBuilder> 
            getWitnessesOrBuilderList() {
         if (witnessesBuilder_ != null) {
           return witnessesBuilder_.getMessageOrBuilderList();
@@ -4740,7 +4565,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Witness.Builder addWitnessesBuilder() {
         return getWitnessesFieldBuilder().addBuilder(
@@ -4748,8 +4572,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Witness.Builder addWitnessesBuilder(
           int index) {
@@ -4758,14 +4580,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Witness witnesses = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.Witness.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.Witness.Builder> 
            getWitnessesBuilderList() {
         return getWitnessesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Witness, org.vision.visionjsdk.proto.Response.Witness.Builder, org.vision.visionjsdk.proto.Response.WitnessOrBuilder>
+          org.vision.visionjsdk.proto.Response.Witness, org.vision.visionjsdk.proto.Response.Witness.Builder, org.vision.visionjsdk.proto.Response.WitnessOrBuilder> 
           getWitnessesFieldBuilder() {
         if (witnessesBuilder_ == null) {
           witnessesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -4837,31 +4658,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.Proposal>
+    java.util.List<org.vision.visionjsdk.proto.Response.Proposal> 
         getProposalsList();
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @param index index
-     * @return Proposal
      */
     org.vision.visionjsdk.proto.Response.Proposal getProposals(int index);
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     *  @return int
      */
     int getProposalsCount();
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder> 
         getProposalsOrBuilderList();
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @param index index
-     * @return ProposalOrBuilder
      */
     org.vision.visionjsdk.proto.Response.ProposalOrBuilder getProposalsOrBuilder(
         int index);
@@ -4961,7 +4775,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Response.Proposal> proposals_;
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.Proposal> getProposalsList() {
@@ -4969,16 +4782,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder> 
         getProposalsOrBuilderList() {
       return proposals_;
     }
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getProposalsCount() {
@@ -4986,8 +4797,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @param index index
-     * @return Proposal
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Proposal getProposals(int index) {
@@ -4995,8 +4804,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Proposal proposals = 1;</code>
-     * @param index index
-     * @return ProposalOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.ProposalOrBuilder getProposalsOrBuilder(
@@ -5060,7 +4867,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getProposalsCount() > 0) {
         hash = (37 * hash) + PROPOSALS_FIELD_NUMBER;
@@ -5308,7 +5115,7 @@ public final class Response {
               proposalsBuilder_ = null;
               proposals_ = other.proposals_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              proposalsBuilder_ =
+              proposalsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getProposalsFieldBuilder() : null;
             } else {
@@ -5360,7 +5167,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.Proposal> getProposalsList() {
         if (proposalsBuilder_ == null) {
@@ -5371,7 +5177,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return int
        */
       public int getProposalsCount() {
         if (proposalsBuilder_ == null) {
@@ -5382,8 +5187,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @return Proposal
        */
       public org.vision.visionjsdk.proto.Response.Proposal getProposals(int index) {
         if (proposalsBuilder_ == null) {
@@ -5394,9 +5197,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setProposals(
           int index, org.vision.visionjsdk.proto.Response.Proposal value) {
@@ -5414,9 +5214,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setProposals(
           int index, org.vision.visionjsdk.proto.Response.Proposal.Builder builderForValue) {
@@ -5431,8 +5228,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param value index
-       * @return Builder
        */
       public Builder addProposals(org.vision.visionjsdk.proto.Response.Proposal value) {
         if (proposalsBuilder_ == null) {
@@ -5449,9 +5244,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addProposals(
           int index, org.vision.visionjsdk.proto.Response.Proposal value) {
@@ -5469,8 +5261,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addProposals(
           org.vision.visionjsdk.proto.Response.Proposal.Builder builderForValue) {
@@ -5485,9 +5275,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addProposals(
           int index, org.vision.visionjsdk.proto.Response.Proposal.Builder builderForValue) {
@@ -5502,8 +5289,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllProposals(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.Proposal> values) {
@@ -5519,7 +5304,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return Builder
        */
       public Builder clearProposals() {
         if (proposalsBuilder_ == null) {
@@ -5533,8 +5317,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeProposals(int index) {
         if (proposalsBuilder_ == null) {
@@ -5548,8 +5330,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Proposal.Builder getProposalsBuilder(
           int index) {
@@ -5557,8 +5337,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.ProposalOrBuilder getProposalsOrBuilder(
           int index) {
@@ -5569,9 +5347,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ProposalOrBuilder> 
            getProposalsOrBuilderList() {
         if (proposalsBuilder_ != null) {
           return proposalsBuilder_.getMessageOrBuilderList();
@@ -5581,7 +5358,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Proposal.Builder addProposalsBuilder() {
         return getProposalsFieldBuilder().addBuilder(
@@ -5589,8 +5365,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Proposal.Builder addProposalsBuilder(
           int index) {
@@ -5599,14 +5373,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Proposal proposals = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.Proposal.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.Proposal.Builder> 
            getProposalsBuilderList() {
         return getProposalsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Proposal, org.vision.visionjsdk.proto.Response.Proposal.Builder, org.vision.visionjsdk.proto.Response.ProposalOrBuilder>
+          org.vision.visionjsdk.proto.Response.Proposal, org.vision.visionjsdk.proto.Response.Proposal.Builder, org.vision.visionjsdk.proto.Response.ProposalOrBuilder> 
           getProposalsFieldBuilder() {
         if (proposalsBuilder_ == null) {
           proposalsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -5678,31 +5451,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.Exchange>
+    java.util.List<org.vision.visionjsdk.proto.Response.Exchange> 
         getExchangesList();
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @param index index
-     * @return Exchange
      */
     org.vision.visionjsdk.proto.Response.Exchange getExchanges(int index);
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @return int
      */
     int getExchangesCount();
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder> 
         getExchangesOrBuilderList();
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @param index index
-     * @return ExchangeOrBuilder
      */
     org.vision.visionjsdk.proto.Response.ExchangeOrBuilder getExchangesOrBuilder(
         int index);
@@ -5802,7 +5568,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Response.Exchange> exchanges_;
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.Exchange> getExchangesList() {
@@ -5810,16 +5575,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     *  @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder> 
         getExchangesOrBuilderList() {
       return exchanges_;
     }
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     *  @return int
      */
     @java.lang.Override
     public int getExchangesCount() {
@@ -5827,8 +5590,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @param index index
-     * @return Exchange
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Exchange getExchanges(int index) {
@@ -5836,8 +5597,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Exchange exchanges = 1;</code>
-     * @param index index
-     * @return ExchangeOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.ExchangeOrBuilder getExchangesOrBuilder(
@@ -5901,7 +5660,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getExchangesCount() > 0) {
         hash = (37 * hash) + EXCHANGES_FIELD_NUMBER;
@@ -6149,7 +5908,7 @@ public final class Response {
               exchangesBuilder_ = null;
               exchanges_ = other.exchanges_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              exchangesBuilder_ =
+              exchangesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getExchangesFieldBuilder() : null;
             } else {
@@ -6201,7 +5960,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.Exchange> getExchangesList() {
         if (exchangesBuilder_ == null) {
@@ -6212,7 +5970,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return int
        */
       public int getExchangesCount() {
         if (exchangesBuilder_ == null) {
@@ -6223,8 +5980,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @return Exchange
        */
       public org.vision.visionjsdk.proto.Response.Exchange getExchanges(int index) {
         if (exchangesBuilder_ == null) {
@@ -6235,9 +5990,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setExchanges(
           int index, org.vision.visionjsdk.proto.Response.Exchange value) {
@@ -6255,9 +6007,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setExchanges(
           int index, org.vision.visionjsdk.proto.Response.Exchange.Builder builderForValue) {
@@ -6272,8 +6021,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addExchanges(org.vision.visionjsdk.proto.Response.Exchange value) {
         if (exchangesBuilder_ == null) {
@@ -6290,9 +6037,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addExchanges(
           int index, org.vision.visionjsdk.proto.Response.Exchange value) {
@@ -6310,8 +6054,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addExchanges(
           org.vision.visionjsdk.proto.Response.Exchange.Builder builderForValue) {
@@ -6326,9 +6068,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addExchanges(
           int index, org.vision.visionjsdk.proto.Response.Exchange.Builder builderForValue) {
@@ -6343,8 +6082,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllExchanges(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.Exchange> values) {
@@ -6360,7 +6097,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return Builder
        */
       public Builder clearExchanges() {
         if (exchangesBuilder_ == null) {
@@ -6374,8 +6110,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeExchanges(int index) {
         if (exchangesBuilder_ == null) {
@@ -6389,8 +6123,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Exchange.Builder getExchangesBuilder(
           int index) {
@@ -6398,8 +6130,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @return ExchangeOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.ExchangeOrBuilder getExchangesOrBuilder(
           int index) {
@@ -6410,9 +6140,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ExchangeOrBuilder> 
            getExchangesOrBuilderList() {
         if (exchangesBuilder_ != null) {
           return exchangesBuilder_.getMessageOrBuilderList();
@@ -6422,7 +6151,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Exchange.Builder addExchangesBuilder() {
         return getExchangesFieldBuilder().addBuilder(
@@ -6430,8 +6158,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Exchange.Builder addExchangesBuilder(
           int index) {
@@ -6440,14 +6166,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Exchange exchanges = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.Exchange.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.Exchange.Builder> 
            getExchangesBuilderList() {
         return getExchangesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Exchange, org.vision.visionjsdk.proto.Response.Exchange.Builder, org.vision.visionjsdk.proto.Response.ExchangeOrBuilder>
+          org.vision.visionjsdk.proto.Response.Exchange, org.vision.visionjsdk.proto.Response.Exchange.Builder, org.vision.visionjsdk.proto.Response.ExchangeOrBuilder> 
           getExchangesFieldBuilder() {
         if (exchangesBuilder_ == null) {
           exchangesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -6519,31 +6244,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract>
+    java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract> 
         getAssetsList();
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @param index index
-     * @return AssetIssueContract
      */
     org.vision.visionjsdk.proto.Contract.AssetIssueContract getAssets(int index);
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return int
      */
     int getAssetsCount();
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder> 
         getAssetsOrBuilderList();
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @param index index
-     * @return AssetIssueContractOrBuilder
      */
     org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder getAssetsOrBuilder(
         int index);
@@ -6643,7 +6361,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract> assets_;
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract> getAssetsList() {
@@ -6651,16 +6368,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder> 
         getAssetsOrBuilderList() {
       return assets_;
     }
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getAssetsCount() {
@@ -6668,8 +6383,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @param index index
-     * @return AssetIssueContract
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Contract.AssetIssueContract getAssets(int index) {
@@ -6677,8 +6390,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-     * @param index index
-     * @return AssetIssueContractOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder getAssetsOrBuilder(
@@ -6742,7 +6453,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getAssetsCount() > 0) {
         hash = (37 * hash) + ASSETS_FIELD_NUMBER;
@@ -6990,7 +6701,7 @@ public final class Response {
               assetsBuilder_ = null;
               assets_ = other.assets_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              assetsBuilder_ =
+              assetsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAssetsFieldBuilder() : null;
             } else {
@@ -7042,7 +6753,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract> getAssetsList() {
         if (assetsBuilder_ == null) {
@@ -7053,7 +6763,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return int
        */
       public int getAssetsCount() {
         if (assetsBuilder_ == null) {
@@ -7064,8 +6773,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @return AssetIssueContract
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract getAssets(int index) {
         if (assetsBuilder_ == null) {
@@ -7076,9 +6783,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setAssets(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract value) {
@@ -7096,9 +6800,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setAssets(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder builderForValue) {
@@ -7113,8 +6814,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addAssets(org.vision.visionjsdk.proto.Contract.AssetIssueContract value) {
         if (assetsBuilder_ == null) {
@@ -7131,9 +6830,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addAssets(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract value) {
@@ -7151,8 +6847,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addAssets(
           org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder builderForValue) {
@@ -7167,9 +6861,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addAssets(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder builderForValue) {
@@ -7184,8 +6875,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllAssets(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContract> values) {
@@ -7201,7 +6890,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return Builder
        */
       public Builder clearAssets() {
         if (assetsBuilder_ == null) {
@@ -7215,8 +6903,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeAssets(int index) {
         if (assetsBuilder_ == null) {
@@ -7230,8 +6916,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder getAssetsBuilder(
           int index) {
@@ -7239,8 +6923,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @return AssetIssueContractOrBuilder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder getAssetsOrBuilder(
           int index) {
@@ -7251,9 +6933,8 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder> 
            getAssetsOrBuilderList() {
         if (assetsBuilder_ != null) {
           return assetsBuilder_.getMessageOrBuilderList();
@@ -7263,7 +6944,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder addAssetsBuilder() {
         return getAssetsFieldBuilder().addBuilder(
@@ -7271,8 +6951,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder addAssetsBuilder(
           int index) {
@@ -7281,14 +6959,13 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract assets = 1;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder> 
            getAssetsBuilderList() {
         return getAssetsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Contract.AssetIssueContract, org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder, org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder>
+          org.vision.visionjsdk.proto.Contract.AssetIssueContract, org.vision.visionjsdk.proto.Contract.AssetIssueContract.Builder, org.vision.visionjsdk.proto.Contract.AssetIssueContractOrBuilder> 
           getAssetsFieldBuilder() {
         if (assetsBuilder_ == null) {
           assetsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -7360,31 +7037,24 @@ public final class Response {
 
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Chain.Block>
+    java.util.List<org.vision.visionjsdk.proto.Chain.Block> 
         getBlockList();
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @param index index
-     * @return Block
      */
     org.vision.visionjsdk.proto.Chain.Block getBlock(int index);
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return int
      */
     int getBlockCount();
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder> 
         getBlockOrBuilderList();
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @param index index
-     * @return BlockOrBuilder
      */
     org.vision.visionjsdk.proto.Chain.BlockOrBuilder getBlockOrBuilder(
         int index);
@@ -7484,7 +7154,6 @@ public final class Response {
     private java.util.List<org.vision.visionjsdk.proto.Chain.Block> block_;
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return list
      */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Chain.Block> getBlockList() {
@@ -7492,16 +7161,14 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return list
      */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder> 
         getBlockOrBuilderList() {
       return block_;
     }
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @return int
      */
     @java.lang.Override
     public int getBlockCount() {
@@ -7509,8 +7176,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @param index index
-     * @return Block
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.Block getBlock(int index) {
@@ -7518,8 +7183,6 @@ public final class Response {
     }
     /**
      * <code>repeated .protocol.Block block = 1;</code>
-     * @param index index
-     * @return BlockOrBuilder
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.BlockOrBuilder getBlockOrBuilder(
@@ -7583,7 +7246,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getBlockCount() > 0) {
         hash = (37 * hash) + BLOCK_FIELD_NUMBER;
@@ -7831,7 +7494,7 @@ public final class Response {
               blockBuilder_ = null;
               block_ = other.block_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              blockBuilder_ =
+              blockBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBlockFieldBuilder() : null;
             } else {
@@ -7883,7 +7546,6 @@ public final class Response {
 
       /**
        * <code>repeated .protocol.Block block = 1;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Chain.Block> getBlockList() {
         if (blockBuilder_ == null) {
@@ -7894,7 +7556,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Block block = 1;</code>
-       * @return int
        */
       public int getBlockCount() {
         if (blockBuilder_ == null) {
@@ -7905,8 +7566,6 @@ public final class Response {
       }
       /**
        * <code>repeated .protocol.Block block = 1;</code>
-       * @param index index
-       * @return Block
        */
       public org.vision.visionjsdk.proto.Chain.Block getBlock(int index) {
         if (blockBuilder_ == null) {
@@ -7915,7 +7574,9 @@ public final class Response {
           return blockBuilder_.getMessage(index);
         }
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder setBlock(
           int index, org.vision.visionjsdk.proto.Chain.Block value) {
         if (blockBuilder_ == null) {
@@ -7930,7 +7591,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder setBlock(
           int index, org.vision.visionjsdk.proto.Chain.Block.Builder builderForValue) {
         if (blockBuilder_ == null) {
@@ -7942,7 +7605,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder addBlock(org.vision.visionjsdk.proto.Chain.Block value) {
         if (blockBuilder_ == null) {
           if (value == null) {
@@ -7956,7 +7621,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder addBlock(
           int index, org.vision.visionjsdk.proto.Chain.Block value) {
         if (blockBuilder_ == null) {
@@ -7971,7 +7638,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder addBlock(
           org.vision.visionjsdk.proto.Chain.Block.Builder builderForValue) {
         if (blockBuilder_ == null) {
@@ -7983,7 +7652,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder addBlock(
           int index, org.vision.visionjsdk.proto.Chain.Block.Builder builderForValue) {
         if (blockBuilder_ == null) {
@@ -7995,7 +7666,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder addAllBlock(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Chain.Block> values) {
         if (blockBuilder_ == null) {
@@ -8008,7 +7681,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder clearBlock() {
         if (blockBuilder_ == null) {
           block_ = java.util.Collections.emptyList();
@@ -8019,7 +7694,9 @@ public final class Response {
         }
         return this;
       }
-
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public Builder removeBlock(int index) {
         if (blockBuilder_ == null) {
           ensureBlockIsMutable();
@@ -8030,12 +7707,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Block.Builder getBlockBuilder(
           int index) {
         return getBlockFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.BlockOrBuilder getBlockOrBuilder(
           int index) {
         if (blockBuilder_ == null) {
@@ -8043,8 +7724,10 @@ public final class Response {
           return blockBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder>
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Chain.BlockOrBuilder> 
            getBlockOrBuilderList() {
         if (blockBuilder_ != null) {
           return blockBuilder_.getMessageOrBuilderList();
@@ -8052,24 +7735,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(block_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Block.Builder addBlockBuilder() {
         return getBlockFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Chain.Block.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Block.Builder addBlockBuilder(
           int index) {
         return getBlockFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Chain.Block.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Chain.Block.Builder>
+      /**
+       * <code>repeated .protocol.Block block = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Chain.Block.Builder> 
            getBlockBuilderList() {
         return getBlockFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.Block, org.vision.visionjsdk.proto.Chain.Block.Builder, org.vision.visionjsdk.proto.Chain.BlockOrBuilder>
+          org.vision.visionjsdk.proto.Chain.Block, org.vision.visionjsdk.proto.Chain.Block.Builder, org.vision.visionjsdk.proto.Chain.BlockOrBuilder> 
           getBlockFieldBuilder() {
         if (blockBuilder_ == null) {
           blockBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -8139,14 +7828,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.TransactionList)
       com.google.protobuf.MessageOrBuilder {
 
-    java.util.List<org.vision.visionjsdk.proto.Chain.Transaction>
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Chain.Transaction> 
         getTransactionList();
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     org.vision.visionjsdk.proto.Chain.Transaction getTransaction(int index);
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     int getTransactionCount();
-
-    java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
         getTransactionOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder(
         int index);
   }
@@ -8243,28 +7945,38 @@ public final class Response {
 
     public static final int TRANSACTION_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Chain.Transaction> transaction_;
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction> getTransactionList() {
       return transaction_;
     }
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
         getTransactionOrBuilderList() {
       return transaction_;
     }
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     @java.lang.Override
     public int getTransactionCount() {
       return transaction_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.Transaction getTransaction(int index) {
       return transaction_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.Transaction transaction = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder(
         int index) {
@@ -8327,7 +8039,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getTransactionCount() > 0) {
         hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
@@ -8575,7 +8287,7 @@ public final class Response {
               transactionBuilder_ = null;
               transaction_ = other.transaction_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              transactionBuilder_ =
+              transactionBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTransactionFieldBuilder() : null;
             } else {
@@ -8625,7 +8337,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> transactionBuilder_;
 
-     
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction> getTransactionList() {
         if (transactionBuilder_ == null) {
           return java.util.Collections.unmodifiableList(transaction_);
@@ -8633,7 +8347,9 @@ public final class Response {
           return transactionBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public int getTransactionCount() {
         if (transactionBuilder_ == null) {
           return transaction_.size();
@@ -8641,7 +8357,9 @@ public final class Response {
           return transactionBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction getTransaction(int index) {
         if (transactionBuilder_ == null) {
           return transaction_.get(index);
@@ -8649,7 +8367,9 @@ public final class Response {
           return transactionBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(
           int index, org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
@@ -8664,7 +8384,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
         if (transactionBuilder_ == null) {
@@ -8676,7 +8398,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder addTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
           if (value == null) {
@@ -8690,7 +8414,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder addTransaction(
           int index, org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
@@ -8705,7 +8431,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder addTransaction(
           org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
         if (transactionBuilder_ == null) {
@@ -8717,7 +8445,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder addTransaction(
           int index, org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
         if (transactionBuilder_ == null) {
@@ -8729,7 +8459,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder addAllTransaction(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Chain.Transaction> values) {
         if (transactionBuilder_ == null) {
@@ -8742,7 +8474,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder clearTransaction() {
         if (transactionBuilder_ == null) {
           transaction_ = java.util.Collections.emptyList();
@@ -8753,7 +8487,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public Builder removeTransaction(int index) {
         if (transactionBuilder_ == null) {
           ensureTransactionIsMutable();
@@ -8764,12 +8500,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder getTransactionBuilder(
           int index) {
         return getTransactionFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder(
           int index) {
         if (transactionBuilder_ == null) {
@@ -8777,8 +8517,10 @@ public final class Response {
           return transactionBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
            getTransactionOrBuilderList() {
         if (transactionBuilder_ != null) {
           return transactionBuilder_.getMessageOrBuilderList();
@@ -8786,24 +8528,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(transaction_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder addTransactionBuilder() {
         return getTransactionFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder addTransactionBuilder(
           int index) {
         return getTransactionFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Builder>
+      /**
+       * <code>repeated .protocol.Transaction transaction = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Chain.Transaction.Builder> 
            getTransactionBuilderList() {
         return getTransactionFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -9061,7 +8809,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FROM_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getFromAddress().hashCode();
@@ -9333,7 +9081,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         fromAddress_ = value;
         onChanged();
         return this;
@@ -9343,7 +9091,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFromAddress() {
-
+        
         fromAddress_ = getDefaultInstance().getFromAddress();
         onChanged();
         return this;
@@ -9367,7 +9115,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         toAddress_ = value;
         onChanged();
         return this;
@@ -9377,7 +9125,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearToAddress() {
-
+        
         toAddress_ = getDefaultInstance().getToAddress();
         onChanged();
         return this;
@@ -9439,17 +9187,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.DelegatedResourceList)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource>
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource> 
         getDelegatedResourceList();
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.DelegatedResource getDelegatedResource(int index);
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     int getDelegatedResourceCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder>
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder> 
         getDelegatedResourceOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder getDelegatedResourceOrBuilder(
         int index);
   }
@@ -9546,28 +9304,38 @@ public final class Response {
 
     public static final int DELEGATEDRESOURCE_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource> delegatedResource_;
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource> getDelegatedResourceList() {
       return delegatedResource_;
     }
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder> 
         getDelegatedResourceOrBuilderList() {
       return delegatedResource_;
     }
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     @java.lang.Override
     public int getDelegatedResourceCount() {
       return delegatedResource_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.DelegatedResource getDelegatedResource(int index) {
       return delegatedResource_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder getDelegatedResourceOrBuilder(
         int index) {
@@ -9630,7 +9398,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getDelegatedResourceCount() > 0) {
         hash = (37 * hash) + DELEGATEDRESOURCE_FIELD_NUMBER;
@@ -9878,7 +9646,7 @@ public final class Response {
               delegatedResourceBuilder_ = null;
               delegatedResource_ = other.delegatedResource_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              delegatedResourceBuilder_ =
+              delegatedResourceBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDelegatedResourceFieldBuilder() : null;
             } else {
@@ -9928,7 +9696,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.DelegatedResource, org.vision.visionjsdk.proto.Response.DelegatedResource.Builder, org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder> delegatedResourceBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource> getDelegatedResourceList() {
         if (delegatedResourceBuilder_ == null) {
           return java.util.Collections.unmodifiableList(delegatedResource_);
@@ -9936,7 +9706,9 @@ public final class Response {
           return delegatedResourceBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public int getDelegatedResourceCount() {
         if (delegatedResourceBuilder_ == null) {
           return delegatedResource_.size();
@@ -9944,7 +9716,9 @@ public final class Response {
           return delegatedResourceBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DelegatedResource getDelegatedResource(int index) {
         if (delegatedResourceBuilder_ == null) {
           return delegatedResource_.get(index);
@@ -9952,7 +9726,9 @@ public final class Response {
           return delegatedResourceBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder setDelegatedResource(
           int index, org.vision.visionjsdk.proto.Response.DelegatedResource value) {
         if (delegatedResourceBuilder_ == null) {
@@ -9967,7 +9743,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder setDelegatedResource(
           int index, org.vision.visionjsdk.proto.Response.DelegatedResource.Builder builderForValue) {
         if (delegatedResourceBuilder_ == null) {
@@ -9979,7 +9757,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder addDelegatedResource(org.vision.visionjsdk.proto.Response.DelegatedResource value) {
         if (delegatedResourceBuilder_ == null) {
           if (value == null) {
@@ -9993,7 +9773,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder addDelegatedResource(
           int index, org.vision.visionjsdk.proto.Response.DelegatedResource value) {
         if (delegatedResourceBuilder_ == null) {
@@ -10008,7 +9790,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder addDelegatedResource(
           org.vision.visionjsdk.proto.Response.DelegatedResource.Builder builderForValue) {
         if (delegatedResourceBuilder_ == null) {
@@ -10020,7 +9804,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder addDelegatedResource(
           int index, org.vision.visionjsdk.proto.Response.DelegatedResource.Builder builderForValue) {
         if (delegatedResourceBuilder_ == null) {
@@ -10032,7 +9818,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder addAllDelegatedResource(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.DelegatedResource> values) {
         if (delegatedResourceBuilder_ == null) {
@@ -10045,7 +9833,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder clearDelegatedResource() {
         if (delegatedResourceBuilder_ == null) {
           delegatedResource_ = java.util.Collections.emptyList();
@@ -10056,7 +9846,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public Builder removeDelegatedResource(int index) {
         if (delegatedResourceBuilder_ == null) {
           ensureDelegatedResourceIsMutable();
@@ -10067,12 +9859,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DelegatedResource.Builder getDelegatedResourceBuilder(
           int index) {
         return getDelegatedResourceFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder getDelegatedResourceOrBuilder(
           int index) {
         if (delegatedResourceBuilder_ == null) {
@@ -10080,8 +9876,10 @@ public final class Response {
           return delegatedResourceBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder>
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder> 
            getDelegatedResourceOrBuilderList() {
         if (delegatedResourceBuilder_ != null) {
           return delegatedResourceBuilder_.getMessageOrBuilderList();
@@ -10089,24 +9887,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(delegatedResource_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DelegatedResource.Builder addDelegatedResourceBuilder() {
         return getDelegatedResourceFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.DelegatedResource.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DelegatedResource.Builder addDelegatedResourceBuilder(
           int index) {
         return getDelegatedResourceFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.DelegatedResource.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource.Builder>
+      /**
+       * <code>repeated .protocol.DelegatedResource delegatedResource = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.DelegatedResource.Builder> 
            getDelegatedResourceBuilderList() {
         return getDelegatedResourceFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.DelegatedResource, org.vision.visionjsdk.proto.Response.DelegatedResource.Builder, org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder>
+          org.vision.visionjsdk.proto.Response.DelegatedResource, org.vision.visionjsdk.proto.Response.DelegatedResource.Builder, org.vision.visionjsdk.proto.Response.DelegatedResourceOrBuilder> 
           getDelegatedResourceFieldBuilder() {
         if (delegatedResourceBuilder_ == null) {
           delegatedResourceBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -10303,7 +10107,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         address_ = s;
@@ -10319,7 +10123,7 @@ public final class Response {
         getAddressBytes() {
       java.lang.Object ref = address_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         address_ = b;
@@ -10341,7 +10145,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         privateKey_ = s;
@@ -10357,7 +10161,7 @@ public final class Response {
         getPrivateKeyBytes() {
       java.lang.Object ref = privateKey_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         privateKey_ = b;
@@ -10430,7 +10234,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getAddress().hashCode();
@@ -10711,7 +10515,7 @@ public final class Response {
           getAddressBytes() {
         java.lang.Object ref = address_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           address_ = b;
@@ -10730,7 +10534,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         address_ = value;
         onChanged();
         return this;
@@ -10740,7 +10544,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAddress() {
-
+        
         address_ = getDefaultInstance().getAddress();
         onChanged();
         return this;
@@ -10756,7 +10560,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         address_ = value;
         onChanged();
         return this;
@@ -10787,7 +10591,7 @@ public final class Response {
           getPrivateKeyBytes() {
         java.lang.Object ref = privateKey_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           privateKey_ = b;
@@ -10806,7 +10610,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         privateKey_ = value;
         onChanged();
         return this;
@@ -10816,7 +10620,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearPrivateKey() {
-
+        
         privateKey_ = getDefaultInstance().getPrivateKey();
         onChanged();
         return this;
@@ -10832,7 +10636,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         privateKey_ = value;
         onChanged();
         return this;
@@ -10895,32 +10699,32 @@ public final class Response {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     boolean hasTransaction();
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     org.vision.visionjsdk.proto.Chain.Transaction getTransaction();
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder();
 
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      * @return Whether the result field is set.
      */
     boolean hasResult();
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      * @return The result.
      */
     org.vision.visionjsdk.proto.Response.TransactionReturn getResult();
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      */
     org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder();
 
@@ -11046,7 +10850,7 @@ public final class Response {
     public static final int TRANSACTION_FIELD_NUMBER = 1;
     private org.vision.visionjsdk.proto.Chain.Transaction transaction_;
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     @java.lang.Override
@@ -11054,7 +10858,7 @@ public final class Response {
       return transaction_ != null;
     }
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     @java.lang.Override
@@ -11062,7 +10866,7 @@ public final class Response {
       return transaction_ == null ? org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance() : transaction_;
     }
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
@@ -11072,7 +10876,7 @@ public final class Response {
     public static final int RESULT_FIELD_NUMBER = 2;
     private org.vision.visionjsdk.proto.Response.TransactionReturn result_;
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      * @return Whether the result field is set.
      */
     @java.lang.Override
@@ -11080,7 +10884,7 @@ public final class Response {
       return result_ != null;
     }
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      * @return The result.
      */
     @java.lang.Override
@@ -11088,7 +10892,7 @@ public final class Response {
       return result_ == null ? org.vision.visionjsdk.proto.Response.TransactionReturn.getDefaultInstance() : result_;
     }
     /**
-     * 
+     * <code>.protocol.TransactionReturn result = 2;</code>
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder() {
@@ -11190,7 +10994,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTransaction()) {
         hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
@@ -11476,14 +11280,14 @@ public final class Response {
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> transactionBuilder_;
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return Whether the transaction field is set.
        */
       public boolean hasTransaction() {
         return transactionBuilder_ != null || transaction_ != null;
       }
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return The transaction.
        */
       public org.vision.visionjsdk.proto.Chain.Transaction getTransaction() {
@@ -11493,7 +11297,9 @@ public final class Response {
           return transactionBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
           if (value == null) {
@@ -11507,7 +11313,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(
           org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
         if (transactionBuilder_ == null) {
@@ -11519,7 +11327,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder mergeTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
           if (transaction_ != null) {
@@ -11535,7 +11345,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder clearTransaction() {
         if (transactionBuilder_ == null) {
           transaction_ = null;
@@ -11547,13 +11359,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder getTransactionBuilder() {
-
+        
         onChanged();
         return getTransactionFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
         if (transactionBuilder_ != null) {
           return transactionBuilder_.getMessageOrBuilder();
@@ -11562,9 +11378,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance() : transaction_;
         }
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11581,14 +11399,14 @@ public final class Response {
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.TransactionReturn, org.vision.visionjsdk.proto.Response.TransactionReturn.Builder, org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder> resultBuilder_;
       /**
-       * 
+       * <code>.protocol.TransactionReturn result = 2;</code>
        * @return Whether the result field is set.
        */
       public boolean hasResult() {
         return resultBuilder_ != null || result_ != null;
       }
       /**
-       * 
+       * <code>.protocol.TransactionReturn result = 2;</code>
        * @return The result.
        */
       public org.vision.visionjsdk.proto.Response.TransactionReturn getResult() {
@@ -11598,7 +11416,9 @@ public final class Response {
           return resultBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public Builder setResult(org.vision.visionjsdk.proto.Response.TransactionReturn value) {
         if (resultBuilder_ == null) {
           if (value == null) {
@@ -11612,7 +11432,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public Builder setResult(
           org.vision.visionjsdk.proto.Response.TransactionReturn.Builder builderForValue) {
         if (resultBuilder_ == null) {
@@ -11624,7 +11446,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public Builder mergeResult(org.vision.visionjsdk.proto.Response.TransactionReturn value) {
         if (resultBuilder_ == null) {
           if (result_ != null) {
@@ -11640,7 +11464,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public Builder clearResult() {
         if (resultBuilder_ == null) {
           result_ = null;
@@ -11652,13 +11478,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionReturn.Builder getResultBuilder() {
-
+        
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder getResultOrBuilder() {
         if (resultBuilder_ != null) {
           return resultBuilder_.getMessageOrBuilder();
@@ -11667,9 +11497,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Response.TransactionReturn.getDefaultInstance() : result_;
         }
       }
-      
+      /**
+       * <code>.protocol.TransactionReturn result = 2;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionReturn, org.vision.visionjsdk.proto.Response.TransactionReturn.Builder, org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionReturn, org.vision.visionjsdk.proto.Response.TransactionReturn.Builder, org.vision.visionjsdk.proto.Response.TransactionReturnOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11708,7 +11540,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         txid_ = value;
         onChanged();
         return this;
@@ -11722,7 +11554,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTxid() {
-
+        
         txid_ = getDefaultInstance().getTxid();
         onChanged();
         return this;
@@ -12006,7 +11838,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasSmartContract()) {
         hash = (37 * hash) + SMART_CONTRACT_FIELD_NUMBER;
@@ -12291,7 +12123,9 @@ public final class Response {
           return smartContractBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public Builder setSmartContract(org.vision.visionjsdk.proto.Common.SmartContract value) {
         if (smartContractBuilder_ == null) {
           if (value == null) {
@@ -12305,7 +12139,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public Builder setSmartContract(
           org.vision.visionjsdk.proto.Common.SmartContract.Builder builderForValue) {
         if (smartContractBuilder_ == null) {
@@ -12317,7 +12153,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public Builder mergeSmartContract(org.vision.visionjsdk.proto.Common.SmartContract value) {
         if (smartContractBuilder_ == null) {
           if (smartContract_ != null) {
@@ -12333,7 +12171,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public Builder clearSmartContract() {
         if (smartContractBuilder_ == null) {
           smartContract_ = null;
@@ -12345,13 +12185,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.SmartContract.Builder getSmartContractBuilder() {
-
+        
         onChanged();
         return getSmartContractFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Common.SmartContractOrBuilder getSmartContractOrBuilder() {
         if (smartContractBuilder_ != null) {
           return smartContractBuilder_.getMessageOrBuilder();
@@ -12360,9 +12204,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Common.SmartContract.getDefaultInstance() : smartContract_;
         }
       }
-      
+      /**
+       * <code>.protocol.SmartContract smart_contract = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.SmartContract, org.vision.visionjsdk.proto.Common.SmartContract.Builder, org.vision.visionjsdk.proto.Common.SmartContractOrBuilder>
+          org.vision.visionjsdk.proto.Common.SmartContract, org.vision.visionjsdk.proto.Common.SmartContract.Builder, org.vision.visionjsdk.proto.Common.SmartContractOrBuilder> 
           getSmartContractFieldBuilder() {
         if (smartContractBuilder_ == null) {
           smartContractBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12393,7 +12239,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         runtimeCode_ = value;
         onChanged();
         return this;
@@ -12403,7 +12249,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearRuntimeCode() {
-
+        
         runtimeCode_ = getDefaultInstance().getRuntimeCode();
         onChanged();
         return this;
@@ -12478,7 +12324,7 @@ public final class Response {
 
     /**
      * <pre>
-     * the one send vs (TBD: or token) via function
+     * the one send trx (TBD: or token) via function
      * </pre>
      *
      * <code>bytes caller_address = 2;</code>
@@ -12488,7 +12334,7 @@ public final class Response {
 
     /**
      * <pre>
-     * the one recieve vs (TBD: or token) via function
+     * the one recieve trx (TBD: or token) via function
      * </pre>
      *
      * <code>bytes transferTo_address = 3;</code>
@@ -12496,17 +12342,27 @@ public final class Response {
      */
     com.google.protobuf.ByteString getTransferToAddress();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo>
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo> 
         getCallValueInfoList();
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo getCallValueInfo(int index);
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     int getCallValueInfoCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder>
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder> 
         getCallValueInfoOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder getCallValueInfoOrBuilder(
         int index);
 
@@ -12648,7 +12504,7 @@ public final class Response {
 
       /**
        * <pre>
-       * vs (TBD: or token) value
+       * trx (TBD: or token) value
        * </pre>
        *
        * <code>int64 callValue = 1;</code>
@@ -12658,7 +12514,7 @@ public final class Response {
 
       /**
        * <pre>
-       * TBD: tokenName, vs should be empty
+       * TBD: tokenName, trx should be empty
        * </pre>
        *
        * <code>string tokenId = 2;</code>
@@ -12667,7 +12523,7 @@ public final class Response {
       java.lang.String getTokenId();
       /**
        * <pre>
-       * TBD: tokenName, vs should be empty
+       * TBD: tokenName, trx should be empty
        * </pre>
        *
        * <code>string tokenId = 2;</code>
@@ -12769,7 +12625,7 @@ public final class Response {
       private long callValue_;
       /**
        * <pre>
-       * vs (TBD: or token) value
+       * trx (TBD: or token) value
        * </pre>
        *
        * <code>int64 callValue = 1;</code>
@@ -12784,7 +12640,7 @@ public final class Response {
       private volatile java.lang.Object tokenId_;
       /**
        * <pre>
-       * TBD: tokenName, vs should be empty
+       * TBD: tokenName, trx should be empty
        * </pre>
        *
        * <code>string tokenId = 2;</code>
@@ -12796,7 +12652,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           tokenId_ = s;
@@ -12805,7 +12661,7 @@ public final class Response {
       }
       /**
        * <pre>
-       * TBD: tokenName, vs should be empty
+       * TBD: tokenName, trx should be empty
        * </pre>
        *
        * <code>string tokenId = 2;</code>
@@ -12816,7 +12672,7 @@ public final class Response {
           getTokenIdBytes() {
         java.lang.Object ref = tokenId_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           tokenId_ = b;
@@ -12890,7 +12746,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + CALLVALUE_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -13149,7 +13005,7 @@ public final class Response {
         private long callValue_ ;
         /**
          * <pre>
-         * vs (TBD: or token) value
+         * trx (TBD: or token) value
          * </pre>
          *
          * <code>int64 callValue = 1;</code>
@@ -13161,7 +13017,7 @@ public final class Response {
         }
         /**
          * <pre>
-         * vs (TBD: or token) value
+         * trx (TBD: or token) value
          * </pre>
          *
          * <code>int64 callValue = 1;</code>
@@ -13169,21 +13025,21 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setCallValue(long value) {
-
+          
           callValue_ = value;
           onChanged();
           return this;
         }
         /**
          * <pre>
-         * vs (TBD: or token) value
+         * trx (TBD: or token) value
          * </pre>
          *
          * <code>int64 callValue = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearCallValue() {
-
+          
           callValue_ = 0L;
           onChanged();
           return this;
@@ -13192,7 +13048,7 @@ public final class Response {
         private java.lang.Object tokenId_ = "";
         /**
          * <pre>
-         * TBD: tokenName, vs should be empty
+         * TBD: tokenName, trx should be empty
          * </pre>
          *
          * <code>string tokenId = 2;</code>
@@ -13212,7 +13068,7 @@ public final class Response {
         }
         /**
          * <pre>
-         * TBD: tokenName, vs should be empty
+         * TBD: tokenName, trx should be empty
          * </pre>
          *
          * <code>string tokenId = 2;</code>
@@ -13222,7 +13078,7 @@ public final class Response {
             getTokenIdBytes() {
           java.lang.Object ref = tokenId_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             tokenId_ = b;
@@ -13233,7 +13089,7 @@ public final class Response {
         }
         /**
          * <pre>
-         * TBD: tokenName, vs should be empty
+         * TBD: tokenName, trx should be empty
          * </pre>
          *
          * <code>string tokenId = 2;</code>
@@ -13245,28 +13101,28 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           tokenId_ = value;
           onChanged();
           return this;
         }
         /**
          * <pre>
-         * TBD: tokenName, vs should be empty
+         * TBD: tokenName, trx should be empty
          * </pre>
          *
          * <code>string tokenId = 2;</code>
          * @return This builder for chaining.
          */
         public Builder clearTokenId() {
-
+          
           tokenId_ = getDefaultInstance().getTokenId();
           onChanged();
           return this;
         }
         /**
          * <pre>
-         * TBD: tokenName, vs should be empty
+         * TBD: tokenName, trx should be empty
          * </pre>
          *
          * <code>string tokenId = 2;</code>
@@ -13279,7 +13135,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           tokenId_ = value;
           onChanged();
           return this;
@@ -13357,7 +13213,7 @@ public final class Response {
     private com.google.protobuf.ByteString callerAddress_;
     /**
      * <pre>
-     * the one send vs (TBD: or token) via function
+     * the one send trx (TBD: or token) via function
      * </pre>
      *
      * <code>bytes caller_address = 2;</code>
@@ -13372,7 +13228,7 @@ public final class Response {
     private com.google.protobuf.ByteString transferToAddress_;
     /**
      * <pre>
-     * the one recieve vs (TBD: or token) via function
+     * the one recieve trx (TBD: or token) via function
      * </pre>
      *
      * <code>bytes transferTo_address = 3;</code>
@@ -13385,28 +13241,38 @@ public final class Response {
 
     public static final int CALLVALUEINFO_FIELD_NUMBER = 4;
     private java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo> callValueInfo_;
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo> getCallValueInfoList() {
       return callValueInfo_;
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder> 
         getCallValueInfoOrBuilderList() {
       return callValueInfo_;
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     @java.lang.Override
     public int getCallValueInfoCount() {
       return callValueInfo_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo getCallValueInfo(int index) {
       return callValueInfo_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder getCallValueInfoOrBuilder(
         int index) {
@@ -13536,7 +13402,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + HASH_FIELD_NUMBER;
       hash = (53 * hash) + getHash().hashCode();
@@ -13819,7 +13685,7 @@ public final class Response {
               callValueInfoBuilder_ = null;
               callValueInfo_ = other.callValueInfo_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              callValueInfoBuilder_ =
+              callValueInfoBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCallValueInfoFieldBuilder() : null;
             } else {
@@ -13891,7 +13757,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         hash_ = value;
         onChanged();
         return this;
@@ -13906,7 +13772,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearHash() {
-
+        
         hash_ = getDefaultInstance().getHash();
         onChanged();
         return this;
@@ -13915,7 +13781,7 @@ public final class Response {
       private com.google.protobuf.ByteString callerAddress_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       * the one send vs (TBD: or token) via function
+       * the one send trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes caller_address = 2;</code>
@@ -13927,7 +13793,7 @@ public final class Response {
       }
       /**
        * <pre>
-       * the one send vs (TBD: or token) via function
+       * the one send trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes caller_address = 2;</code>
@@ -13938,21 +13804,21 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         callerAddress_ = value;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       * the one send vs (TBD: or token) via function
+       * the one send trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes caller_address = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearCallerAddress() {
-
+        
         callerAddress_ = getDefaultInstance().getCallerAddress();
         onChanged();
         return this;
@@ -13961,7 +13827,7 @@ public final class Response {
       private com.google.protobuf.ByteString transferToAddress_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       * the one recieve vs (TBD: or token) via function
+       * the one recieve trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes transferTo_address = 3;</code>
@@ -13973,7 +13839,7 @@ public final class Response {
       }
       /**
        * <pre>
-       * the one recieve vs (TBD: or token) via function
+       * the one recieve trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes transferTo_address = 3;</code>
@@ -13984,21 +13850,21 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         transferToAddress_ = value;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       * the one recieve vs (TBD: or token) via function
+       * the one recieve trx (TBD: or token) via function
        * </pre>
        *
        * <code>bytes transferTo_address = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearTransferToAddress() {
-
+        
         transferToAddress_ = getDefaultInstance().getTransferToAddress();
         onChanged();
         return this;
@@ -14016,7 +13882,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder> callValueInfoBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo> getCallValueInfoList() {
         if (callValueInfoBuilder_ == null) {
           return java.util.Collections.unmodifiableList(callValueInfo_);
@@ -14024,7 +13892,9 @@ public final class Response {
           return callValueInfoBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public int getCallValueInfoCount() {
         if (callValueInfoBuilder_ == null) {
           return callValueInfo_.size();
@@ -14032,7 +13902,9 @@ public final class Response {
           return callValueInfoBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo getCallValueInfo(int index) {
         if (callValueInfoBuilder_ == null) {
           return callValueInfo_.get(index);
@@ -14040,7 +13912,9 @@ public final class Response {
           return callValueInfoBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder setCallValueInfo(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo value) {
         if (callValueInfoBuilder_ == null) {
@@ -14055,7 +13929,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder setCallValueInfo(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder builderForValue) {
         if (callValueInfoBuilder_ == null) {
@@ -14067,7 +13943,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder addCallValueInfo(org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo value) {
         if (callValueInfoBuilder_ == null) {
           if (value == null) {
@@ -14081,7 +13959,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder addCallValueInfo(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo value) {
         if (callValueInfoBuilder_ == null) {
@@ -14096,7 +13976,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder addCallValueInfo(
           org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder builderForValue) {
         if (callValueInfoBuilder_ == null) {
@@ -14108,7 +13990,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder addCallValueInfo(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder builderForValue) {
         if (callValueInfoBuilder_ == null) {
@@ -14120,7 +14004,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder addAllCallValueInfo(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo> values) {
         if (callValueInfoBuilder_ == null) {
@@ -14133,7 +14019,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder clearCallValueInfo() {
         if (callValueInfoBuilder_ == null) {
           callValueInfo_ = java.util.Collections.emptyList();
@@ -14144,7 +14032,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public Builder removeCallValueInfo(int index) {
         if (callValueInfoBuilder_ == null) {
           ensureCallValueInfoIsMutable();
@@ -14155,12 +14045,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder getCallValueInfoBuilder(
           int index) {
         return getCallValueInfoFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder getCallValueInfoOrBuilder(
           int index) {
         if (callValueInfoBuilder_ == null) {
@@ -14168,8 +14062,10 @@ public final class Response {
           return callValueInfoBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder>
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder> 
            getCallValueInfoOrBuilderList() {
         if (callValueInfoBuilder_ != null) {
           return callValueInfoBuilder_.getMessageOrBuilderList();
@@ -14177,24 +14073,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(callValueInfo_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder addCallValueInfoBuilder() {
         return getCallValueInfoFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder addCallValueInfoBuilder(
           int index) {
         return getCallValueInfoFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder>
+      /**
+       * <code>repeated .protocol.InternalTransaction.CallValueInfo callValueInfo = 4;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder> 
            getCallValueInfoBuilderList() {
         return getCallValueInfoFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder>
+          org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfo.Builder, org.vision.visionjsdk.proto.Response.InternalTransaction.CallValueInfoOrBuilder> 
           getCallValueInfoFieldBuilder() {
         if (callValueInfoBuilder_ == null) {
           callValueInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -14226,7 +14128,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         note_ = value;
         onChanged();
         return this;
@@ -14236,7 +14138,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNote() {
-
+        
         note_ = getDefaultInstance().getNote();
         onChanged();
         return this;
@@ -14257,7 +14159,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setRejected(boolean value) {
-
+        
         rejected_ = value;
         onChanged();
         return this;
@@ -14267,7 +14169,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearRejected() {
-
+        
         rejected_ = false;
         onChanged();
         return this;
@@ -14684,7 +14586,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ENTROPY_USAGE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -14999,7 +14901,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setEntropyUsage(long value) {
-
+        
         entropyUsage_ = value;
         onChanged();
         return this;
@@ -15009,7 +14911,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearEntropyUsage() {
-
+        
         entropyUsage_ = 0L;
         onChanged();
         return this;
@@ -15030,7 +14932,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setEntropyFee(long value) {
-
+        
         entropyFee_ = value;
         onChanged();
         return this;
@@ -15040,7 +14942,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearEntropyFee() {
-
+        
         entropyFee_ = 0L;
         onChanged();
         return this;
@@ -15061,7 +14963,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setOriginEntropyUsage(long value) {
-
+        
         originEntropyUsage_ = value;
         onChanged();
         return this;
@@ -15071,7 +14973,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearOriginEntropyUsage() {
-
+        
         originEntropyUsage_ = 0L;
         onChanged();
         return this;
@@ -15092,7 +14994,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setEntropyUsageTotal(long value) {
-
+        
         entropyUsageTotal_ = value;
         onChanged();
         return this;
@@ -15102,7 +15004,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearEntropyUsageTotal() {
-
+        
         entropyUsageTotal_ = 0L;
         onChanged();
         return this;
@@ -15123,7 +15025,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetUsage(long value) {
-
+        
         netUsage_ = value;
         onChanged();
         return this;
@@ -15133,7 +15035,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetUsage() {
-
+        
         netUsage_ = 0L;
         onChanged();
         return this;
@@ -15154,7 +15056,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetFee(long value) {
-
+        
         netFee_ = value;
         onChanged();
         return this;
@@ -15164,7 +15066,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetFee() {
-
+        
         netFee_ = 0L;
         onChanged();
         return this;
@@ -15184,7 +15086,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setResultValue(int value) {
-
+        
         result_ = value;
         onChanged();
         return this;
@@ -15208,7 +15110,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         result_ = value.getNumber();
         onChanged();
         return this;
@@ -15218,7 +15120,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearResult() {
-
+        
         result_ = 0;
         onChanged();
         return this;
@@ -15337,20 +15239,32 @@ public final class Response {
      * @return The receipt.
      */
     org.vision.visionjsdk.proto.Response.ResourceReceipt getReceipt();
-    
+    /**
+     * <code>.protocol.ResourceReceipt receipt = 7;</code>
+     */
     org.vision.visionjsdk.proto.Response.ResourceReceiptOrBuilder getReceiptOrBuilder();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log>
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log> 
         getLogList();
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     org.vision.visionjsdk.proto.Response.TransactionInfo.Log getLog(int index);
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     int getLogCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder>
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder> 
         getLogOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder getLogOrBuilder(
         int index);
 
@@ -15395,17 +15309,27 @@ public final class Response {
      */
     long getUnfreezeAmount();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction>
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction> 
         getInternalTransactionsList();
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     org.vision.visionjsdk.proto.Response.InternalTransaction getInternalTransactions(int index);
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     int getInternalTransactionsCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder>
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder> 
         getInternalTransactionsOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder getInternalTransactionsOrBuilder(
         int index);
 
@@ -15445,17 +15369,27 @@ public final class Response {
      */
     com.google.protobuf.ByteString getOrderId();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail>
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail> 
         getOrderDetailsList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrderDetail getOrderDetails(int index);
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     int getOrderDetailsCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder>
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder> 
         getOrderDetailsOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder getOrderDetailsOrBuilder(
         int index);
   }
@@ -16060,7 +15994,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
         hash = (53 * hash) + getAddress().hashCode();
@@ -16355,7 +16289,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           address_ = value;
           onChanged();
           return this;
@@ -16365,7 +16299,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearAddress() {
-
+          
           address_ = getDefaultInstance().getAddress();
           onChanged();
           return this;
@@ -16474,7 +16408,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           data_ = value;
           onChanged();
           return this;
@@ -16484,7 +16418,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearData() {
-
+          
           data_ = getDefaultInstance().getData();
           onChanged();
           return this;
@@ -16642,7 +16576,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Response.ResourceReceipt getReceipt() {
       return receipt_ == null ? org.vision.visionjsdk.proto.Response.ResourceReceipt.getDefaultInstance() : receipt_;
     }
-    
+    /**
+     * <code>.protocol.ResourceReceipt receipt = 7;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.ResourceReceiptOrBuilder getReceiptOrBuilder() {
       return getReceipt();
@@ -16650,28 +16586,38 @@ public final class Response {
 
     public static final int LOG_FIELD_NUMBER = 8;
     private java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log> log_;
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log> getLogList() {
       return log_;
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder> 
         getLogOrBuilderList() {
       return log_;
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     @java.lang.Override
     public int getLogCount() {
       return log_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionInfo.Log getLog(int index) {
       return log_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder getLogOrBuilder(
         int index) {
@@ -16720,7 +16666,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         assetIssueID_ = s;
@@ -16736,7 +16682,7 @@ public final class Response {
         getAssetIssueIDBytes() {
       java.lang.Object ref = assetIssueID_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         assetIssueID_ = b;
@@ -16770,28 +16716,38 @@ public final class Response {
 
     public static final int INTERNAL_TRANSACTIONS_FIELD_NUMBER = 17;
     private java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction> internalTransactions_;
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction> getInternalTransactionsList() {
       return internalTransactions_;
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder> 
         getInternalTransactionsOrBuilderList() {
       return internalTransactions_;
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     @java.lang.Override
     public int getInternalTransactionsCount() {
       return internalTransactions_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.InternalTransaction getInternalTransactions(int index) {
       return internalTransactions_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder getInternalTransactionsOrBuilder(
         int index) {
@@ -16866,28 +16822,38 @@ public final class Response {
 
     public static final int ORDERDETAILS_FIELD_NUMBER = 26;
     private java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail> orderDetails_;
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail> getOrderDetailsList() {
       return orderDetails_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder> 
         getOrderDetailsOrBuilderList() {
       return orderDetails_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     @java.lang.Override
     public int getOrderDetailsCount() {
       return orderDetails_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrderDetail getOrderDetails(int index) {
       return orderDetails_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder getOrderDetailsOrBuilder(
         int index) {
@@ -17136,7 +17102,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ID_FIELD_NUMBER;
       hash = (53 * hash) + getId().hashCode();
@@ -17568,7 +17534,7 @@ public final class Response {
               logBuilder_ = null;
               log_ = other.log_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              logBuilder_ =
+              logBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLogFieldBuilder() : null;
             } else {
@@ -17610,7 +17576,7 @@ public final class Response {
               internalTransactionsBuilder_ = null;
               internalTransactions_ = other.internalTransactions_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              internalTransactionsBuilder_ =
+              internalTransactionsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInternalTransactionsFieldBuilder() : null;
             } else {
@@ -17654,7 +17620,7 @@ public final class Response {
               orderDetailsBuilder_ = null;
               orderDetails_ = other.orderDetails_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              orderDetailsBuilder_ =
+              orderDetailsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOrderDetailsFieldBuilder() : null;
             } else {
@@ -17710,7 +17676,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         id_ = value;
         onChanged();
         return this;
@@ -17720,7 +17686,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-
+        
         id_ = getDefaultInstance().getId();
         onChanged();
         return this;
@@ -17741,7 +17707,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFee(long value) {
-
+        
         fee_ = value;
         onChanged();
         return this;
@@ -17751,7 +17717,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFee() {
-
+        
         fee_ = 0L;
         onChanged();
         return this;
@@ -17772,7 +17738,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBlockNumber(long value) {
-
+        
         blockNumber_ = value;
         onChanged();
         return this;
@@ -17782,7 +17748,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBlockNumber() {
-
+        
         blockNumber_ = 0L;
         onChanged();
         return this;
@@ -17803,7 +17769,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBlockTimeStamp(long value) {
-
+        
         blockTimeStamp_ = value;
         onChanged();
         return this;
@@ -17813,7 +17779,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBlockTimeStamp() {
-
+        
         blockTimeStamp_ = 0L;
         onChanged();
         return this;
@@ -17922,7 +17888,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         contractAddress_ = value;
         onChanged();
         return this;
@@ -17932,7 +17898,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearContractAddress() {
-
+        
         contractAddress_ = getDefaultInstance().getContractAddress();
         onChanged();
         return this;
@@ -17959,7 +17925,9 @@ public final class Response {
           return receiptBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public Builder setReceipt(org.vision.visionjsdk.proto.Response.ResourceReceipt value) {
         if (receiptBuilder_ == null) {
           if (value == null) {
@@ -17973,7 +17941,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public Builder setReceipt(
           org.vision.visionjsdk.proto.Response.ResourceReceipt.Builder builderForValue) {
         if (receiptBuilder_ == null) {
@@ -17985,7 +17955,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public Builder mergeReceipt(org.vision.visionjsdk.proto.Response.ResourceReceipt value) {
         if (receiptBuilder_ == null) {
           if (receipt_ != null) {
@@ -18001,7 +17973,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public Builder clearReceipt() {
         if (receiptBuilder_ == null) {
           receipt_ = null;
@@ -18013,13 +17987,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ResourceReceipt.Builder getReceiptBuilder() {
-
+        
         onChanged();
         return getReceiptFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ResourceReceiptOrBuilder getReceiptOrBuilder() {
         if (receiptBuilder_ != null) {
           return receiptBuilder_.getMessageOrBuilder();
@@ -18028,9 +18006,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Response.ResourceReceipt.getDefaultInstance() : receipt_;
         }
       }
-      
+      /**
+       * <code>.protocol.ResourceReceipt receipt = 7;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.ResourceReceipt, org.vision.visionjsdk.proto.Response.ResourceReceipt.Builder, org.vision.visionjsdk.proto.Response.ResourceReceiptOrBuilder>
+          org.vision.visionjsdk.proto.Response.ResourceReceipt, org.vision.visionjsdk.proto.Response.ResourceReceipt.Builder, org.vision.visionjsdk.proto.Response.ResourceReceiptOrBuilder> 
           getReceiptFieldBuilder() {
         if (receiptBuilder_ == null) {
           receiptBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -18055,7 +18035,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.TransactionInfo.Log, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder, org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder> logBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log> getLogList() {
         if (logBuilder_ == null) {
           return java.util.Collections.unmodifiableList(log_);
@@ -18063,7 +18045,9 @@ public final class Response {
           return logBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public int getLogCount() {
         if (logBuilder_ == null) {
           return log_.size();
@@ -18071,7 +18055,9 @@ public final class Response {
           return logBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Log getLog(int index) {
         if (logBuilder_ == null) {
           return log_.get(index);
@@ -18079,7 +18065,9 @@ public final class Response {
           return logBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder setLog(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Log value) {
         if (logBuilder_ == null) {
@@ -18094,7 +18082,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder setLog(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder builderForValue) {
         if (logBuilder_ == null) {
@@ -18106,7 +18096,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder addLog(org.vision.visionjsdk.proto.Response.TransactionInfo.Log value) {
         if (logBuilder_ == null) {
           if (value == null) {
@@ -18120,7 +18112,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder addLog(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Log value) {
         if (logBuilder_ == null) {
@@ -18135,7 +18129,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder addLog(
           org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder builderForValue) {
         if (logBuilder_ == null) {
@@ -18147,7 +18143,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder addLog(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder builderForValue) {
         if (logBuilder_ == null) {
@@ -18159,7 +18157,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder addAllLog(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.Log> values) {
         if (logBuilder_ == null) {
@@ -18172,7 +18172,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder clearLog() {
         if (logBuilder_ == null) {
           log_ = java.util.Collections.emptyList();
@@ -18183,7 +18185,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public Builder removeLog(int index) {
         if (logBuilder_ == null) {
           ensureLogIsMutable();
@@ -18194,12 +18198,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder getLogBuilder(
           int index) {
         return getLogFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder getLogOrBuilder(
           int index) {
         if (logBuilder_ == null) {
@@ -18207,8 +18215,10 @@ public final class Response {
           return logBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder>
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder> 
            getLogOrBuilderList() {
         if (logBuilder_ != null) {
           return logBuilder_.getMessageOrBuilderList();
@@ -18216,24 +18226,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(log_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder addLogBuilder() {
         return getLogFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.TransactionInfo.Log.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder addLogBuilder(
           int index) {
         return getLogFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder>
+      /**
+       * <code>repeated .protocol.TransactionInfo.Log log = 8;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder> 
            getLogBuilderList() {
         return getLogFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionInfo.Log, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder, org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionInfo.Log, org.vision.visionjsdk.proto.Response.TransactionInfo.Log.Builder, org.vision.visionjsdk.proto.Response.TransactionInfo.LogOrBuilder> 
           getLogFieldBuilder() {
         if (logBuilder_ == null) {
           logBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -18261,7 +18277,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setResultValue(int value) {
-
+        
         result_ = value;
         onChanged();
         return this;
@@ -18285,7 +18301,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         result_ = value.getNumber();
         onChanged();
         return this;
@@ -18295,7 +18311,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearResult() {
-
+        
         result_ = 0;
         onChanged();
         return this;
@@ -18319,7 +18335,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         resMessage_ = value;
         onChanged();
         return this;
@@ -18329,7 +18345,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearResMessage() {
-
+        
         resMessage_ = getDefaultInstance().getResMessage();
         onChanged();
         return this;
@@ -18360,7 +18376,7 @@ public final class Response {
           getAssetIssueIDBytes() {
         java.lang.Object ref = assetIssueID_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           assetIssueID_ = b;
@@ -18379,7 +18395,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         assetIssueID_ = value;
         onChanged();
         return this;
@@ -18389,7 +18405,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAssetIssueID() {
-
+        
         assetIssueID_ = getDefaultInstance().getAssetIssueID();
         onChanged();
         return this;
@@ -18405,7 +18421,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         assetIssueID_ = value;
         onChanged();
         return this;
@@ -18426,7 +18442,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setWithdrawAmount(long value) {
-
+        
         withdrawAmount_ = value;
         onChanged();
         return this;
@@ -18436,7 +18452,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearWithdrawAmount() {
-
+        
         withdrawAmount_ = 0L;
         onChanged();
         return this;
@@ -18457,7 +18473,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setUnfreezeAmount(long value) {
-
+        
         unfreezeAmount_ = value;
         onChanged();
         return this;
@@ -18467,7 +18483,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearUnfreezeAmount() {
-
+        
         unfreezeAmount_ = 0L;
         onChanged();
         return this;
@@ -18485,7 +18501,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.InternalTransaction, org.vision.visionjsdk.proto.Response.InternalTransaction.Builder, org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder> internalTransactionsBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction> getInternalTransactionsList() {
         if (internalTransactionsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(internalTransactions_);
@@ -18493,7 +18511,9 @@ public final class Response {
           return internalTransactionsBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public int getInternalTransactionsCount() {
         if (internalTransactionsBuilder_ == null) {
           return internalTransactions_.size();
@@ -18501,7 +18521,9 @@ public final class Response {
           return internalTransactionsBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction getInternalTransactions(int index) {
         if (internalTransactionsBuilder_ == null) {
           return internalTransactions_.get(index);
@@ -18509,7 +18531,9 @@ public final class Response {
           return internalTransactionsBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder setInternalTransactions(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction value) {
         if (internalTransactionsBuilder_ == null) {
@@ -18524,7 +18548,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder setInternalTransactions(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.Builder builderForValue) {
         if (internalTransactionsBuilder_ == null) {
@@ -18536,7 +18562,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder addInternalTransactions(org.vision.visionjsdk.proto.Response.InternalTransaction value) {
         if (internalTransactionsBuilder_ == null) {
           if (value == null) {
@@ -18550,7 +18578,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder addInternalTransactions(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction value) {
         if (internalTransactionsBuilder_ == null) {
@@ -18565,7 +18595,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder addInternalTransactions(
           org.vision.visionjsdk.proto.Response.InternalTransaction.Builder builderForValue) {
         if (internalTransactionsBuilder_ == null) {
@@ -18577,7 +18609,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder addInternalTransactions(
           int index, org.vision.visionjsdk.proto.Response.InternalTransaction.Builder builderForValue) {
         if (internalTransactionsBuilder_ == null) {
@@ -18589,7 +18623,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder addAllInternalTransactions(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.InternalTransaction> values) {
         if (internalTransactionsBuilder_ == null) {
@@ -18602,7 +18638,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder clearInternalTransactions() {
         if (internalTransactionsBuilder_ == null) {
           internalTransactions_ = java.util.Collections.emptyList();
@@ -18613,7 +18651,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public Builder removeInternalTransactions(int index) {
         if (internalTransactionsBuilder_ == null) {
           ensureInternalTransactionsIsMutable();
@@ -18624,12 +18664,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.Builder getInternalTransactionsBuilder(
           int index) {
         return getInternalTransactionsFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder getInternalTransactionsOrBuilder(
           int index) {
         if (internalTransactionsBuilder_ == null) {
@@ -18637,8 +18681,10 @@ public final class Response {
           return internalTransactionsBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder>
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder> 
            getInternalTransactionsOrBuilderList() {
         if (internalTransactionsBuilder_ != null) {
           return internalTransactionsBuilder_.getMessageOrBuilderList();
@@ -18646,24 +18692,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(internalTransactions_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.Builder addInternalTransactionsBuilder() {
         return getInternalTransactionsFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.InternalTransaction.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
       public org.vision.visionjsdk.proto.Response.InternalTransaction.Builder addInternalTransactionsBuilder(
           int index) {
         return getInternalTransactionsFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.InternalTransaction.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.Builder>
+      /**
+       * <code>repeated .protocol.InternalTransaction internal_transactions = 17;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.InternalTransaction.Builder> 
            getInternalTransactionsBuilderList() {
         return getInternalTransactionsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.InternalTransaction, org.vision.visionjsdk.proto.Response.InternalTransaction.Builder, org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder>
+          org.vision.visionjsdk.proto.Response.InternalTransaction, org.vision.visionjsdk.proto.Response.InternalTransaction.Builder, org.vision.visionjsdk.proto.Response.InternalTransactionOrBuilder> 
           getInternalTransactionsFieldBuilder() {
         if (internalTransactionsBuilder_ == null) {
           internalTransactionsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -18692,7 +18744,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExchangeReceivedAmount(long value) {
-
+        
         exchangeReceivedAmount_ = value;
         onChanged();
         return this;
@@ -18702,7 +18754,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExchangeReceivedAmount() {
-
+        
         exchangeReceivedAmount_ = 0L;
         onChanged();
         return this;
@@ -18723,7 +18775,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExchangeInjectAnotherAmount(long value) {
-
+        
         exchangeInjectAnotherAmount_ = value;
         onChanged();
         return this;
@@ -18733,7 +18785,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExchangeInjectAnotherAmount() {
-
+        
         exchangeInjectAnotherAmount_ = 0L;
         onChanged();
         return this;
@@ -18754,7 +18806,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExchangeWithdrawAnotherAmount(long value) {
-
+        
         exchangeWithdrawAnotherAmount_ = value;
         onChanged();
         return this;
@@ -18764,7 +18816,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExchangeWithdrawAnotherAmount() {
-
+        
         exchangeWithdrawAnotherAmount_ = 0L;
         onChanged();
         return this;
@@ -18785,7 +18837,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExchangeId(long value) {
-
+        
         exchangeId_ = value;
         onChanged();
         return this;
@@ -18795,7 +18847,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExchangeId() {
-
+        
         exchangeId_ = 0L;
         onChanged();
         return this;
@@ -18816,7 +18868,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setShieldedTransactionFee(long value) {
-
+        
         shieldedTransactionFee_ = value;
         onChanged();
         return this;
@@ -18826,7 +18878,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearShieldedTransactionFee() {
-
+        
         shieldedTransactionFee_ = 0L;
         onChanged();
         return this;
@@ -18850,7 +18902,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         orderId_ = value;
         onChanged();
         return this;
@@ -18860,7 +18912,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearOrderId() {
-
+        
         orderId_ = getDefaultInstance().getOrderId();
         onChanged();
         return this;
@@ -18878,7 +18930,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.MarketOrderDetail, org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder, org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder> orderDetailsBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail> getOrderDetailsList() {
         if (orderDetailsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(orderDetails_);
@@ -18886,7 +18940,9 @@ public final class Response {
           return orderDetailsBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public int getOrderDetailsCount() {
         if (orderDetailsBuilder_ == null) {
           return orderDetails_.size();
@@ -18894,7 +18950,9 @@ public final class Response {
           return orderDetailsBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderDetail getOrderDetails(int index) {
         if (orderDetailsBuilder_ == null) {
           return orderDetails_.get(index);
@@ -18902,7 +18960,9 @@ public final class Response {
           return orderDetailsBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder setOrderDetails(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderDetail value) {
         if (orderDetailsBuilder_ == null) {
@@ -18917,7 +18977,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder setOrderDetails(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder builderForValue) {
         if (orderDetailsBuilder_ == null) {
@@ -18929,7 +18991,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder addOrderDetails(org.vision.visionjsdk.proto.Response.MarketOrderDetail value) {
         if (orderDetailsBuilder_ == null) {
           if (value == null) {
@@ -18943,7 +19007,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder addOrderDetails(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderDetail value) {
         if (orderDetailsBuilder_ == null) {
@@ -18958,7 +19024,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder addOrderDetails(
           org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder builderForValue) {
         if (orderDetailsBuilder_ == null) {
@@ -18970,7 +19038,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder addOrderDetails(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder builderForValue) {
         if (orderDetailsBuilder_ == null) {
@@ -18982,7 +19052,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder addAllOrderDetails(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetail> values) {
         if (orderDetailsBuilder_ == null) {
@@ -18995,7 +19067,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder clearOrderDetails() {
         if (orderDetailsBuilder_ == null) {
           orderDetails_ = java.util.Collections.emptyList();
@@ -19006,7 +19080,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public Builder removeOrderDetails(int index) {
         if (orderDetailsBuilder_ == null) {
           ensureOrderDetailsIsMutable();
@@ -19017,12 +19093,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder getOrderDetailsBuilder(
           int index) {
         return getOrderDetailsFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder getOrderDetailsOrBuilder(
           int index) {
         if (orderDetailsBuilder_ == null) {
@@ -19030,8 +19110,10 @@ public final class Response {
           return orderDetailsBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder>
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder> 
            getOrderDetailsOrBuilderList() {
         if (orderDetailsBuilder_ != null) {
           return orderDetailsBuilder_.getMessageOrBuilderList();
@@ -19039,24 +19121,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(orderDetails_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder addOrderDetailsBuilder() {
         return getOrderDetailsFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.MarketOrderDetail.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder addOrderDetailsBuilder(
           int index) {
         return getOrderDetailsFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.MarketOrderDetail.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder>
+      /**
+       * <code>repeated .protocol.MarketOrderDetail orderDetails = 26;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder> 
            getOrderDetailsBuilderList() {
         return getOrderDetailsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.MarketOrderDetail, org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder, org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder>
+          org.vision.visionjsdk.proto.Response.MarketOrderDetail, org.vision.visionjsdk.proto.Response.MarketOrderDetail.Builder, org.vision.visionjsdk.proto.Response.MarketOrderDetailOrBuilder> 
           getOrderDetailsFieldBuilder() {
         if (orderDetailsBuilder_ == null) {
           orderDetailsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -19361,7 +19449,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         url_ = s;
@@ -19377,7 +19465,7 @@ public final class Response {
         getUrlBytes() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         url_ = b;
@@ -19569,7 +19657,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getAddress().hashCode();
@@ -19908,7 +19996,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         address_ = value;
         onChanged();
         return this;
@@ -19918,7 +20006,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAddress() {
-
+        
         address_ = getDefaultInstance().getAddress();
         onChanged();
         return this;
@@ -19939,7 +20027,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setVoteCount(long value) {
-
+        
         voteCount_ = value;
         onChanged();
         return this;
@@ -19949,7 +20037,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearVoteCount() {
-
+        
         voteCount_ = 0L;
         onChanged();
         return this;
@@ -19973,7 +20061,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         pubKey_ = value;
         onChanged();
         return this;
@@ -19983,7 +20071,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearPubKey() {
-
+        
         pubKey_ = getDefaultInstance().getPubKey();
         onChanged();
         return this;
@@ -20014,7 +20102,7 @@ public final class Response {
           getUrlBytes() {
         java.lang.Object ref = url_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           url_ = b;
@@ -20033,7 +20121,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         url_ = value;
         onChanged();
         return this;
@@ -20043,7 +20131,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearUrl() {
-
+        
         url_ = getDefaultInstance().getUrl();
         onChanged();
         return this;
@@ -20059,7 +20147,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         url_ = value;
         onChanged();
         return this;
@@ -20080,7 +20168,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalProduced(long value) {
-
+        
         totalProduced_ = value;
         onChanged();
         return this;
@@ -20090,7 +20178,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalProduced() {
-
+        
         totalProduced_ = 0L;
         onChanged();
         return this;
@@ -20111,7 +20199,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalMissed(long value) {
-
+        
         totalMissed_ = value;
         onChanged();
         return this;
@@ -20121,7 +20209,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalMissed() {
-
+        
         totalMissed_ = 0L;
         onChanged();
         return this;
@@ -20142,7 +20230,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestBlockNum(long value) {
-
+        
         latestBlockNum_ = value;
         onChanged();
         return this;
@@ -20152,7 +20240,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestBlockNum() {
-
+        
         latestBlockNum_ = 0L;
         onChanged();
         return this;
@@ -20173,7 +20261,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestSlotNum(long value) {
-
+        
         latestSlotNum_ = value;
         onChanged();
         return this;
@@ -20183,7 +20271,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestSlotNum() {
-
+        
         latestSlotNum_ = 0L;
         onChanged();
         return this;
@@ -20204,7 +20292,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setIsJobs(boolean value) {
-
+        
         isJobs_ = value;
         onChanged();
         return this;
@@ -20214,7 +20302,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearIsJobs() {
-
+        
         isJobs_ = false;
         onChanged();
         return this;
@@ -20309,7 +20397,7 @@ public final class Response {
 
     /**
      * <pre>
-     * the vs balance
+     * the trx balance
      * </pre>
      *
      * <code>int64 balance = 4;</code>
@@ -20323,9 +20411,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Vote votes = 5;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Common.Vote>
+    java.util.List<org.vision.visionjsdk.proto.Common.Vote> 
         getVotesList();
     /**
      * <pre>
@@ -20333,8 +20420,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Vote votes = 5;</code>
-     * @param index index
-     * @return Vote
      */
     org.vision.visionjsdk.proto.Common.Vote getVotes(int index);
     /**
@@ -20343,7 +20428,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Vote votes = 5;</code>
-     * @return int
      */
     int getVotesCount();
     /**
@@ -20352,9 +20436,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Vote votes = 5;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder> 
         getVotesOrBuilderList();
     /**
      * <pre>
@@ -20362,8 +20445,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Vote votes = 5;</code>
-     * @param index index
-     * @return VoteOrBuilder
      */
     org.vision.visionjsdk.proto.Common.VoteOrBuilder getVotesOrBuilder(
         int index);
@@ -20374,7 +20455,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; asset = 6;</code>
-     * @return int
      */
     int getAssetCount();
     /**
@@ -20383,14 +20463,11 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; asset = 6;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsAsset(
         java.lang.String key);
     /**
      * Use {@link #getAssetMap()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
@@ -20401,7 +20478,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; asset = 6;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getAssetMap();
@@ -20411,9 +20487,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; asset = 6;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getAssetOrDefault(
@@ -20425,8 +20498,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; asset = 6;</code>
-     * @param key key
-     * @return long
      */
 
     long getAssetOrThrow(
@@ -20438,7 +20509,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-     * @return int
      */
     int getAssetV2Count();
     /**
@@ -20447,14 +20517,11 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsAssetV2(
         java.lang.String key);
     /**
      * Use {@link #getAssetV2Map()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
@@ -20465,7 +20532,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getAssetV2Map();
@@ -20475,9 +20541,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getAssetV2OrDefault(
@@ -20489,8 +20552,6 @@ public final class Response {
      * </pre>
      *
      * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-     * @param key key
-     * @return long
      */
 
     long getAssetV2OrThrow(
@@ -20502,9 +20563,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen>
+    java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> 
         getFrozenList();
     /**
      * <pre>
@@ -20512,8 +20572,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-     * @param index index
-     * @return Frozen
      */
     org.vision.visionjsdk.proto.Response.Account.Frozen getFrozen(int index);
     /**
@@ -20522,7 +20580,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-     * @return int
      */
     int getFrozenCount();
     /**
@@ -20531,9 +20588,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
         getFrozenOrBuilderList();
     /**
      * <pre>
@@ -20541,8 +20597,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-     * @param index index
-     * @return FrozenOrBuilder
      */
     org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenOrBuilder(
         int index);
@@ -20646,9 +20700,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen>
+    java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> 
         getFrozenSupplyList();
     /**
      * <pre>
@@ -20656,8 +20709,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-     * @param index index
-     * @return Frozen
      */
     org.vision.visionjsdk.proto.Response.Account.Frozen getFrozenSupply(int index);
     /**
@@ -20666,7 +20717,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-     * @return int
      */
     int getFrozenSupplyCount();
     /**
@@ -20675,9 +20725,8 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
         getFrozenSupplyOrBuilderList();
     /**
      * <pre>
@@ -20685,8 +20734,6 @@ public final class Response {
      * </pre>
      *
      * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-     * @param index index
-     * @return FrozenOrBuilder
      */
     org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenSupplyOrBuilder(
         int index);
@@ -20709,34 +20756,26 @@ public final class Response {
 
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-     * @return int
      */
     int getLatestAssetOperationTimeCount();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsLatestAssetOperationTime(
         java.lang.String key);
     /**
      * Use {@link #getLatestAssetOperationTimeMap()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
     getLatestAssetOperationTime();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getLatestAssetOperationTimeMap();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getLatestAssetOperationTimeOrDefault(
@@ -20744,8 +20783,6 @@ public final class Response {
         long defaultValue);
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-     * @param key key
-     * @return long
      */
 
     long getLatestAssetOperationTimeOrThrow(
@@ -20753,34 +20790,26 @@ public final class Response {
 
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-     * @return int
      */
     int getLatestAssetOperationTimeV2Count();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsLatestAssetOperationTimeV2(
         java.lang.String key);
     /**
      * Use {@link #getLatestAssetOperationTimeV2Map()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
     getLatestAssetOperationTimeV2();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getLatestAssetOperationTimeV2Map();
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getLatestAssetOperationTimeV2OrDefault(
@@ -20788,8 +20817,6 @@ public final class Response {
         long defaultValue);
     /**
      * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-     * @param key key
-     * @return long
      */
 
     long getLatestAssetOperationTimeV2OrThrow(
@@ -20803,34 +20830,26 @@ public final class Response {
 
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
-     * @return int
      */
     int getFreeAssetNetUsageCount();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsFreeAssetNetUsage(
         java.lang.String key);
     /**
      * Use {@link #getFreeAssetNetUsageMap()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
     getFreeAssetNetUsage();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getFreeAssetNetUsageMap();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getFreeAssetNetUsageOrDefault(
@@ -20838,8 +20857,6 @@ public final class Response {
         long defaultValue);
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
-     * @param key key
-     * @return long
      */
 
     long getFreeAssetNetUsageOrThrow(
@@ -20847,34 +20864,26 @@ public final class Response {
 
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
-     * @return int
      */
     int getFreeAssetNetUsageV2Count();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsFreeAssetNetUsageV2(
         java.lang.String key);
     /**
      * Use {@link #getFreeAssetNetUsageV2Map()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.Long>
     getFreeAssetNetUsageV2();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
-     * @return map
      */
     java.util.Map<java.lang.String, java.lang.Long>
     getFreeAssetNetUsageV2Map();
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getFreeAssetNetUsageV2OrDefault(
@@ -20882,8 +20891,6 @@ public final class Response {
         long defaultValue);
     /**
      * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
-     * @param key key
-     * @return long
      */
 
     long getFreeAssetNetUsageV2OrThrow(
@@ -20923,7 +20930,6 @@ public final class Response {
     org.vision.visionjsdk.proto.Response.Account.AccountResource getAccountResource();
     /**
      * <code>.protocol.Account.AccountResource account_resource = 26;</code>
-     * @return AccountResourceOrBuilder
      */
     org.vision.visionjsdk.proto.Response.Account.AccountResourceOrBuilder getAccountResourceOrBuilder();
 
@@ -20945,7 +20951,6 @@ public final class Response {
     org.vision.visionjsdk.proto.Common.Permission getOwnerPermission();
     /**
      * <code>.protocol.Permission owner_permission = 31;</code>
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getOwnerPermissionOrBuilder();
 
@@ -20961,44 +20966,36 @@ public final class Response {
     org.vision.visionjsdk.proto.Common.Permission getWitnessPermission();
     /**
      * <code>.protocol.Permission witness_permission = 32;</code>
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getWitnessPermissionOrBuilder();
 
     /**
      * <code>repeated .protocol.Permission active_permission = 33;</code>
-     * @return list
      */
-    java.util.List<org.vision.visionjsdk.proto.Common.Permission>
+    java.util.List<org.vision.visionjsdk.proto.Common.Permission> 
         getActivePermissionList();
     /**
      * <code>repeated .protocol.Permission active_permission = 33;</code>
-     * @param index index
-     * @return Permission
      */
     org.vision.visionjsdk.proto.Common.Permission getActivePermission(int index);
     /**
      * <code>repeated .protocol.Permission active_permission = 33;</code>
-     * @return int
      */
     int getActivePermissionCount();
     /**
      * <code>repeated .protocol.Permission active_permission = 33;</code>
-     * @return list
      */
-    java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+    java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
         getActivePermissionOrBuilderList();
     /**
      * <code>repeated .protocol.Permission active_permission = 33;</code>
-     * @param index index
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getActivePermissionOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * Account
+   * Account 
    * </pre>
    *
    * Protobuf type {@code protocol.Account}
@@ -21389,7 +21386,7 @@ public final class Response {
 
       /**
        * <pre>
-       * the frozen vs balance
+       * the frozen trx balance
        * </pre>
        *
        * <code>int64 frozen_balance = 1;</code>
@@ -21409,7 +21406,7 @@ public final class Response {
     }
     /**
      * <pre>
-     * frozen balance
+     * frozen balance 
      * </pre>
      *
      * Protobuf type {@code protocol.Account.Frozen}
@@ -21502,7 +21499,7 @@ public final class Response {
       private long frozenBalance_;
       /**
        * <pre>
-       * the frozen vs balance
+       * the frozen trx balance
        * </pre>
        *
        * <code>int64 frozen_balance = 1;</code>
@@ -21593,7 +21590,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FROZEN_BALANCE_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -21698,7 +21695,7 @@ public final class Response {
       }
       /**
        * <pre>
-       * frozen balance
+       * frozen balance 
        * </pre>
        *
        * Protobuf type {@code protocol.Account.Frozen}
@@ -21856,7 +21853,7 @@ public final class Response {
         private long frozenBalance_ ;
         /**
          * <pre>
-         * the frozen vs balance
+         * the frozen trx balance
          * </pre>
          *
          * <code>int64 frozen_balance = 1;</code>
@@ -21868,7 +21865,7 @@ public final class Response {
         }
         /**
          * <pre>
-         * the frozen vs balance
+         * the frozen trx balance
          * </pre>
          *
          * <code>int64 frozen_balance = 1;</code>
@@ -21876,21 +21873,21 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setFrozenBalance(long value) {
-
+          
           frozenBalance_ = value;
           onChanged();
           return this;
         }
         /**
          * <pre>
-         * the frozen vs balance
+         * the frozen trx balance
          * </pre>
          *
          * <code>int64 frozen_balance = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearFrozenBalance() {
-
+          
           frozenBalance_ = 0L;
           onChanged();
           return this;
@@ -21919,7 +21916,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setExpireTime(long value) {
-
+          
           expireTime_ = value;
           onChanged();
           return this;
@@ -21933,7 +21930,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearExpireTime() {
-
+          
           expireTime_ = 0L;
           onChanged();
           return this;
@@ -22029,7 +22026,6 @@ public final class Response {
        * </pre>
        *
        * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-       * @return FrozenOrBuilder
        */
       org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenBalanceForEntropyOrBuilder();
 
@@ -22459,7 +22455,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + ENTROPY_USAGE_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -22801,7 +22797,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setEntropyUsage(long value) {
-
+          
           entropyUsage_ = value;
           onChanged();
           return this;
@@ -22815,7 +22811,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearEntropyUsage() {
-
+          
           entropyUsage_ = 0L;
           onChanged();
           return this;
@@ -22856,8 +22852,6 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder setFrozenBalanceForEntropy(org.vision.visionjsdk.proto.Response.Account.Frozen value) {
           if (frozenBalanceForEntropyBuilder_ == null) {
@@ -22878,8 +22872,6 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @param builderForValue builderForValue
-         * @return Builder
          */
         public Builder setFrozenBalanceForEntropy(
             org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -22898,8 +22890,6 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @param value value
-         * @return Builder
          */
         public Builder mergeFrozenBalanceForEntropy(org.vision.visionjsdk.proto.Response.Account.Frozen value) {
           if (frozenBalanceForEntropyBuilder_ == null) {
@@ -22922,7 +22912,6 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @return Builder
          */
         public Builder clearFrozenBalanceForEntropy() {
           if (frozenBalanceForEntropyBuilder_ == null) {
@@ -22941,10 +22930,9 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @return Builder
          */
         public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder getFrozenBalanceForEntropyBuilder() {
-
+          
           onChanged();
           return getFrozenBalanceForEntropyFieldBuilder().getBuilder();
         }
@@ -22954,7 +22942,6 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @return FrozenOrBuilder
          */
         public org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenBalanceForEntropyOrBuilder() {
           if (frozenBalanceForEntropyBuilder_ != null) {
@@ -22970,10 +22957,9 @@ public final class Response {
          * </pre>
          *
          * <code>.protocol.Account.Frozen frozen_balance_for_entropy = 2;</code>
-         * @return SingleFieldBuilderV3
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+            org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
             getFrozenBalanceForEntropyFieldBuilder() {
           if (frozenBalanceForEntropyBuilder_ == null) {
             frozenBalanceForEntropyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -23001,7 +22987,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setLatestConsumeTimeForEntropy(long value) {
-
+          
           latestConsumeTimeForEntropy_ = value;
           onChanged();
           return this;
@@ -23011,7 +22997,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearLatestConsumeTimeForEntropy() {
-
+          
           latestConsumeTimeForEntropy_ = 0L;
           onChanged();
           return this;
@@ -23040,7 +23026,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setAcquiredDelegatedFrozenBalanceForEntropy(long value) {
-
+          
           acquiredDelegatedFrozenBalanceForEntropy_ = value;
           onChanged();
           return this;
@@ -23054,7 +23040,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearAcquiredDelegatedFrozenBalanceForEntropy() {
-
+          
           acquiredDelegatedFrozenBalanceForEntropy_ = 0L;
           onChanged();
           return this;
@@ -23083,7 +23069,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setDelegatedFrozenBalanceForEntropy(long value) {
-
+          
           delegatedFrozenBalanceForEntropy_ = value;
           onChanged();
           return this;
@@ -23097,7 +23083,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearDelegatedFrozenBalanceForEntropy() {
-
+          
           delegatedFrozenBalanceForEntropy_ = 0L;
           onChanged();
           return this;
@@ -23126,7 +23112,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setStorageLimit(long value) {
-
+          
           storageLimit_ = value;
           onChanged();
           return this;
@@ -23140,7 +23126,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearStorageLimit() {
-
+          
           storageLimit_ = 0L;
           onChanged();
           return this;
@@ -23161,7 +23147,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setStorageUsage(long value) {
-
+          
           storageUsage_ = value;
           onChanged();
           return this;
@@ -23171,7 +23157,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearStorageUsage() {
-
+          
           storageUsage_ = 0L;
           onChanged();
           return this;
@@ -23192,7 +23178,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setLatestExchangeStorageTime(long value) {
-
+          
           latestExchangeStorageTime_ = value;
           onChanged();
           return this;
@@ -23202,7 +23188,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearLatestExchangeStorageTime() {
-
+          
           latestExchangeStorageTime_ = 0L;
           onChanged();
           return this;
@@ -23313,7 +23299,7 @@ public final class Response {
     private long balance_;
     /**
      * <pre>
-     * the vs balance
+     * the trx balance
      * </pre>
      *
      * <code>int64 balance = 4;</code>
@@ -23326,28 +23312,58 @@ public final class Response {
 
     public static final int VOTES_FIELD_NUMBER = 5;
     private java.util.List<org.vision.visionjsdk.proto.Common.Vote> votes_;
-    
+    /**
+     * <pre>
+     * the votes
+     * </pre>
+     *
+     * <code>repeated .protocol.Vote votes = 5;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Common.Vote> getVotesList() {
       return votes_;
     }
-    
+    /**
+     * <pre>
+     * the votes
+     * </pre>
+     *
+     * <code>repeated .protocol.Vote votes = 5;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder> 
         getVotesOrBuilderList() {
       return votes_;
     }
-    
+    /**
+     * <pre>
+     * the votes
+     * </pre>
+     *
+     * <code>repeated .protocol.Vote votes = 5;</code>
+     */
     @java.lang.Override
     public int getVotesCount() {
       return votes_.size();
     }
-    
+    /**
+     * <pre>
+     * the votes
+     * </pre>
+     *
+     * <code>repeated .protocol.Vote votes = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.Vote getVotes(int index) {
       return votes_.get(index);
     }
-    
+    /**
+     * <pre>
+     * the votes
+     * </pre>
+     *
+     * <code>repeated .protocol.Vote votes = 5;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.VoteOrBuilder getVotesOrBuilder(
         int index) {
@@ -23360,7 +23376,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_AssetEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_AssetEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23380,7 +23396,13 @@ public final class Response {
     public int getAssetCount() {
       return internalGetAsset().getMap().size();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; asset = 6;</code>
+     */
 
     @java.lang.Override
     public boolean containsAsset(
@@ -23388,19 +23410,33 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetAsset().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getAssetMap()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getAsset() {
       return getAssetMap();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; asset = 6;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getAssetMap() {
       return internalGetAsset().getMap();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; asset = 6;</code>
+     */
     @java.lang.Override
 
     public long getAssetOrDefault(
@@ -23411,7 +23447,13 @@ public final class Response {
           internalGetAsset().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; asset = 6;</code>
+     */
     @java.lang.Override
 
     public long getAssetOrThrow(
@@ -23431,7 +23473,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_AssetV2Entry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_AssetV2Entry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23451,7 +23493,13 @@ public final class Response {
     public int getAssetV2Count() {
       return internalGetAssetV2().getMap().size();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account，key is assetId
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
+     */
 
     @java.lang.Override
     public boolean containsAssetV2(
@@ -23459,19 +23507,33 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetAssetV2().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getAssetV2Map()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getAssetV2() {
       return getAssetV2Map();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account，key is assetId
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getAssetV2Map() {
       return internalGetAssetV2().getMap();
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account，key is assetId
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
+     */
     @java.lang.Override
 
     public long getAssetV2OrDefault(
@@ -23482,7 +23544,13 @@ public final class Response {
           internalGetAssetV2().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <pre>
+     * the other asset owned by this account，key is assetId
+     * </pre>
+     *
+     * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
+     */
     @java.lang.Override
 
     public long getAssetV2OrThrow(
@@ -23498,28 +23566,58 @@ public final class Response {
 
     public static final int FROZEN_FIELD_NUMBER = 7;
     private java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> frozen_;
-    
+    /**
+     * <pre>
+     * the frozen balance for photon
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> getFrozenList() {
       return frozen_;
     }
-    
+    /**
+     * <pre>
+     * the frozen balance for photon
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
         getFrozenOrBuilderList() {
       return frozen_;
     }
-    
+    /**
+     * <pre>
+     * the frozen balance for photon
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
+     */
     @java.lang.Override
     public int getFrozenCount() {
       return frozen_.size();
     }
-    
+    /**
+     * <pre>
+     * the frozen balance for photon
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Account.Frozen getFrozen(int index) {
       return frozen_.get(index);
     }
-    
+    /**
+     * <pre>
+     * the frozen balance for photon
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenOrBuilder(
         int index) {
@@ -23671,28 +23769,58 @@ public final class Response {
 
     public static final int FROZEN_SUPPLY_FIELD_NUMBER = 16;
     private java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> frozenSupply_;
-    
+    /**
+     * <pre>
+     * frozen asset(for asset issuer)
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> getFrozenSupplyList() {
       return frozenSupply_;
     }
-    
+    /**
+     * <pre>
+     * frozen asset(for asset issuer)
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
         getFrozenSupplyOrBuilderList() {
       return frozenSupply_;
     }
-    
+    /**
+     * <pre>
+     * frozen asset(for asset issuer)
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
+     */
     @java.lang.Override
     public int getFrozenSupplyCount() {
       return frozenSupply_.size();
     }
-    
+    /**
+     * <pre>
+     * frozen asset(for asset issuer)
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Account.Frozen getFrozenSupply(int index) {
       return frozenSupply_.get(index);
     }
-    
+    /**
+     * <pre>
+     * frozen asset(for asset issuer)
+     * </pre>
+     *
+     * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenSupplyOrBuilder(
         int index) {
@@ -23731,7 +23859,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_LatestAssetOperationTimeEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_LatestAssetOperationTimeEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23751,7 +23879,9 @@ public final class Response {
     public int getLatestAssetOperationTimeCount() {
       return internalGetLatestAssetOperationTime().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+     */
 
     @java.lang.Override
     public boolean containsLatestAssetOperationTime(
@@ -23759,19 +23889,25 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetLatestAssetOperationTime().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getLatestAssetOperationTimeMap()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTime() {
       return getLatestAssetOperationTimeMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTimeMap() {
       return internalGetLatestAssetOperationTime().getMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+     */
     @java.lang.Override
 
     public long getLatestAssetOperationTimeOrDefault(
@@ -23782,7 +23918,9 @@ public final class Response {
           internalGetLatestAssetOperationTime().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+     */
     @java.lang.Override
 
     public long getLatestAssetOperationTimeOrThrow(
@@ -23802,7 +23940,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_LatestAssetOperationTimeV2Entry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_LatestAssetOperationTimeV2Entry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23822,7 +23960,9 @@ public final class Response {
     public int getLatestAssetOperationTimeV2Count() {
       return internalGetLatestAssetOperationTimeV2().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
+     */
 
     @java.lang.Override
     public boolean containsLatestAssetOperationTimeV2(
@@ -23830,19 +23970,25 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetLatestAssetOperationTimeV2().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getLatestAssetOperationTimeV2Map()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTimeV2() {
       return getLatestAssetOperationTimeV2Map();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTimeV2Map() {
       return internalGetLatestAssetOperationTimeV2().getMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
+     */
     @java.lang.Override
 
     public long getLatestAssetOperationTimeV2OrDefault(
@@ -23853,7 +23999,9 @@ public final class Response {
           internalGetLatestAssetOperationTimeV2().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
+     */
     @java.lang.Override
 
     public long getLatestAssetOperationTimeV2OrThrow(
@@ -23884,7 +24032,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_FreeAssetNetUsageEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_FreeAssetNetUsageEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23904,7 +24052,9 @@ public final class Response {
     public int getFreeAssetNetUsageCount() {
       return internalGetFreeAssetNetUsage().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+     */
 
     @java.lang.Override
     public boolean containsFreeAssetNetUsage(
@@ -23912,19 +24062,25 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetFreeAssetNetUsage().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getFreeAssetNetUsageMap()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsage() {
       return getFreeAssetNetUsageMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageMap() {
       return internalGetFreeAssetNetUsage().getMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+     */
     @java.lang.Override
 
     public long getFreeAssetNetUsageOrDefault(
@@ -23935,7 +24091,9 @@ public final class Response {
           internalGetFreeAssetNetUsage().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+     */
     @java.lang.Override
 
     public long getFreeAssetNetUsageOrThrow(
@@ -23955,7 +24113,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_FreeAssetNetUsageV2Entry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Account_FreeAssetNetUsageV2Entry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -23975,7 +24133,9 @@ public final class Response {
     public int getFreeAssetNetUsageV2Count() {
       return internalGetFreeAssetNetUsageV2().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+     */
 
     @java.lang.Override
     public boolean containsFreeAssetNetUsageV2(
@@ -23983,19 +24143,25 @@ public final class Response {
       if (key == null) { throw new java.lang.NullPointerException(); }
       return internalGetFreeAssetNetUsageV2().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getFreeAssetNetUsageV2Map()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageV2() {
       return getFreeAssetNetUsageV2Map();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageV2Map() {
       return internalGetFreeAssetNetUsageV2().getMap();
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+     */
     @java.lang.Override
 
     public long getFreeAssetNetUsageV2OrDefault(
@@ -24006,7 +24172,9 @@ public final class Response {
           internalGetFreeAssetNetUsageV2().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+     */
     @java.lang.Override
 
     public long getFreeAssetNetUsageV2OrThrow(
@@ -24075,7 +24243,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Response.Account.AccountResource getAccountResource() {
       return accountResource_ == null ? org.vision.visionjsdk.proto.Response.Account.AccountResource.getDefaultInstance() : accountResource_;
     }
-    
+    /**
+     * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.Account.AccountResourceOrBuilder getAccountResourceOrBuilder() {
       return getAccountResource();
@@ -24110,7 +24280,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Common.Permission getOwnerPermission() {
       return ownerPermission_ == null ? org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance() : ownerPermission_;
     }
-    
+    /**
+     * <code>.protocol.Permission owner_permission = 31;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getOwnerPermissionOrBuilder() {
       return getOwnerPermission();
@@ -24134,7 +24306,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Common.Permission getWitnessPermission() {
       return witnessPermission_ == null ? org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance() : witnessPermission_;
     }
-    
+    /**
+     * <code>.protocol.Permission witness_permission = 32;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getWitnessPermissionOrBuilder() {
       return getWitnessPermission();
@@ -24142,28 +24316,38 @@ public final class Response {
 
     public static final int ACTIVE_PERMISSION_FIELD_NUMBER = 33;
     private java.util.List<org.vision.visionjsdk.proto.Common.Permission> activePermission_;
-    
+    /**
+     * <code>repeated .protocol.Permission active_permission = 33;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Common.Permission> getActivePermissionList() {
       return activePermission_;
     }
-    
+    /**
+     * <code>repeated .protocol.Permission active_permission = 33;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
         getActivePermissionOrBuilderList() {
       return activePermission_;
     }
-    
+    /**
+     * <code>repeated .protocol.Permission active_permission = 33;</code>
+     */
     @java.lang.Override
     public int getActivePermissionCount() {
       return activePermission_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.Permission active_permission = 33;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.Permission getActivePermission(int index) {
       return activePermission_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.Permission active_permission = 33;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getActivePermissionOrBuilder(
         int index) {
@@ -24585,7 +24769,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ACCOUNT_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getAccountName().hashCode();
@@ -24791,7 +24975,7 @@ public final class Response {
     }
     /**
      * <pre>
-     * Account
+     * Account 
      * </pre>
      *
      * Protobuf type {@code protocol.Account}
@@ -25156,7 +25340,7 @@ public final class Response {
               votesBuilder_ = null;
               votes_ = other.votes_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              votesBuilder_ =
+              votesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getVotesFieldBuilder() : null;
             } else {
@@ -25186,7 +25370,7 @@ public final class Response {
               frozenBuilder_ = null;
               frozen_ = other.frozen_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              frozenBuilder_ =
+              frozenBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFrozenFieldBuilder() : null;
             } else {
@@ -25242,7 +25426,7 @@ public final class Response {
               frozenSupplyBuilder_ = null;
               frozenSupply_ = other.frozenSupply_;
               bitField0_ = (bitField0_ & ~0x00000010);
-              frozenSupplyBuilder_ =
+              frozenSupplyBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFrozenSupplyFieldBuilder() : null;
             } else {
@@ -25306,7 +25490,7 @@ public final class Response {
               activePermissionBuilder_ = null;
               activePermission_ = other.activePermission_;
               bitField0_ = (bitField0_ & ~0x00000200);
-              activePermissionBuilder_ =
+              activePermissionBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getActivePermissionFieldBuilder() : null;
             } else {
@@ -25370,7 +25554,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         accountName_ = value;
         onChanged();
         return this;
@@ -25384,7 +25568,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAccountName() {
-
+        
         accountName_ = getDefaultInstance().getAccountName();
         onChanged();
         return this;
@@ -25404,7 +25588,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTypeValue(int value) {
-
+        
         type_ = value;
         onChanged();
         return this;
@@ -25428,7 +25612,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         type_ = value.getNumber();
         onChanged();
         return this;
@@ -25438,7 +25622,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-
+        
         type_ = 0;
         onChanged();
         return this;
@@ -25470,7 +25654,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         address_ = value;
         onChanged();
         return this;
@@ -25484,7 +25668,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAddress() {
-
+        
         address_ = getDefaultInstance().getAddress();
         onChanged();
         return this;
@@ -25493,7 +25677,7 @@ public final class Response {
       private long balance_ ;
       /**
        * <pre>
-       * the vs balance
+       * the trx balance
        * </pre>
        *
        * <code>int64 balance = 4;</code>
@@ -25505,7 +25689,7 @@ public final class Response {
       }
       /**
        * <pre>
-       * the vs balance
+       * the trx balance
        * </pre>
        *
        * <code>int64 balance = 4;</code>
@@ -25513,21 +25697,21 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBalance(long value) {
-
+        
         balance_ = value;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       * the vs balance
+       * the trx balance
        * </pre>
        *
        * <code>int64 balance = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBalance() {
-
+        
         balance_ = 0L;
         onChanged();
         return this;
@@ -25551,7 +25735,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Common.Vote> getVotesList() {
         if (votesBuilder_ == null) {
@@ -25566,7 +25749,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return int
        */
       public int getVotesCount() {
         if (votesBuilder_ == null) {
@@ -25581,8 +25763,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @return Vote
        */
       public org.vision.visionjsdk.proto.Common.Vote getVotes(int index) {
         if (votesBuilder_ == null) {
@@ -25597,9 +25777,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setVotes(
           int index, org.vision.visionjsdk.proto.Common.Vote value) {
@@ -25621,9 +25798,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setVotes(
           int index, org.vision.visionjsdk.proto.Common.Vote.Builder builderForValue) {
@@ -25642,8 +25816,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addVotes(org.vision.visionjsdk.proto.Common.Vote value) {
         if (votesBuilder_ == null) {
@@ -25664,9 +25836,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addVotes(
           int index, org.vision.visionjsdk.proto.Common.Vote value) {
@@ -25688,8 +25857,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addVotes(
           org.vision.visionjsdk.proto.Common.Vote.Builder builderForValue) {
@@ -25708,9 +25875,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addVotes(
           int index, org.vision.visionjsdk.proto.Common.Vote.Builder builderForValue) {
@@ -25729,8 +25893,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllVotes(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.Vote> values) {
@@ -25750,7 +25912,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return Builder
        */
       public Builder clearVotes() {
         if (votesBuilder_ == null) {
@@ -25768,8 +25929,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeVotes(int index) {
         if (votesBuilder_ == null) {
@@ -25787,8 +25946,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Vote.Builder getVotesBuilder(
           int index) {
@@ -25800,9 +25957,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       *
-       * @param index index
-       * @return VoteOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.VoteOrBuilder getVotesOrBuilder(
           int index) {
@@ -25817,9 +25971,8 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Common.VoteOrBuilder> 
            getVotesOrBuilderList() {
         if (votesBuilder_ != null) {
           return votesBuilder_.getMessageOrBuilderList();
@@ -25833,7 +25986,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Vote.Builder addVotesBuilder() {
         return getVotesFieldBuilder().addBuilder(
@@ -25845,8 +25997,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Vote.Builder addVotesBuilder(
           int index) {
@@ -25859,14 +26009,13 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Vote votes = 5;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Common.Vote.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Common.Vote.Builder> 
            getVotesBuilderList() {
         return getVotesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.Vote, org.vision.visionjsdk.proto.Common.Vote.Builder, org.vision.visionjsdk.proto.Common.VoteOrBuilder>
+          org.vision.visionjsdk.proto.Common.Vote, org.vision.visionjsdk.proto.Common.Vote.Builder, org.vision.visionjsdk.proto.Common.VoteOrBuilder> 
           getVotesFieldBuilder() {
         if (votesBuilder_ == null) {
           votesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -25906,7 +26055,13 @@ public final class Response {
       public int getAssetCount() {
         return internalGetAsset().getMap().size();
       }
-      
+      /**
+       * <pre>
+       * the other asset owned by this account
+       * </pre>
+       *
+       * <code>map&lt;string, int64&gt; asset = 6;</code>
+       */
 
       @java.lang.Override
       public boolean containsAsset(
@@ -25922,13 +26077,25 @@ public final class Response {
       public java.util.Map<java.lang.String, java.lang.Long> getAsset() {
         return getAssetMap();
       }
-      
+      /**
+       * <pre>
+       * the other asset owned by this account
+       * </pre>
+       *
+       * <code>map&lt;string, int64&gt; asset = 6;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.String, java.lang.Long> getAssetMap() {
         return internalGetAsset().getMap();
       }
-      
+      /**
+       * <pre>
+       * the other asset owned by this account
+       * </pre>
+       *
+       * <code>map&lt;string, int64&gt; asset = 6;</code>
+       */
       @java.lang.Override
 
       public long getAssetOrDefault(
@@ -25939,7 +26106,13 @@ public final class Response {
             internalGetAsset().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      
+      /**
+       * <pre>
+       * the other asset owned by this account
+       * </pre>
+       *
+       * <code>map&lt;string, int64&gt; asset = 6;</code>
+       */
       @java.lang.Override
 
       public long getAssetOrThrow(
@@ -25964,8 +26137,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; asset = 6;</code>
-       * @param key key
-       * @return Builder
        */
 
       public Builder removeAsset(
@@ -25977,7 +26148,6 @@ public final class Response {
       }
       /**
        * Use alternate mutation accessors instead.
-       * @return map
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
@@ -25990,15 +26160,12 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; asset = 6;</code>
-       * @param key key
-       * @param value value
-       * @return Builder
        */
       public Builder putAsset(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAsset().getMutableMap()
             .put(key, value);
         return this;
@@ -26009,8 +26176,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; asset = 6;</code>
-       * @param values values
-       * @return Builder
        */
 
       public Builder putAllAsset(
@@ -26052,8 +26217,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param key key
-       * @return boolean
        */
 
       @java.lang.Override
@@ -26064,7 +26227,6 @@ public final class Response {
       }
       /**
        * Use {@link #getAssetV2Map()} instead.
-       * @return map
        */
       @java.lang.Override
       @java.lang.Deprecated
@@ -26077,7 +26239,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @return map
        */
       @java.lang.Override
 
@@ -26090,9 +26251,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param key key
-       * @param defaultValue defaultValue
-       * @return long
        */
       @java.lang.Override
 
@@ -26110,8 +26268,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param key key
-       * @return long
        */
       @java.lang.Override
 
@@ -26137,8 +26293,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param key key
-       * @return Builder
        */
 
       public Builder removeAssetV2(
@@ -26150,7 +26304,6 @@ public final class Response {
       }
       /**
        * Use alternate mutation accessors instead.
-       * @return map
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
@@ -26163,15 +26316,12 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param key key
-       * @param value value
-       * @return Builder
        */
       public Builder putAssetV2(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAssetV2().getMutableMap()
             .put(key, value);
         return this;
@@ -26182,8 +26332,6 @@ public final class Response {
        * </pre>
        *
        * <code>map&lt;string, int64&gt; assetV2 = 56;</code>
-       * @param values values
-       * @return Builder
        */
 
       public Builder putAllAssetV2(
@@ -26211,7 +26359,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> getFrozenList() {
         if (frozenBuilder_ == null) {
@@ -26226,7 +26373,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return int
        */
       public int getFrozenCount() {
         if (frozenBuilder_ == null) {
@@ -26241,8 +26387,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @return Frozen
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen getFrozen(int index) {
         if (frozenBuilder_ == null) {
@@ -26257,9 +26401,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setFrozen(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen value) {
@@ -26281,9 +26422,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setFrozen(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -26302,8 +26440,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozen(org.vision.visionjsdk.proto.Response.Account.Frozen value) {
         if (frozenBuilder_ == null) {
@@ -26324,9 +26460,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozen(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen value) {
@@ -26348,8 +26481,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozen(
           org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -26368,9 +26499,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozen(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -26389,8 +26517,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllFrozen(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.Account.Frozen> values) {
@@ -26410,7 +26536,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return Builder
        */
       public Builder clearFrozen() {
         if (frozenBuilder_ == null) {
@@ -26428,8 +26553,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeFrozen(int index) {
         if (frozenBuilder_ == null) {
@@ -26447,8 +26570,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder getFrozenBuilder(
           int index) {
@@ -26460,8 +26581,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @return FrozenOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenOrBuilder(
           int index) {
@@ -26476,9 +26595,8 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
            getFrozenOrBuilderList() {
         if (frozenBuilder_ != null) {
           return frozenBuilder_.getMessageOrBuilderList();
@@ -26492,7 +26610,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder addFrozenBuilder() {
         return getFrozenFieldBuilder().addBuilder(
@@ -26504,8 +26621,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder addFrozenBuilder(
           int index) {
@@ -26518,14 +26633,13 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen = 7;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen.Builder> 
            getFrozenBuilderList() {
         return getFrozenFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+          org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
           getFrozenFieldBuilder() {
         if (frozenBuilder_ == null) {
           frozenBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -26562,7 +26676,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetUsage(long value) {
-
+        
         netUsage_ = value;
         onChanged();
         return this;
@@ -26576,7 +26690,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetUsage() {
-
+        
         netUsage_ = 0L;
         onChanged();
         return this;
@@ -26605,7 +26719,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setAcquiredDelegatedFrozenBalanceForPhoton(long value) {
-
+        
         acquiredDelegatedFrozenBalanceForPhoton_ = value;
         onChanged();
         return this;
@@ -26619,7 +26733,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAcquiredDelegatedFrozenBalanceForPhoton() {
-
+        
         acquiredDelegatedFrozenBalanceForPhoton_ = 0L;
         onChanged();
         return this;
@@ -26648,7 +26762,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setDelegatedFrozenBalanceForPhoton(long value) {
-
+        
         delegatedFrozenBalanceForPhoton_ = value;
         onChanged();
         return this;
@@ -26662,7 +26776,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearDelegatedFrozenBalanceForPhoton() {
-
+        
         delegatedFrozenBalanceForPhoton_ = 0L;
         onChanged();
         return this;
@@ -26691,7 +26805,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCreateTime(long value) {
-
+        
         createTime_ = value;
         onChanged();
         return this;
@@ -26705,7 +26819,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCreateTime() {
-
+        
         createTime_ = 0L;
         onChanged();
         return this;
@@ -26736,7 +26850,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestOprationTime(long value) {
-
+        
         latestOprationTime_ = value;
         onChanged();
         return this;
@@ -26751,7 +26865,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestOprationTime() {
-
+        
         latestOprationTime_ = 0L;
         onChanged();
         return this;
@@ -26780,7 +26894,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setAllowance(long value) {
-
+        
         allowance_ = value;
         onChanged();
         return this;
@@ -26794,7 +26908,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAllowance() {
-
+        
         allowance_ = 0L;
         onChanged();
         return this;
@@ -26823,7 +26937,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestWithdrawTime(long value) {
-
+        
         latestWithdrawTime_ = value;
         onChanged();
         return this;
@@ -26837,7 +26951,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestWithdrawTime() {
-
+        
         latestWithdrawTime_ = 0L;
         onChanged();
         return this;
@@ -26869,7 +26983,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         code_ = value;
         onChanged();
         return this;
@@ -26883,7 +26997,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCode() {
-
+        
         code_ = getDefaultInstance().getCode();
         onChanged();
         return this;
@@ -26904,7 +27018,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setIsWitness(boolean value) {
-
+        
         isWitness_ = value;
         onChanged();
         return this;
@@ -26914,7 +27028,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearIsWitness() {
-
+        
         isWitness_ = false;
         onChanged();
         return this;
@@ -26935,7 +27049,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setIsCommittee(boolean value) {
-
+        
         isCommittee_ = value;
         onChanged();
         return this;
@@ -26945,7 +27059,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearIsCommittee() {
-
+        
         isCommittee_ = false;
         onChanged();
         return this;
@@ -26969,7 +27083,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen> getFrozenSupplyList() {
         if (frozenSupplyBuilder_ == null) {
@@ -26984,7 +27097,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return int
        */
       public int getFrozenSupplyCount() {
         if (frozenSupplyBuilder_ == null) {
@@ -26999,8 +27111,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @return Frozen
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen getFrozenSupply(int index) {
         if (frozenSupplyBuilder_ == null) {
@@ -27015,9 +27125,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setFrozenSupply(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen value) {
@@ -27039,9 +27146,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setFrozenSupply(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -27060,8 +27164,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozenSupply(org.vision.visionjsdk.proto.Response.Account.Frozen value) {
         if (frozenSupplyBuilder_ == null) {
@@ -27082,9 +27184,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozenSupply(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen value) {
@@ -27106,8 +27205,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozenSupply(
           org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -27126,9 +27223,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozenSupply(
           int index, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder builderForValue) {
@@ -27147,8 +27241,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllFrozenSupply(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.Account.Frozen> values) {
@@ -27168,7 +27260,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return Builder
        */
       public Builder clearFrozenSupply() {
         if (frozenSupplyBuilder_ == null) {
@@ -27186,8 +27277,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeFrozenSupply(int index) {
         if (frozenSupplyBuilder_ == null) {
@@ -27205,8 +27294,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder getFrozenSupplyBuilder(
           int index) {
@@ -27218,8 +27305,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @return FrozenOrBuilder
        */
       public org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder getFrozenSupplyOrBuilder(
           int index) {
@@ -27234,9 +27319,8 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return list
        */
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
            getFrozenSupplyOrBuilderList() {
         if (frozenSupplyBuilder_ != null) {
           return frozenSupplyBuilder_.getMessageOrBuilderList();
@@ -27250,7 +27334,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder addFrozenSupplyBuilder() {
         return getFrozenSupplyFieldBuilder().addBuilder(
@@ -27262,8 +27345,6 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Response.Account.Frozen.Builder addFrozenSupplyBuilder(
           int index) {
@@ -27276,14 +27357,13 @@ public final class Response {
        * </pre>
        *
        * <code>repeated .protocol.Account.Frozen frozen_supply = 16;</code>
-       * @return list
        */
-      public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen.Builder>
+      public java.util.List<org.vision.visionjsdk.proto.Response.Account.Frozen.Builder> 
            getFrozenSupplyBuilderList() {
         return getFrozenSupplyFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder>
+          org.vision.visionjsdk.proto.Response.Account.Frozen, org.vision.visionjsdk.proto.Response.Account.Frozen.Builder, org.vision.visionjsdk.proto.Response.Account.FrozenOrBuilder> 
           getFrozenSupplyFieldBuilder() {
         if (frozenSupplyBuilder_ == null) {
           frozenSupplyBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -27323,7 +27403,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         assetIssuedName_ = value;
         onChanged();
         return this;
@@ -27337,7 +27417,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAssetIssuedName() {
-
+        
         assetIssuedName_ = getDefaultInstance().getAssetIssuedName();
         onChanged();
         return this;
@@ -27361,7 +27441,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         assetIssuedID_ = value;
         onChanged();
         return this;
@@ -27371,7 +27451,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAssetIssuedID() {
-
+        
         assetIssuedID_ = getDefaultInstance().getAssetIssuedID();
         onChanged();
         return this;
@@ -27403,7 +27483,9 @@ public final class Response {
       public int getLatestAssetOperationTimeCount() {
         return internalGetLatestAssetOperationTime().getMap().size();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+       */
 
       @java.lang.Override
       public boolean containsLatestAssetOperationTime(
@@ -27411,19 +27493,25 @@ public final class Response {
         if (key == null) { throw new java.lang.NullPointerException(); }
         return internalGetLatestAssetOperationTime().getMap().containsKey(key);
       }
-      
+      /**
+       * Use {@link #getLatestAssetOperationTimeMap()} instead.
+       */
       @java.lang.Override
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTime() {
         return getLatestAssetOperationTimeMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.String, java.lang.Long> getLatestAssetOperationTimeMap() {
         return internalGetLatestAssetOperationTime().getMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+       */
       @java.lang.Override
 
       public long getLatestAssetOperationTimeOrDefault(
@@ -27434,7 +27522,9 @@ public final class Response {
             internalGetLatestAssetOperationTime().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
+       */
       @java.lang.Override
 
       public long getLatestAssetOperationTimeOrThrow(
@@ -27455,8 +27545,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-       * @param key key
-       * @return Builder
        */
 
       public Builder removeLatestAssetOperationTime(
@@ -27468,7 +27556,6 @@ public final class Response {
       }
       /**
        * Use alternate mutation accessors instead.
-       * @return map
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
@@ -27477,23 +27564,18 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-       * @param key key
-       * @param value value
-       * @return Builder
        */
       public Builder putLatestAssetOperationTime(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableLatestAssetOperationTime().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_time = 18;</code>
-       * @param values values
-       * @return Builder
        */
 
       public Builder putAllLatestAssetOperationTime(
@@ -27531,8 +27613,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param key key
-       * @return boolean
        */
 
       @java.lang.Override
@@ -27543,7 +27623,6 @@ public final class Response {
       }
       /**
        * Use {@link #getLatestAssetOperationTimeV2Map()} instead.
-       * @return map
        */
       @java.lang.Override
       @java.lang.Deprecated
@@ -27552,7 +27631,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @return map
        */
       @java.lang.Override
 
@@ -27561,9 +27639,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param key key
-       * @param defaultValue defaultValue
-       * @return long
        */
       @java.lang.Override
 
@@ -27577,8 +27652,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param key key
-       * @return long
        */
       @java.lang.Override
 
@@ -27600,8 +27673,6 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param key key
-       * @return long
        */
 
       public Builder removeLatestAssetOperationTimeV2(
@@ -27613,7 +27684,6 @@ public final class Response {
       }
       /**
        * Use alternate mutation accessors instead.
-       * @return map
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
@@ -27622,23 +27692,18 @@ public final class Response {
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param key key
-       * @param value value
-       * @return Builder
        */
       public Builder putLatestAssetOperationTimeV2(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableLatestAssetOperationTimeV2().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
        * <code>map&lt;string, int64&gt; latest_asset_operation_timeV2 = 58;</code>
-       * @param values values
-       * @return Builder
        */
 
       public Builder putAllLatestAssetOperationTimeV2(
@@ -27663,7 +27728,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFreeNetUsage(long value) {
-
+        
         freeNetUsage_ = value;
         onChanged();
         return this;
@@ -27673,7 +27738,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFreeNetUsage() {
-
+        
         freeNetUsage_ = 0L;
         onChanged();
         return this;
@@ -27705,7 +27770,9 @@ public final class Response {
       public int getFreeAssetNetUsageCount() {
         return internalGetFreeAssetNetUsage().getMap().size();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
 
       @java.lang.Override
       public boolean containsFreeAssetNetUsage(
@@ -27713,19 +27780,25 @@ public final class Response {
         if (key == null) { throw new java.lang.NullPointerException(); }
         return internalGetFreeAssetNetUsage().getMap().containsKey(key);
       }
-      
+      /**
+       * Use {@link #getFreeAssetNetUsageMap()} instead.
+       */
       @java.lang.Override
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsage() {
         return getFreeAssetNetUsageMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageMap() {
         return internalGetFreeAssetNetUsage().getMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
       @java.lang.Override
 
       public long getFreeAssetNetUsageOrDefault(
@@ -27736,7 +27809,9 @@ public final class Response {
             internalGetFreeAssetNetUsage().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
       @java.lang.Override
 
       public long getFreeAssetNetUsageOrThrow(
@@ -27755,7 +27830,9 @@ public final class Response {
             .clear();
         return this;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
 
       public Builder removeFreeAssetNetUsage(
           java.lang.String key) {
@@ -27764,23 +27841,29 @@ public final class Response {
             .remove(key);
         return this;
       }
-      
+      /**
+       * Use alternate mutation accessors instead.
+       */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
       getMutableFreeAssetNetUsage() {
         return internalGetMutableFreeAssetNetUsage().getMutableMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
       public Builder putFreeAssetNetUsage(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableFreeAssetNetUsage().getMutableMap()
             .put(key, value);
         return this;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usage = 20;</code>
+       */
 
       public Builder putAllFreeAssetNetUsage(
           java.util.Map<java.lang.String, java.lang.Long> values) {
@@ -27815,7 +27898,9 @@ public final class Response {
       public int getFreeAssetNetUsageV2Count() {
         return internalGetFreeAssetNetUsageV2().getMap().size();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
 
       @java.lang.Override
       public boolean containsFreeAssetNetUsageV2(
@@ -27823,19 +27908,25 @@ public final class Response {
         if (key == null) { throw new java.lang.NullPointerException(); }
         return internalGetFreeAssetNetUsageV2().getMap().containsKey(key);
       }
-      
+      /**
+       * Use {@link #getFreeAssetNetUsageV2Map()} instead.
+       */
       @java.lang.Override
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageV2() {
         return getFreeAssetNetUsageV2Map();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.String, java.lang.Long> getFreeAssetNetUsageV2Map() {
         return internalGetFreeAssetNetUsageV2().getMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
       @java.lang.Override
 
       public long getFreeAssetNetUsageV2OrDefault(
@@ -27846,7 +27937,9 @@ public final class Response {
             internalGetFreeAssetNetUsageV2().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
       @java.lang.Override
 
       public long getFreeAssetNetUsageV2OrThrow(
@@ -27865,7 +27958,9 @@ public final class Response {
             .clear();
         return this;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
 
       public Builder removeFreeAssetNetUsageV2(
           java.lang.String key) {
@@ -27874,23 +27969,29 @@ public final class Response {
             .remove(key);
         return this;
       }
-      
+      /**
+       * Use alternate mutation accessors instead.
+       */
       @java.lang.Deprecated
       public java.util.Map<java.lang.String, java.lang.Long>
       getMutableFreeAssetNetUsageV2() {
         return internalGetMutableFreeAssetNetUsageV2().getMutableMap();
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
       public Builder putFreeAssetNetUsageV2(
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableFreeAssetNetUsageV2().getMutableMap()
             .put(key, value);
         return this;
       }
-      
+      /**
+       * <code>map&lt;string, int64&gt; free_asset_net_usageV2 = 59;</code>
+       */
 
       public Builder putAllFreeAssetNetUsageV2(
           java.util.Map<java.lang.String, java.lang.Long> values) {
@@ -27914,7 +28015,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestConsumeTime(long value) {
-
+        
         latestConsumeTime_ = value;
         onChanged();
         return this;
@@ -27924,7 +28025,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestConsumeTime() {
-
+        
         latestConsumeTime_ = 0L;
         onChanged();
         return this;
@@ -27945,7 +28046,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setLatestConsumeFreeTime(long value) {
-
+        
         latestConsumeFreeTime_ = value;
         onChanged();
         return this;
@@ -27955,7 +28056,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearLatestConsumeFreeTime() {
-
+        
         latestConsumeFreeTime_ = 0L;
         onChanged();
         return this;
@@ -27987,7 +28088,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         accountId_ = value;
         onChanged();
         return this;
@@ -28001,7 +28102,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAccountId() {
-
+        
         accountId_ = getDefaultInstance().getAccountId();
         onChanged();
         return this;
@@ -28028,7 +28129,9 @@ public final class Response {
           return accountResourceBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public Builder setAccountResource(org.vision.visionjsdk.proto.Response.Account.AccountResource value) {
         if (accountResourceBuilder_ == null) {
           if (value == null) {
@@ -28042,7 +28145,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public Builder setAccountResource(
           org.vision.visionjsdk.proto.Response.Account.AccountResource.Builder builderForValue) {
         if (accountResourceBuilder_ == null) {
@@ -28054,7 +28159,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public Builder mergeAccountResource(org.vision.visionjsdk.proto.Response.Account.AccountResource value) {
         if (accountResourceBuilder_ == null) {
           if (accountResource_ != null) {
@@ -28070,7 +28177,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public Builder clearAccountResource() {
         if (accountResourceBuilder_ == null) {
           accountResource_ = null;
@@ -28082,13 +28191,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.Account.AccountResource.Builder getAccountResourceBuilder() {
-
+        
         onChanged();
         return getAccountResourceFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       public org.vision.visionjsdk.proto.Response.Account.AccountResourceOrBuilder getAccountResourceOrBuilder() {
         if (accountResourceBuilder_ != null) {
           return accountResourceBuilder_.getMessageOrBuilder();
@@ -28097,9 +28210,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Response.Account.AccountResource.getDefaultInstance() : accountResource_;
         }
       }
-      
+      /**
+       * <code>.protocol.Account.AccountResource account_resource = 26;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.Account.AccountResource, org.vision.visionjsdk.proto.Response.Account.AccountResource.Builder, org.vision.visionjsdk.proto.Response.Account.AccountResourceOrBuilder>
+          org.vision.visionjsdk.proto.Response.Account.AccountResource, org.vision.visionjsdk.proto.Response.Account.AccountResource.Builder, org.vision.visionjsdk.proto.Response.Account.AccountResourceOrBuilder> 
           getAccountResourceFieldBuilder() {
         if (accountResourceBuilder_ == null) {
           accountResourceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -28130,7 +28245,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         codeHash_ = value;
         onChanged();
         return this;
@@ -28140,7 +28255,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCodeHash() {
-
+        
         codeHash_ = getDefaultInstance().getCodeHash();
         onChanged();
         return this;
@@ -28167,7 +28282,9 @@ public final class Response {
           return ownerPermissionBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public Builder setOwnerPermission(org.vision.visionjsdk.proto.Common.Permission value) {
         if (ownerPermissionBuilder_ == null) {
           if (value == null) {
@@ -28181,7 +28298,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public Builder setOwnerPermission(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
         if (ownerPermissionBuilder_ == null) {
@@ -28193,7 +28312,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public Builder mergeOwnerPermission(org.vision.visionjsdk.proto.Common.Permission value) {
         if (ownerPermissionBuilder_ == null) {
           if (ownerPermission_ != null) {
@@ -28209,7 +28330,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public Builder clearOwnerPermission() {
         if (ownerPermissionBuilder_ == null) {
           ownerPermission_ = null;
@@ -28221,13 +28344,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getOwnerPermissionBuilder() {
-
+        
         onChanged();
         return getOwnerPermissionFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getOwnerPermissionOrBuilder() {
         if (ownerPermissionBuilder_ != null) {
           return ownerPermissionBuilder_.getMessageOrBuilder();
@@ -28236,9 +28363,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance() : ownerPermission_;
         }
       }
-      
+      /**
+       * <code>.protocol.Permission owner_permission = 31;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
           getOwnerPermissionFieldBuilder() {
         if (ownerPermissionBuilder_ == null) {
           ownerPermissionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -28272,7 +28401,9 @@ public final class Response {
           return witnessPermissionBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public Builder setWitnessPermission(org.vision.visionjsdk.proto.Common.Permission value) {
         if (witnessPermissionBuilder_ == null) {
           if (value == null) {
@@ -28286,7 +28417,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public Builder setWitnessPermission(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
         if (witnessPermissionBuilder_ == null) {
@@ -28298,7 +28431,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public Builder mergeWitnessPermission(org.vision.visionjsdk.proto.Common.Permission value) {
         if (witnessPermissionBuilder_ == null) {
           if (witnessPermission_ != null) {
@@ -28314,7 +28449,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public Builder clearWitnessPermission() {
         if (witnessPermissionBuilder_ == null) {
           witnessPermission_ = null;
@@ -28326,13 +28463,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getWitnessPermissionBuilder() {
-
+        
         onChanged();
         return getWitnessPermissionFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getWitnessPermissionOrBuilder() {
         if (witnessPermissionBuilder_ != null) {
           return witnessPermissionBuilder_.getMessageOrBuilder();
@@ -28341,9 +28482,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance() : witnessPermission_;
         }
       }
-      
+      /**
+       * <code>.protocol.Permission witness_permission = 32;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
           getWitnessPermissionFieldBuilder() {
         if (witnessPermissionBuilder_ == null) {
           witnessPermissionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -28368,7 +28511,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> activePermissionBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Common.Permission> getActivePermissionList() {
         if (activePermissionBuilder_ == null) {
           return java.util.Collections.unmodifiableList(activePermission_);
@@ -28376,7 +28521,9 @@ public final class Response {
           return activePermissionBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public int getActivePermissionCount() {
         if (activePermissionBuilder_ == null) {
           return activePermission_.size();
@@ -28384,7 +28531,9 @@ public final class Response {
           return activePermissionBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission getActivePermission(int index) {
         if (activePermissionBuilder_ == null) {
           return activePermission_.get(index);
@@ -28392,7 +28541,9 @@ public final class Response {
           return activePermissionBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder setActivePermission(
           int index, org.vision.visionjsdk.proto.Common.Permission value) {
         if (activePermissionBuilder_ == null) {
@@ -28407,7 +28558,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder setActivePermission(
           int index, org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
         if (activePermissionBuilder_ == null) {
@@ -28419,7 +28572,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder addActivePermission(org.vision.visionjsdk.proto.Common.Permission value) {
         if (activePermissionBuilder_ == null) {
           if (value == null) {
@@ -28433,7 +28588,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder addActivePermission(
           int index, org.vision.visionjsdk.proto.Common.Permission value) {
         if (activePermissionBuilder_ == null) {
@@ -28448,7 +28605,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder addActivePermission(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
         if (activePermissionBuilder_ == null) {
@@ -28460,7 +28619,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder addActivePermission(
           int index, org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
         if (activePermissionBuilder_ == null) {
@@ -28472,7 +28633,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder addAllActivePermission(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.Permission> values) {
         if (activePermissionBuilder_ == null) {
@@ -28485,7 +28648,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder clearActivePermission() {
         if (activePermissionBuilder_ == null) {
           activePermission_ = java.util.Collections.emptyList();
@@ -28496,7 +28661,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public Builder removeActivePermission(int index) {
         if (activePermissionBuilder_ == null) {
           ensureActivePermissionIsMutable();
@@ -28507,12 +28674,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getActivePermissionBuilder(
           int index) {
         return getActivePermissionFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getActivePermissionOrBuilder(
           int index) {
         if (activePermissionBuilder_ == null) {
@@ -28520,8 +28691,10 @@ public final class Response {
           return activePermissionBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
            getActivePermissionOrBuilderList() {
         if (activePermissionBuilder_ != null) {
           return activePermissionBuilder_.getMessageOrBuilderList();
@@ -28529,24 +28702,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(activePermission_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission.Builder addActivePermissionBuilder() {
         return getActivePermissionFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
       public org.vision.visionjsdk.proto.Common.Permission.Builder addActivePermissionBuilder(
           int index) {
         return getActivePermissionFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Common.Permission.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Common.Permission.Builder>
+      /**
+       * <code>repeated .protocol.Permission active_permission = 33;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Common.Permission.Builder> 
            getActivePermissionBuilderList() {
         return getActivePermissionFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
           getActivePermissionFieldBuilder() {
         if (activePermissionBuilder_ == null) {
           activePermissionBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -28640,7 +28819,9 @@ public final class Response {
      */
     long getFillBuyQuantity();
   }
-
+  /**
+   * Protobuf type {@code protocol.MarketOrderDetail}
+   */
   public static final class MarketOrderDetail extends
       com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:protocol.MarketOrderDetail)
@@ -28864,7 +29045,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + MAKERORDERID_FIELD_NUMBER;
       hash = (53 * hash) + getMakerOrderId().hashCode();
@@ -28971,7 +29152,9 @@ public final class Response {
       Builder builder = new Builder(parent);
       return builder;
     }
-    
+    /**
+     * Protobuf type {@code protocol.MarketOrderDetail}
+     */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:protocol.MarketOrderDetail)
@@ -29152,7 +29335,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         makerOrderId_ = value;
         onChanged();
         return this;
@@ -29162,7 +29345,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearMakerOrderId() {
-
+        
         makerOrderId_ = getDefaultInstance().getMakerOrderId();
         onChanged();
         return this;
@@ -29186,7 +29369,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         takerOrderId_ = value;
         onChanged();
         return this;
@@ -29196,7 +29379,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTakerOrderId() {
-
+        
         takerOrderId_ = getDefaultInstance().getTakerOrderId();
         onChanged();
         return this;
@@ -29217,7 +29400,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFillSellQuantity(long value) {
-
+        
         fillSellQuantity_ = value;
         onChanged();
         return this;
@@ -29227,7 +29410,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFillSellQuantity() {
-
+        
         fillSellQuantity_ = 0L;
         onChanged();
         return this;
@@ -29248,7 +29431,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFillBuyQuantity(long value) {
-
+        
         fillBuyQuantity_ = value;
         onChanged();
         return this;
@@ -29258,7 +29441,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFillBuyQuantity() {
-
+        
         fillBuyQuantity_ = 0L;
         onChanged();
         return this;
@@ -29332,24 +29515,36 @@ public final class Response {
      */
     com.google.protobuf.ByteString getProposerAddress();
 
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     int getParametersCount();
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     boolean containsParameters(
         long key);
-    
+    /**
+     * Use {@link #getParametersMap()} instead.
+     */
     @java.lang.Deprecated
     java.util.Map<java.lang.Long, java.lang.Long>
     getParameters();
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     java.util.Map<java.lang.Long, java.lang.Long>
     getParametersMap();
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
 
     long getParametersOrDefault(
         long key,
         long defaultValue);
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
 
     long getParametersOrThrow(
         long key);
@@ -29394,7 +29589,9 @@ public final class Response {
      */
     org.vision.visionjsdk.proto.Response.Proposal.State getState();
   }
-  
+  /**
+   * Protobuf type {@code protocol.Proposal}
+   */
   public static final class Proposal extends
       com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:protocol.Proposal)
@@ -29689,7 +29886,7 @@ public final class Response {
           java.lang.Long, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Long, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Proposal_ParametersEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_Proposal_ParametersEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.INT64,
                   0L,
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -29709,43 +29906,53 @@ public final class Response {
     public int getParametersCount() {
       return internalGetParameters().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
 
     @java.lang.Override
     public boolean containsParameters(
         long key) {
-
+      
       return internalGetParameters().getMap().containsKey(key);
     }
-    
+    /**
+     * Use {@link #getParametersMap()} instead.
+     */
     @java.lang.Override
     @java.lang.Deprecated
     public java.util.Map<java.lang.Long, java.lang.Long> getParameters() {
       return getParametersMap();
     }
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.Long, java.lang.Long> getParametersMap() {
       return internalGetParameters().getMap();
     }
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     @java.lang.Override
 
     public long getParametersOrDefault(
         long key,
         long defaultValue) {
-
+      
       java.util.Map<java.lang.Long, java.lang.Long> map =
           internalGetParameters().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+     */
     @java.lang.Override
 
     public long getParametersOrThrow(
         long key) {
-
+      
       java.util.Map<java.lang.Long, java.lang.Long> map =
           internalGetParameters().getMap();
       if (!map.containsKey(key)) {
@@ -29945,7 +30152,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PROPOSAL_ID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -30063,7 +30270,9 @@ public final class Response {
       Builder builder = new Builder(parent);
       return builder;
     }
-    
+    /**
+     * Protobuf type {@code protocol.Proposal}
+     */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:protocol.Proposal)
@@ -30293,7 +30502,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setProposalId(long value) {
-
+        
         proposalId_ = value;
         onChanged();
         return this;
@@ -30303,7 +30512,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearProposalId() {
-
+        
         proposalId_ = 0L;
         onChanged();
         return this;
@@ -30327,7 +30536,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         proposerAddress_ = value;
         onChanged();
         return this;
@@ -30337,7 +30546,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearProposerAddress() {
-
+        
         proposerAddress_ = getDefaultInstance().getProposerAddress();
         onChanged();
         return this;
@@ -30369,43 +30578,53 @@ public final class Response {
       public int getParametersCount() {
         return internalGetParameters().getMap().size();
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
 
       @java.lang.Override
       public boolean containsParameters(
           long key) {
-
+        
         return internalGetParameters().getMap().containsKey(key);
       }
-      
+      /**
+       * Use {@link #getParametersMap()} instead.
+       */
       @java.lang.Override
       @java.lang.Deprecated
       public java.util.Map<java.lang.Long, java.lang.Long> getParameters() {
         return getParametersMap();
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
       @java.lang.Override
 
       public java.util.Map<java.lang.Long, java.lang.Long> getParametersMap() {
         return internalGetParameters().getMap();
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
       @java.lang.Override
 
       public long getParametersOrDefault(
           long key,
           long defaultValue) {
-
+        
         java.util.Map<java.lang.Long, java.lang.Long> map =
             internalGetParameters().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
       @java.lang.Override
 
       public long getParametersOrThrow(
           long key) {
-
+        
         java.util.Map<java.lang.Long, java.lang.Long> map =
             internalGetParameters().getMap();
         if (!map.containsKey(key)) {
@@ -30419,11 +30638,13 @@ public final class Response {
             .clear();
         return this;
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
 
       public Builder removeParameters(
           long key) {
-
+        
         internalGetMutableParameters().getMutableMap()
             .remove(key);
         return this;
@@ -30436,17 +30657,21 @@ public final class Response {
       getMutableParameters() {
         return internalGetMutableParameters().getMutableMap();
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
       public Builder putParameters(
           long key,
           long value) {
-
-
+        
+        
         internalGetMutableParameters().getMutableMap()
             .put(key, value);
         return this;
       }
-      
+      /**
+       * <code>map&lt;int64, int64&gt; parameters = 3;</code>
+       */
 
       public Builder putAllParameters(
           java.util.Map<java.lang.Long, java.lang.Long> values) {
@@ -30470,7 +30695,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExpirationTime(long value) {
-
+        
         expirationTime_ = value;
         onChanged();
         return this;
@@ -30480,7 +30705,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExpirationTime() {
-
+        
         expirationTime_ = 0L;
         onChanged();
         return this;
@@ -30501,7 +30726,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCreateTime(long value) {
-
+        
         createTime_ = value;
         onChanged();
         return this;
@@ -30511,7 +30736,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCreateTime() {
-
+        
         createTime_ = 0L;
         onChanged();
         return this;
@@ -30616,7 +30841,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-
+        
         state_ = value;
         onChanged();
         return this;
@@ -30640,7 +30865,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -30650,7 +30875,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-
+        
         state_ = 0;
         onChanged();
         return this;
@@ -31056,7 +31281,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + EXCHANGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -31369,7 +31594,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExchangeId(long value) {
-
+        
         exchangeId_ = value;
         onChanged();
         return this;
@@ -31379,7 +31604,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExchangeId() {
-
+        
         exchangeId_ = 0L;
         onChanged();
         return this;
@@ -31403,7 +31628,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         creatorAddress_ = value;
         onChanged();
         return this;
@@ -31413,7 +31638,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCreatorAddress() {
-
+        
         creatorAddress_ = getDefaultInstance().getCreatorAddress();
         onChanged();
         return this;
@@ -31434,7 +31659,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCreateTime(long value) {
-
+        
         createTime_ = value;
         onChanged();
         return this;
@@ -31444,7 +31669,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCreateTime() {
-
+        
         createTime_ = 0L;
         onChanged();
         return this;
@@ -31468,7 +31693,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         firstTokenId_ = value;
         onChanged();
         return this;
@@ -31478,7 +31703,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFirstTokenId() {
-
+        
         firstTokenId_ = getDefaultInstance().getFirstTokenId();
         onChanged();
         return this;
@@ -31499,7 +31724,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFirstTokenBalance(long value) {
-
+        
         firstTokenBalance_ = value;
         onChanged();
         return this;
@@ -31509,7 +31734,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFirstTokenBalance() {
-
+        
         firstTokenBalance_ = 0L;
         onChanged();
         return this;
@@ -31533,7 +31758,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         secondTokenId_ = value;
         onChanged();
         return this;
@@ -31543,7 +31768,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSecondTokenId() {
-
+        
         secondTokenId_ = getDefaultInstance().getSecondTokenId();
         onChanged();
         return this;
@@ -31564,7 +31789,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setSecondTokenBalance(long value) {
-
+        
         secondTokenBalance_ = value;
         onChanged();
         return this;
@@ -31574,7 +31799,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSecondTokenBalance() {
-
+        
         secondTokenBalance_ = 0L;
         onChanged();
         return this;
@@ -31948,7 +32173,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FROM_FIELD_NUMBER;
       hash = (53 * hash) + getFrom().hashCode();
@@ -32256,7 +32481,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         from_ = value;
         onChanged();
         return this;
@@ -32266,7 +32491,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFrom() {
-
+        
         from_ = getDefaultInstance().getFrom();
         onChanged();
         return this;
@@ -32290,7 +32515,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         to_ = value;
         onChanged();
         return this;
@@ -32300,7 +32525,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTo() {
-
+        
         to_ = getDefaultInstance().getTo();
         onChanged();
         return this;
@@ -32321,7 +32546,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFrozenBalanceForPhoton(long value) {
-
+        
         frozenBalanceForPhoton_ = value;
         onChanged();
         return this;
@@ -32331,7 +32556,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFrozenBalanceForPhoton() {
-
+        
         frozenBalanceForPhoton_ = 0L;
         onChanged();
         return this;
@@ -32352,7 +32577,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFrozenBalanceForEntropy(long value) {
-
+        
         frozenBalanceForEntropy_ = value;
         onChanged();
         return this;
@@ -32362,7 +32587,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFrozenBalanceForEntropy() {
-
+        
         frozenBalanceForEntropy_ = 0L;
         onChanged();
         return this;
@@ -32383,7 +32608,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExpireTimeForPhoton(long value) {
-
+        
         expireTimeForPhoton_ = value;
         onChanged();
         return this;
@@ -32393,7 +32618,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExpireTimeForPhoton() {
-
+        
         expireTimeForPhoton_ = 0L;
         onChanged();
         return this;
@@ -32414,7 +32639,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setExpireTimeForEntropy(long value) {
-
+        
         expireTimeForEntropy_ = value;
         onChanged();
         return this;
@@ -32424,7 +32649,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearExpireTimeForEntropy() {
-
+        
         expireTimeForEntropy_ = 0L;
         onChanged();
         return this;
@@ -32783,7 +33008,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ACCOUNT_FIELD_NUMBER;
       hash = (53 * hash) + getAccount().hashCode();
@@ -33091,7 +33316,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         account_ = value;
         onChanged();
         return this;
@@ -33101,7 +33326,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearAccount() {
-
+        
         account_ = getDefaultInstance().getAccount();
         onChanged();
         return this;
@@ -33334,17 +33559,17 @@ public final class Response {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     boolean hasTransaction();
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     org.vision.visionjsdk.proto.Chain.Transaction getTransaction();
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder();
 
@@ -33453,7 +33678,7 @@ public final class Response {
     public static final int TRANSACTION_FIELD_NUMBER = 1;
     private org.vision.visionjsdk.proto.Chain.Transaction transaction_;
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return Whether the transaction field is set.
      */
     @java.lang.Override
@@ -33461,7 +33686,7 @@ public final class Response {
       return transaction_ != null;
     }
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      * @return The transaction.
      */
     @java.lang.Override
@@ -33469,7 +33694,7 @@ public final class Response {
       return transaction_ == null ? org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance() : transaction_;
     }
     /**
-     * 
+     * <code>.protocol.Transaction transaction = 1;</code>
      */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
@@ -33555,7 +33780,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasTransaction()) {
         hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
@@ -33823,14 +34048,14 @@ public final class Response {
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> transactionBuilder_;
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return Whether the transaction field is set.
        */
       public boolean hasTransaction() {
         return transactionBuilder_ != null || transaction_ != null;
       }
       /**
-       * 
+       * <code>.protocol.Transaction transaction = 1;</code>
        * @return The transaction.
        */
       public org.vision.visionjsdk.proto.Chain.Transaction getTransaction() {
@@ -33840,7 +34065,9 @@ public final class Response {
           return transactionBuilder_.getMessage();
         }
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
           if (value == null) {
@@ -33854,7 +34081,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder setTransaction(
           org.vision.visionjsdk.proto.Chain.Transaction.Builder builderForValue) {
         if (transactionBuilder_ == null) {
@@ -33866,7 +34095,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder mergeTransaction(org.vision.visionjsdk.proto.Chain.Transaction value) {
         if (transactionBuilder_ == null) {
           if (transaction_ != null) {
@@ -33882,7 +34113,9 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public Builder clearTransaction() {
         if (transactionBuilder_ == null) {
           transaction_ = null;
@@ -33894,13 +34127,17 @@ public final class Response {
 
         return this;
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.Transaction.Builder getTransactionBuilder() {
-
+        
         onChanged();
         return getTransactionFieldBuilder().getBuilder();
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Chain.TransactionOrBuilder getTransactionOrBuilder() {
         if (transactionBuilder_ != null) {
           return transactionBuilder_.getMessageOrBuilder();
@@ -33909,9 +34146,11 @@ public final class Response {
               org.vision.visionjsdk.proto.Chain.Transaction.getDefaultInstance() : transaction_;
         }
       }
-      
+      /**
+       * <code>.protocol.Transaction transaction = 1;</code>
+       */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder>
+          org.vision.visionjsdk.proto.Chain.Transaction, org.vision.visionjsdk.proto.Chain.Transaction.Builder, org.vision.visionjsdk.proto.Chain.TransactionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -33942,7 +34181,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         privateKey_ = value;
         onChanged();
         return this;
@@ -33952,7 +34191,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearPrivateKey() {
-
+        
         privateKey_ = getDefaultInstance().getPrivateKey();
         onChanged();
         return this;
@@ -34014,17 +34253,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.ChainParameters)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter>
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter> 
         getChainParameterList();
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter getChainParameter(int index);
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     int getChainParameterCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder>
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder> 
         getChainParameterOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder getChainParameterOrBuilder(
         int index);
   }
@@ -34242,7 +34491,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           key_ = s;
@@ -34258,7 +34507,7 @@ public final class Response {
           getKeyBytes() {
         java.lang.Object ref = key_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           key_ = b;
@@ -34343,7 +34592,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + KEY_FIELD_NUMBER;
         hash = (53 * hash) + getKey().hashCode();
@@ -34624,7 +34873,7 @@ public final class Response {
             getKeyBytes() {
           java.lang.Object ref = key_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             key_ = b;
@@ -34643,7 +34892,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           key_ = value;
           onChanged();
           return this;
@@ -34653,7 +34902,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearKey() {
-
+          
           key_ = getDefaultInstance().getKey();
           onChanged();
           return this;
@@ -34669,7 +34918,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           key_ = value;
           onChanged();
           return this;
@@ -34690,7 +34939,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setValue(long value) {
-
+          
           value_ = value;
           onChanged();
           return this;
@@ -34700,7 +34949,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearValue() {
-
+          
           value_ = 0L;
           onChanged();
           return this;
@@ -34760,28 +35009,38 @@ public final class Response {
 
     public static final int CHAINPARAMETER_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter> chainParameter_;
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter> getChainParameterList() {
       return chainParameter_;
     }
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder> 
         getChainParameterOrBuilderList() {
       return chainParameter_;
     }
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     @java.lang.Override
     public int getChainParameterCount() {
       return chainParameter_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter getChainParameter(int index) {
       return chainParameter_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder getChainParameterOrBuilder(
         int index) {
@@ -34844,7 +35103,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getChainParameterCount() > 0) {
         hash = (37 * hash) + CHAINPARAMETER_FIELD_NUMBER;
@@ -35092,7 +35351,7 @@ public final class Response {
               chainParameterBuilder_ = null;
               chainParameter_ = other.chainParameter_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              chainParameterBuilder_ =
+              chainParameterBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getChainParameterFieldBuilder() : null;
             } else {
@@ -35142,7 +35401,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder> chainParameterBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter> getChainParameterList() {
         if (chainParameterBuilder_ == null) {
           return java.util.Collections.unmodifiableList(chainParameter_);
@@ -35150,7 +35411,9 @@ public final class Response {
           return chainParameterBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public int getChainParameterCount() {
         if (chainParameterBuilder_ == null) {
           return chainParameter_.size();
@@ -35158,7 +35421,9 @@ public final class Response {
           return chainParameterBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter getChainParameter(int index) {
         if (chainParameterBuilder_ == null) {
           return chainParameter_.get(index);
@@ -35166,7 +35431,9 @@ public final class Response {
           return chainParameterBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder setChainParameter(
           int index, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter value) {
         if (chainParameterBuilder_ == null) {
@@ -35181,7 +35448,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder setChainParameter(
           int index, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder builderForValue) {
         if (chainParameterBuilder_ == null) {
@@ -35193,7 +35462,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder addChainParameter(org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter value) {
         if (chainParameterBuilder_ == null) {
           if (value == null) {
@@ -35207,7 +35478,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder addChainParameter(
           int index, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter value) {
         if (chainParameterBuilder_ == null) {
@@ -35222,7 +35495,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder addChainParameter(
           org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder builderForValue) {
         if (chainParameterBuilder_ == null) {
@@ -35234,7 +35509,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder addChainParameter(
           int index, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder builderForValue) {
         if (chainParameterBuilder_ == null) {
@@ -35246,7 +35523,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder addAllChainParameter(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter> values) {
         if (chainParameterBuilder_ == null) {
@@ -35259,7 +35538,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder clearChainParameter() {
         if (chainParameterBuilder_ == null) {
           chainParameter_ = java.util.Collections.emptyList();
@@ -35270,7 +35551,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public Builder removeChainParameter(int index) {
         if (chainParameterBuilder_ == null) {
           ensureChainParameterIsMutable();
@@ -35281,12 +35564,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder getChainParameterBuilder(
           int index) {
         return getChainParameterFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder getChainParameterOrBuilder(
           int index) {
         if (chainParameterBuilder_ == null) {
@@ -35294,8 +35581,10 @@ public final class Response {
           return chainParameterBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder>
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder> 
            getChainParameterOrBuilderList() {
         if (chainParameterBuilder_ != null) {
           return chainParameterBuilder_.getMessageOrBuilderList();
@@ -35303,24 +35592,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(chainParameter_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder addChainParameterBuilder() {
         return getChainParameterFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder addChainParameterBuilder(
           int index) {
         return getChainParameterFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder>
+      /**
+       * <code>repeated .protocol.ChainParameters.ChainParameter chainParameter = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder> 
            getChainParameterBuilderList() {
         return getChainParameterFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder>
+          org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameter.Builder, org.vision.visionjsdk.proto.Response.ChainParameters.ChainParameterOrBuilder> 
           getChainParameterFieldBuilder() {
         if (chainParameterBuilder_ == null) {
           chainParameterBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -35448,17 +35743,27 @@ public final class Response {
      */
     long getTotalFlow();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo>
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo> 
         getPeerInfoListList();
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo getPeerInfoList(int index);
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     int getPeerInfoListCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder>
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder> 
         getPeerInfoListOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder getPeerInfoListOrBuilder(
         int index);
 
@@ -35472,7 +35777,9 @@ public final class Response {
      * @return The configNodeInfo.
      */
     org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo getConfigNodeInfo();
-    
+    /**
+     * <code>.protocol.NodeInfo.ConfigNodeInfo configNodeInfo = 9;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfoOrBuilder getConfigNodeInfoOrBuilder();
 
     /**
@@ -35485,26 +35792,41 @@ public final class Response {
      * @return The machineInfo.
      */
     org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo getMachineInfo();
-    
+    /**
+     * <code>.protocol.NodeInfo.MachineInfo machineInfo = 10;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfoOrBuilder getMachineInfoOrBuilder();
 
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     int getCheatWitnessInfoMapCount();
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     boolean containsCheatWitnessInfoMap(
         java.lang.String key);
+    /**
+     * Use {@link #getCheatWitnessInfoMapMap()} instead.
+     */
     @java.lang.Deprecated
     java.util.Map<java.lang.String, java.lang.String>
     getCheatWitnessInfoMap();
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     java.util.Map<java.lang.String, java.lang.String>
     getCheatWitnessInfoMapMap();
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
 
     java.lang.String getCheatWitnessInfoMapOrDefault(
         java.lang.String key,
         java.lang.String defaultValue);
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
 
     java.lang.String getCheatWitnessInfoMapOrThrow(
         java.lang.String key);
@@ -36106,7 +36428,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           lastSyncBlock_ = s;
@@ -36122,7 +36444,7 @@ public final class Response {
           getLastSyncBlockBytes() {
         java.lang.Object ref = lastSyncBlock_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           lastSyncBlock_ = b;
@@ -36210,7 +36532,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           host_ = s;
@@ -36226,7 +36548,7 @@ public final class Response {
           getHostBytes() {
         java.lang.Object ref = host_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           host_ = b;
@@ -36259,7 +36581,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           nodeId_ = s;
@@ -36275,7 +36597,7 @@ public final class Response {
           getNodeIdBytes() {
         java.lang.Object ref = nodeId_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nodeId_ = b;
@@ -36374,7 +36696,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           headBlockWeBothHave_ = s;
@@ -36390,7 +36712,7 @@ public final class Response {
           getHeadBlockWeBothHaveBytes() {
         java.lang.Object ref = headBlockWeBothHave_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           headBlockWeBothHave_ = b;
@@ -36467,7 +36789,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           localDisconnectReason_ = s;
@@ -36483,7 +36805,7 @@ public final class Response {
           getLocalDisconnectReasonBytes() {
         java.lang.Object ref = localDisconnectReason_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           localDisconnectReason_ = b;
@@ -36505,7 +36827,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           remoteDisconnectReason_ = s;
@@ -36521,7 +36843,7 @@ public final class Response {
           getRemoteDisconnectReasonBytes() {
         java.lang.Object ref = remoteDisconnectReason_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           remoteDisconnectReason_ = b;
@@ -36798,7 +37120,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + LASTSYNCBLOCK_FIELD_NUMBER;
         hash = (53 * hash) + getLastSyncBlock().hashCode();
@@ -37279,7 +37601,7 @@ public final class Response {
             getLastSyncBlockBytes() {
           java.lang.Object ref = lastSyncBlock_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             lastSyncBlock_ = b;
@@ -37298,7 +37620,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           lastSyncBlock_ = value;
           onChanged();
           return this;
@@ -37308,7 +37630,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearLastSyncBlock() {
-
+          
           lastSyncBlock_ = getDefaultInstance().getLastSyncBlock();
           onChanged();
           return this;
@@ -37324,7 +37646,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           lastSyncBlock_ = value;
           onChanged();
           return this;
@@ -37345,7 +37667,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setRemainNum(long value) {
-
+          
           remainNum_ = value;
           onChanged();
           return this;
@@ -37355,7 +37677,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearRemainNum() {
-
+          
           remainNum_ = 0L;
           onChanged();
           return this;
@@ -37376,7 +37698,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setLastBlockUpdateTime(long value) {
-
+          
           lastBlockUpdateTime_ = value;
           onChanged();
           return this;
@@ -37386,7 +37708,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearLastBlockUpdateTime() {
-
+          
           lastBlockUpdateTime_ = 0L;
           onChanged();
           return this;
@@ -37407,7 +37729,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSyncFlag(boolean value) {
-
+          
           syncFlag_ = value;
           onChanged();
           return this;
@@ -37417,7 +37739,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSyncFlag() {
-
+          
           syncFlag_ = false;
           onChanged();
           return this;
@@ -37438,7 +37760,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setHeadBlockTimeWeBothHave(long value) {
-
+          
           headBlockTimeWeBothHave_ = value;
           onChanged();
           return this;
@@ -37448,7 +37770,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearHeadBlockTimeWeBothHave() {
-
+          
           headBlockTimeWeBothHave_ = 0L;
           onChanged();
           return this;
@@ -37469,7 +37791,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setNeedSyncFromPeer(boolean value) {
-
+          
           needSyncFromPeer_ = value;
           onChanged();
           return this;
@@ -37479,7 +37801,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearNeedSyncFromPeer() {
-
+          
           needSyncFromPeer_ = false;
           onChanged();
           return this;
@@ -37500,7 +37822,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setNeedSyncFromUs(boolean value) {
-
+          
           needSyncFromUs_ = value;
           onChanged();
           return this;
@@ -37510,7 +37832,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearNeedSyncFromUs() {
-
+          
           needSyncFromUs_ = false;
           onChanged();
           return this;
@@ -37541,7 +37863,7 @@ public final class Response {
             getHostBytes() {
           java.lang.Object ref = host_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             host_ = b;
@@ -37560,7 +37882,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           host_ = value;
           onChanged();
           return this;
@@ -37570,7 +37892,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearHost() {
-
+          
           host_ = getDefaultInstance().getHost();
           onChanged();
           return this;
@@ -37586,7 +37908,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           host_ = value;
           onChanged();
           return this;
@@ -37607,7 +37929,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setPort(int value) {
-
+          
           port_ = value;
           onChanged();
           return this;
@@ -37617,7 +37939,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearPort() {
-
+          
           port_ = 0;
           onChanged();
           return this;
@@ -37648,7 +37970,7 @@ public final class Response {
             getNodeIdBytes() {
           java.lang.Object ref = nodeId_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             nodeId_ = b;
@@ -37667,7 +37989,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           nodeId_ = value;
           onChanged();
           return this;
@@ -37677,7 +37999,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearNodeId() {
-
+          
           nodeId_ = getDefaultInstance().getNodeId();
           onChanged();
           return this;
@@ -37693,7 +38015,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           nodeId_ = value;
           onChanged();
           return this;
@@ -37714,7 +38036,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setConnectTime(long value) {
-
+          
           connectTime_ = value;
           onChanged();
           return this;
@@ -37724,7 +38046,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearConnectTime() {
-
+          
           connectTime_ = 0L;
           onChanged();
           return this;
@@ -37745,7 +38067,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setAvgLatency(double value) {
-
+          
           avgLatency_ = value;
           onChanged();
           return this;
@@ -37755,7 +38077,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearAvgLatency() {
-
+          
           avgLatency_ = 0D;
           onChanged();
           return this;
@@ -37776,7 +38098,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSyncToFetchSize(int value) {
-
+          
           syncToFetchSize_ = value;
           onChanged();
           return this;
@@ -37786,7 +38108,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSyncToFetchSize() {
-
+          
           syncToFetchSize_ = 0;
           onChanged();
           return this;
@@ -37807,7 +38129,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSyncToFetchSizePeekNum(long value) {
-
+          
           syncToFetchSizePeekNum_ = value;
           onChanged();
           return this;
@@ -37817,7 +38139,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSyncToFetchSizePeekNum() {
-
+          
           syncToFetchSizePeekNum_ = 0L;
           onChanged();
           return this;
@@ -37838,7 +38160,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSyncBlockRequestedSize(int value) {
-
+          
           syncBlockRequestedSize_ = value;
           onChanged();
           return this;
@@ -37848,7 +38170,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSyncBlockRequestedSize() {
-
+          
           syncBlockRequestedSize_ = 0;
           onChanged();
           return this;
@@ -37869,7 +38191,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setUnFetchSynNum(long value) {
-
+          
           unFetchSynNum_ = value;
           onChanged();
           return this;
@@ -37879,7 +38201,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearUnFetchSynNum() {
-
+          
           unFetchSynNum_ = 0L;
           onChanged();
           return this;
@@ -37900,7 +38222,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setBlockInPorcSize(int value) {
-
+          
           blockInPorcSize_ = value;
           onChanged();
           return this;
@@ -37910,7 +38232,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearBlockInPorcSize() {
-
+          
           blockInPorcSize_ = 0;
           onChanged();
           return this;
@@ -37941,7 +38263,7 @@ public final class Response {
             getHeadBlockWeBothHaveBytes() {
           java.lang.Object ref = headBlockWeBothHave_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             headBlockWeBothHave_ = b;
@@ -37960,7 +38282,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           headBlockWeBothHave_ = value;
           onChanged();
           return this;
@@ -37970,7 +38292,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearHeadBlockWeBothHave() {
-
+          
           headBlockWeBothHave_ = getDefaultInstance().getHeadBlockWeBothHave();
           onChanged();
           return this;
@@ -37986,7 +38308,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           headBlockWeBothHave_ = value;
           onChanged();
           return this;
@@ -38007,7 +38329,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setIsActive(boolean value) {
-
+          
           isActive_ = value;
           onChanged();
           return this;
@@ -38017,7 +38339,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearIsActive() {
-
+          
           isActive_ = false;
           onChanged();
           return this;
@@ -38038,7 +38360,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setScore(int value) {
-
+          
           score_ = value;
           onChanged();
           return this;
@@ -38048,7 +38370,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearScore() {
-
+          
           score_ = 0;
           onChanged();
           return this;
@@ -38069,7 +38391,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setNodeCount(int value) {
-
+          
           nodeCount_ = value;
           onChanged();
           return this;
@@ -38079,7 +38401,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearNodeCount() {
-
+          
           nodeCount_ = 0;
           onChanged();
           return this;
@@ -38100,7 +38422,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setInFlow(long value) {
-
+          
           inFlow_ = value;
           onChanged();
           return this;
@@ -38110,7 +38432,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearInFlow() {
-
+          
           inFlow_ = 0L;
           onChanged();
           return this;
@@ -38131,7 +38453,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setDisconnectTimes(int value) {
-
+          
           disconnectTimes_ = value;
           onChanged();
           return this;
@@ -38141,7 +38463,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearDisconnectTimes() {
-
+          
           disconnectTimes_ = 0;
           onChanged();
           return this;
@@ -38172,7 +38494,7 @@ public final class Response {
             getLocalDisconnectReasonBytes() {
           java.lang.Object ref = localDisconnectReason_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             localDisconnectReason_ = b;
@@ -38191,7 +38513,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           localDisconnectReason_ = value;
           onChanged();
           return this;
@@ -38201,7 +38523,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearLocalDisconnectReason() {
-
+          
           localDisconnectReason_ = getDefaultInstance().getLocalDisconnectReason();
           onChanged();
           return this;
@@ -38217,7 +38539,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           localDisconnectReason_ = value;
           onChanged();
           return this;
@@ -38248,7 +38570,7 @@ public final class Response {
             getRemoteDisconnectReasonBytes() {
           java.lang.Object ref = remoteDisconnectReason_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             remoteDisconnectReason_ = b;
@@ -38267,7 +38589,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           remoteDisconnectReason_ = value;
           onChanged();
           return this;
@@ -38277,7 +38599,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearRemoteDisconnectReason() {
-
+          
           remoteDisconnectReason_ = getDefaultInstance().getRemoteDisconnectReason();
           onChanged();
           return this;
@@ -38293,7 +38615,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           remoteDisconnectReason_ = value;
           onChanged();
           return this;
@@ -38669,7 +38991,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           codeVersion_ = s;
@@ -38685,7 +39007,7 @@ public final class Response {
           getCodeVersionBytes() {
         java.lang.Object ref = codeVersion_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           codeVersion_ = b;
@@ -38707,7 +39029,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           p2PVersion_ = s;
@@ -38723,7 +39045,7 @@ public final class Response {
           getP2PVersionBytes() {
         java.lang.Object ref = p2PVersion_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           p2PVersion_ = b;
@@ -39138,7 +39460,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + CODEVERSION_FIELD_NUMBER;
         hash = (53 * hash) + getCodeVersion().hashCode();
@@ -39561,7 +39883,7 @@ public final class Response {
             getCodeVersionBytes() {
           java.lang.Object ref = codeVersion_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             codeVersion_ = b;
@@ -39580,7 +39902,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           codeVersion_ = value;
           onChanged();
           return this;
@@ -39590,7 +39912,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearCodeVersion() {
-
+          
           codeVersion_ = getDefaultInstance().getCodeVersion();
           onChanged();
           return this;
@@ -39606,7 +39928,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           codeVersion_ = value;
           onChanged();
           return this;
@@ -39637,7 +39959,7 @@ public final class Response {
             getP2PVersionBytes() {
           java.lang.Object ref = p2PVersion_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             p2PVersion_ = b;
@@ -39656,7 +39978,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           p2PVersion_ = value;
           onChanged();
           return this;
@@ -39666,7 +39988,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearP2PVersion() {
-
+          
           p2PVersion_ = getDefaultInstance().getP2PVersion();
           onChanged();
           return this;
@@ -39682,7 +40004,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           p2PVersion_ = value;
           onChanged();
           return this;
@@ -39703,7 +40025,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setListenPort(int value) {
-
+          
           listenPort_ = value;
           onChanged();
           return this;
@@ -39713,7 +40035,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearListenPort() {
-
+          
           listenPort_ = 0;
           onChanged();
           return this;
@@ -39734,7 +40056,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setDiscoverEnable(boolean value) {
-
+          
           discoverEnable_ = value;
           onChanged();
           return this;
@@ -39744,7 +40066,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearDiscoverEnable() {
-
+          
           discoverEnable_ = false;
           onChanged();
           return this;
@@ -39765,7 +40087,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setActiveNodeSize(int value) {
-
+          
           activeNodeSize_ = value;
           onChanged();
           return this;
@@ -39775,7 +40097,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearActiveNodeSize() {
-
+          
           activeNodeSize_ = 0;
           onChanged();
           return this;
@@ -39796,7 +40118,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setPassiveNodeSize(int value) {
-
+          
           passiveNodeSize_ = value;
           onChanged();
           return this;
@@ -39806,7 +40128,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearPassiveNodeSize() {
-
+          
           passiveNodeSize_ = 0;
           onChanged();
           return this;
@@ -39827,7 +40149,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSendNodeSize(int value) {
-
+          
           sendNodeSize_ = value;
           onChanged();
           return this;
@@ -39837,7 +40159,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSendNodeSize() {
-
+          
           sendNodeSize_ = 0;
           onChanged();
           return this;
@@ -39858,7 +40180,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setMaxConnectCount(int value) {
-
+          
           maxConnectCount_ = value;
           onChanged();
           return this;
@@ -39868,7 +40190,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMaxConnectCount() {
-
+          
           maxConnectCount_ = 0;
           onChanged();
           return this;
@@ -39889,7 +40211,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSameIpMaxConnectCount(int value) {
-
+          
           sameIpMaxConnectCount_ = value;
           onChanged();
           return this;
@@ -39899,7 +40221,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSameIpMaxConnectCount() {
-
+          
           sameIpMaxConnectCount_ = 0;
           onChanged();
           return this;
@@ -39920,7 +40242,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setBackupListenPort(int value) {
-
+          
           backupListenPort_ = value;
           onChanged();
           return this;
@@ -39930,7 +40252,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearBackupListenPort() {
-
+          
           backupListenPort_ = 0;
           onChanged();
           return this;
@@ -39951,7 +40273,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setBackupMemberSize(int value) {
-
+          
           backupMemberSize_ = value;
           onChanged();
           return this;
@@ -39961,7 +40283,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearBackupMemberSize() {
-
+          
           backupMemberSize_ = 0;
           onChanged();
           return this;
@@ -39982,7 +40304,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setBackupPriority(int value) {
-
+          
           backupPriority_ = value;
           onChanged();
           return this;
@@ -39992,7 +40314,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearBackupPriority() {
-
+          
           backupPriority_ = 0;
           onChanged();
           return this;
@@ -40013,7 +40335,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setDbVersion(int value) {
-
+          
           dbVersion_ = value;
           onChanged();
           return this;
@@ -40023,7 +40345,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearDbVersion() {
-
+          
           dbVersion_ = 0;
           onChanged();
           return this;
@@ -40044,7 +40366,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setMinParticipationRate(int value) {
-
+          
           minParticipationRate_ = value;
           onChanged();
           return this;
@@ -40054,7 +40376,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMinParticipationRate() {
-
+          
           minParticipationRate_ = 0;
           onChanged();
           return this;
@@ -40075,7 +40397,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setSupportConstant(boolean value) {
-
+          
           supportConstant_ = value;
           onChanged();
           return this;
@@ -40085,7 +40407,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearSupportConstant() {
-
+          
           supportConstant_ = false;
           onChanged();
           return this;
@@ -40106,7 +40428,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setMinTimeRatio(double value) {
-
+          
           minTimeRatio_ = value;
           onChanged();
           return this;
@@ -40116,7 +40438,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMinTimeRatio() {
-
+          
           minTimeRatio_ = 0D;
           onChanged();
           return this;
@@ -40137,7 +40459,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setMaxTimeRatio(double value) {
-
+          
           maxTimeRatio_ = value;
           onChanged();
           return this;
@@ -40147,7 +40469,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMaxTimeRatio() {
-
+          
           maxTimeRatio_ = 0D;
           onChanged();
           return this;
@@ -40168,7 +40490,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setAllowCreationOfContracts(long value) {
-
+          
           allowCreationOfContracts_ = value;
           onChanged();
           return this;
@@ -40178,7 +40500,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearAllowCreationOfContracts() {
-
+          
           allowCreationOfContracts_ = 0L;
           onChanged();
           return this;
@@ -40199,7 +40521,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setAllowAdaptiveEntropy(long value) {
-
+          
           allowAdaptiveEntropy_ = value;
           onChanged();
           return this;
@@ -40209,7 +40531,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearAllowAdaptiveEntropy() {
-
+          
           allowAdaptiveEntropy_ = 0L;
           onChanged();
           return this;
@@ -40349,31 +40671,51 @@ public final class Response {
        */
       double getProcessCpuRate();
 
-      
-      java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo>
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
+      java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo> 
           getMemoryDescInfoListList();
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo getMemoryDescInfoList(int index);
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       int getMemoryDescInfoListCount();
-      
-      java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder>
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
+      java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder> 
           getMemoryDescInfoListOrBuilderList();
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder getMemoryDescInfoListOrBuilder(
           int index);
 
-      
-      java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo>
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
+      java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo> 
           getDeadLockThreadInfoListList();
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo getDeadLockThreadInfoList(int index);
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       int getDeadLockThreadInfoListCount();
-      
-      java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder>
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
+      java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder> 
           getDeadLockThreadInfoListOrBuilderList();
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder getDeadLockThreadInfoListOrBuilder(
           int index);
     }
@@ -40696,7 +41038,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             name_ = s;
@@ -40712,7 +41054,7 @@ public final class Response {
             getNameBytes() {
           java.lang.Object ref = name_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             name_ = b;
@@ -40858,7 +41200,7 @@ public final class Response {
           if (memoizedHashCode != 0) {
             return memoizedHashCode;
           }
-          int hash = 46;
+          int hash = 41;
           hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + NAME_FIELD_NUMBER;
           hash = (53 * hash) + getName().hashCode();
@@ -41166,7 +41508,7 @@ public final class Response {
               getNameBytes() {
             java.lang.Object ref = name_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               name_ = b;
@@ -41185,7 +41527,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             name_ = value;
             onChanged();
             return this;
@@ -41195,7 +41537,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearName() {
-
+            
             name_ = getDefaultInstance().getName();
             onChanged();
             return this;
@@ -41211,7 +41553,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             name_ = value;
             onChanged();
             return this;
@@ -41232,7 +41574,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setInitSize(long value) {
-
+            
             initSize_ = value;
             onChanged();
             return this;
@@ -41242,7 +41584,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearInitSize() {
-
+            
             initSize_ = 0L;
             onChanged();
             return this;
@@ -41263,7 +41605,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setUseSize(long value) {
-
+            
             useSize_ = value;
             onChanged();
             return this;
@@ -41273,7 +41615,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearUseSize() {
-
+            
             useSize_ = 0L;
             onChanged();
             return this;
@@ -41294,7 +41636,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setMaxSize(long value) {
-
+            
             maxSize_ = value;
             onChanged();
             return this;
@@ -41304,7 +41646,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearMaxSize() {
-
+            
             maxSize_ = 0L;
             onChanged();
             return this;
@@ -41325,7 +41667,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setUseRate(double value) {
-
+            
             useRate_ = value;
             onChanged();
             return this;
@@ -41335,7 +41677,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearUseRate() {
-
+            
             useRate_ = 0D;
             onChanged();
             return this;
@@ -41603,7 +41945,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             name_ = s;
@@ -41619,7 +41961,7 @@ public final class Response {
             getNameBytes() {
           java.lang.Object ref = name_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             name_ = b;
@@ -41641,7 +41983,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             lockName_ = s;
@@ -41657,7 +41999,7 @@ public final class Response {
             getLockNameBytes() {
           java.lang.Object ref = lockName_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             lockName_ = b;
@@ -41679,7 +42021,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             lockOwner_ = s;
@@ -41695,7 +42037,7 @@ public final class Response {
             getLockOwnerBytes() {
           java.lang.Object ref = lockOwner_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             lockOwner_ = b;
@@ -41717,7 +42059,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             state_ = s;
@@ -41733,7 +42075,7 @@ public final class Response {
             getStateBytes() {
           java.lang.Object ref = state_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             state_ = b;
@@ -41777,7 +42119,7 @@ public final class Response {
           if (ref instanceof java.lang.String) {
             return (java.lang.String) ref;
           } else {
-            com.google.protobuf.ByteString bs =
+            com.google.protobuf.ByteString bs = 
                 (com.google.protobuf.ByteString) ref;
             java.lang.String s = bs.toStringUtf8();
             stackTrace_ = s;
@@ -41793,7 +42135,7 @@ public final class Response {
             getStackTraceBytes() {
           java.lang.Object ref = stackTrace_;
           if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             stackTrace_ = b;
@@ -41908,7 +42250,7 @@ public final class Response {
           if (memoizedHashCode != 0) {
             return memoizedHashCode;
           }
-          int hash = 46;
+          int hash = 41;
           hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + NAME_FIELD_NUMBER;
           hash = (53 * hash) + getName().hashCode();
@@ -42234,7 +42576,7 @@ public final class Response {
               getNameBytes() {
             java.lang.Object ref = name_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               name_ = b;
@@ -42253,7 +42595,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             name_ = value;
             onChanged();
             return this;
@@ -42263,7 +42605,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearName() {
-
+            
             name_ = getDefaultInstance().getName();
             onChanged();
             return this;
@@ -42279,7 +42621,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             name_ = value;
             onChanged();
             return this;
@@ -42310,7 +42652,7 @@ public final class Response {
               getLockNameBytes() {
             java.lang.Object ref = lockName_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               lockName_ = b;
@@ -42329,7 +42671,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             lockName_ = value;
             onChanged();
             return this;
@@ -42339,7 +42681,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearLockName() {
-
+            
             lockName_ = getDefaultInstance().getLockName();
             onChanged();
             return this;
@@ -42355,7 +42697,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             lockName_ = value;
             onChanged();
             return this;
@@ -42386,7 +42728,7 @@ public final class Response {
               getLockOwnerBytes() {
             java.lang.Object ref = lockOwner_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               lockOwner_ = b;
@@ -42405,7 +42747,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             lockOwner_ = value;
             onChanged();
             return this;
@@ -42415,7 +42757,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearLockOwner() {
-
+            
             lockOwner_ = getDefaultInstance().getLockOwner();
             onChanged();
             return this;
@@ -42431,7 +42773,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             lockOwner_ = value;
             onChanged();
             return this;
@@ -42462,7 +42804,7 @@ public final class Response {
               getStateBytes() {
             java.lang.Object ref = state_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               state_ = b;
@@ -42481,7 +42823,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             state_ = value;
             onChanged();
             return this;
@@ -42491,7 +42833,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearState() {
-
+            
             state_ = getDefaultInstance().getState();
             onChanged();
             return this;
@@ -42507,7 +42849,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             state_ = value;
             onChanged();
             return this;
@@ -42528,7 +42870,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setBlockTime(long value) {
-
+            
             blockTime_ = value;
             onChanged();
             return this;
@@ -42538,7 +42880,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearBlockTime() {
-
+            
             blockTime_ = 0L;
             onChanged();
             return this;
@@ -42559,7 +42901,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setWaitTime(long value) {
-
+            
             waitTime_ = value;
             onChanged();
             return this;
@@ -42569,7 +42911,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearWaitTime() {
-
+            
             waitTime_ = 0L;
             onChanged();
             return this;
@@ -42600,7 +42942,7 @@ public final class Response {
               getStackTraceBytes() {
             java.lang.Object ref = stackTrace_;
             if (ref instanceof String) {
-              com.google.protobuf.ByteString b =
+              com.google.protobuf.ByteString b = 
                   com.google.protobuf.ByteString.copyFromUtf8(
                       (java.lang.String) ref);
               stackTrace_ = b;
@@ -42619,7 +42961,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             stackTrace_ = value;
             onChanged();
             return this;
@@ -42629,7 +42971,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearStackTrace() {
-
+            
             stackTrace_ = getDefaultInstance().getStackTrace();
             onChanged();
             return this;
@@ -42645,7 +42987,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+            
             stackTrace_ = value;
             onChanged();
             return this;
@@ -42781,7 +43123,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           javaVersion_ = s;
@@ -42797,7 +43139,7 @@ public final class Response {
           getJavaVersionBytes() {
         java.lang.Object ref = javaVersion_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           javaVersion_ = b;
@@ -42819,7 +43161,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           osName_ = s;
@@ -42835,7 +43177,7 @@ public final class Response {
           getOsNameBytes() {
         java.lang.Object ref = osName_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           osName_ = b;
@@ -42880,28 +43222,38 @@ public final class Response {
 
       public static final int MEMORYDESCINFOLIST_FIELD_NUMBER = 12;
       private java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo> memoryDescInfoList_;
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       @java.lang.Override
       public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo> getMemoryDescInfoListList() {
         return memoryDescInfoList_;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       @java.lang.Override
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder> 
           getMemoryDescInfoListOrBuilderList() {
         return memoryDescInfoList_;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       @java.lang.Override
       public int getMemoryDescInfoListCount() {
         return memoryDescInfoList_.size();
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       @java.lang.Override
       public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo getMemoryDescInfoList(int index) {
         return memoryDescInfoList_.get(index);
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+       */
       @java.lang.Override
       public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder getMemoryDescInfoListOrBuilder(
           int index) {
@@ -42910,28 +43262,38 @@ public final class Response {
 
       public static final int DEADLOCKTHREADINFOLIST_FIELD_NUMBER = 13;
       private java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo> deadLockThreadInfoList_;
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       @java.lang.Override
       public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo> getDeadLockThreadInfoListList() {
         return deadLockThreadInfoList_;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       @java.lang.Override
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder>
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder> 
           getDeadLockThreadInfoListOrBuilderList() {
         return deadLockThreadInfoList_;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       @java.lang.Override
       public int getDeadLockThreadInfoListCount() {
         return deadLockThreadInfoList_.size();
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       @java.lang.Override
       public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo getDeadLockThreadInfoList(int index) {
         return deadLockThreadInfoList_.get(index);
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+       */
       @java.lang.Override
       public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder getDeadLockThreadInfoListOrBuilder(
           int index) {
@@ -43102,7 +43464,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + THREADCOUNT_FIELD_NUMBER;
         hash = (53 * hash) + getThreadCount();
@@ -43466,7 +43828,7 @@ public final class Response {
                 memoryDescInfoListBuilder_ = null;
                 memoryDescInfoList_ = other.memoryDescInfoList_;
                 bitField0_ = (bitField0_ & ~0x00000001);
-                memoryDescInfoListBuilder_ =
+                memoryDescInfoListBuilder_ = 
                   com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                      getMemoryDescInfoListFieldBuilder() : null;
               } else {
@@ -43492,7 +43854,7 @@ public final class Response {
                 deadLockThreadInfoListBuilder_ = null;
                 deadLockThreadInfoList_ = other.deadLockThreadInfoList_;
                 bitField0_ = (bitField0_ & ~0x00000002);
-                deadLockThreadInfoListBuilder_ =
+                deadLockThreadInfoListBuilder_ = 
                   com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                      getDeadLockThreadInfoListFieldBuilder() : null;
               } else {
@@ -43545,7 +43907,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setThreadCount(int value) {
-
+          
           threadCount_ = value;
           onChanged();
           return this;
@@ -43555,7 +43917,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearThreadCount() {
-
+          
           threadCount_ = 0;
           onChanged();
           return this;
@@ -43576,7 +43938,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setDeadLockThreadCount(int value) {
-
+          
           deadLockThreadCount_ = value;
           onChanged();
           return this;
@@ -43586,7 +43948,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearDeadLockThreadCount() {
-
+          
           deadLockThreadCount_ = 0;
           onChanged();
           return this;
@@ -43607,7 +43969,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setCpuCount(int value) {
-
+          
           cpuCount_ = value;
           onChanged();
           return this;
@@ -43617,7 +43979,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearCpuCount() {
-
+          
           cpuCount_ = 0;
           onChanged();
           return this;
@@ -43638,7 +44000,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setTotalMemory(long value) {
-
+          
           totalMemory_ = value;
           onChanged();
           return this;
@@ -43648,7 +44010,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearTotalMemory() {
-
+          
           totalMemory_ = 0L;
           onChanged();
           return this;
@@ -43669,7 +44031,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setFreeMemory(long value) {
-
+          
           freeMemory_ = value;
           onChanged();
           return this;
@@ -43679,7 +44041,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearFreeMemory() {
-
+          
           freeMemory_ = 0L;
           onChanged();
           return this;
@@ -43700,7 +44062,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setCpuRate(double value) {
-
+          
           cpuRate_ = value;
           onChanged();
           return this;
@@ -43710,7 +44072,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearCpuRate() {
-
+          
           cpuRate_ = 0D;
           onChanged();
           return this;
@@ -43741,7 +44103,7 @@ public final class Response {
             getJavaVersionBytes() {
           java.lang.Object ref = javaVersion_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             javaVersion_ = b;
@@ -43760,7 +44122,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           javaVersion_ = value;
           onChanged();
           return this;
@@ -43770,7 +44132,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearJavaVersion() {
-
+          
           javaVersion_ = getDefaultInstance().getJavaVersion();
           onChanged();
           return this;
@@ -43786,7 +44148,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           javaVersion_ = value;
           onChanged();
           return this;
@@ -43817,7 +44179,7 @@ public final class Response {
             getOsNameBytes() {
           java.lang.Object ref = osName_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             osName_ = b;
@@ -43836,7 +44198,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           osName_ = value;
           onChanged();
           return this;
@@ -43846,7 +44208,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearOsName() {
-
+          
           osName_ = getDefaultInstance().getOsName();
           onChanged();
           return this;
@@ -43862,7 +44224,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           osName_ = value;
           onChanged();
           return this;
@@ -43883,7 +44245,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setJvmTotalMemoery(long value) {
-
+          
           jvmTotalMemoery_ = value;
           onChanged();
           return this;
@@ -43893,7 +44255,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearJvmTotalMemoery() {
-
+          
           jvmTotalMemoery_ = 0L;
           onChanged();
           return this;
@@ -43914,7 +44276,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setJvmFreeMemory(long value) {
-
+          
           jvmFreeMemory_ = value;
           onChanged();
           return this;
@@ -43924,7 +44286,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearJvmFreeMemory() {
-
+          
           jvmFreeMemory_ = 0L;
           onChanged();
           return this;
@@ -43945,7 +44307,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setProcessCpuRate(double value) {
-
+          
           processCpuRate_ = value;
           onChanged();
           return this;
@@ -43955,7 +44317,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearProcessCpuRate() {
-
+          
           processCpuRate_ = 0D;
           onChanged();
           return this;
@@ -43973,7 +44335,9 @@ public final class Response {
         private com.google.protobuf.RepeatedFieldBuilderV3<
             org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder> memoryDescInfoListBuilder_;
 
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo> getMemoryDescInfoListList() {
           if (memoryDescInfoListBuilder_ == null) {
             return java.util.Collections.unmodifiableList(memoryDescInfoList_);
@@ -43981,7 +44345,9 @@ public final class Response {
             return memoryDescInfoListBuilder_.getMessageList();
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public int getMemoryDescInfoListCount() {
           if (memoryDescInfoListBuilder_ == null) {
             return memoryDescInfoList_.size();
@@ -43989,7 +44355,9 @@ public final class Response {
             return memoryDescInfoListBuilder_.getCount();
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo getMemoryDescInfoList(int index) {
           if (memoryDescInfoListBuilder_ == null) {
             return memoryDescInfoList_.get(index);
@@ -43997,7 +44365,9 @@ public final class Response {
             return memoryDescInfoListBuilder_.getMessage(index);
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder setMemoryDescInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo value) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44012,7 +44382,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder setMemoryDescInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder builderForValue) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44024,7 +44396,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder addMemoryDescInfoList(org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo value) {
           if (memoryDescInfoListBuilder_ == null) {
             if (value == null) {
@@ -44038,7 +44412,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder addMemoryDescInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo value) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44053,7 +44429,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder addMemoryDescInfoList(
             org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder builderForValue) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44065,7 +44443,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder addMemoryDescInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder builderForValue) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44077,7 +44457,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder addAllMemoryDescInfoList(
             java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo> values) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44090,7 +44472,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder clearMemoryDescInfoList() {
           if (memoryDescInfoListBuilder_ == null) {
             memoryDescInfoList_ = java.util.Collections.emptyList();
@@ -44101,7 +44485,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public Builder removeMemoryDescInfoList(int index) {
           if (memoryDescInfoListBuilder_ == null) {
             ensureMemoryDescInfoListIsMutable();
@@ -44112,12 +44498,16 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder getMemoryDescInfoListBuilder(
             int index) {
           return getMemoryDescInfoListFieldBuilder().getBuilder(index);
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder getMemoryDescInfoListOrBuilder(
             int index) {
           if (memoryDescInfoListBuilder_ == null) {
@@ -44125,8 +44515,10 @@ public final class Response {
             return memoryDescInfoListBuilder_.getMessageOrBuilder(index);
           }
         }
-        
-        public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder>
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
+        public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder> 
              getMemoryDescInfoListOrBuilderList() {
           if (memoryDescInfoListBuilder_ != null) {
             return memoryDescInfoListBuilder_.getMessageOrBuilderList();
@@ -44134,24 +44526,30 @@ public final class Response {
             return java.util.Collections.unmodifiableList(memoryDescInfoList_);
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder addMemoryDescInfoListBuilder() {
           return getMemoryDescInfoListFieldBuilder().addBuilder(
               org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.getDefaultInstance());
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder addMemoryDescInfoListBuilder(
             int index) {
           return getMemoryDescInfoListFieldBuilder().addBuilder(
               index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.getDefaultInstance());
         }
-        
-        public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder>
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.MemoryDescInfo memoryDescInfoList = 12;</code>
+         */
+        public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder> 
              getMemoryDescInfoListBuilderList() {
           return getMemoryDescInfoListFieldBuilder().getBuilderList();
         }
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder>
+            org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.MemoryDescInfoOrBuilder> 
             getMemoryDescInfoListFieldBuilder() {
           if (memoryDescInfoListBuilder_ == null) {
             memoryDescInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -44177,7 +44575,9 @@ public final class Response {
         private com.google.protobuf.RepeatedFieldBuilderV3<
             org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder> deadLockThreadInfoListBuilder_;
 
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo> getDeadLockThreadInfoListList() {
           if (deadLockThreadInfoListBuilder_ == null) {
             return java.util.Collections.unmodifiableList(deadLockThreadInfoList_);
@@ -44185,7 +44585,9 @@ public final class Response {
             return deadLockThreadInfoListBuilder_.getMessageList();
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public int getDeadLockThreadInfoListCount() {
           if (deadLockThreadInfoListBuilder_ == null) {
             return deadLockThreadInfoList_.size();
@@ -44193,7 +44595,9 @@ public final class Response {
             return deadLockThreadInfoListBuilder_.getCount();
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo getDeadLockThreadInfoList(int index) {
           if (deadLockThreadInfoListBuilder_ == null) {
             return deadLockThreadInfoList_.get(index);
@@ -44201,7 +44605,9 @@ public final class Response {
             return deadLockThreadInfoListBuilder_.getMessage(index);
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder setDeadLockThreadInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo value) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44216,7 +44622,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder setDeadLockThreadInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder builderForValue) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44228,7 +44636,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder addDeadLockThreadInfoList(org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo value) {
           if (deadLockThreadInfoListBuilder_ == null) {
             if (value == null) {
@@ -44242,7 +44652,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder addDeadLockThreadInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo value) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44257,7 +44669,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder addDeadLockThreadInfoList(
             org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder builderForValue) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44269,7 +44683,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder addDeadLockThreadInfoList(
             int index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder builderForValue) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44281,7 +44697,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder addAllDeadLockThreadInfoList(
             java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo> values) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44294,7 +44712,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder clearDeadLockThreadInfoList() {
           if (deadLockThreadInfoListBuilder_ == null) {
             deadLockThreadInfoList_ = java.util.Collections.emptyList();
@@ -44305,7 +44725,9 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public Builder removeDeadLockThreadInfoList(int index) {
           if (deadLockThreadInfoListBuilder_ == null) {
             ensureDeadLockThreadInfoListIsMutable();
@@ -44316,12 +44738,16 @@ public final class Response {
           }
           return this;
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder getDeadLockThreadInfoListBuilder(
             int index) {
           return getDeadLockThreadInfoListFieldBuilder().getBuilder(index);
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder getDeadLockThreadInfoListOrBuilder(
             int index) {
           if (deadLockThreadInfoListBuilder_ == null) {
@@ -44329,8 +44755,10 @@ public final class Response {
             return deadLockThreadInfoListBuilder_.getMessageOrBuilder(index);
           }
         }
-        
-        public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder>
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
+        public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder> 
              getDeadLockThreadInfoListOrBuilderList() {
           if (deadLockThreadInfoListBuilder_ != null) {
             return deadLockThreadInfoListBuilder_.getMessageOrBuilderList();
@@ -44338,24 +44766,30 @@ public final class Response {
             return java.util.Collections.unmodifiableList(deadLockThreadInfoList_);
           }
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder addDeadLockThreadInfoListBuilder() {
           return getDeadLockThreadInfoListFieldBuilder().addBuilder(
               org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.getDefaultInstance());
         }
-        
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
         public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder addDeadLockThreadInfoListBuilder(
             int index) {
           return getDeadLockThreadInfoListFieldBuilder().addBuilder(
               index, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.getDefaultInstance());
         }
-        
-        public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder>
+        /**
+         * <code>repeated .protocol.NodeInfo.MachineInfo.DeadLockThreadInfo deadLockThreadInfoList = 13;</code>
+         */
+        public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder> 
              getDeadLockThreadInfoListBuilderList() {
           return getDeadLockThreadInfoListFieldBuilder().getBuilderList();
         }
         private com.google.protobuf.RepeatedFieldBuilderV3<
-            org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder>
+            org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.DeadLockThreadInfoOrBuilder> 
             getDeadLockThreadInfoListFieldBuilder() {
           if (deadLockThreadInfoListBuilder_ == null) {
             deadLockThreadInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -44444,7 +44878,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         block_ = s;
@@ -44460,7 +44894,7 @@ public final class Response {
         getBlockBytes() {
       java.lang.Object ref = block_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         block_ = b;
@@ -44482,7 +44916,7 @@ public final class Response {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         solidityBlock_ = s;
@@ -44498,7 +44932,7 @@ public final class Response {
         getSolidityBlockBytes() {
       java.lang.Object ref = solidityBlock_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         solidityBlock_ = b;
@@ -44558,28 +44992,38 @@ public final class Response {
 
     public static final int PEERINFOLIST_FIELD_NUMBER = 8;
     private java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo> peerInfoList_;
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo> getPeerInfoListList() {
       return peerInfoList_;
     }
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder> 
         getPeerInfoListOrBuilderList() {
       return peerInfoList_;
     }
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     @java.lang.Override
     public int getPeerInfoListCount() {
       return peerInfoList_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo getPeerInfoList(int index) {
       return peerInfoList_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder getPeerInfoListOrBuilder(
         int index) {
@@ -44604,7 +45048,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo getConfigNodeInfo() {
       return configNodeInfo_ == null ? org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo.getDefaultInstance() : configNodeInfo_;
     }
-    
+    /**
+     * <code>.protocol.NodeInfo.ConfigNodeInfo configNodeInfo = 9;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfoOrBuilder getConfigNodeInfoOrBuilder() {
       return getConfigNodeInfo();
@@ -44628,7 +45074,9 @@ public final class Response {
     public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo getMachineInfo() {
       return machineInfo_ == null ? org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.getDefaultInstance() : machineInfo_;
     }
-    
+    /**
+     * <code>.protocol.NodeInfo.MachineInfo machineInfo = 10;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfoOrBuilder getMachineInfoOrBuilder() {
       return getMachineInfo();
@@ -44640,7 +45088,7 @@ public final class Response {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_NodeInfo_CheatWitnessInfoMapEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_NodeInfo_CheatWitnessInfoMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -44660,7 +45108,9 @@ public final class Response {
     public int getCheatWitnessInfoMapCount() {
       return internalGetCheatWitnessInfoMap().getMap().size();
     }
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
 
     @java.lang.Override
     public boolean containsCheatWitnessInfoMap(
@@ -44676,13 +45126,17 @@ public final class Response {
     public java.util.Map<java.lang.String, java.lang.String> getCheatWitnessInfoMap() {
       return getCheatWitnessInfoMapMap();
     }
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     @java.lang.Override
 
     public java.util.Map<java.lang.String, java.lang.String> getCheatWitnessInfoMapMap() {
       return internalGetCheatWitnessInfoMap().getMap();
     }
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     @java.lang.Override
 
     public java.lang.String getCheatWitnessInfoMapOrDefault(
@@ -44693,7 +45147,9 @@ public final class Response {
           internalGetCheatWitnessInfoMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-    
+    /**
+     * <code>map&lt;string, string&gt; cheatWitnessInfoMap = 11;</code>
+     */
     @java.lang.Override
 
     public java.lang.String getCheatWitnessInfoMapOrThrow(
@@ -44866,7 +45322,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + BEGINSYNCNUM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -45233,7 +45689,7 @@ public final class Response {
               peerInfoListBuilder_ = null;
               peerInfoList_ = other.peerInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              peerInfoListBuilder_ =
+              peerInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPeerInfoListFieldBuilder() : null;
             } else {
@@ -45294,7 +45750,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBeginSyncNum(long value) {
-
+        
         beginSyncNum_ = value;
         onChanged();
         return this;
@@ -45304,7 +45760,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBeginSyncNum() {
-
+        
         beginSyncNum_ = 0L;
         onChanged();
         return this;
@@ -45335,7 +45791,7 @@ public final class Response {
           getBlockBytes() {
         java.lang.Object ref = block_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           block_ = b;
@@ -45354,7 +45810,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         block_ = value;
         onChanged();
         return this;
@@ -45364,7 +45820,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBlock() {
-
+        
         block_ = getDefaultInstance().getBlock();
         onChanged();
         return this;
@@ -45380,7 +45836,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         block_ = value;
         onChanged();
         return this;
@@ -45411,7 +45867,7 @@ public final class Response {
           getSolidityBlockBytes() {
         java.lang.Object ref = solidityBlock_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           solidityBlock_ = b;
@@ -45430,7 +45886,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         solidityBlock_ = value;
         onChanged();
         return this;
@@ -45440,7 +45896,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSolidityBlock() {
-
+        
         solidityBlock_ = getDefaultInstance().getSolidityBlock();
         onChanged();
         return this;
@@ -45456,7 +45912,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         solidityBlock_ = value;
         onChanged();
         return this;
@@ -45485,7 +45941,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCurrentConnectCount(int value) {
-
+        
         currentConnectCount_ = value;
         onChanged();
         return this;
@@ -45499,7 +45955,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCurrentConnectCount() {
-
+        
         currentConnectCount_ = 0;
         onChanged();
         return this;
@@ -45520,7 +45976,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setActiveConnectCount(int value) {
-
+        
         activeConnectCount_ = value;
         onChanged();
         return this;
@@ -45530,7 +45986,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearActiveConnectCount() {
-
+        
         activeConnectCount_ = 0;
         onChanged();
         return this;
@@ -45551,7 +46007,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setPassiveConnectCount(int value) {
-
+        
         passiveConnectCount_ = value;
         onChanged();
         return this;
@@ -45561,7 +46017,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearPassiveConnectCount() {
-
+        
         passiveConnectCount_ = 0;
         onChanged();
         return this;
@@ -45582,7 +46038,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalFlow(long value) {
-
+        
         totalFlow_ = value;
         onChanged();
         return this;
@@ -45592,7 +46048,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalFlow() {
-
+        
         totalFlow_ = 0L;
         onChanged();
         return this;
@@ -45610,7 +46066,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder> peerInfoListBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo> getPeerInfoListList() {
         if (peerInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(peerInfoList_);
@@ -45618,7 +46076,9 @@ public final class Response {
           return peerInfoListBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public int getPeerInfoListCount() {
         if (peerInfoListBuilder_ == null) {
           return peerInfoList_.size();
@@ -45626,7 +46086,9 @@ public final class Response {
           return peerInfoListBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo getPeerInfoList(int index) {
         if (peerInfoListBuilder_ == null) {
           return peerInfoList_.get(index);
@@ -45634,7 +46096,9 @@ public final class Response {
           return peerInfoListBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder setPeerInfoList(
           int index, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo value) {
         if (peerInfoListBuilder_ == null) {
@@ -45649,7 +46113,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder setPeerInfoList(
           int index, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder builderForValue) {
         if (peerInfoListBuilder_ == null) {
@@ -45661,7 +46127,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder addPeerInfoList(org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo value) {
         if (peerInfoListBuilder_ == null) {
           if (value == null) {
@@ -45675,7 +46143,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder addPeerInfoList(
           int index, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo value) {
         if (peerInfoListBuilder_ == null) {
@@ -45690,7 +46160,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder addPeerInfoList(
           org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder builderForValue) {
         if (peerInfoListBuilder_ == null) {
@@ -45702,7 +46174,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder addPeerInfoList(
           int index, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder builderForValue) {
         if (peerInfoListBuilder_ == null) {
@@ -45714,7 +46188,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder addAllPeerInfoList(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo> values) {
         if (peerInfoListBuilder_ == null) {
@@ -45727,7 +46203,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder clearPeerInfoList() {
         if (peerInfoListBuilder_ == null) {
           peerInfoList_ = java.util.Collections.emptyList();
@@ -45738,7 +46216,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public Builder removePeerInfoList(int index) {
         if (peerInfoListBuilder_ == null) {
           ensurePeerInfoListIsMutable();
@@ -45749,12 +46229,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder getPeerInfoListBuilder(
           int index) {
         return getPeerInfoListFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder getPeerInfoListOrBuilder(
           int index) {
         if (peerInfoListBuilder_ == null) {
@@ -45762,8 +46246,10 @@ public final class Response {
           return peerInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder>
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder> 
            getPeerInfoListOrBuilderList() {
         if (peerInfoListBuilder_ != null) {
           return peerInfoListBuilder_.getMessageOrBuilderList();
@@ -45771,24 +46257,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(peerInfoList_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder addPeerInfoListBuilder() {
         return getPeerInfoListFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder addPeerInfoListBuilder(
           int index) {
         return getPeerInfoListFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder>
+      /**
+       * <code>repeated .protocol.NodeInfo.PeerInfo peerInfoList = 8;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder> 
            getPeerInfoListBuilderList() {
         return getPeerInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder>
+          org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.PeerInfoOrBuilder> 
           getPeerInfoListFieldBuilder() {
         if (peerInfoListBuilder_ == null) {
           peerInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -45889,7 +46381,7 @@ public final class Response {
        * <code>.protocol.NodeInfo.ConfigNodeInfo configNodeInfo = 9;</code>
        */
       public org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo.Builder getConfigNodeInfoBuilder() {
-
+        
         onChanged();
         return getConfigNodeInfoFieldBuilder().getBuilder();
       }
@@ -45908,7 +46400,7 @@ public final class Response {
        * <code>.protocol.NodeInfo.ConfigNodeInfo configNodeInfo = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo, org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfoOrBuilder>
+          org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo, org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.ConfigNodeInfoOrBuilder> 
           getConfigNodeInfoFieldBuilder() {
         if (configNodeInfoBuilder_ == null) {
           configNodeInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -46008,7 +46500,7 @@ public final class Response {
        * <code>.protocol.NodeInfo.MachineInfo machineInfo = 10;</code>
        */
       public org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.Builder getMachineInfoBuilder() {
-
+        
         onChanged();
         return getMachineInfoFieldBuilder().getBuilder();
       }
@@ -46027,7 +46519,7 @@ public final class Response {
        * <code>.protocol.NodeInfo.MachineInfo machineInfo = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfoOrBuilder>
+          org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfo.Builder, org.vision.visionjsdk.proto.Response.NodeInfo.MachineInfoOrBuilder> 
           getMachineInfoFieldBuilder() {
         if (machineInfoBuilder_ == null) {
           machineInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -46877,7 +47369,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getOrderId().hashCode();
@@ -47234,7 +47726,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         orderId_ = value;
         onChanged();
         return this;
@@ -47244,7 +47736,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearOrderId() {
-
+        
         orderId_ = getDefaultInstance().getOrderId();
         onChanged();
         return this;
@@ -47268,7 +47760,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         ownerAddress_ = value;
         onChanged();
         return this;
@@ -47278,7 +47770,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearOwnerAddress() {
-
+        
         ownerAddress_ = getDefaultInstance().getOwnerAddress();
         onChanged();
         return this;
@@ -47299,7 +47791,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCreateTime(long value) {
-
+        
         createTime_ = value;
         onChanged();
         return this;
@@ -47309,7 +47801,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCreateTime() {
-
+        
         createTime_ = 0L;
         onChanged();
         return this;
@@ -47333,7 +47825,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         sellTokenId_ = value;
         onChanged();
         return this;
@@ -47343,7 +47835,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenId() {
-
+        
         sellTokenId_ = getDefaultInstance().getSellTokenId();
         onChanged();
         return this;
@@ -47364,7 +47856,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setSellTokenQuantity(long value) {
-
+        
         sellTokenQuantity_ = value;
         onChanged();
         return this;
@@ -47374,7 +47866,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenQuantity() {
-
+        
         sellTokenQuantity_ = 0L;
         onChanged();
         return this;
@@ -47398,7 +47890,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         buyTokenId_ = value;
         onChanged();
         return this;
@@ -47408,7 +47900,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBuyTokenId() {
-
+        
         buyTokenId_ = getDefaultInstance().getBuyTokenId();
         onChanged();
         return this;
@@ -47437,7 +47929,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBuyTokenQuantity(long value) {
-
+        
         buyTokenQuantity_ = value;
         onChanged();
         return this;
@@ -47451,7 +47943,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBuyTokenQuantity() {
-
+        
         buyTokenQuantity_ = 0L;
         onChanged();
         return this;
@@ -47472,7 +47964,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setSellTokenQuantityRemain(long value) {
-
+        
         sellTokenQuantityRemain_ = value;
         onChanged();
         return this;
@@ -47482,7 +47974,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenQuantityRemain() {
-
+        
         sellTokenQuantityRemain_ = 0L;
         onChanged();
         return this;
@@ -47515,7 +48007,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setSellTokenQuantityReturn(long value) {
-
+        
         sellTokenQuantityReturn_ = value;
         onChanged();
         return this;
@@ -47531,7 +48023,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenQuantityReturn() {
-
+        
         sellTokenQuantityReturn_ = 0L;
         onChanged();
         return this;
@@ -47551,7 +48043,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-
+        
         state_ = value;
         onChanged();
         return this;
@@ -47575,7 +48067,7 @@ public final class Response {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -47585,7 +48077,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-
+        
         state_ = 0;
         onChanged();
         return this;
@@ -47609,7 +48101,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         prev_ = value;
         onChanged();
         return this;
@@ -47619,7 +48111,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearPrev() {
-
+        
         prev_ = getDefaultInstance().getPrev();
         onChanged();
         return this;
@@ -47643,7 +48135,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         next_ = value;
         onChanged();
         return this;
@@ -47653,7 +48145,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNext() {
-
+        
         next_ = getDefaultInstance().getNext();
         onChanged();
         return this;
@@ -47715,17 +48207,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.MarketOrderList)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder>
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder> 
         getOrdersList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrder getOrders(int index);
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     int getOrdersCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder>
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder> 
         getOrdersOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder getOrdersOrBuilder(
         int index);
   }
@@ -47822,28 +48324,38 @@ public final class Response {
 
     public static final int ORDERS_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder> orders_;
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder> getOrdersList() {
       return orders_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder> 
         getOrdersOrBuilderList() {
       return orders_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     @java.lang.Override
     public int getOrdersCount() {
       return orders_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrder getOrders(int index) {
       return orders_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrder orders = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder getOrdersOrBuilder(
         int index) {
@@ -47906,7 +48418,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getOrdersCount() > 0) {
         hash = (37 * hash) + ORDERS_FIELD_NUMBER;
@@ -48154,7 +48666,7 @@ public final class Response {
               ordersBuilder_ = null;
               orders_ = other.orders_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              ordersBuilder_ =
+              ordersBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOrdersFieldBuilder() : null;
             } else {
@@ -48204,7 +48716,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.MarketOrder, org.vision.visionjsdk.proto.Response.MarketOrder.Builder, org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder> ordersBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder> getOrdersList() {
         if (ordersBuilder_ == null) {
           return java.util.Collections.unmodifiableList(orders_);
@@ -48212,7 +48726,9 @@ public final class Response {
           return ordersBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public int getOrdersCount() {
         if (ordersBuilder_ == null) {
           return orders_.size();
@@ -48220,7 +48736,9 @@ public final class Response {
           return ordersBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrder getOrders(int index) {
         if (ordersBuilder_ == null) {
           return orders_.get(index);
@@ -48228,7 +48746,9 @@ public final class Response {
           return ordersBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder setOrders(
           int index, org.vision.visionjsdk.proto.Response.MarketOrder value) {
         if (ordersBuilder_ == null) {
@@ -48243,7 +48763,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder setOrders(
           int index, org.vision.visionjsdk.proto.Response.MarketOrder.Builder builderForValue) {
         if (ordersBuilder_ == null) {
@@ -48255,7 +48777,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder addOrders(org.vision.visionjsdk.proto.Response.MarketOrder value) {
         if (ordersBuilder_ == null) {
           if (value == null) {
@@ -48269,7 +48793,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder addOrders(
           int index, org.vision.visionjsdk.proto.Response.MarketOrder value) {
         if (ordersBuilder_ == null) {
@@ -48284,7 +48810,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder addOrders(
           org.vision.visionjsdk.proto.Response.MarketOrder.Builder builderForValue) {
         if (ordersBuilder_ == null) {
@@ -48296,7 +48824,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder addOrders(
           int index, org.vision.visionjsdk.proto.Response.MarketOrder.Builder builderForValue) {
         if (ordersBuilder_ == null) {
@@ -48308,7 +48838,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder addAllOrders(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.MarketOrder> values) {
         if (ordersBuilder_ == null) {
@@ -48321,7 +48853,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder clearOrders() {
         if (ordersBuilder_ == null) {
           orders_ = java.util.Collections.emptyList();
@@ -48332,7 +48866,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public Builder removeOrders(int index) {
         if (ordersBuilder_ == null) {
           ensureOrdersIsMutable();
@@ -48343,12 +48879,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrder.Builder getOrdersBuilder(
           int index) {
         return getOrdersFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder getOrdersOrBuilder(
           int index) {
         if (ordersBuilder_ == null) {
@@ -48356,8 +48896,10 @@ public final class Response {
           return ordersBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder>
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder> 
            getOrdersOrBuilderList() {
         if (ordersBuilder_ != null) {
           return ordersBuilder_.getMessageOrBuilderList();
@@ -48365,24 +48907,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(orders_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrder.Builder addOrdersBuilder() {
         return getOrdersFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.MarketOrder.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrder.Builder addOrdersBuilder(
           int index) {
         return getOrdersFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.MarketOrder.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder.Builder>
+      /**
+       * <code>repeated .protocol.MarketOrder orders = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrder.Builder> 
            getOrdersBuilderList() {
         return getOrdersFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.MarketOrder, org.vision.visionjsdk.proto.Response.MarketOrder.Builder, org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder>
+          org.vision.visionjsdk.proto.Response.MarketOrder, org.vision.visionjsdk.proto.Response.MarketOrder.Builder, org.vision.visionjsdk.proto.Response.MarketOrderOrBuilder> 
           getOrdersFieldBuilder() {
         if (ordersBuilder_ == null) {
           ordersBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -48640,7 +49188,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SELL_TOKEN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSellTokenId().hashCode();
@@ -48912,7 +49460,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         sellTokenId_ = value;
         onChanged();
         return this;
@@ -48922,7 +49470,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenId() {
-
+        
         sellTokenId_ = getDefaultInstance().getSellTokenId();
         onChanged();
         return this;
@@ -48946,7 +49494,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         buyTokenId_ = value;
         onChanged();
         return this;
@@ -48956,7 +49504,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBuyTokenId() {
-
+        
         buyTokenId_ = getDefaultInstance().getBuyTokenId();
         onChanged();
         return this;
@@ -49018,17 +49566,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.MarketOrderPairList)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair>
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair> 
         getOrderPairList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrderPair getOrderPair(int index);
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     int getOrderPairCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder>
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder> 
         getOrderPairOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder getOrderPairOrBuilder(
         int index);
   }
@@ -49125,28 +49683,38 @@ public final class Response {
 
     public static final int ORDERPAIR_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair> orderPair_;
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair> getOrderPairList() {
       return orderPair_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder> 
         getOrderPairOrBuilderList() {
       return orderPair_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     @java.lang.Override
     public int getOrderPairCount() {
       return orderPair_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrderPair getOrderPair(int index) {
       return orderPair_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder getOrderPairOrBuilder(
         int index) {
@@ -49209,7 +49777,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getOrderPairCount() > 0) {
         hash = (37 * hash) + ORDERPAIR_FIELD_NUMBER;
@@ -49457,7 +50025,7 @@ public final class Response {
               orderPairBuilder_ = null;
               orderPair_ = other.orderPair_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              orderPairBuilder_ =
+              orderPairBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOrderPairFieldBuilder() : null;
             } else {
@@ -49507,7 +50075,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.MarketOrderPair, org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder, org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder> orderPairBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair> getOrderPairList() {
         if (orderPairBuilder_ == null) {
           return java.util.Collections.unmodifiableList(orderPair_);
@@ -49515,7 +50085,9 @@ public final class Response {
           return orderPairBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public int getOrderPairCount() {
         if (orderPairBuilder_ == null) {
           return orderPair_.size();
@@ -49523,7 +50095,9 @@ public final class Response {
           return orderPairBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderPair getOrderPair(int index) {
         if (orderPairBuilder_ == null) {
           return orderPair_.get(index);
@@ -49531,7 +50105,9 @@ public final class Response {
           return orderPairBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder setOrderPair(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderPair value) {
         if (orderPairBuilder_ == null) {
@@ -49546,7 +50122,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder setOrderPair(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder builderForValue) {
         if (orderPairBuilder_ == null) {
@@ -49558,7 +50136,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder addOrderPair(org.vision.visionjsdk.proto.Response.MarketOrderPair value) {
         if (orderPairBuilder_ == null) {
           if (value == null) {
@@ -49572,7 +50152,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder addOrderPair(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderPair value) {
         if (orderPairBuilder_ == null) {
@@ -49587,7 +50169,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder addOrderPair(
           org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder builderForValue) {
         if (orderPairBuilder_ == null) {
@@ -49599,7 +50183,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder addOrderPair(
           int index, org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder builderForValue) {
         if (orderPairBuilder_ == null) {
@@ -49611,7 +50197,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder addAllOrderPair(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.MarketOrderPair> values) {
         if (orderPairBuilder_ == null) {
@@ -49624,7 +50212,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder clearOrderPair() {
         if (orderPairBuilder_ == null) {
           orderPair_ = java.util.Collections.emptyList();
@@ -49635,7 +50225,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public Builder removeOrderPair(int index) {
         if (orderPairBuilder_ == null) {
           ensureOrderPairIsMutable();
@@ -49646,12 +50238,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder getOrderPairBuilder(
           int index) {
         return getOrderPairFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder getOrderPairOrBuilder(
           int index) {
         if (orderPairBuilder_ == null) {
@@ -49659,8 +50255,10 @@ public final class Response {
           return orderPairBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder>
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder> 
            getOrderPairOrBuilderList() {
         if (orderPairBuilder_ != null) {
           return orderPairBuilder_.getMessageOrBuilderList();
@@ -49668,24 +50266,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(orderPair_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder addOrderPairBuilder() {
         return getOrderPairFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.MarketOrderPair.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder addOrderPairBuilder(
           int index) {
         return getOrderPairFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.MarketOrderPair.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder>
+      /**
+       * <code>repeated .protocol.MarketOrderPair orderPair = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder> 
            getOrderPairBuilderList() {
         return getOrderPairFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.MarketOrderPair, org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder, org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder>
+          org.vision.visionjsdk.proto.Response.MarketOrderPair, org.vision.visionjsdk.proto.Response.MarketOrderPair.Builder, org.vision.visionjsdk.proto.Response.MarketOrderPairOrBuilder> 
           getOrderPairFieldBuilder() {
         if (orderPairBuilder_ == null) {
           orderPairBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -49941,7 +50545,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SELL_TOKEN_QUANTITY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -50212,7 +50816,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setSellTokenQuantity(long value) {
-
+        
         sellTokenQuantity_ = value;
         onChanged();
         return this;
@@ -50222,7 +50826,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenQuantity() {
-
+        
         sellTokenQuantity_ = 0L;
         onChanged();
         return this;
@@ -50243,7 +50847,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setBuyTokenQuantity(long value) {
-
+        
         buyTokenQuantity_ = value;
         onChanged();
         return this;
@@ -50253,7 +50857,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBuyTokenQuantity() {
-
+        
         buyTokenQuantity_ = 0L;
         onChanged();
         return this;
@@ -50327,17 +50931,27 @@ public final class Response {
      */
     com.google.protobuf.ByteString getBuyTokenId();
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice>
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice> 
         getPricesList();
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketPrice getPrices(int index);
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     int getPricesCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder>
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder> 
         getPricesOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder getPricesOrBuilder(
         int index);
   }
@@ -50468,28 +51082,38 @@ public final class Response {
 
     public static final int PRICES_FIELD_NUMBER = 3;
     private java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice> prices_;
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice> getPricesList() {
       return prices_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder> 
         getPricesOrBuilderList() {
       return prices_;
     }
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     @java.lang.Override
     public int getPricesCount() {
       return prices_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketPrice getPrices(int index) {
       return prices_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.MarketPrice prices = 3;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder getPricesOrBuilder(
         int index) {
@@ -50570,7 +51194,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + SELL_TOKEN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSellTokenId().hashCode();
@@ -50834,7 +51458,7 @@ public final class Response {
               pricesBuilder_ = null;
               prices_ = other.prices_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              pricesBuilder_ =
+              pricesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPricesFieldBuilder() : null;
             } else {
@@ -50890,7 +51514,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         sellTokenId_ = value;
         onChanged();
         return this;
@@ -50900,7 +51524,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearSellTokenId() {
-
+        
         sellTokenId_ = getDefaultInstance().getSellTokenId();
         onChanged();
         return this;
@@ -50924,7 +51548,7 @@ public final class Response {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         buyTokenId_ = value;
         onChanged();
         return this;
@@ -50934,7 +51558,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearBuyTokenId() {
-
+        
         buyTokenId_ = getDefaultInstance().getBuyTokenId();
         onChanged();
         return this;
@@ -50952,7 +51576,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.MarketPrice, org.vision.visionjsdk.proto.Response.MarketPrice.Builder, org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder> pricesBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice> getPricesList() {
         if (pricesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(prices_);
@@ -50960,7 +51586,9 @@ public final class Response {
           return pricesBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public int getPricesCount() {
         if (pricesBuilder_ == null) {
           return prices_.size();
@@ -50968,7 +51596,9 @@ public final class Response {
           return pricesBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketPrice getPrices(int index) {
         if (pricesBuilder_ == null) {
           return prices_.get(index);
@@ -50976,7 +51606,9 @@ public final class Response {
           return pricesBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder setPrices(
           int index, org.vision.visionjsdk.proto.Response.MarketPrice value) {
         if (pricesBuilder_ == null) {
@@ -50991,7 +51623,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder setPrices(
           int index, org.vision.visionjsdk.proto.Response.MarketPrice.Builder builderForValue) {
         if (pricesBuilder_ == null) {
@@ -51003,7 +51637,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder addPrices(org.vision.visionjsdk.proto.Response.MarketPrice value) {
         if (pricesBuilder_ == null) {
           if (value == null) {
@@ -51017,7 +51653,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder addPrices(
           int index, org.vision.visionjsdk.proto.Response.MarketPrice value) {
         if (pricesBuilder_ == null) {
@@ -51032,7 +51670,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder addPrices(
           org.vision.visionjsdk.proto.Response.MarketPrice.Builder builderForValue) {
         if (pricesBuilder_ == null) {
@@ -51044,7 +51684,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder addPrices(
           int index, org.vision.visionjsdk.proto.Response.MarketPrice.Builder builderForValue) {
         if (pricesBuilder_ == null) {
@@ -51056,7 +51698,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder addAllPrices(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.MarketPrice> values) {
         if (pricesBuilder_ == null) {
@@ -51069,7 +51713,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder clearPrices() {
         if (pricesBuilder_ == null) {
           prices_ = java.util.Collections.emptyList();
@@ -51080,7 +51726,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public Builder removePrices(int index) {
         if (pricesBuilder_ == null) {
           ensurePricesIsMutable();
@@ -51091,12 +51739,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketPrice.Builder getPricesBuilder(
           int index) {
         return getPricesFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder getPricesOrBuilder(
           int index) {
         if (pricesBuilder_ == null) {
@@ -51104,8 +51756,10 @@ public final class Response {
           return pricesBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder>
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder> 
            getPricesOrBuilderList() {
         if (pricesBuilder_ != null) {
           return pricesBuilder_.getMessageOrBuilderList();
@@ -51113,24 +51767,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(prices_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketPrice.Builder addPricesBuilder() {
         return getPricesFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.MarketPrice.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
       public org.vision.visionjsdk.proto.Response.MarketPrice.Builder addPricesBuilder(
           int index) {
         return getPricesFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.MarketPrice.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice.Builder>
+      /**
+       * <code>repeated .protocol.MarketPrice prices = 3;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.MarketPrice.Builder> 
            getPricesBuilderList() {
         return getPricesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.MarketPrice, org.vision.visionjsdk.proto.Response.MarketPrice.Builder, org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder>
+          org.vision.visionjsdk.proto.Response.MarketPrice, org.vision.visionjsdk.proto.Response.MarketPrice.Builder, org.vision.visionjsdk.proto.Response.MarketPriceOrBuilder> 
           getPricesFieldBuilder() {
         if (pricesBuilder_ == null) {
           pricesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -51355,7 +52015,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + IS_SPENT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -51617,7 +52277,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setIsSpent(boolean value) {
-
+        
         isSpent_ = value;
         onChanged();
         return this;
@@ -51627,7 +52287,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearIsSpent() {
-
+        
         isSpent_ = false;
         onChanged();
         return this;
@@ -51689,17 +52349,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.DecryptNotesVRC20)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx>
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx> 
         getNoteTxsList();
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx getNoteTxs(int index);
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     int getNoteTxsCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder>
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder> 
         getNoteTxsOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder getNoteTxsOrBuilder(
         int index);
   }
@@ -52069,7 +52739,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           toAmount_ = s;
@@ -52085,7 +52755,7 @@ public final class Response {
           getToAmountBytes() {
         java.lang.Object ref = toAmount_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           toAmount_ = b;
@@ -52218,7 +52888,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         if (hasNote()) {
           hash = (37 * hash) + NOTE_FIELD_NUMBER;
@@ -52612,7 +53282,7 @@ public final class Response {
          * <code>.protocol.Note note = 1;</code>
          */
         public org.vision.visionjsdk.proto.Common.Note.Builder getNoteBuilder() {
-
+          
           onChanged();
           return getNoteFieldBuilder().getBuilder();
         }
@@ -52631,7 +53301,7 @@ public final class Response {
          * <code>.protocol.Note note = 1;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            org.vision.visionjsdk.proto.Common.Note, org.vision.visionjsdk.proto.Common.Note.Builder, org.vision.visionjsdk.proto.Common.NoteOrBuilder>
+            org.vision.visionjsdk.proto.Common.Note, org.vision.visionjsdk.proto.Common.Note.Builder, org.vision.visionjsdk.proto.Common.NoteOrBuilder> 
             getNoteFieldBuilder() {
           if (noteBuilder_ == null) {
             noteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -52659,7 +53329,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setPosition(long value) {
-
+          
           position_ = value;
           onChanged();
           return this;
@@ -52669,7 +53339,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearPosition() {
-
+          
           position_ = 0L;
           onChanged();
           return this;
@@ -52690,7 +53360,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setIsSpent(boolean value) {
-
+          
           isSpent_ = value;
           onChanged();
           return this;
@@ -52700,7 +53370,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearIsSpent() {
-
+          
           isSpent_ = false;
           onChanged();
           return this;
@@ -52724,7 +53394,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           txid_ = value;
           onChanged();
           return this;
@@ -52734,7 +53404,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearTxid() {
-
+          
           txid_ = getDefaultInstance().getTxid();
           onChanged();
           return this;
@@ -52763,7 +53433,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setIndex(int value) {
-
+          
           index_ = value;
           onChanged();
           return this;
@@ -52777,7 +53447,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearIndex() {
-
+          
           index_ = 0;
           onChanged();
           return this;
@@ -52808,7 +53478,7 @@ public final class Response {
             getToAmountBytes() {
           java.lang.Object ref = toAmount_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             toAmount_ = b;
@@ -52827,7 +53497,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           toAmount_ = value;
           onChanged();
           return this;
@@ -52837,7 +53507,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearToAmount() {
-
+          
           toAmount_ = getDefaultInstance().getToAmount();
           onChanged();
           return this;
@@ -52853,7 +53523,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           toAmount_ = value;
           onChanged();
           return this;
@@ -52877,7 +53547,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           transparentToAddress_ = value;
           onChanged();
           return this;
@@ -52887,7 +53557,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearTransparentToAddress() {
-
+          
           transparentToAddress_ = getDefaultInstance().getTransparentToAddress();
           onChanged();
           return this;
@@ -52947,28 +53617,38 @@ public final class Response {
 
     public static final int NOTETXS_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx> noteTxs_;
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx> getNoteTxsList() {
       return noteTxs_;
     }
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder> 
         getNoteTxsOrBuilderList() {
       return noteTxs_;
     }
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     @java.lang.Override
     public int getNoteTxsCount() {
       return noteTxs_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx getNoteTxs(int index) {
       return noteTxs_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder getNoteTxsOrBuilder(
         int index) {
@@ -53031,7 +53711,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getNoteTxsCount() > 0) {
         hash = (37 * hash) + NOTETXS_FIELD_NUMBER;
@@ -53279,7 +53959,7 @@ public final class Response {
               noteTxsBuilder_ = null;
               noteTxs_ = other.noteTxs_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              noteTxsBuilder_ =
+              noteTxsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNoteTxsFieldBuilder() : null;
             } else {
@@ -53329,7 +54009,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder> noteTxsBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx> getNoteTxsList() {
         if (noteTxsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(noteTxs_);
@@ -53337,7 +54019,9 @@ public final class Response {
           return noteTxsBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public int getNoteTxsCount() {
         if (noteTxsBuilder_ == null) {
           return noteTxs_.size();
@@ -53345,7 +54029,9 @@ public final class Response {
           return noteTxsBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx getNoteTxs(int index) {
         if (noteTxsBuilder_ == null) {
           return noteTxs_.get(index);
@@ -53353,7 +54039,9 @@ public final class Response {
           return noteTxsBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder setNoteTxs(
           int index, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx value) {
         if (noteTxsBuilder_ == null) {
@@ -53368,7 +54056,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder setNoteTxs(
           int index, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder builderForValue) {
         if (noteTxsBuilder_ == null) {
@@ -53380,7 +54070,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder addNoteTxs(org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx value) {
         if (noteTxsBuilder_ == null) {
           if (value == null) {
@@ -53394,7 +54086,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder addNoteTxs(
           int index, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx value) {
         if (noteTxsBuilder_ == null) {
@@ -53409,7 +54103,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder addNoteTxs(
           org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder builderForValue) {
         if (noteTxsBuilder_ == null) {
@@ -53421,7 +54117,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder addNoteTxs(
           int index, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder builderForValue) {
         if (noteTxsBuilder_ == null) {
@@ -53433,7 +54131,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder addAllNoteTxs(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx> values) {
         if (noteTxsBuilder_ == null) {
@@ -53446,7 +54146,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder clearNoteTxs() {
         if (noteTxsBuilder_ == null) {
           noteTxs_ = java.util.Collections.emptyList();
@@ -53457,7 +54159,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public Builder removeNoteTxs(int index) {
         if (noteTxsBuilder_ == null) {
           ensureNoteTxsIsMutable();
@@ -53468,12 +54172,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder getNoteTxsBuilder(
           int index) {
         return getNoteTxsFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder getNoteTxsOrBuilder(
           int index) {
         if (noteTxsBuilder_ == null) {
@@ -53481,8 +54189,10 @@ public final class Response {
           return noteTxsBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder>
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder> 
            getNoteTxsOrBuilderList() {
         if (noteTxsBuilder_ != null) {
           return noteTxsBuilder_.getMessageOrBuilderList();
@@ -53490,24 +54200,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(noteTxs_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder addNoteTxsBuilder() {
         return getNoteTxsFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder addNoteTxsBuilder(
           int index) {
         return getNoteTxsFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder>
+      /**
+       * <code>repeated .protocol.DecryptNotesVRC20.NoteTx noteTxs = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder> 
            getNoteTxsBuilderList() {
         return getNoteTxsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder>
+          org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTx.Builder, org.vision.visionjsdk.proto.Response.DecryptNotesVRC20.NoteTxOrBuilder> 
           getNoteTxsFieldBuilder() {
         if (noteTxsBuilder_ == null) {
           noteTxsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -53577,17 +54293,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.TransactionInfoList)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo>
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo> 
         getTransactionInfoList();
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.TransactionInfo getTransactionInfo(int index);
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     int getTransactionInfoCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder>
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder> 
         getTransactionInfoOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder getTransactionInfoOrBuilder(
         int index);
   }
@@ -53684,28 +54410,38 @@ public final class Response {
 
     public static final int TRANSACTIONINFO_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo> transactionInfo_;
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo> getTransactionInfoList() {
       return transactionInfo_;
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder> 
         getTransactionInfoOrBuilderList() {
       return transactionInfo_;
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     @java.lang.Override
     public int getTransactionInfoCount() {
       return transactionInfo_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionInfo getTransactionInfo(int index) {
       return transactionInfo_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder getTransactionInfoOrBuilder(
         int index) {
@@ -53768,7 +54504,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getTransactionInfoCount() > 0) {
         hash = (37 * hash) + TRANSACTIONINFO_FIELD_NUMBER;
@@ -54016,7 +54752,7 @@ public final class Response {
               transactionInfoBuilder_ = null;
               transactionInfo_ = other.transactionInfo_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              transactionInfoBuilder_ =
+              transactionInfoBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTransactionInfoFieldBuilder() : null;
             } else {
@@ -54066,7 +54802,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.TransactionInfo, org.vision.visionjsdk.proto.Response.TransactionInfo.Builder, org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder> transactionInfoBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo> getTransactionInfoList() {
         if (transactionInfoBuilder_ == null) {
           return java.util.Collections.unmodifiableList(transactionInfo_);
@@ -54074,7 +54812,9 @@ public final class Response {
           return transactionInfoBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public int getTransactionInfoCount() {
         if (transactionInfoBuilder_ == null) {
           return transactionInfo_.size();
@@ -54082,7 +54822,9 @@ public final class Response {
           return transactionInfoBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo getTransactionInfo(int index) {
         if (transactionInfoBuilder_ == null) {
           return transactionInfo_.get(index);
@@ -54090,7 +54832,9 @@ public final class Response {
           return transactionInfoBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder setTransactionInfo(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo value) {
         if (transactionInfoBuilder_ == null) {
@@ -54105,7 +54849,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder setTransactionInfo(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Builder builderForValue) {
         if (transactionInfoBuilder_ == null) {
@@ -54117,7 +54863,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder addTransactionInfo(org.vision.visionjsdk.proto.Response.TransactionInfo value) {
         if (transactionInfoBuilder_ == null) {
           if (value == null) {
@@ -54131,7 +54879,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder addTransactionInfo(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo value) {
         if (transactionInfoBuilder_ == null) {
@@ -54146,7 +54896,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder addTransactionInfo(
           org.vision.visionjsdk.proto.Response.TransactionInfo.Builder builderForValue) {
         if (transactionInfoBuilder_ == null) {
@@ -54158,7 +54910,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder addTransactionInfo(
           int index, org.vision.visionjsdk.proto.Response.TransactionInfo.Builder builderForValue) {
         if (transactionInfoBuilder_ == null) {
@@ -54170,7 +54924,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder addAllTransactionInfo(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.TransactionInfo> values) {
         if (transactionInfoBuilder_ == null) {
@@ -54183,7 +54939,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder clearTransactionInfo() {
         if (transactionInfoBuilder_ == null) {
           transactionInfo_ = java.util.Collections.emptyList();
@@ -54194,7 +54952,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public Builder removeTransactionInfo(int index) {
         if (transactionInfoBuilder_ == null) {
           ensureTransactionInfoIsMutable();
@@ -54205,12 +54965,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Builder getTransactionInfoBuilder(
           int index) {
         return getTransactionInfoFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder getTransactionInfoOrBuilder(
           int index) {
         if (transactionInfoBuilder_ == null) {
@@ -54218,8 +54982,10 @@ public final class Response {
           return transactionInfoBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder>
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder> 
            getTransactionInfoOrBuilderList() {
         if (transactionInfoBuilder_ != null) {
           return transactionInfoBuilder_.getMessageOrBuilderList();
@@ -54227,24 +54993,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(transactionInfo_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Builder addTransactionInfoBuilder() {
         return getTransactionInfoFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.TransactionInfo.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.TransactionInfo.Builder addTransactionInfoBuilder(
           int index) {
         return getTransactionInfoFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.TransactionInfo.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Builder>
+      /**
+       * <code>repeated .protocol.TransactionInfo transactionInfo = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.TransactionInfo.Builder> 
            getTransactionInfoBuilderList() {
         return getTransactionInfoFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionInfo, org.vision.visionjsdk.proto.Response.TransactionInfo.Builder, org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionInfo, org.vision.visionjsdk.proto.Response.TransactionInfo.Builder, org.vision.visionjsdk.proto.Response.TransactionInfoOrBuilder> 
           getTransactionInfoFieldBuilder() {
         if (transactionInfoBuilder_ == null) {
           transactionInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -54752,7 +55524,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           message_ = s;
@@ -54768,7 +55540,7 @@ public final class Response {
           getMessageBytes() {
         java.lang.Object ref = message_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           message_ = b;
@@ -54841,7 +55613,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + CODE_FIELD_NUMBER;
         hash = (53 * hash) + code_;
@@ -55110,7 +55882,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setCodeValue(int value) {
-
+          
           code_ = value;
           onChanged();
           return this;
@@ -55134,7 +55906,7 @@ public final class Response {
           if (value == null) {
             throw new NullPointerException();
           }
-
+          
           code_ = value.getNumber();
           onChanged();
           return this;
@@ -55144,7 +55916,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearCode() {
-
+          
           code_ = 0;
           onChanged();
           return this;
@@ -55175,7 +55947,7 @@ public final class Response {
             getMessageBytes() {
           java.lang.Object ref = message_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             message_ = b;
@@ -55194,7 +55966,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           message_ = value;
           onChanged();
           return this;
@@ -55204,7 +55976,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMessage() {
-
+          
           message_ = getDefaultInstance().getMessage();
           onChanged();
           return this;
@@ -55220,7 +55992,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           message_ = value;
           onChanged();
           return this;
@@ -55442,7 +56214,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getApprovedListCount() > 0) {
         hash = (37 * hash) + APPROVED_LIST_FIELD_NUMBER;
@@ -55911,7 +56683,7 @@ public final class Response {
        * <code>.protocol.TransactionApprovedList.Result result = 4;</code>
        */
       public org.vision.visionjsdk.proto.Response.TransactionApprovedList.Result.Builder getResultBuilder() {
-
+        
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
@@ -55930,7 +56702,7 @@ public final class Response {
        * <code>.protocol.TransactionApprovedList.Result result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionApprovedList.Result, org.vision.visionjsdk.proto.Response.TransactionApprovedList.Result.Builder, org.vision.visionjsdk.proto.Response.TransactionApprovedList.ResultOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionApprovedList.Result, org.vision.visionjsdk.proto.Response.TransactionApprovedList.Result.Builder, org.vision.visionjsdk.proto.Response.TransactionApprovedList.ResultOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -56030,7 +56802,7 @@ public final class Response {
        * <code>.protocol.TransactionExtention transaction = 5;</code>
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention.Builder getTransactionBuilder() {
-
+        
         onChanged();
         return getTransactionFieldBuilder().getBuilder();
       }
@@ -56049,7 +56821,7 @@ public final class Response {
        * <code>.protocol.TransactionExtention transaction = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -56629,7 +57401,7 @@ public final class Response {
         if (ref instanceof java.lang.String) {
           return (java.lang.String) ref;
         } else {
-          com.google.protobuf.ByteString bs =
+          com.google.protobuf.ByteString bs = 
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           message_ = s;
@@ -56645,7 +57417,7 @@ public final class Response {
           getMessageBytes() {
         java.lang.Object ref = message_;
         if (ref instanceof java.lang.String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           message_ = b;
@@ -56718,7 +57490,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + CODE_FIELD_NUMBER;
         hash = (53 * hash) + code_;
@@ -56987,7 +57759,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder setCodeValue(int value) {
-
+          
           code_ = value;
           onChanged();
           return this;
@@ -57011,7 +57783,7 @@ public final class Response {
           if (value == null) {
             throw new NullPointerException();
           }
-
+          
           code_ = value.getNumber();
           onChanged();
           return this;
@@ -57021,7 +57793,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearCode() {
-
+          
           code_ = 0;
           onChanged();
           return this;
@@ -57052,7 +57824,7 @@ public final class Response {
             getMessageBytes() {
           java.lang.Object ref = message_;
           if (ref instanceof String) {
-            com.google.protobuf.ByteString b =
+            com.google.protobuf.ByteString b = 
                 com.google.protobuf.ByteString.copyFromUtf8(
                     (java.lang.String) ref);
             message_ = b;
@@ -57071,7 +57843,7 @@ public final class Response {
           if (value == null) {
     throw new NullPointerException();
   }
-
+  
           message_ = value;
           onChanged();
           return this;
@@ -57081,7 +57853,7 @@ public final class Response {
          * @return This builder for chaining.
          */
         public Builder clearMessage() {
-
+          
           message_ = getDefaultInstance().getMessage();
           onChanged();
           return this;
@@ -57097,7 +57869,7 @@ public final class Response {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+          
           message_ = value;
           onChanged();
           return this;
@@ -57377,7 +58149,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (hasPermission()) {
         hash = (37 * hash) + PERMISSION_FIELD_NUMBER;
@@ -57788,7 +58560,7 @@ public final class Response {
        * <code>.protocol.Permission permission = 1;</code>
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getPermissionBuilder() {
-
+        
         onChanged();
         return getPermissionFieldBuilder().getBuilder();
       }
@@ -57807,7 +58579,7 @@ public final class Response {
        * <code>.protocol.Permission permission = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder>
+          org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
           getPermissionFieldBuilder() {
         if (permissionBuilder_ == null) {
           permissionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -57920,7 +58692,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setCurrentWeight(long value) {
-
+        
         currentWeight_ = value;
         onChanged();
         return this;
@@ -57930,7 +58702,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearCurrentWeight() {
-
+        
         currentWeight_ = 0L;
         onChanged();
         return this;
@@ -58023,7 +58795,7 @@ public final class Response {
        * <code>.protocol.TransactionSignWeight.Result result = 4;</code>
        */
       public org.vision.visionjsdk.proto.Response.TransactionSignWeight.Result.Builder getResultBuilder() {
-
+        
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
@@ -58042,7 +58814,7 @@ public final class Response {
        * <code>.protocol.TransactionSignWeight.Result result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionSignWeight.Result, org.vision.visionjsdk.proto.Response.TransactionSignWeight.Result.Builder, org.vision.visionjsdk.proto.Response.TransactionSignWeight.ResultOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionSignWeight.Result, org.vision.visionjsdk.proto.Response.TransactionSignWeight.Result.Builder, org.vision.visionjsdk.proto.Response.TransactionSignWeight.ResultOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -58142,7 +58914,7 @@ public final class Response {
        * <code>.protocol.TransactionExtention transaction = 5;</code>
        */
       public org.vision.visionjsdk.proto.Response.TransactionExtention.Builder getTransactionBuilder() {
-
+        
         onChanged();
         return getTransactionFieldBuilder().getBuilder();
       }
@@ -58161,7 +58933,7 @@ public final class Response {
        * <code>.protocol.TransactionExtention transaction = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder>
+          org.vision.visionjsdk.proto.Response.TransactionExtention, org.vision.visionjsdk.proto.Response.TransactionExtention.Builder, org.vision.visionjsdk.proto.Response.TransactionExtentionOrBuilder> 
           getTransactionFieldBuilder() {
         if (transactionBuilder_ == null) {
           transactionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -58230,17 +59002,27 @@ public final class Response {
       // @@protoc_insertion_point(interface_extends:protocol.NodeList)
       com.google.protobuf.MessageOrBuilder {
 
-    
-    java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node>
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
+    java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node> 
         getNodesList();
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeList.Node getNodes(int index);
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     int getNodesCount();
-    
-    java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder>
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
+    java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder> 
         getNodesOrBuilderList();
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder getNodesOrBuilder(
         int index);
   }
@@ -58647,7 +59429,7 @@ public final class Response {
           if (memoizedHashCode != 0) {
             return memoizedHashCode;
           }
-          int hash = 46;
+          int hash = 41;
           hash = (19 * hash) + getDescriptor().hashCode();
           hash = (37 * hash) + HOST_FIELD_NUMBER;
           hash = (53 * hash) + getHost().hashCode();
@@ -58923,7 +59705,7 @@ public final class Response {
             if (value == null) {
     throw new NullPointerException();
   }
-
+  
             host_ = value;
             onChanged();
             return this;
@@ -58933,7 +59715,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearHost() {
-
+            
             host_ = getDefaultInstance().getHost();
             onChanged();
             return this;
@@ -58954,7 +59736,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder setPort(int value) {
-
+            
             port_ = value;
             onChanged();
             return this;
@@ -58964,7 +59746,7 @@ public final class Response {
            * @return This builder for chaining.
            */
           public Builder clearPort() {
-
+            
             port_ = 0;
             onChanged();
             return this;
@@ -59107,7 +59889,7 @@ public final class Response {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         if (hasAddress()) {
           hash = (37 * hash) + ADDRESS_FIELD_NUMBER;
@@ -59454,7 +60236,7 @@ public final class Response {
          * <code>.protocol.NodeList.Node.Address address = 1;</code>
          */
         public org.vision.visionjsdk.proto.Response.NodeList.Node.Address.Builder getAddressBuilder() {
-
+          
           onChanged();
           return getAddressFieldBuilder().getBuilder();
         }
@@ -59473,7 +60255,7 @@ public final class Response {
          * <code>.protocol.NodeList.Node.Address address = 1;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            org.vision.visionjsdk.proto.Response.NodeList.Node.Address, org.vision.visionjsdk.proto.Response.NodeList.Node.Address.Builder, org.vision.visionjsdk.proto.Response.NodeList.Node.AddressOrBuilder>
+            org.vision.visionjsdk.proto.Response.NodeList.Node.Address, org.vision.visionjsdk.proto.Response.NodeList.Node.Address.Builder, org.vision.visionjsdk.proto.Response.NodeList.Node.AddressOrBuilder> 
             getAddressFieldBuilder() {
           if (addressBuilder_ == null) {
             addressBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -59540,28 +60322,38 @@ public final class Response {
 
     public static final int NODES_FIELD_NUMBER = 1;
     private java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node> nodes_;
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     @java.lang.Override
     public java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node> getNodesList() {
       return nodes_;
     }
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     @java.lang.Override
-    public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder>
+    public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder> 
         getNodesOrBuilderList() {
       return nodes_;
     }
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     @java.lang.Override
     public int getNodesCount() {
       return nodes_.size();
     }
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeList.Node getNodes(int index) {
       return nodes_.get(index);
     }
-    
+    /**
+     * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+     */
     @java.lang.Override
     public org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder getNodesOrBuilder(
         int index) {
@@ -59624,7 +60416,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       if (getNodesCount() > 0) {
         hash = (37 * hash) + NODES_FIELD_NUMBER;
@@ -59876,7 +60668,7 @@ public final class Response {
               nodesBuilder_ = null;
               nodes_ = other.nodes_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              nodesBuilder_ =
+              nodesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNodesFieldBuilder() : null;
             } else {
@@ -59926,7 +60718,9 @@ public final class Response {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           org.vision.visionjsdk.proto.Response.NodeList.Node, org.vision.visionjsdk.proto.Response.NodeList.Node.Builder, org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder> nodesBuilder_;
 
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node> getNodesList() {
         if (nodesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(nodes_);
@@ -59934,7 +60728,9 @@ public final class Response {
           return nodesBuilder_.getMessageList();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public int getNodesCount() {
         if (nodesBuilder_ == null) {
           return nodes_.size();
@@ -59942,7 +60738,9 @@ public final class Response {
           return nodesBuilder_.getCount();
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeList.Node getNodes(int index) {
         if (nodesBuilder_ == null) {
           return nodes_.get(index);
@@ -59950,7 +60748,9 @@ public final class Response {
           return nodesBuilder_.getMessage(index);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder setNodes(
           int index, org.vision.visionjsdk.proto.Response.NodeList.Node value) {
         if (nodesBuilder_ == null) {
@@ -59965,7 +60765,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder setNodes(
           int index, org.vision.visionjsdk.proto.Response.NodeList.Node.Builder builderForValue) {
         if (nodesBuilder_ == null) {
@@ -59977,7 +60779,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder addNodes(org.vision.visionjsdk.proto.Response.NodeList.Node value) {
         if (nodesBuilder_ == null) {
           if (value == null) {
@@ -59991,7 +60795,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder addNodes(
           int index, org.vision.visionjsdk.proto.Response.NodeList.Node value) {
         if (nodesBuilder_ == null) {
@@ -60006,7 +60812,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder addNodes(
           org.vision.visionjsdk.proto.Response.NodeList.Node.Builder builderForValue) {
         if (nodesBuilder_ == null) {
@@ -60018,7 +60826,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder addNodes(
           int index, org.vision.visionjsdk.proto.Response.NodeList.Node.Builder builderForValue) {
         if (nodesBuilder_ == null) {
@@ -60030,7 +60840,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder addAllNodes(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Response.NodeList.Node> values) {
         if (nodesBuilder_ == null) {
@@ -60043,7 +60855,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder clearNodes() {
         if (nodesBuilder_ == null) {
           nodes_ = java.util.Collections.emptyList();
@@ -60054,7 +60868,9 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public Builder removeNodes(int index) {
         if (nodesBuilder_ == null) {
           ensureNodesIsMutable();
@@ -60065,12 +60881,16 @@ public final class Response {
         }
         return this;
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeList.Node.Builder getNodesBuilder(
           int index) {
         return getNodesFieldBuilder().getBuilder(index);
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder getNodesOrBuilder(
           int index) {
         if (nodesBuilder_ == null) {
@@ -60078,8 +60898,10 @@ public final class Response {
           return nodesBuilder_.getMessageOrBuilder(index);
         }
       }
-      
-      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder>
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
+      public java.util.List<? extends org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder> 
            getNodesOrBuilderList() {
         if (nodesBuilder_ != null) {
           return nodesBuilder_.getMessageOrBuilderList();
@@ -60087,24 +60909,30 @@ public final class Response {
           return java.util.Collections.unmodifiableList(nodes_);
         }
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeList.Node.Builder addNodesBuilder() {
         return getNodesFieldBuilder().addBuilder(
             org.vision.visionjsdk.proto.Response.NodeList.Node.getDefaultInstance());
       }
-      
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
       public org.vision.visionjsdk.proto.Response.NodeList.Node.Builder addNodesBuilder(
           int index) {
         return getNodesFieldBuilder().addBuilder(
             index, org.vision.visionjsdk.proto.Response.NodeList.Node.getDefaultInstance());
       }
-      
-      public java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node.Builder>
+      /**
+       * <code>repeated .protocol.NodeList.Node nodes = 1;</code>
+       */
+      public java.util.List<org.vision.visionjsdk.proto.Response.NodeList.Node.Builder> 
            getNodesBuilderList() {
         return getNodesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          org.vision.visionjsdk.proto.Response.NodeList.Node, org.vision.visionjsdk.proto.Response.NodeList.Node.Builder, org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder>
+          org.vision.visionjsdk.proto.Response.NodeList.Node, org.vision.visionjsdk.proto.Response.NodeList.Node.Builder, org.vision.visionjsdk.proto.Response.NodeList.NodeOrBuilder> 
           getNodesFieldBuilder() {
         if (nodesBuilder_ == null) {
           nodesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -60480,7 +61308,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountNetMessage_AssetNetUsedEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountNetMessage_AssetNetUsedEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -60561,7 +61389,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountNetMessage_AssetNetLimitEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountNetMessage_AssetNetLimitEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -60795,7 +61623,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FREENETUSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -61152,7 +61980,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFreeNetUsed(long value) {
-
+        
         freeNetUsed_ = value;
         onChanged();
         return this;
@@ -61162,7 +61990,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFreeNetUsed() {
-
+        
         freeNetUsed_ = 0L;
         onChanged();
         return this;
@@ -61183,7 +62011,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFreeNetLimit(long value) {
-
+        
         freeNetLimit_ = value;
         onChanged();
         return this;
@@ -61193,7 +62021,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFreeNetLimit() {
-
+        
         freeNetLimit_ = 0L;
         onChanged();
         return this;
@@ -61214,7 +62042,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetUsed(long value) {
-
+        
         netUsed_ = value;
         onChanged();
         return this;
@@ -61224,7 +62052,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetUsed() {
-
+        
         netUsed_ = 0L;
         onChanged();
         return this;
@@ -61245,7 +62073,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetLimit(long value) {
-
+        
         netLimit_ = value;
         onChanged();
         return this;
@@ -61255,7 +62083,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetLimit() {
-
+        
         netLimit_ = 0L;
         onChanged();
         return this;
@@ -61373,7 +62201,7 @@ public final class Response {
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAssetNetUsed().getMutableMap()
             .put(key, value);
         return this;
@@ -61501,7 +62329,7 @@ public final class Response {
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAssetNetLimit().getMutableMap()
             .put(key, value);
         return this;
@@ -61532,7 +62360,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalNetLimit(long value) {
-
+        
         totalNetLimit_ = value;
         onChanged();
         return this;
@@ -61542,7 +62370,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalNetLimit() {
-
+        
         totalNetLimit_ = 0L;
         onChanged();
         return this;
@@ -61563,7 +62391,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalNetWeight(long value) {
-
+        
         totalNetWeight_ = value;
         onChanged();
         return this;
@@ -61573,7 +62401,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalNetWeight() {
-
+        
         totalNetWeight_ = 0L;
         onChanged();
         return this;
@@ -62003,7 +62831,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountResourceMessage_AssetNetUsedEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountResourceMessage_AssetNetUsedEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -62084,7 +62912,7 @@ public final class Response {
           java.lang.String, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Long>newDefaultInstance(
-                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountResourceMessage_AssetNetLimitEntry_descriptor,
+                  org.vision.visionjsdk.proto.Response.internal_static_protocol_AccountResourceMessage_AssetNetLimitEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -62438,7 +63266,7 @@ public final class Response {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + FREENETUSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -62845,7 +63673,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFreeNetUsed(long value) {
-
+        
         freeNetUsed_ = value;
         onChanged();
         return this;
@@ -62855,7 +63683,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFreeNetUsed() {
-
+        
         freeNetUsed_ = 0L;
         onChanged();
         return this;
@@ -62876,7 +63704,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setFreeNetLimit(long value) {
-
+        
         freeNetLimit_ = value;
         onChanged();
         return this;
@@ -62886,7 +63714,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearFreeNetLimit() {
-
+        
         freeNetLimit_ = 0L;
         onChanged();
         return this;
@@ -62907,7 +63735,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetUsed(long value) {
-
+        
         netUsed_ = value;
         onChanged();
         return this;
@@ -62917,7 +63745,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetUsed() {
-
+        
         netUsed_ = 0L;
         onChanged();
         return this;
@@ -62938,7 +63766,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setNetLimit(long value) {
-
+        
         netLimit_ = value;
         onChanged();
         return this;
@@ -62948,7 +63776,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearNetLimit() {
-
+        
         netLimit_ = 0L;
         onChanged();
         return this;
@@ -63066,7 +63894,7 @@ public final class Response {
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAssetNetUsed().getMutableMap()
             .put(key, value);
         return this;
@@ -63194,7 +64022,7 @@ public final class Response {
           java.lang.String key,
           long value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-
+        
         internalGetMutableAssetNetLimit().getMutableMap()
             .put(key, value);
         return this;
@@ -63225,7 +64053,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalNetLimit(long value) {
-
+        
         totalNetLimit_ = value;
         onChanged();
         return this;
@@ -63235,7 +64063,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalNetLimit() {
-
+        
         totalNetLimit_ = 0L;
         onChanged();
         return this;
@@ -63256,7 +64084,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalNetWeight(long value) {
-
+        
         totalNetWeight_ = value;
         onChanged();
         return this;
@@ -63266,7 +64094,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalNetWeight() {
-
+        
         totalNetWeight_ = 0L;
         onChanged();
         return this;
@@ -63287,7 +64115,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setEntropyUsed(long value) {
-
+        
         entropyUsed_ = value;
         onChanged();
         return this;
@@ -63297,7 +64125,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearEntropyUsed() {
-
+        
         entropyUsed_ = 0L;
         onChanged();
         return this;
@@ -63318,7 +64146,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setEntropyLimit(long value) {
-
+        
         entropyLimit_ = value;
         onChanged();
         return this;
@@ -63328,7 +64156,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearEntropyLimit() {
-
+        
         entropyLimit_ = 0L;
         onChanged();
         return this;
@@ -63349,7 +64177,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalEntropyLimit(long value) {
-
+        
         totalEntropyLimit_ = value;
         onChanged();
         return this;
@@ -63359,7 +64187,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalEntropyLimit() {
-
+        
         totalEntropyLimit_ = 0L;
         onChanged();
         return this;
@@ -63380,7 +64208,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setTotalEntropyWeight(long value) {
-
+        
         totalEntropyWeight_ = value;
         onChanged();
         return this;
@@ -63390,7 +64218,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearTotalEntropyWeight() {
-
+        
         totalEntropyWeight_ = 0L;
         onChanged();
         return this;
@@ -63411,7 +64239,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setStorageUsed(long value) {
-
+        
         storageUsed_ = value;
         onChanged();
         return this;
@@ -63421,7 +64249,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearStorageUsed() {
-
+        
         storageUsed_ = 0L;
         onChanged();
         return this;
@@ -63442,7 +64270,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder setStorageLimit(long value) {
-
+        
         storageLimit_ = value;
         onChanged();
         return this;
@@ -63452,7 +64280,7 @@ public final class Response {
        * @return This builder for chaining.
        */
       public Builder clearStorageLimit() {
-
+        
         storageLimit_ = 0L;
         onChanged();
         return this;
@@ -63512,347 +64340,347 @@ public final class Response {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_BlockExtention_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_BlockExtention_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_BlockListExtention_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_BlockListExtention_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionReturn_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionReturn_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionExtention_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionExtention_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_WitnessList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_WitnessList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_ProposalList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_ProposalList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_ExchangeList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_ExchangeList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AssetIssueList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AssetIssueList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_BlockList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_BlockList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DelegatedResourceMessage_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DelegatedResourceMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DelegatedResourceList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DelegatedResourceList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AddressPrKeyPairMessage_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AddressPrKeyPairMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_EasyTransferResponse_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_EasyTransferResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_SmartContractDataWrapper_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_SmartContractDataWrapper_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_InternalTransaction_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_InternalTransaction_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_InternalTransaction_CallValueInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_InternalTransaction_CallValueInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_ResourceReceipt_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_ResourceReceipt_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionInfo_Log_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionInfo_Log_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Witness_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Witness_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_Frozen_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_Frozen_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_AssetEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_AssetEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_AssetV2Entry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_AssetV2Entry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_LatestAssetOperationTimeEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_LatestAssetOperationTimeEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_LatestAssetOperationTimeV2Entry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_LatestAssetOperationTimeV2Entry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_FreeAssetNetUsageEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_FreeAssetNetUsageEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_FreeAssetNetUsageV2Entry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_FreeAssetNetUsageV2Entry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Account_AccountResource_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Account_AccountResource_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketOrderDetail_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketOrderDetail_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Proposal_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Proposal_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Proposal_ParametersEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Proposal_ParametersEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_Exchange_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_Exchange_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DelegatedResource_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DelegatedResource_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DelegatedResourceAccountIndex_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DelegatedResourceAccountIndex_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionSign_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionSign_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_ChainParameters_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_ChainParameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_ChainParameters_ChainParameter_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_ChainParameters_ChainParameter_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_CheatWitnessInfoMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_CheatWitnessInfoMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_PeerInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_PeerInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_ConfigNodeInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_ConfigNodeInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_MachineInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_MachineInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_MachineInfo_MemoryDescInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_MachineInfo_MemoryDescInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeInfo_MachineInfo_DeadLockThreadInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeInfo_MachineInfo_DeadLockThreadInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketOrder_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketOrder_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketOrderList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketOrderList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketOrderPair_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketOrderPair_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketOrderPairList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketOrderPairList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketPrice_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketPrice_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_MarketPriceList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_MarketPriceList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NullifierResult_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NullifierResult_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DecryptNotesVRC20_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DecryptNotesVRC20_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_DecryptNotesVRC20_NoteTx_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_DecryptNotesVRC20_NoteTx_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionInfoList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionInfoList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionApprovedList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionApprovedList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionApprovedList_Result_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionApprovedList_Result_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionSignWeight_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionSignWeight_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_TransactionSignWeight_Result_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_TransactionSignWeight_Result_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeList_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeList_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeList_Node_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeList_Node_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_NodeList_Node_Address_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_NodeList_Node_Address_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountNetMessage_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountNetMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountNetMessage_AssetNetUsedEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountNetMessage_AssetNetUsedEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountNetMessage_AssetNetLimitEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountNetMessage_AssetNetLimitEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountResourceMessage_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountResourceMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountResourceMessage_AssetNetUsedEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountResourceMessage_AssetNetUsedEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_protocol_AccountResourceMessage_AssetNetLimitEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_protocol_AccountResourceMessage_AssetNetLimitEntry_fieldAccessorTable;
 
@@ -63871,287 +64699,287 @@ public final class Response {
       "on\022+\n\014block_header\030\002 \001(\0132\025.protocol.Bloc" +
       "kHeader\022\017\n\007blockid\030\003 \001(\014\"=\n\022BlockListExt" +
       "ention\022\'\n\005block\030\001 \003(\0132\030.protocol.BlockEx" +
-      "tention\"\252\003\n\021TransactionReturn\022\016\n\006result\030" +
+      "tention\"\250\003\n\021TransactionReturn\022\016\n\006result\030" +
       "\001 \001(\010\0227\n\004code\030\002 \001(\0162).protocol.Transacti" +
       "onReturn.response_code\022\017\n\007message\030\003 \001(\014\"" +
-      "\272\002\n\rresponse_code\022\013\n\007SUCCESS\020\000\022\014\n\010SIGERR" +
+      "\270\002\n\rresponse_code\022\013\n\007SUCCESS\020\000\022\014\n\010SIGERR" +
       "OR\020\001\022\033\n\027CONTRACT_VALIDATE_ERROR\020\002\022\026\n\022CON" +
-      "TRACT_EXE_ERROR\020\003\022\022\n\016BANDWITH_ERROR\020\004\022\031\n" +
-      "\025DUP_TRANSACTION_ERROR\020\005\022\017\n\013TAPOS_ERROR\020" +
-      "\006\022\035\n\031TOO_BIG_TRANSACTION_ERROR\020\007\022 \n\034TRAN" +
-      "SACTION_EXPIRATION_ERROR\020\010\022\017\n\013SERVER_BUS" +
-      "Y\020\t\022\021\n\rNO_CONNECTION\020\n\022#\n\037NOT_ENOUGH_EFF" +
-      "ECTIVE_CONNECTION\020\013\022\017\n\013OTHER_ERROR\020\024\"\226\001\n" +
-      "\024TransactionExtention\022*\n\013transaction\030\001 \001" +
-      "(\0132\025.protocol.Transaction\022\014\n\004txid\030\002 \001(\014\022" +
-      "\027\n\017constant_result\030\003 \003(\014\022+\n\006result\030\004 \001(\013" +
-      "2\033.protocol.TransactionReturn\"3\n\013Witness" +
-      "List\022$\n\twitnesses\030\001 \003(\0132\021.protocol.Witne" +
-      "ss\"5\n\014ProposalList\022%\n\tproposals\030\001 \003(\0132\022." +
-      "protocol.Proposal\"5\n\014ExchangeList\022%\n\texc" +
-      "hanges\030\001 \003(\0132\022.protocol.Exchange\">\n\016Asse" +
-      "tIssueList\022,\n\006assets\030\001 \003(\0132\034.protocol.As" +
-      "setIssueContract\"+\n\tBlockList\022\036\n\005block\030\001" +
-      " \003(\0132\017.protocol.Block\"=\n\017TransactionList" +
-      "\022*\n\013transaction\030\001 \003(\0132\025.protocol.Transac" +
-      "tion\"D\n\030DelegatedResourceMessage\022\024\n\014from" +
-      "_address\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\"O\n\025De" +
-      "legatedResourceList\0226\n\021delegatedResource" +
-      "\030\001 \003(\0132\033.protocol.DelegatedResource\">\n\027A" +
-      "ddressPrKeyPairMessage\022\017\n\007address\030\001 \001(\t\022" +
-      "\022\n\nprivateKey\030\002 \001(\t\"}\n\024EasyTransferRespo" +
-      "nse\022*\n\013transaction\030\001 \001(\0132\025.protocol.Tran" +
-      "saction\022+\n\006result\030\002 \001(\0132\033.protocol.Trans" +
-      "actionReturn\022\014\n\004txid\030\003 \001(\014\"a\n\030SmartContr" +
-      "actDataWrapper\022/\n\016smart_contract\030\001 \001(\0132\027" +
-      ".protocol.SmartContract\022\024\n\014runtime_code\030" +
-      "\002 \001(\014\"\360\001\n\023InternalTransaction\022\014\n\004hash\030\001 " +
-      "\001(\014\022\026\n\016caller_address\030\002 \001(\014\022\032\n\022transferT" +
-      "o_address\030\003 \001(\014\022B\n\rcallValueInfo\030\004 \003(\0132+" +
-      ".protocol.InternalTransaction.CallValueI" +
-      "nfo\022\014\n\004note\030\005 \001(\014\022\020\n\010rejected\030\006 \001(\010\0323\n\rC" +
-      "allValueInfo\022\021\n\tcallValue\030\001 \001(\003\022\017\n\007token" +
-      "Id\030\002 \001(\t\"\325\001\n\017ResourceReceipt\022\024\n\014entropy_u" +
-      "sage\030\001 \001(\003\022\022\n\nentropy_fee\030\002 \001(\003\022\033\n\023origin" +
-      "_entropy_usage\030\003 \001(\003\022\032\n\022entropy_usage_tota" +
-      "l\030\004 \001(\003\022\021\n\tnet_usage\030\005 \001(\003\022\017\n\007net_fee\030\006 " +
-      "\001(\003\022;\n\006result\030\007 \001(\0162+.protocol.Transacti" +
-      "on.Result.contractResult\"\360\005\n\017Transaction" +
-      "Info\022\n\n\002id\030\001 \001(\014\022\013\n\003fee\030\002 \001(\003\022\023\n\013blockNu" +
-      "mber\030\003 \001(\003\022\026\n\016blockTimeStamp\030\004 \001(\003\022\026\n\016co" +
-      "ntractResult\030\005 \003(\014\022\030\n\020contract_address\030\006" +
-      " \001(\014\022*\n\007receipt\030\007 \001(\0132\031.protocol.Resourc" +
-      "eReceipt\022*\n\003log\030\010 \003(\0132\035.protocol.Transac" +
-      "tionInfo.Log\022.\n\006result\030\t \001(\0162\036.protocol." +
-      "TransactionInfo.code\022\022\n\nresMessage\030\n \001(\014" +
-      "\022\024\n\014assetIssueID\030\016 \001(\t\022\027\n\017withdraw_amoun" +
-      "t\030\017 \001(\003\022\027\n\017unfreeze_amount\030\020 \001(\003\022<\n\025inte" +
-      "rnal_transactions\030\021 \003(\0132\035.protocol.Inter" +
-      "nalTransaction\022 \n\030exchange_received_amou" +
-      "nt\030\022 \001(\003\022&\n\036exchange_inject_another_amou" +
-      "nt\030\023 \001(\003\022(\n exchange_withdraw_another_am" +
-      "ount\030\024 \001(\003\022\023\n\013exchange_id\030\025 \001(\003\022 \n\030shiel" +
-      "ded_transaction_fee\030\026 \001(\003\022\017\n\007orderId\030\031 \001" +
-      "(\014\0221\n\014orderDetails\030\032 \003(\0132\033.protocol.Mark" +
-      "etOrderDetail\0324\n\003Log\022\017\n\007address\030\001 \001(\014\022\016\n" +
-      "\006topics\030\002 \003(\014\022\014\n\004data\030\003 \001(\014\"\036\n\004code\022\n\n\006S" +
-      "UCESS\020\000\022\n\n\006FAILED\020\001\"\265\001\n\007Witness\022\017\n\007addre" +
-      "ss\030\001 \001(\014\022\021\n\tvoteCount\030\002 \001(\003\022\016\n\006pubKey\030\003 " +
-      "\001(\014\022\013\n\003url\030\004 \001(\t\022\025\n\rtotalProduced\030\005 \001(\003\022" +
-      "\023\n\013totalMissed\030\006 \001(\003\022\026\n\016latestBlockNum\030\007" +
-      " \001(\003\022\025\n\rlatestSlotNum\030\010 \001(\003\022\016\n\006isJobs\030\t " +
-      "\001(\010\"\360\017\n\007Account\022\024\n\014account_name\030\001 \001(\014\022#\n" +
-      "\004type\030\002 \001(\0162\025.protocol.AccountType\022\017\n\007ad" +
-      "dress\030\003 \001(\014\022\017\n\007balance\030\004 \001(\003\022\035\n\005votes\030\005 " +
-      "\003(\0132\016.protocol.Vote\022+\n\005asset\030\006 \003(\0132\034.pro" +
-      "tocol.Account.AssetEntry\022/\n\007assetV2\0308 \003(" +
-      "\0132\036.protocol.Account.AssetV2Entry\022(\n\006fro" +
-      "zen\030\007 \003(\0132\030.protocol.Account.Frozen\022\021\n\tn" +
-      "et_usage\030\010 \001(\003\0227\n/acquired_delegated_fro" +
-      "zen_balance_for_photon\030) \001(\003\022.\n&deleg" +
-      "ated_frozen_balance_for_photon\030* \001(\003\022" +
-      "\023\n\013create_time\030\t \001(\003\022\034\n\024latest_opration_" +
-      "time\030\n \001(\003\022\021\n\tallowance\030\013 \001(\003\022\034\n\024latest_" +
-      "withdraw_time\030\014 \001(\003\022\014\n\004code\030\r \001(\014\022\022\n\nis_" +
-      "witness\030\016 \001(\010\022\024\n\014is_committee\030\017 \001(\010\022/\n\rf" +
-      "rozen_supply\030\020 \003(\0132\030.protocol.Account.Fr" +
-      "ozen\022\031\n\021asset_issued_name\030\021 \001(\014\022\027\n\017asset" +
-      "_issued_ID\0309 \001(\014\022T\n\033latest_asset_operati" +
-      "on_time\030\022 \003(\0132/.protocol.Account.LatestA" +
-      "ssetOperationTimeEntry\022X\n\035latest_asset_o" +
-      "peration_timeV2\030: \003(\01321.protocol.Account" +
-      ".LatestAssetOperationTimeV2Entry\022\026\n\016free" +
-      "_net_usage\030\023 \001(\003\022F\n\024free_asset_net_usage" +
-      "\030\024 \003(\0132(.protocol.Account.FreeAssetNetUs" +
-      "ageEntry\022J\n\026free_asset_net_usageV2\030; \003(\013" +
-      "2*.protocol.Account.FreeAssetNetUsageV2E" +
-      "ntry\022\033\n\023latest_consume_time\030\025 \001(\003\022 \n\030lat" +
-      "est_consume_free_time\030\026 \001(\003\022\022\n\naccount_i" +
-      "d\030\027 \001(\014\022;\n\020account_resource\030\032 \001(\0132!.prot" +
-      "ocol.Account.AccountResource\022\020\n\010codeHash" +
-      "\030\036 \001(\014\022.\n\020owner_permission\030\037 \001(\0132\024.proto" +
-      "col.Permission\0220\n\022witness_permission\030  \001" +
-      "(\0132\024.protocol.Permission\022/\n\021active_permi" +
-      "ssion\030! \003(\0132\024.protocol.Permission\0325\n\006Fro" +
-      "zen\022\026\n\016frozen_balance\030\001 \001(\003\022\023\n\013expire_ti" +
-      "me\030\002 \001(\003\032,\n\nAssetEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005v" +
-      "alue\030\002 \001(\003:\0028\001\032.\n\014AssetV2Entry\022\013\n\003key\030\001 " +
-      "\001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\032?\n\035LatestAssetOpe" +
-      "rationTimeEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 " +
-      "\001(\003:\0028\001\032A\n\037LatestAssetOperationTimeV2Ent" +
-      "ry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\0328\n\026Fr" +
-      "eeAssetNetUsageEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005val" +
-      "ue\030\002 \001(\003:\0028\001\032:\n\030FreeAssetNetUsageV2Entry" +
-      "\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\032\303\002\n\017Acc" +
-      "ountResource\022\024\n\014entropy_usage\030\001 \001(\003\022;\n\031fr" +
-      "ozen_balance_for_entropy\030\002 \001(\0132\030.protocol" +
-      ".Account.Frozen\022&\n\036latest_consume_time_f" +
-      "or_entropy\030\003 \001(\003\0224\n,acquired_delegated_fr" +
-      "ozen_balance_for_entropy\030\004 \001(\003\022+\n#delegat" +
-      "ed_frozen_balance_for_entropy\030\005 \001(\003\022\025\n\rst" +
-      "orage_limit\030\006 \001(\003\022\025\n\rstorage_usage\030\007 \001(\003" +
-      "\022$\n\034latest_exchange_storage_time\030\010 \001(\003\"r" +
-      "\n\021MarketOrderDetail\022\024\n\014makerOrderId\030\001 \001(" +
-      "\014\022\024\n\014takerOrderId\030\002 \001(\014\022\030\n\020fillSellQuant" +
-      "ity\030\003 \001(\003\022\027\n\017fillBuyQuantity\030\004 \001(\003\"\321\002\n\010P" +
-      "roposal\022\023\n\013proposal_id\030\001 \001(\003\022\030\n\020proposer" +
-      "_address\030\002 \001(\014\0226\n\nparameters\030\003 \003(\0132\".pro" +
-      "tocol.Proposal.ParametersEntry\022\027\n\017expira" +
-      "tion_time\030\004 \001(\003\022\023\n\013create_time\030\005 \001(\003\022\021\n\t" +
-      "approvals\030\006 \003(\014\022\'\n\005state\030\007 \001(\0162\030.protoco" +
-      "l.Proposal.State\0321\n\017ParametersEntry\022\013\n\003k" +
-      "ey\030\001 \001(\003\022\r\n\005value\030\002 \001(\003:\0028\001\"A\n\005State\022\013\n\007" +
-      "PENDING\020\000\022\017\n\013DISAPPROVED\020\001\022\014\n\010APPROVED\020\002" +
-      "\022\014\n\010CANCELED\020\003\"\271\001\n\010Exchange\022\023\n\013exchange_" +
-      "id\030\001 \001(\003\022\027\n\017creator_address\030\002 \001(\014\022\023\n\013cre" +
-      "ate_time\030\003 \001(\003\022\026\n\016first_token_id\030\006 \001(\014\022\033" +
-      "\n\023first_token_balance\030\007 \001(\003\022\027\n\017second_to" +
-      "ken_id\030\010 \001(\014\022\034\n\024second_token_balance\030\t \001" +
-      "(\003\"\271\001\n\021DelegatedResource\022\014\n\004from\030\001 \001(\014\022\n" +
-      "\n\002to\030\002 \001(\014\022$\n\034frozen_balance_for_bandwid" +
-      "th\030\003 \001(\003\022!\n\031frozen_balance_for_entropy\030\004 " +
-      "\001(\003\022!\n\031expire_time_for_photon\030\005 \001(\003\022\036" +
-      "\n\026expire_time_for_entropy\030\006 \001(\003\"Z\n\035Delega" +
-      "tedResourceAccountIndex\022\017\n\007account\030\001 \001(\014" +
-      "\022\024\n\014fromAccounts\030\002 \003(\014\022\022\n\ntoAccounts\030\003 \003" +
-      "(\014\"Q\n\017TransactionSign\022*\n\013transaction\030\001 \001" +
-      "(\0132\025.protocol.Transaction\022\022\n\nprivateKey\030" +
-      "\002 \001(\014\"\201\001\n\017ChainParameters\022@\n\016chainParame" +
-      "ter\030\001 \003(\0132(.protocol.ChainParameters.Cha" +
-      "inParameter\032,\n\016ChainParameter\022\013\n\003key\030\001 \001" +
-      "(\t\022\r\n\005value\030\002 \001(\003\"\240\021\n\010NodeInfo\022\024\n\014beginS" +
-      "yncNum\030\001 \001(\003\022\r\n\005block\030\002 \001(\t\022\025\n\rsolidityB" +
-      "lock\030\003 \001(\t\022\033\n\023currentConnectCount\030\004 \001(\005\022" +
-      "\032\n\022activeConnectCount\030\005 \001(\005\022\033\n\023passiveCo" +
-      "nnectCount\030\006 \001(\005\022\021\n\ttotalFlow\030\007 \001(\003\0221\n\014p" +
-      "eerInfoList\030\010 \003(\0132\033.protocol.NodeInfo.Pe" +
-      "erInfo\0229\n\016configNodeInfo\030\t \001(\0132!.protoco" +
-      "l.NodeInfo.ConfigNodeInfo\0223\n\013machineInfo" +
-      "\030\n \001(\0132\036.protocol.NodeInfo.MachineInfo\022H" +
-      "\n\023cheatWitnessInfoMap\030\013 \003(\0132+.protocol.N" +
-      "odeInfo.CheatWitnessInfoMapEntry\032:\n\030Chea" +
-      "tWitnessInfoMapEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005val" +
-      "ue\030\002 \001(\t:\0028\001\032\315\004\n\010PeerInfo\022\025\n\rlastSyncBlo" +
-      "ck\030\001 \001(\t\022\021\n\tremainNum\030\002 \001(\003\022\033\n\023lastBlock" +
-      "UpdateTime\030\003 \001(\003\022\020\n\010syncFlag\030\004 \001(\010\022\037\n\027he" +
-      "adBlockTimeWeBothHave\030\005 \001(\003\022\030\n\020needSyncF" +
-      "romPeer\030\006 \001(\010\022\026\n\016needSyncFromUs\030\007 \001(\010\022\014\n" +
-      "\004host\030\010 \001(\t\022\014\n\004port\030\t \001(\005\022\016\n\006nodeId\030\n \001(" +
-      "\t\022\023\n\013connectTime\030\013 \001(\003\022\022\n\navgLatency\030\014 \001" +
-      "(\001\022\027\n\017syncToFetchSize\030\r \001(\005\022\036\n\026syncToFet" +
-      "chSizePeekNum\030\016 \001(\003\022\036\n\026syncBlockRequeste" +
-      "dSize\030\017 \001(\005\022\025\n\runFetchSynNum\030\020 \001(\003\022\027\n\017bl" +
-      "ockInPorcSize\030\021 \001(\005\022\033\n\023headBlockWeBothHa" +
-      "ve\030\022 \001(\t\022\020\n\010isActive\030\023 \001(\010\022\r\n\005score\030\024 \001(" +
-      "\005\022\021\n\tnodeCount\030\025 \001(\005\022\016\n\006inFlow\030\026 \001(\003\022\027\n\017" +
-      "disconnectTimes\030\027 \001(\005\022\035\n\025localDisconnect" +
-      "Reason\030\030 \001(\t\022\036\n\026remoteDisconnectReason\030\031" +
-      " \001(\t\032\345\003\n\016ConfigNodeInfo\022\023\n\013codeVersion\030\001" +
-      " \001(\t\022\022\n\np2pVersion\030\002 \001(\t\022\022\n\nlistenPort\030\003" +
-      " \001(\005\022\026\n\016discoverEnable\030\004 \001(\010\022\026\n\016activeNo" +
-      "deSize\030\005 \001(\005\022\027\n\017passiveNodeSize\030\006 \001(\005\022\024\n" +
-      "\014sendNodeSize\030\007 \001(\005\022\027\n\017maxConnectCount\030\010" +
-      " \001(\005\022\035\n\025sameIpMaxConnectCount\030\t \001(\005\022\030\n\020b" +
-      "ackupListenPort\030\n \001(\005\022\030\n\020backupMemberSiz" +
-      "e\030\013 \001(\005\022\026\n\016backupPriority\030\014 \001(\005\022\021\n\tdbVer" +
-      "sion\030\r \001(\005\022\034\n\024minParticipationRate\030\016 \001(\005" +
-      "\022\027\n\017supportConstant\030\017 \001(\010\022\024\n\014minTimeRati" +
-      "o\030\020 \001(\001\022\024\n\014maxTimeRatio\030\021 \001(\001\022 \n\030allowCr" +
-      "eationOfContracts\030\022 \001(\003\022\033\n\023allowAdaptive" +
-      "Entropy\030\023 \001(\003\032\215\005\n\013MachineInfo\022\023\n\013threadCo" +
-      "unt\030\001 \001(\005\022\033\n\023deadLockThreadCount\030\002 \001(\005\022\020" +
-      "\n\010cpuCount\030\003 \001(\005\022\023\n\013totalMemory\030\004 \001(\003\022\022\n" +
-      "\nfreeMemory\030\005 \001(\003\022\017\n\007cpuRate\030\006 \001(\001\022\023\n\013ja" +
-      "vaVersion\030\007 \001(\t\022\016\n\006osName\030\010 \001(\t\022\027\n\017jvmTo" +
-      "talMemoery\030\t \001(\003\022\025\n\rjvmFreeMemory\030\n \001(\003\022" +
-      "\026\n\016processCpuRate\030\013 \001(\001\022I\n\022memoryDescInf" +
-      "oList\030\014 \003(\0132-.protocol.NodeInfo.MachineI" +
-      "nfo.MemoryDescInfo\022Q\n\026deadLockThreadInfo" +
-      "List\030\r \003(\01321.protocol.NodeInfo.MachineIn" +
-      "fo.DeadLockThreadInfo\032c\n\016MemoryDescInfo\022" +
-      "\014\n\004name\030\001 \001(\t\022\020\n\010initSize\030\002 \001(\003\022\017\n\007useSi" +
-      "ze\030\003 \001(\003\022\017\n\007maxSize\030\004 \001(\003\022\017\n\007useRate\030\005 \001" +
-      "(\001\032\217\001\n\022DeadLockThreadInfo\022\014\n\004name\030\001 \001(\t\022" +
-      "\020\n\010lockName\030\002 \001(\t\022\021\n\tlockOwner\030\003 \001(\t\022\r\n\005" +
-      "state\030\004 \001(\t\022\021\n\tblockTime\030\005 \001(\003\022\020\n\010waitTi" +
-      "me\030\006 \001(\003\022\022\n\nstackTrace\030\007 \001(\t\"\362\002\n\013MarketO" +
-      "rder\022\020\n\010order_id\030\001 \001(\014\022\025\n\rowner_address\030" +
-      "\002 \001(\014\022\023\n\013create_time\030\003 \001(\003\022\025\n\rsell_token" +
-      "_id\030\004 \001(\014\022\033\n\023sell_token_quantity\030\005 \001(\003\022\024" +
-      "\n\014buy_token_id\030\006 \001(\014\022\032\n\022buy_token_quanti" +
-      "ty\030\007 \001(\003\022\"\n\032sell_token_quantity_remain\030\t" +
-      " \001(\003\022\"\n\032sell_token_quantity_return\030\n \001(\003" +
-      "\022*\n\005state\030\013 \001(\0162\033.protocol.MarketOrder.S" +
-      "tate\022\014\n\004prev\030\014 \001(\014\022\014\n\004next\030\r \001(\014\"/\n\005Stat" +
-      "e\022\n\n\006ACTIVE\020\000\022\014\n\010INACTIVE\020\001\022\014\n\010CANCELED\020" +
-      "\002\"8\n\017MarketOrderList\022%\n\006orders\030\001 \003(\0132\025.p" +
-      "rotocol.MarketOrder\">\n\017MarketOrderPair\022\025" +
-      "\n\rsell_token_id\030\001 \001(\014\022\024\n\014buy_token_id\030\002 " +
-      "\001(\014\"C\n\023MarketOrderPairList\022,\n\torderPair\030" +
-      "\001 \003(\0132\031.protocol.MarketOrderPair\"F\n\013Mark" +
-      "etPrice\022\033\n\023sell_token_quantity\030\001 \001(\003\022\032\n\022" +
-      "buy_token_quantity\030\002 \001(\003\"e\n\017MarketPriceL" +
-      "ist\022\025\n\rsell_token_id\030\001 \001(\014\022\024\n\014buy_token_" +
-      "id\030\002 \001(\014\022%\n\006prices\030\003 \003(\0132\025.protocol.Mark" +
-      "etPrice\"#\n\017NullifierResult\022\020\n\010is_spent\030\001" +
-      " \001(\010\"\345\001\n\021DecryptNotesVRC20\0223\n\007noteTxs\030\001 " +
-      "\003(\0132\".protocol.DecryptNotesVRC20.NoteTx\032" +
-      "\232\001\n\006NoteTx\022\034\n\004note\030\001 \001(\0132\016.protocol.Note" +
-      "\022\020\n\010position\030\002 \001(\003\022\020\n\010is_spent\030\003 \001(\010\022\014\n\004" +
-      "txid\030\004 \001(\014\022\r\n\005index\030\005 \001(\005\022\021\n\tto_amount\030\006" +
-      " \001(\t\022\036\n\026transparent_to_address\030\007 \001(\014\"I\n\023" +
-      "TransactionInfoList\0222\n\017transactionInfo\030\001" +
-      " \003(\0132\031.protocol.TransactionInfo\"\347\002\n\027Tran" +
-      "sactionApprovedList\022\025\n\rapproved_list\030\002 \003" +
-      "(\014\0228\n\006result\030\004 \001(\0132(.protocol.Transactio" +
-      "nApprovedList.Result\0223\n\013transaction\030\005 \001(" +
-      "\0132\036.protocol.TransactionExtention\032\305\001\n\006Re" +
-      "sult\022D\n\004code\030\001 \001(\01626.protocol.Transactio" +
-      "nApprovedList.Result.response_code\022\017\n\007me" +
-      "ssage\030\002 \001(\t\"d\n\rresponse_code\022\013\n\007SUCCESS\020" +
-      "\000\022\032\n\026SIGNATURE_FORMAT_ERROR\020\001\022\031\n\025COMPUTE" +
-      "_ADDRESS_ERROR\020\002\022\017\n\013OTHER_ERROR\020\024\"\337\003\n\025Tr" +
-      "ansactionSignWeight\022(\n\npermission\030\001 \001(\0132" +
-      "\024.protocol.Permission\022\025\n\rapproved_list\030\002" +
-      " \003(\014\022\026\n\016current_weight\030\003 \001(\003\0226\n\006result\030\004" +
-      " \001(\0132&.protocol.TransactionSignWeight.Re" +
-      "sult\0223\n\013transaction\030\005 \001(\0132\036.protocol.Tra" +
-      "nsactionExtention\032\377\001\n\006Result\022B\n\004code\030\001 \001" +
-      "(\01624.protocol.TransactionSignWeight.Resu" +
-      "lt.response_code\022\017\n\007message\030\002 \001(\t\"\237\001\n\rre" +
-      "sponse_code\022\025\n\021ENOUGH_PERMISSION\020\000\022\031\n\025NO" +
-      "T_ENOUGH_PERMISSION\020\001\022\032\n\026SIGNATURE_FORMA" +
-      "T_ERROR\020\002\022\031\n\025COMPUTE_ADDRESS_ERROR\020\003\022\024\n\020" +
-      "PERMISSION_ERROR\020\004\022\017\n\013OTHER_ERROR\020\024\"\223\001\n\010" +
-      "NodeList\022&\n\005nodes\030\001 \003(\0132\027.protocol.NodeL" +
-      "ist.Node\032_\n\004Node\0220\n\007address\030\001 \001(\0132\037.prot" +
-      "ocol.NodeList.Node.Address\032%\n\007Address\022\014\n" +
-      "\004host\030\001 \001(\014\022\014\n\004port\030\002 \001(\005\"\207\003\n\021AccountNet" +
-      "Message\022\023\n\013freeNetUsed\030\001 \001(\003\022\024\n\014freeNetL" +
-      "imit\030\002 \001(\003\022\017\n\007NetUsed\030\003 \001(\003\022\020\n\010NetLimit\030" +
-      "\004 \001(\003\022C\n\014assetNetUsed\030\005 \003(\0132-.protocol.A" +
-      "ccountNetMessage.AssetNetUsedEntry\022E\n\ras" +
-      "setNetLimit\030\006 \003(\0132..protocol.AccountNetM" +
-      "essage.AssetNetLimitEntry\022\025\n\rTotalNetLim" +
-      "it\030\007 \001(\003\022\026\n\016TotalNetWeight\030\010 \001(\003\0323\n\021Asse" +
-      "tNetUsedEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(" +
-      "\003:\0028\001\0324\n\022AssetNetLimitEntry\022\013\n\003key\030\001 \001(\t" +
-      "\022\r\n\005value\030\002 \001(\003:\0028\001\"\237\004\n\026AccountResourceM" +
-      "essage\022\023\n\013freeNetUsed\030\001 \001(\003\022\024\n\014freeNetLi" +
-      "mit\030\002 \001(\003\022\017\n\007NetUsed\030\003 \001(\003\022\020\n\010NetLimit\030\004" +
-      " \001(\003\022H\n\014assetNetUsed\030\005 \003(\01322.protocol.Ac" +
-      "countResourceMessage.AssetNetUsedEntry\022J" +
-      "\n\rassetNetLimit\030\006 \003(\01323.protocol.Account" +
-      "ResourceMessage.AssetNetLimitEntry\022\025\n\rTo" +
-      "talNetLimit\030\007 \001(\003\022\026\n\016TotalNetWeight\030\010 \001(" +
-      "\003\022\022\n\nEntropyUsed\030\r \001(\003\022\023\n\013EntropyLimit\030\016 \001" +
-      "(\003\022\030\n\020TotalEntropyLimit\030\017 \001(\003\022\031\n\021TotalEne" +
-      "rgyWeight\030\020 \001(\003\022\023\n\013storageUsed\030\025 \001(\003\022\024\n\014" +
-      "storageLimit\030\026 \001(\003\0323\n\021AssetNetUsedEntry\022" +
-      "\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\0324\n\022Asset" +
-      "NetLimitEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(" +
-      "\003:\0028\001B\035\n\033org.vision.visionjsdk.protob\006pr" +
-      "oto3"
+      "TRACT_EXE_ERROR\020\003\022\020\n\014PHOTON_ERROR\020\004\022\031\n\025D" +
+      "UP_TRANSACTION_ERROR\020\005\022\017\n\013TAPOS_ERROR\020\006\022" +
+      "\035\n\031TOO_BIG_TRANSACTION_ERROR\020\007\022 \n\034TRANSA" +
+      "CTION_EXPIRATION_ERROR\020\010\022\017\n\013SERVER_BUSY\020" +
+      "\t\022\021\n\rNO_CONNECTION\020\n\022#\n\037NOT_ENOUGH_EFFEC" +
+      "TIVE_CONNECTION\020\013\022\017\n\013OTHER_ERROR\020\024\"\226\001\n\024T" +
+      "ransactionExtention\022*\n\013transaction\030\001 \001(\013" +
+      "2\025.protocol.Transaction\022\014\n\004txid\030\002 \001(\014\022\027\n" +
+      "\017constant_result\030\003 \003(\014\022+\n\006result\030\004 \001(\0132\033" +
+      ".protocol.TransactionReturn\"3\n\013WitnessLi" +
+      "st\022$\n\twitnesses\030\001 \003(\0132\021.protocol.Witness" +
+      "\"5\n\014ProposalList\022%\n\tproposals\030\001 \003(\0132\022.pr" +
+      "otocol.Proposal\"5\n\014ExchangeList\022%\n\texcha" +
+      "nges\030\001 \003(\0132\022.protocol.Exchange\">\n\016AssetI" +
+      "ssueList\022,\n\006assets\030\001 \003(\0132\034.protocol.Asse" +
+      "tIssueContract\"+\n\tBlockList\022\036\n\005block\030\001 \003" +
+      "(\0132\017.protocol.Block\"=\n\017TransactionList\022*" +
+      "\n\013transaction\030\001 \003(\0132\025.protocol.Transacti" +
+      "on\"D\n\030DelegatedResourceMessage\022\024\n\014from_a" +
+      "ddress\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\"O\n\025Dele" +
+      "gatedResourceList\0226\n\021delegatedResource\030\001" +
+      " \003(\0132\033.protocol.DelegatedResource\">\n\027Add" +
+      "ressPrKeyPairMessage\022\017\n\007address\030\001 \001(\t\022\022\n" +
+      "\nprivateKey\030\002 \001(\t\"}\n\024EasyTransferRespons" +
+      "e\022*\n\013transaction\030\001 \001(\0132\025.protocol.Transa" +
+      "ction\022+\n\006result\030\002 \001(\0132\033.protocol.Transac" +
+      "tionReturn\022\014\n\004txid\030\003 \001(\014\"a\n\030SmartContrac" +
+      "tDataWrapper\022/\n\016smart_contract\030\001 \001(\0132\027.p" +
+      "rotocol.SmartContract\022\024\n\014runtime_code\030\002 " +
+      "\001(\014\"\360\001\n\023InternalTransaction\022\014\n\004hash\030\001 \001(" +
+      "\014\022\026\n\016caller_address\030\002 \001(\014\022\032\n\022transferTo_" +
+      "address\030\003 \001(\014\022B\n\rcallValueInfo\030\004 \003(\0132+.p" +
+      "rotocol.InternalTransaction.CallValueInf" +
+      "o\022\014\n\004note\030\005 \001(\014\022\020\n\010rejected\030\006 \001(\010\0323\n\rCal" +
+      "lValueInfo\022\021\n\tcallValue\030\001 \001(\003\022\017\n\007tokenId" +
+      "\030\002 \001(\t\"\331\001\n\017ResourceReceipt\022\025\n\rentropy_us" +
+      "age\030\001 \001(\003\022\023\n\013entropy_fee\030\002 \001(\003\022\034\n\024origin" +
+      "_entropy_usage\030\003 \001(\003\022\033\n\023entropy_usage_to" +
+      "tal\030\004 \001(\003\022\021\n\tnet_usage\030\005 \001(\003\022\017\n\007net_fee\030" +
+      "\006 \001(\003\022;\n\006result\030\007 \001(\0162+.protocol.Transac" +
+      "tion.Result.contractResult\"\360\005\n\017Transacti" +
+      "onInfo\022\n\n\002id\030\001 \001(\014\022\013\n\003fee\030\002 \001(\003\022\023\n\013block" +
+      "Number\030\003 \001(\003\022\026\n\016blockTimeStamp\030\004 \001(\003\022\026\n\016" +
+      "contractResult\030\005 \003(\014\022\030\n\020contract_address" +
+      "\030\006 \001(\014\022*\n\007receipt\030\007 \001(\0132\031.protocol.Resou" +
+      "rceReceipt\022*\n\003log\030\010 \003(\0132\035.protocol.Trans" +
+      "actionInfo.Log\022.\n\006result\030\t \001(\0162\036.protoco" +
+      "l.TransactionInfo.code\022\022\n\nresMessage\030\n \001" +
+      "(\014\022\024\n\014assetIssueID\030\016 \001(\t\022\027\n\017withdraw_amo" +
+      "unt\030\017 \001(\003\022\027\n\017unfreeze_amount\030\020 \001(\003\022<\n\025in" +
+      "ternal_transactions\030\021 \003(\0132\035.protocol.Int" +
+      "ernalTransaction\022 \n\030exchange_received_am" +
+      "ount\030\022 \001(\003\022&\n\036exchange_inject_another_am" +
+      "ount\030\023 \001(\003\022(\n exchange_withdraw_another_" +
+      "amount\030\024 \001(\003\022\023\n\013exchange_id\030\025 \001(\003\022 \n\030shi" +
+      "elded_transaction_fee\030\026 \001(\003\022\017\n\007orderId\030\031" +
+      " \001(\014\0221\n\014orderDetails\030\032 \003(\0132\033.protocol.Ma" +
+      "rketOrderDetail\0324\n\003Log\022\017\n\007address\030\001 \001(\014\022" +
+      "\016\n\006topics\030\002 \003(\014\022\014\n\004data\030\003 \001(\014\"\036\n\004code\022\n\n" +
+      "\006SUCESS\020\000\022\n\n\006FAILED\020\001\"\265\001\n\007Witness\022\017\n\007add" +
+      "ress\030\001 \001(\014\022\021\n\tvoteCount\030\002 \001(\003\022\016\n\006pubKey\030" +
+      "\003 \001(\014\022\013\n\003url\030\004 \001(\t\022\025\n\rtotalProduced\030\005 \001(" +
+      "\003\022\023\n\013totalMissed\030\006 \001(\003\022\026\n\016latestBlockNum" +
+      "\030\007 \001(\003\022\025\n\rlatestSlotNum\030\010 \001(\003\022\016\n\006isJobs\030" +
+      "\t \001(\010\"\357\017\n\007Account\022\024\n\014account_name\030\001 \001(\014\022" +
+      "#\n\004type\030\002 \001(\0162\025.protocol.AccountType\022\017\n\007" +
+      "address\030\003 \001(\014\022\017\n\007balance\030\004 \001(\003\022\035\n\005votes\030" +
+      "\005 \003(\0132\016.protocol.Vote\022+\n\005asset\030\006 \003(\0132\034.p" +
+      "rotocol.Account.AssetEntry\022/\n\007assetV2\0308 " +
+      "\003(\0132\036.protocol.Account.AssetV2Entry\022(\n\006f" +
+      "rozen\030\007 \003(\0132\030.protocol.Account.Frozen\022\021\n" +
+      "\tnet_usage\030\010 \001(\003\0224\n,acquired_delegated_f" +
+      "rozen_balance_for_photon\030) \001(\003\022+\n#delega" +
+      "ted_frozen_balance_for_photon\030* \001(\003\022\023\n\013c" +
+      "reate_time\030\t \001(\003\022\034\n\024latest_opration_time" +
+      "\030\n \001(\003\022\021\n\tallowance\030\013 \001(\003\022\034\n\024latest_with" +
+      "draw_time\030\014 \001(\003\022\014\n\004code\030\r \001(\014\022\022\n\nis_witn" +
+      "ess\030\016 \001(\010\022\024\n\014is_committee\030\017 \001(\010\022/\n\rfroze" +
+      "n_supply\030\020 \003(\0132\030.protocol.Account.Frozen" +
+      "\022\031\n\021asset_issued_name\030\021 \001(\014\022\027\n\017asset_iss" +
+      "ued_ID\0309 \001(\014\022T\n\033latest_asset_operation_t" +
+      "ime\030\022 \003(\0132/.protocol.Account.LatestAsset" +
+      "OperationTimeEntry\022X\n\035latest_asset_opera" +
+      "tion_timeV2\030: \003(\01321.protocol.Account.Lat" +
+      "estAssetOperationTimeV2Entry\022\026\n\016free_net" +
+      "_usage\030\023 \001(\003\022F\n\024free_asset_net_usage\030\024 \003" +
+      "(\0132(.protocol.Account.FreeAssetNetUsageE" +
+      "ntry\022J\n\026free_asset_net_usageV2\030; \003(\0132*.p" +
+      "rotocol.Account.FreeAssetNetUsageV2Entry" +
+      "\022\033\n\023latest_consume_time\030\025 \001(\003\022 \n\030latest_" +
+      "consume_free_time\030\026 \001(\003\022\022\n\naccount_id\030\027 " +
+      "\001(\014\022;\n\020account_resource\030\032 \001(\0132!.protocol" +
+      ".Account.AccountResource\022\020\n\010codeHash\030\036 \001" +
+      "(\014\022.\n\020owner_permission\030\037 \001(\0132\024.protocol." +
+      "Permission\0220\n\022witness_permission\030  \001(\0132\024" +
+      ".protocol.Permission\022/\n\021active_permissio" +
+      "n\030! \003(\0132\024.protocol.Permission\0325\n\006Frozen\022" +
+      "\026\n\016frozen_balance\030\001 \001(\003\022\023\n\013expire_time\030\002" +
+      " \001(\003\032,\n\nAssetEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value" +
+      "\030\002 \001(\003:\0028\001\032.\n\014AssetV2Entry\022\013\n\003key\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \001(\003:\0028\001\032?\n\035LatestAssetOperati" +
+      "onTimeEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:" +
+      "\0028\001\032A\n\037LatestAssetOperationTimeV2Entry\022\013" +
+      "\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\0328\n\026FreeAs" +
+      "setNetUsageEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002" +
+      " \001(\003:\0028\001\032:\n\030FreeAssetNetUsageV2Entry\022\013\n\003" +
+      "key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\032\310\002\n\017Account" +
+      "Resource\022\025\n\rentropy_usage\030\001 \001(\003\022<\n\032froze" +
+      "n_balance_for_entropy\030\002 \001(\0132\030.protocol.A" +
+      "ccount.Frozen\022\'\n\037latest_consume_time_for" +
+      "_entropy\030\003 \001(\003\0225\n-acquired_delegated_fro" +
+      "zen_balance_for_entropy\030\004 \001(\003\022,\n$delegat" +
+      "ed_frozen_balance_for_entropy\030\005 \001(\003\022\025\n\rs" +
+      "torage_limit\030\006 \001(\003\022\025\n\rstorage_usage\030\007 \001(" +
+      "\003\022$\n\034latest_exchange_storage_time\030\010 \001(\003\"" +
+      "r\n\021MarketOrderDetail\022\024\n\014makerOrderId\030\001 \001" +
+      "(\014\022\024\n\014takerOrderId\030\002 \001(\014\022\030\n\020fillSellQuan" +
+      "tity\030\003 \001(\003\022\027\n\017fillBuyQuantity\030\004 \001(\003\"\321\002\n\010" +
+      "Proposal\022\023\n\013proposal_id\030\001 \001(\003\022\030\n\020propose" +
+      "r_address\030\002 \001(\014\0226\n\nparameters\030\003 \003(\0132\".pr" +
+      "otocol.Proposal.ParametersEntry\022\027\n\017expir" +
+      "ation_time\030\004 \001(\003\022\023\n\013create_time\030\005 \001(\003\022\021\n" +
+      "\tapprovals\030\006 \003(\014\022\'\n\005state\030\007 \001(\0162\030.protoc" +
+      "ol.Proposal.State\0321\n\017ParametersEntry\022\013\n\003" +
+      "key\030\001 \001(\003\022\r\n\005value\030\002 \001(\003:\0028\001\"A\n\005State\022\013\n" +
+      "\007PENDING\020\000\022\017\n\013DISAPPROVED\020\001\022\014\n\010APPROVED\020" +
+      "\002\022\014\n\010CANCELED\020\003\"\271\001\n\010Exchange\022\023\n\013exchange" +
+      "_id\030\001 \001(\003\022\027\n\017creator_address\030\002 \001(\014\022\023\n\013cr" +
+      "eate_time\030\003 \001(\003\022\026\n\016first_token_id\030\006 \001(\014\022" +
+      "\033\n\023first_token_balance\030\007 \001(\003\022\027\n\017second_t" +
+      "oken_id\030\010 \001(\014\022\034\n\024second_token_balance\030\t " +
+      "\001(\003\"\265\001\n\021DelegatedResource\022\014\n\004from\030\001 \001(\014\022" +
+      "\n\n\002to\030\002 \001(\014\022!\n\031frozen_balance_for_photon" +
+      "\030\003 \001(\003\022\"\n\032frozen_balance_for_entropy\030\004 \001" +
+      "(\003\022\036\n\026expire_time_for_photon\030\005 \001(\003\022\037\n\027ex" +
+      "pire_time_for_entropy\030\006 \001(\003\"Z\n\035Delegated" +
+      "ResourceAccountIndex\022\017\n\007account\030\001 \001(\014\022\024\n" +
+      "\014fromAccounts\030\002 \003(\014\022\022\n\ntoAccounts\030\003 \003(\014\"" +
+      "Q\n\017TransactionSign\022*\n\013transaction\030\001 \001(\0132" +
+      "\025.protocol.Transaction\022\022\n\nprivateKey\030\002 \001" +
+      "(\014\"\201\001\n\017ChainParameters\022@\n\016chainParameter" +
+      "\030\001 \003(\0132(.protocol.ChainParameters.ChainP" +
+      "arameter\032,\n\016ChainParameter\022\013\n\003key\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \001(\003\"\241\021\n\010NodeInfo\022\024\n\014beginSync" +
+      "Num\030\001 \001(\003\022\r\n\005block\030\002 \001(\t\022\025\n\rsolidityBloc" +
+      "k\030\003 \001(\t\022\033\n\023currentConnectCount\030\004 \001(\005\022\032\n\022" +
+      "activeConnectCount\030\005 \001(\005\022\033\n\023passiveConne" +
+      "ctCount\030\006 \001(\005\022\021\n\ttotalFlow\030\007 \001(\003\0221\n\014peer" +
+      "InfoList\030\010 \003(\0132\033.protocol.NodeInfo.PeerI" +
+      "nfo\0229\n\016configNodeInfo\030\t \001(\0132!.protocol.N" +
+      "odeInfo.ConfigNodeInfo\0223\n\013machineInfo\030\n " +
+      "\001(\0132\036.protocol.NodeInfo.MachineInfo\022H\n\023c" +
+      "heatWitnessInfoMap\030\013 \003(\0132+.protocol.Node" +
+      "Info.CheatWitnessInfoMapEntry\032:\n\030CheatWi" +
+      "tnessInfoMapEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030" +
+      "\002 \001(\t:\0028\001\032\315\004\n\010PeerInfo\022\025\n\rlastSyncBlock\030" +
+      "\001 \001(\t\022\021\n\tremainNum\030\002 \001(\003\022\033\n\023lastBlockUpd" +
+      "ateTime\030\003 \001(\003\022\020\n\010syncFlag\030\004 \001(\010\022\037\n\027headB" +
+      "lockTimeWeBothHave\030\005 \001(\003\022\030\n\020needSyncFrom" +
+      "Peer\030\006 \001(\010\022\026\n\016needSyncFromUs\030\007 \001(\010\022\014\n\004ho" +
+      "st\030\010 \001(\t\022\014\n\004port\030\t \001(\005\022\016\n\006nodeId\030\n \001(\t\022\023" +
+      "\n\013connectTime\030\013 \001(\003\022\022\n\navgLatency\030\014 \001(\001\022" +
+      "\027\n\017syncToFetchSize\030\r \001(\005\022\036\n\026syncToFetchS" +
+      "izePeekNum\030\016 \001(\003\022\036\n\026syncBlockRequestedSi" +
+      "ze\030\017 \001(\005\022\025\n\runFetchSynNum\030\020 \001(\003\022\027\n\017block" +
+      "InPorcSize\030\021 \001(\005\022\033\n\023headBlockWeBothHave\030" +
+      "\022 \001(\t\022\020\n\010isActive\030\023 \001(\010\022\r\n\005score\030\024 \001(\005\022\021" +
+      "\n\tnodeCount\030\025 \001(\005\022\016\n\006inFlow\030\026 \001(\003\022\027\n\017dis" +
+      "connectTimes\030\027 \001(\005\022\035\n\025localDisconnectRea" +
+      "son\030\030 \001(\t\022\036\n\026remoteDisconnectReason\030\031 \001(" +
+      "\t\032\346\003\n\016ConfigNodeInfo\022\023\n\013codeVersion\030\001 \001(" +
+      "\t\022\022\n\np2pVersion\030\002 \001(\t\022\022\n\nlistenPort\030\003 \001(" +
+      "\005\022\026\n\016discoverEnable\030\004 \001(\010\022\026\n\016activeNodeS" +
+      "ize\030\005 \001(\005\022\027\n\017passiveNodeSize\030\006 \001(\005\022\024\n\014se" +
+      "ndNodeSize\030\007 \001(\005\022\027\n\017maxConnectCount\030\010 \001(" +
+      "\005\022\035\n\025sameIpMaxConnectCount\030\t \001(\005\022\030\n\020back" +
+      "upListenPort\030\n \001(\005\022\030\n\020backupMemberSize\030\013" +
+      " \001(\005\022\026\n\016backupPriority\030\014 \001(\005\022\021\n\tdbVersio" +
+      "n\030\r \001(\005\022\034\n\024minParticipationRate\030\016 \001(\005\022\027\n" +
+      "\017supportConstant\030\017 \001(\010\022\024\n\014minTimeRatio\030\020" +
+      " \001(\001\022\024\n\014maxTimeRatio\030\021 \001(\001\022 \n\030allowCreat" +
+      "ionOfContracts\030\022 \001(\003\022\034\n\024allowAdaptiveEnt" +
+      "ropy\030\023 \001(\003\032\215\005\n\013MachineInfo\022\023\n\013threadCoun" +
+      "t\030\001 \001(\005\022\033\n\023deadLockThreadCount\030\002 \001(\005\022\020\n\010" +
+      "cpuCount\030\003 \001(\005\022\023\n\013totalMemory\030\004 \001(\003\022\022\n\nf" +
+      "reeMemory\030\005 \001(\003\022\017\n\007cpuRate\030\006 \001(\001\022\023\n\013java" +
+      "Version\030\007 \001(\t\022\016\n\006osName\030\010 \001(\t\022\027\n\017jvmTota" +
+      "lMemoery\030\t \001(\003\022\025\n\rjvmFreeMemory\030\n \001(\003\022\026\n" +
+      "\016processCpuRate\030\013 \001(\001\022I\n\022memoryDescInfoL" +
+      "ist\030\014 \003(\0132-.protocol.NodeInfo.MachineInf" +
+      "o.MemoryDescInfo\022Q\n\026deadLockThreadInfoLi" +
+      "st\030\r \003(\01321.protocol.NodeInfo.MachineInfo" +
+      ".DeadLockThreadInfo\032c\n\016MemoryDescInfo\022\014\n" +
+      "\004name\030\001 \001(\t\022\020\n\010initSize\030\002 \001(\003\022\017\n\007useSize" +
+      "\030\003 \001(\003\022\017\n\007maxSize\030\004 \001(\003\022\017\n\007useRate\030\005 \001(\001" +
+      "\032\217\001\n\022DeadLockThreadInfo\022\014\n\004name\030\001 \001(\t\022\020\n" +
+      "\010lockName\030\002 \001(\t\022\021\n\tlockOwner\030\003 \001(\t\022\r\n\005st" +
+      "ate\030\004 \001(\t\022\021\n\tblockTime\030\005 \001(\003\022\020\n\010waitTime" +
+      "\030\006 \001(\003\022\022\n\nstackTrace\030\007 \001(\t\"\362\002\n\013MarketOrd" +
+      "er\022\020\n\010order_id\030\001 \001(\014\022\025\n\rowner_address\030\002 " +
+      "\001(\014\022\023\n\013create_time\030\003 \001(\003\022\025\n\rsell_token_i" +
+      "d\030\004 \001(\014\022\033\n\023sell_token_quantity\030\005 \001(\003\022\024\n\014" +
+      "buy_token_id\030\006 \001(\014\022\032\n\022buy_token_quantity" +
+      "\030\007 \001(\003\022\"\n\032sell_token_quantity_remain\030\t \001" +
+      "(\003\022\"\n\032sell_token_quantity_return\030\n \001(\003\022*" +
+      "\n\005state\030\013 \001(\0162\033.protocol.MarketOrder.Sta" +
+      "te\022\014\n\004prev\030\014 \001(\014\022\014\n\004next\030\r \001(\014\"/\n\005State\022" +
+      "\n\n\006ACTIVE\020\000\022\014\n\010INACTIVE\020\001\022\014\n\010CANCELED\020\002\"" +
+      "8\n\017MarketOrderList\022%\n\006orders\030\001 \003(\0132\025.pro" +
+      "tocol.MarketOrder\">\n\017MarketOrderPair\022\025\n\r" +
+      "sell_token_id\030\001 \001(\014\022\024\n\014buy_token_id\030\002 \001(" +
+      "\014\"C\n\023MarketOrderPairList\022,\n\torderPair\030\001 " +
+      "\003(\0132\031.protocol.MarketOrderPair\"F\n\013Market" +
+      "Price\022\033\n\023sell_token_quantity\030\001 \001(\003\022\032\n\022bu" +
+      "y_token_quantity\030\002 \001(\003\"e\n\017MarketPriceLis" +
+      "t\022\025\n\rsell_token_id\030\001 \001(\014\022\024\n\014buy_token_id" +
+      "\030\002 \001(\014\022%\n\006prices\030\003 \003(\0132\025.protocol.Market" +
+      "Price\"#\n\017NullifierResult\022\020\n\010is_spent\030\001 \001" +
+      "(\010\"\345\001\n\021DecryptNotesVRC20\0223\n\007noteTxs\030\001 \003(" +
+      "\0132\".protocol.DecryptNotesVRC20.NoteTx\032\232\001" +
+      "\n\006NoteTx\022\034\n\004note\030\001 \001(\0132\016.protocol.Note\022\020" +
+      "\n\010position\030\002 \001(\003\022\020\n\010is_spent\030\003 \001(\010\022\014\n\004tx" +
+      "id\030\004 \001(\014\022\r\n\005index\030\005 \001(\005\022\021\n\tto_amount\030\006 \001" +
+      "(\t\022\036\n\026transparent_to_address\030\007 \001(\014\"I\n\023Tr" +
+      "ansactionInfoList\0222\n\017transactionInfo\030\001 \003" +
+      "(\0132\031.protocol.TransactionInfo\"\347\002\n\027Transa" +
+      "ctionApprovedList\022\025\n\rapproved_list\030\002 \003(\014" +
+      "\0228\n\006result\030\004 \001(\0132(.protocol.TransactionA" +
+      "pprovedList.Result\0223\n\013transaction\030\005 \001(\0132" +
+      "\036.protocol.TransactionExtention\032\305\001\n\006Resu" +
+      "lt\022D\n\004code\030\001 \001(\01626.protocol.TransactionA" +
+      "pprovedList.Result.response_code\022\017\n\007mess" +
+      "age\030\002 \001(\t\"d\n\rresponse_code\022\013\n\007SUCCESS\020\000\022" +
+      "\032\n\026SIGNATURE_FORMAT_ERROR\020\001\022\031\n\025COMPUTE_A" +
+      "DDRESS_ERROR\020\002\022\017\n\013OTHER_ERROR\020\024\"\337\003\n\025Tran" +
+      "sactionSignWeight\022(\n\npermission\030\001 \001(\0132\024." +
+      "protocol.Permission\022\025\n\rapproved_list\030\002 \003" +
+      "(\014\022\026\n\016current_weight\030\003 \001(\003\0226\n\006result\030\004 \001" +
+      "(\0132&.protocol.TransactionSignWeight.Resu" +
+      "lt\0223\n\013transaction\030\005 \001(\0132\036.protocol.Trans" +
+      "actionExtention\032\377\001\n\006Result\022B\n\004code\030\001 \001(\016" +
+      "24.protocol.TransactionSignWeight.Result" +
+      ".response_code\022\017\n\007message\030\002 \001(\t\"\237\001\n\rresp" +
+      "onse_code\022\025\n\021ENOUGH_PERMISSION\020\000\022\031\n\025NOT_" +
+      "ENOUGH_PERMISSION\020\001\022\032\n\026SIGNATURE_FORMAT_" +
+      "ERROR\020\002\022\031\n\025COMPUTE_ADDRESS_ERROR\020\003\022\024\n\020PE" +
+      "RMISSION_ERROR\020\004\022\017\n\013OTHER_ERROR\020\024\"\223\001\n\010No" +
+      "deList\022&\n\005nodes\030\001 \003(\0132\027.protocol.NodeLis" +
+      "t.Node\032_\n\004Node\0220\n\007address\030\001 \001(\0132\037.protoc" +
+      "ol.NodeList.Node.Address\032%\n\007Address\022\014\n\004h" +
+      "ost\030\001 \001(\014\022\014\n\004port\030\002 \001(\005\"\207\003\n\021AccountNetMe" +
+      "ssage\022\023\n\013freeNetUsed\030\001 \001(\003\022\024\n\014freeNetLim" +
+      "it\030\002 \001(\003\022\017\n\007NetUsed\030\003 \001(\003\022\020\n\010NetLimit\030\004 " +
+      "\001(\003\022C\n\014assetNetUsed\030\005 \003(\0132-.protocol.Acc" +
+      "ountNetMessage.AssetNetUsedEntry\022E\n\rasse" +
+      "tNetLimit\030\006 \003(\0132..protocol.AccountNetMes" +
+      "sage.AssetNetLimitEntry\022\025\n\rTotalNetLimit" +
+      "\030\007 \001(\003\022\026\n\016TotalNetWeight\030\010 \001(\003\0323\n\021AssetN" +
+      "etUsedEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:" +
+      "\0028\001\0324\n\022AssetNetLimitEntry\022\013\n\003key\030\001 \001(\t\022\r" +
+      "\n\005value\030\002 \001(\003:\0028\001\"\243\004\n\026AccountResourceMes" +
+      "sage\022\023\n\013freeNetUsed\030\001 \001(\003\022\024\n\014freeNetLimi" +
+      "t\030\002 \001(\003\022\017\n\007NetUsed\030\003 \001(\003\022\020\n\010NetLimit\030\004 \001" +
+      "(\003\022H\n\014assetNetUsed\030\005 \003(\01322.protocol.Acco" +
+      "untResourceMessage.AssetNetUsedEntry\022J\n\r" +
+      "assetNetLimit\030\006 \003(\01323.protocol.AccountRe" +
+      "sourceMessage.AssetNetLimitEntry\022\025\n\rTota" +
+      "lNetLimit\030\007 \001(\003\022\026\n\016TotalNetWeight\030\010 \001(\003\022" +
+      "\023\n\013EntropyUsed\030\r \001(\003\022\024\n\014EntropyLimit\030\016 \001" +
+      "(\003\022\031\n\021TotalEntropyLimit\030\017 \001(\003\022\032\n\022TotalEn" +
+      "tropyWeight\030\020 \001(\003\022\023\n\013storageUsed\030\025 \001(\003\022\024" +
+      "\n\014storageLimit\030\026 \001(\003\0323\n\021AssetNetUsedEntr" +
+      "y\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\003:\0028\001\0324\n\022Ass" +
+      "etNetLimitEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 " +
+      "\001(\003:\0028\001B\035\n\033org.vision.visionjsdk.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

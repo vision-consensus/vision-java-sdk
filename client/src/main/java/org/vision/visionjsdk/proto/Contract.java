@@ -251,7 +251,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -883,7 +883,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ACCOUNT_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getAccountName().hashCode();
@@ -1458,7 +1458,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ACCOUNT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAccountId().hashCode();
@@ -1871,7 +1871,6 @@ public final class Contract {
      * </pre>
      *
      * <code>.protocol.Permission owner = 2;</code>
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getOwnerOrBuilder();
 
@@ -1899,7 +1898,6 @@ public final class Contract {
      * </pre>
      *
      * <code>.protocol.Permission witness = 3;</code>
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getWitnessOrBuilder();
 
@@ -1909,7 +1907,6 @@ public final class Contract {
      * </pre>
      *
      * <code>repeated .protocol.Permission actives = 4;</code>
-     * @return list
      */
     java.util.List<org.vision.visionjsdk.proto.Common.Permission> 
         getActivesList();
@@ -1919,8 +1916,6 @@ public final class Contract {
      * </pre>
      *
      * <code>repeated .protocol.Permission actives = 4;</code>
-     * @param index index
-     * @return Permission
      */
     org.vision.visionjsdk.proto.Common.Permission getActives(int index);
     /**
@@ -1929,7 +1924,6 @@ public final class Contract {
      * </pre>
      *
      * <code>repeated .protocol.Permission actives = 4;</code>
-     * @return int
      */
     int getActivesCount();
     /**
@@ -1938,7 +1932,6 @@ public final class Contract {
      * </pre>
      *
      * <code>repeated .protocol.Permission actives = 4;</code>
-     * @return list
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
         getActivesOrBuilderList();
@@ -1948,8 +1941,6 @@ public final class Contract {
      * </pre>
      *
      * <code>repeated .protocol.Permission actives = 4;</code>
-     * @param index index
-     * @return PermissionOrBuilder
      */
     org.vision.visionjsdk.proto.Common.PermissionOrBuilder getActivesOrBuilder(
         int index);
@@ -2313,7 +2304,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -2712,8 +2703,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setOwner(org.vision.visionjsdk.proto.Common.Permission value) {
         if (ownerBuilder_ == null) {
@@ -2734,8 +2723,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setOwner(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
@@ -2754,8 +2741,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeOwner(org.vision.visionjsdk.proto.Common.Permission value) {
         if (ownerBuilder_ == null) {
@@ -2778,7 +2763,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @return Builder
        */
       public Builder clearOwner() {
         if (ownerBuilder_ == null) {
@@ -2797,7 +2781,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getOwnerBuilder() {
         
@@ -2810,7 +2793,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @return PermissionOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getOwnerOrBuilder() {
         if (ownerBuilder_ != null) {
@@ -2826,7 +2808,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission owner = 2;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
@@ -2877,8 +2858,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setWitness(org.vision.visionjsdk.proto.Common.Permission value) {
         if (witnessBuilder_ == null) {
@@ -2899,8 +2878,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setWitness(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
@@ -2919,8 +2896,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeWitness(org.vision.visionjsdk.proto.Common.Permission value) {
         if (witnessBuilder_ == null) {
@@ -2943,7 +2918,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @return Builder
        */
       public Builder clearWitness() {
         if (witnessBuilder_ == null) {
@@ -2962,7 +2936,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getWitnessBuilder() {
         
@@ -2975,7 +2948,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @return PermissionOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getWitnessOrBuilder() {
         if (witnessBuilder_ != null) {
@@ -2991,7 +2963,6 @@ public final class Contract {
        * </pre>
        *
        * <code>.protocol.Permission witness = 3;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.Permission, org.vision.visionjsdk.proto.Common.Permission.Builder, org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
@@ -3025,7 +2996,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Common.Permission> getActivesList() {
         if (activesBuilder_ == null) {
@@ -3040,7 +3010,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return int
        */
       public int getActivesCount() {
         if (activesBuilder_ == null) {
@@ -3055,8 +3024,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @return Permission
        */
       public org.vision.visionjsdk.proto.Common.Permission getActives(int index) {
         if (activesBuilder_ == null) {
@@ -3071,9 +3038,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setActives(
           int index, org.vision.visionjsdk.proto.Common.Permission value) {
@@ -3095,9 +3059,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setActives(
           int index, org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
@@ -3116,8 +3077,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param value value
-       * @return builderForValue
        */
       public Builder addActives(org.vision.visionjsdk.proto.Common.Permission value) {
         if (activesBuilder_ == null) {
@@ -3138,9 +3097,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param value value
-       * @param index index
-       * @return Builder
        */
       public Builder addActives(
           int index, org.vision.visionjsdk.proto.Common.Permission value) {
@@ -3162,8 +3118,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addActives(
           org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
@@ -3182,9 +3136,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param builderForValue builderForValue
-       * @param index index
-       * @return Builder
        */
       public Builder addActives(
           int index, org.vision.visionjsdk.proto.Common.Permission.Builder builderForValue) {
@@ -3203,8 +3154,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param values valuesß
-       * @return Builder
        */
       public Builder addAllActives(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Common.Permission> values) {
@@ -3224,7 +3173,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return Builder
        */
       public Builder clearActives() {
         if (activesBuilder_ == null) {
@@ -3242,8 +3190,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeActives(int index) {
         if (activesBuilder_ == null) {
@@ -3261,8 +3207,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder getActivesBuilder(
           int index) {
@@ -3274,8 +3218,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @return PermissionOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.PermissionOrBuilder getActivesOrBuilder(
           int index) {
@@ -3290,7 +3232,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return list
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Common.PermissionOrBuilder> 
            getActivesOrBuilderList() {
@@ -3306,7 +3247,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder addActivesBuilder() {
         return getActivesFieldBuilder().addBuilder(
@@ -3318,8 +3258,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.Permission.Builder addActivesBuilder(
           int index) {
@@ -3332,7 +3270,6 @@ public final class Contract {
        * </pre>
        *
        * <code>repeated .protocol.Permission actives = 4;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Common.Permission.Builder> 
            getActivesBuilderList() {
@@ -3447,31 +3384,24 @@ public final class Contract {
 
     /**
      * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-     * @return list
      */
     java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply> 
         getFrozenSupplyList();
     /**
      * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-     * @param index index
-     * @return FrozenSupply
      */
     org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply getFrozenSupply(int index);
     /**
      * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-     * @return int
      */
     int getFrozenSupplyCount();
     /**
      * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-     * @return list
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupplyOrBuilder> 
         getFrozenSupplyOrBuilderList();
     /**
      * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-     * @param index index
-     * @return FrozenSupplyOrBuilder
      */
     org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupplyOrBuilder getFrozenSupplyOrBuilder(
         int index);
@@ -3705,7 +3635,7 @@ public final class Contract {
               publicLatestFreeNetTime_ = input.readInt64();
               break;
             }
-            case 330: {
+            case 370: {
               java.lang.String s = input.readStringRequireUtf8();
 
               id_ = s;
@@ -3936,7 +3866,7 @@ public final class Contract {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + FROZEN_AMOUNT_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -4428,7 +4358,7 @@ public final class Contract {
       return frozenSupply_.get(index);
     }
 
-    public static final int VRC_NUM_FIELD_NUMBER = 6;
+    public static final int VS_NUM_FIELD_NUMBER = 6;
     private int vsNum_;
     /**
      * <code>int32 vs_num = 6;</code>
@@ -4792,7 +4722,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ID_FIELD_NUMBER;
       hash = (53 * hash) + getId().hashCode();
@@ -4809,7 +4739,7 @@ public final class Contract {
         hash = (37 * hash) + FROZEN_SUPPLY_FIELD_NUMBER;
         hash = (53 * hash) + getFrozenSupplyList().hashCode();
       }
-      hash = (37 * hash) + VRC_NUM_FIELD_NUMBER;
+      hash = (37 * hash) + VS_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getVsNum();
       hash = (37 * hash) + PRECISION_FIELD_NUMBER;
       hash = (53 * hash) + getPrecision();
@@ -5474,8 +5404,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @return FrozenSupply
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply getFrozenSupply(int index) {
         if (frozenSupplyBuilder_ == null) {
@@ -5486,9 +5414,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setFrozenSupply(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply value) {
@@ -5506,9 +5431,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setFrozenSupply(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder builderForValue) {
@@ -5523,8 +5445,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozenSupply(org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply value) {
         if (frozenSupplyBuilder_ == null) {
@@ -5541,9 +5461,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addFrozenSupply(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply value) {
@@ -5561,8 +5478,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozenSupply(
           org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder builderForValue) {
@@ -5577,9 +5492,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addFrozenSupply(
           int index, org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder builderForValue) {
@@ -5594,8 +5506,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllFrozenSupply(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply> values) {
@@ -5611,7 +5521,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @return Builder
        */
       public Builder clearFrozenSupply() {
         if (frozenSupplyBuilder_ == null) {
@@ -5625,8 +5534,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeFrozenSupply(int index) {
         if (frozenSupplyBuilder_ == null) {
@@ -5640,8 +5547,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder getFrozenSupplyBuilder(
           int index) {
@@ -5649,8 +5554,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @return FrozenSupplyOrBuilder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupplyOrBuilder getFrozenSupplyOrBuilder(
           int index) {
@@ -5661,7 +5564,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @return list
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupplyOrBuilder> 
            getFrozenSupplyOrBuilderList() {
@@ -5673,7 +5575,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder addFrozenSupplyBuilder() {
         return getFrozenSupplyFieldBuilder().addBuilder(
@@ -5681,8 +5582,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder addFrozenSupplyBuilder(
           int index) {
@@ -5691,7 +5590,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.AssetIssueContract.FrozenSupply frozen_supply = 5;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Contract.AssetIssueContract.FrozenSupply.Builder> 
            getFrozenSupplyBuilderList() {
@@ -6458,7 +6356,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ASSET_NAME_FIELD_NUMBER;
       hash = (53 * hash) + getAssetName().hashCode();
@@ -7101,7 +6999,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -7719,7 +7617,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -8488,7 +8386,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -9270,7 +9168,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -10023,7 +9921,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -10619,7 +10517,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -11174,7 +11072,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -11922,7 +11820,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -12676,7 +12574,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -13280,7 +13178,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -13716,34 +13614,26 @@ public final class Contract {
 
     /**
      * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-     * @return int
      */
     int getParametersCount();
     /**
      * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-     * @param key key
-     * @return boolean
      */
     boolean containsParameters(
         long key);
     /**
      * Use {@link #getParametersMap()} instead.
-     * @return map
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Long, java.lang.Long>
     getParameters();
     /**
      * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-     * @return map
      */
     java.util.Map<java.lang.Long, java.lang.Long>
     getParametersMap();
     /**
      * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-     * @param key key
-     * @param defaultValue defaultValue
-     * @return long
      */
 
     long getParametersOrDefault(
@@ -13751,8 +13641,6 @@ public final class Contract {
         long defaultValue);
     /**
      * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-     * @param key key
-     * @return long
      */
 
     long getParametersOrThrow(
@@ -14033,7 +13921,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -14374,8 +14262,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param key key
-       * @return boolean
        */
 
       @java.lang.Override
@@ -14386,7 +14272,6 @@ public final class Contract {
       }
       /**
        * Use {@link #getParametersMap()} instead.
-       * @return map
        */
       @java.lang.Override
       @java.lang.Deprecated
@@ -14395,7 +14280,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @return map
        */
       @java.lang.Override
 
@@ -14404,9 +14288,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param key key
-       * @param defaultValue defaultValue
-       * @return long
        */
       @java.lang.Override
 
@@ -14420,8 +14301,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param key key
-       * @return long
        */
       @java.lang.Override
 
@@ -14443,8 +14322,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param key key
-       * @return Builder
        */
 
       public Builder removeParameters(
@@ -14456,7 +14333,6 @@ public final class Contract {
       }
       /**
        * Use alternate mutation accessors instead.
-       * @return map
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Long, java.lang.Long>
@@ -14465,9 +14341,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param value value
-       * @param key key
-       * @return Builder
        */
       public Builder putParameters(
           long key,
@@ -14480,8 +14353,6 @@ public final class Contract {
       }
       /**
        * <code>map&lt;int64, int64&gt; parameters = 2;</code>
-       * @param values values
-       * @return Builder
        */
 
       public Builder putAllParameters(
@@ -14734,7 +14605,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -15128,7 +14999,6 @@ public final class Contract {
     org.vision.visionjsdk.proto.Common.SmartContract getNewContract();
     /**
      * <code>.protocol.SmartContract new_contract = 2;</code>
-     * @return SmartContractOrBuilder
      */
     org.vision.visionjsdk.proto.Common.SmartContractOrBuilder getNewContractOrBuilder();
 
@@ -15395,7 +15265,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -15734,8 +15604,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder setNewContract(org.vision.visionjsdk.proto.Common.SmartContract value) {
         if (newContractBuilder_ == null) {
@@ -15752,8 +15620,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setNewContract(
           org.vision.visionjsdk.proto.Common.SmartContract.Builder builderForValue) {
@@ -15768,8 +15634,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder mergeNewContract(org.vision.visionjsdk.proto.Common.SmartContract value) {
         if (newContractBuilder_ == null) {
@@ -15788,7 +15652,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @return Builder
        */
       public Builder clearNewContract() {
         if (newContractBuilder_ == null) {
@@ -15803,7 +15666,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Common.SmartContract.Builder getNewContractBuilder() {
         
@@ -15812,7 +15674,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @return SmartContractOrBuilder
        */
       public org.vision.visionjsdk.proto.Common.SmartContractOrBuilder getNewContractOrBuilder() {
         if (newContractBuilder_ != null) {
@@ -15824,7 +15685,6 @@ public final class Contract {
       }
       /**
        * <code>.protocol.SmartContract new_contract = 2;</code>
-       * @return SingleFieldBuilderV3
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           org.vision.visionjsdk.proto.Common.SmartContract, org.vision.visionjsdk.proto.Common.SmartContract.Builder, org.vision.visionjsdk.proto.Common.SmartContractOrBuilder> 
@@ -16271,7 +16131,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -16999,7 +16859,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -17596,7 +17456,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -18233,7 +18093,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -18846,7 +18706,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -19522,7 +19382,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -20233,7 +20093,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -20799,7 +20659,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -21185,31 +21045,24 @@ public final class Contract {
 
     /**
      * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-     * @return list
      */
     java.util.List<org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote> 
         getVotesList();
     /**
      * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-     * @param index index
-     * @return Vote
      */
     org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote getVotes(int index);
     /**
      * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-     * @return int
      */
     int getVotesCount();
     /**
      * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-     * @return list
      */
     java.util.List<? extends org.vision.visionjsdk.proto.Contract.VoteWitnessContract.VoteOrBuilder> 
         getVotesOrBuilderList();
     /**
      * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-     * @param index index
-     * @return VoteOrBuilder
      */
     org.vision.visionjsdk.proto.Contract.VoteWitnessContract.VoteOrBuilder getVotesOrBuilder(
         int index);
@@ -21513,7 +21366,7 @@ public final class Contract {
         if (memoizedHashCode != 0) {
           return memoizedHashCode;
         }
-        int hash = 46;
+        int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
         hash = (37 * hash) + VOTE_ADDRESS_FIELD_NUMBER;
         hash = (53 * hash) + getVoteAddress().hashCode();
@@ -22021,7 +21874,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -22372,7 +22225,6 @@ public final class Contract {
 
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote> getVotesList() {
         if (votesBuilder_ == null) {
@@ -22383,7 +22235,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return int
        */
       public int getVotesCount() {
         if (votesBuilder_ == null) {
@@ -22394,8 +22245,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @return Vote
        */
       public org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote getVotes(int index) {
         if (votesBuilder_ == null) {
@@ -22406,9 +22255,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder setVotes(
           int index, org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote value) {
@@ -22426,9 +22272,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder setVotes(
           int index, org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder builderForValue) {
@@ -22443,8 +22286,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param value value
-       * @return Builder
        */
       public Builder addVotes(org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote value) {
         if (votesBuilder_ == null) {
@@ -22461,9 +22302,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @param value value
-       * @return Builder
        */
       public Builder addVotes(
           int index, org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote value) {
@@ -22481,8 +22319,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addVotes(
           org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder builderForValue) {
@@ -22497,9 +22333,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @param builderForValue builderForValue
-       * @return Builder
        */
       public Builder addVotes(
           int index, org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder builderForValue) {
@@ -22514,8 +22347,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param values values
-       * @return Builder
        */
       public Builder addAllVotes(
           java.lang.Iterable<? extends org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote> values) {
@@ -22531,7 +22362,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return Builder
        */
       public Builder clearVotes() {
         if (votesBuilder_ == null) {
@@ -22545,8 +22375,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @return Builder
        */
       public Builder removeVotes(int index) {
         if (votesBuilder_ == null) {
@@ -22560,8 +22388,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder getVotesBuilder(
           int index) {
@@ -22569,8 +22395,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @return VoteOrBuilder
        */
       public org.vision.visionjsdk.proto.Contract.VoteWitnessContract.VoteOrBuilder getVotesOrBuilder(
           int index) {
@@ -22581,7 +22405,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return list
        */
       public java.util.List<? extends org.vision.visionjsdk.proto.Contract.VoteWitnessContract.VoteOrBuilder> 
            getVotesOrBuilderList() {
@@ -22593,7 +22416,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder addVotesBuilder() {
         return getVotesFieldBuilder().addBuilder(
@@ -22601,8 +22423,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @param index index
-       * @return Builder
        */
       public org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder addVotesBuilder(
           int index) {
@@ -22611,7 +22431,6 @@ public final class Contract {
       }
       /**
        * <code>repeated .protocol.VoteWitnessContract.Vote votes = 2;</code>
-       * @return list
        */
       public java.util.List<org.vision.visionjsdk.proto.Contract.VoteWitnessContract.Vote.Builder> 
            getVotesBuilderList() {
@@ -23001,7 +22820,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -23751,7 +23570,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -24459,7 +24278,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -25198,7 +25017,7 @@ public final class Contract {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
       }
-      int hash = 46;
+      int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OWNER_ADDRESS_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerAddress().hashCode();
@@ -25887,94 +25706,94 @@ public final class Contract {
       "pdateContract\022\025\n\rowner_address\030\001 \001(\014\022#\n\005" +
       "owner\030\002 \001(\0132\024.protocol.Permission\022%\n\007wit" +
       "ness\030\003 \001(\0132\024.protocol.Permission\022%\n\007acti" +
-      "ves\030\004 \003(\0132\024.protocol.Permission\"\220\004\n\022Asse" +
-      "tIssueContract\022\n\n\002id\030) \001(\t\022\025\n\rowner_addr" +
+      "ves\030\004 \003(\0132\024.protocol.Permission\"\217\004\n\022Asse" +
+      "tIssueContract\022\n\n\002id\030. \001(\t\022\025\n\rowner_addr" +
       "ess\030\001 \001(\014\022\014\n\004name\030\002 \001(\014\022\014\n\004abbr\030\003 \001(\014\022\024\n" +
       "\014total_supply\030\004 \001(\003\022@\n\rfrozen_supply\030\005 \003" +
       "(\0132).protocol.AssetIssueContract.FrozenS" +
-      "upply\022\017\n\007vs_num\030\006 \001(\005\022\021\n\tprecision\030\007 \001(" +
-      "\005\022\013\n\003num\030\010 \001(\005\022\022\n\nstart_time\030\t \001(\003\022\020\n\010en" +
-      "d_time\030\n \001(\003\022\r\n\005order\030\013 \001(\003\022\022\n\nvote_scor" +
-      "e\030\020 \001(\005\022\023\n\013description\030\024 \001(\014\022\013\n\003url\030\025 \001(" +
-      "\014\022\034\n\024free_asset_net_limit\030\026 \001(\003\022#\n\033publi" +
-      "c_free_asset_net_limit\030\027 \001(\003\022#\n\033public_f" +
-      "ree_asset_net_usage\030\030 \001(\003\022#\n\033public_late" +
-      "st_free_net_time\030\031 \001(\003\032:\n\014FrozenSupply\022\025" +
-      "\n\rfrozen_amount\030\001 \001(\003\022\023\n\013frozen_days\030\002 \001" +
-      "(\003\"f\n\025TransferAssetContract\022\022\n\nasset_nam" +
-      "e\030\001 \001(\014\022\025\n\rowner_address\030\002 \001(\014\022\022\n\nto_add" +
-      "ress\030\003 \001(\014\022\016\n\006amount\030\004 \001(\003\".\n\025UnfreezeAs" +
-      "setContract\022\025\n\rowner_address\030\001 \001(\014\"{\n\023Up" +
-      "dateAssetContract\022\025\n\rowner_address\030\001 \001(\014" +
-      "\022\023\n\013description\030\002 \001(\014\022\013\n\003url\030\003 \001(\014\022\021\n\tne" +
-      "w_limit\030\004 \001(\003\022\030\n\020new_public_limit\030\005 \001(\003\"" +
-      "n\n\035ParticipateAssetIssueContract\022\025\n\rowne" +
-      "r_address\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\022\022\n\na" +
-      "sset_name\030\003 \001(\014\022\016\n\006amount\030\004 \001(\003\"\243\001\n\025Free" +
-      "zeBalanceContract\022\025\n\rowner_address\030\001 \001(\014" +
-      "\022\026\n\016frozen_balance\030\002 \001(\003\022\027\n\017frozen_durat" +
-      "ion\030\003 \001(\003\022(\n\010resource\030\n \001(\0162\026.protocol.R" +
-      "esourceCode\022\030\n\020receiver_address\030\017 \001(\014\"t\n" +
-      "\027UnfreezeBalanceContract\022\025\n\rowner_addres" +
-      "s\030\001 \001(\014\022(\n\010resource\030\n \001(\0162\026.protocol.Res" +
-      "ourceCode\022\030\n\020receiver_address\030\017 \001(\014\"0\n\027W" +
-      "ithdrawBalanceContract\022\025\n\rowner_address\030" +
-      "\001 \001(\014\"M\n\020TransferContract\022\025\n\rowner_addre" +
-      "ss\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\022\016\n\006amount\030\003" +
-      " \001(\003\"\255\001\n\027MarketSellAssetContract\022\025\n\rowne" +
-      "r_address\030\001 \001(\014\022\025\n\rsell_token_id\030\002 \001(\014\022\033" +
-      "\n\023sell_token_quantity\030\003 \001(\003\022\024\n\014buy_token" +
-      "_id\030\004 \001(\014\022\032\n\022buy_token_quantity\030\005 \001(\003\022\025\n" +
-      "\rpre_price_key\030\006 \001(\014\"D\n\031MarketCancelOrde" +
-      "rContract\022\025\n\rowner_address\030\001 \001(\014\022\020\n\010orde" +
-      "r_id\030\002 \001(\014\"^\n\027ProposalApproveContract\022\025\n" +
-      "\rowner_address\030\001 \001(\014\022\023\n\013proposal_id\030\002 \001(" +
-      "\003\022\027\n\017is_add_approval\030\003 \001(\010\"\250\001\n\026ProposalC" +
-      "reateContract\022\025\n\rowner_address\030\001 \001(\014\022D\n\n" +
-      "parameters\030\002 \003(\01320.protocol.ProposalCrea" +
-      "teContract.ParametersEntry\0321\n\017Parameters" +
-      "Entry\022\013\n\003key\030\001 \001(\003\022\r\n\005value\030\002 \001(\003:\0028\001\"D\n" +
-      "\026ProposalDeleteContract\022\025\n\rowner_address" +
-      "\030\001 \001(\014\022\023\n\013proposal_id\030\002 \001(\003\"\207\001\n\023CreateSm" +
-      "artContract\022\025\n\rowner_address\030\001 \001(\014\022-\n\014ne" +
-      "w_contract\030\002 \001(\0132\027.protocol.SmartContrac" +
-      "t\022\030\n\020call_token_value\030\003 \001(\003\022\020\n\010token_id\030" +
-      "\004 \001(\003\"\225\001\n\024TriggerSmartContract\022\025\n\rowner_" +
-      "address\030\001 \001(\014\022\030\n\020contract_address\030\002 \001(\014\022" +
-      "\022\n\ncall_value\030\003 \001(\003\022\014\n\004data\030\004 \001(\014\022\030\n\020cal" +
-      "l_token_value\030\005 \001(\003\022\020\n\010token_id\030\006 \001(\003\"C\n" +
-      "\020ClearABIContract\022\025\n\rowner_address\030\001 \001(\014" +
-      "\022\030\n\020contract_address\030\002 \001(\014\"o\n\025UpdateSett" +
-      "ingContract\022\025\n\rowner_address\030\001 \001(\014\022\030\n\020co" +
-      "ntract_address\030\002 \001(\014\022%\n\035consume_user_res" +
-      "ource_percent\030\003 \001(\003\"i\n\031UpdateEntropyLimit" +
+      "upply\022\016\n\006vs_num\030\006 \001(\005\022\021\n\tprecision\030\007 \001(\005" +
+      "\022\013\n\003num\030\010 \001(\005\022\022\n\nstart_time\030\t \001(\003\022\020\n\010end" +
+      "_time\030\n \001(\003\022\r\n\005order\030\013 \001(\003\022\022\n\nvote_score" +
+      "\030\020 \001(\005\022\023\n\013description\030\024 \001(\014\022\013\n\003url\030\025 \001(\014" +
+      "\022\034\n\024free_asset_net_limit\030\026 \001(\003\022#\n\033public" +
+      "_free_asset_net_limit\030\027 \001(\003\022#\n\033public_fr" +
+      "ee_asset_net_usage\030\030 \001(\003\022#\n\033public_lates" +
+      "t_free_net_time\030\031 \001(\003\032:\n\014FrozenSupply\022\025\n" +
+      "\rfrozen_amount\030\001 \001(\003\022\023\n\013frozen_days\030\002 \001(" +
+      "\003\"f\n\025TransferAssetContract\022\022\n\nasset_name" +
+      "\030\001 \001(\014\022\025\n\rowner_address\030\002 \001(\014\022\022\n\nto_addr" +
+      "ess\030\003 \001(\014\022\016\n\006amount\030\004 \001(\003\".\n\025UnfreezeAss" +
+      "etContract\022\025\n\rowner_address\030\001 \001(\014\"{\n\023Upd" +
+      "ateAssetContract\022\025\n\rowner_address\030\001 \001(\014\022" +
+      "\023\n\013description\030\002 \001(\014\022\013\n\003url\030\003 \001(\014\022\021\n\tnew" +
+      "_limit\030\004 \001(\003\022\030\n\020new_public_limit\030\005 \001(\003\"n" +
+      "\n\035ParticipateAssetIssueContract\022\025\n\rowner" +
+      "_address\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\022\022\n\nas" +
+      "set_name\030\003 \001(\014\022\016\n\006amount\030\004 \001(\003\"\243\001\n\025Freez" +
+      "eBalanceContract\022\025\n\rowner_address\030\001 \001(\014\022" +
+      "\026\n\016frozen_balance\030\002 \001(\003\022\027\n\017frozen_durati" +
+      "on\030\003 \001(\003\022(\n\010resource\030\n \001(\0162\026.protocol.Re" +
+      "sourceCode\022\030\n\020receiver_address\030\017 \001(\014\"t\n\027" +
+      "UnfreezeBalanceContract\022\025\n\rowner_address" +
+      "\030\001 \001(\014\022(\n\010resource\030\n \001(\0162\026.protocol.Reso" +
+      "urceCode\022\030\n\020receiver_address\030\017 \001(\014\"0\n\027Wi" +
+      "thdrawBalanceContract\022\025\n\rowner_address\030\001" +
+      " \001(\014\"M\n\020TransferContract\022\025\n\rowner_addres" +
+      "s\030\001 \001(\014\022\022\n\nto_address\030\002 \001(\014\022\016\n\006amount\030\003 " +
+      "\001(\003\"\255\001\n\027MarketSellAssetContract\022\025\n\rowner" +
+      "_address\030\001 \001(\014\022\025\n\rsell_token_id\030\002 \001(\014\022\033\n" +
+      "\023sell_token_quantity\030\003 \001(\003\022\024\n\014buy_token_" +
+      "id\030\004 \001(\014\022\032\n\022buy_token_quantity\030\005 \001(\003\022\025\n\r" +
+      "pre_price_key\030\006 \001(\014\"D\n\031MarketCancelOrder" +
+      "Contract\022\025\n\rowner_address\030\001 \001(\014\022\020\n\010order" +
+      "_id\030\002 \001(\014\"^\n\027ProposalApproveContract\022\025\n\r" +
+      "owner_address\030\001 \001(\014\022\023\n\013proposal_id\030\002 \001(\003" +
+      "\022\027\n\017is_add_approval\030\003 \001(\010\"\250\001\n\026ProposalCr" +
+      "eateContract\022\025\n\rowner_address\030\001 \001(\014\022D\n\np" +
+      "arameters\030\002 \003(\01320.protocol.ProposalCreat" +
+      "eContract.ParametersEntry\0321\n\017ParametersE" +
+      "ntry\022\013\n\003key\030\001 \001(\003\022\r\n\005value\030\002 \001(\003:\0028\001\"D\n\026" +
+      "ProposalDeleteContract\022\025\n\rowner_address\030" +
+      "\001 \001(\014\022\023\n\013proposal_id\030\002 \001(\003\"\207\001\n\023CreateSma" +
+      "rtContract\022\025\n\rowner_address\030\001 \001(\014\022-\n\014new" +
+      "_contract\030\002 \001(\0132\027.protocol.SmartContract" +
+      "\022\030\n\020call_token_value\030\003 \001(\003\022\020\n\010token_id\030\004" +
+      " \001(\003\"\225\001\n\024TriggerSmartContract\022\025\n\rowner_a" +
+      "ddress\030\001 \001(\014\022\030\n\020contract_address\030\002 \001(\014\022\022" +
+      "\n\ncall_value\030\003 \001(\003\022\014\n\004data\030\004 \001(\014\022\030\n\020call" +
+      "_token_value\030\005 \001(\003\022\020\n\010token_id\030\006 \001(\003\"C\n\020" +
+      "ClearABIContract\022\025\n\rowner_address\030\001 \001(\014\022" +
+      "\030\n\020contract_address\030\002 \001(\014\"o\n\025UpdateSetti" +
+      "ngContract\022\025\n\rowner_address\030\001 \001(\014\022\030\n\020con" +
+      "tract_address\030\002 \001(\014\022%\n\035consume_user_reso" +
+      "urce_percent\030\003 \001(\003\"k\n\032UpdateEntropyLimit" +
       "Contract\022\025\n\rowner_address\030\001 \001(\014\022\030\n\020contr" +
-      "act_address\030\002 \001(\014\022\033\n\023origin_entropy_limit" +
-      "\030\003 \001(\003\"C\n\027UpdateBrokerageContract\022\025\n\rown" +
-      "er_address\030\001 \001(\014\022\021\n\tbrokerage\030\002 \001(\005\"`\n\021V" +
-      "oteAssetContract\022\025\n\rowner_address\030\001 \001(\014\022" +
-      "\024\n\014vote_address\030\002 \003(\014\022\017\n\007support\030\003 \001(\010\022\r" +
-      "\n\005count\030\005 \001(\005\";\n\025WitnessCreateContract\022\025" +
-      "\n\rowner_address\030\001 \001(\014\022\013\n\003url\030\002 \001(\014\"B\n\025Wi" +
-      "tnessUpdateContract\022\025\n\rowner_address\030\001 \001" +
-      "(\014\022\022\n\nupdate_url\030\014 \001(\014\"\242\001\n\023VoteWitnessCo" +
-      "ntract\022\025\n\rowner_address\030\001 \001(\014\0221\n\005votes\030\002" +
-      " \003(\0132\".protocol.VoteWitnessContract.Vote" +
-      "\022\017\n\007support\030\003 \001(\010\0320\n\004Vote\022\024\n\014vote_addres" +
-      "s\030\001 \001(\014\022\022\n\nvote_count\030\002 \001(\003\"\233\001\n\026Exchange" +
-      "CreateContract\022\025\n\rowner_address\030\001 \001(\014\022\026\n" +
-      "\016first_token_id\030\002 \001(\014\022\033\n\023first_token_bal" +
-      "ance\030\003 \001(\003\022\027\n\017second_token_id\030\004 \001(\014\022\034\n\024s" +
-      "econd_token_balance\030\005 \001(\003\"e\n\026ExchangeInj" +
-      "ectContract\022\025\n\rowner_address\030\001 \001(\014\022\023\n\013ex" +
-      "change_id\030\002 \001(\003\022\020\n\010token_id\030\003 \001(\014\022\r\n\005qua" +
-      "nt\030\004 \001(\003\"g\n\030ExchangeWithdrawContract\022\025\n\r" +
-      "owner_address\030\001 \001(\014\022\023\n\013exchange_id\030\002 \001(\003" +
-      "\022\020\n\010token_id\030\003 \001(\014\022\r\n\005quant\030\004 \001(\003\"|\n\033Exc" +
-      "hangeTransactionContract\022\025\n\rowner_addres" +
-      "s\030\001 \001(\014\022\023\n\013exchange_id\030\002 \001(\003\022\020\n\010token_id" +
-      "\030\003 \001(\014\022\r\n\005quant\030\004 \001(\003\022\020\n\010expected\030\005 \001(\003B" +
-      "\035\n\033org.vision.visionjsdk.protob\006proto3"
+      "act_address\030\002 \001(\014\022\034\n\024origin_entropy_limi" +
+      "t\030\003 \001(\003\"C\n\027UpdateBrokerageContract\022\025\n\row" +
+      "ner_address\030\001 \001(\014\022\021\n\tbrokerage\030\002 \001(\005\"`\n\021" +
+      "VoteAssetContract\022\025\n\rowner_address\030\001 \001(\014" +
+      "\022\024\n\014vote_address\030\002 \003(\014\022\017\n\007support\030\003 \001(\010\022" +
+      "\r\n\005count\030\005 \001(\005\";\n\025WitnessCreateContract\022" +
+      "\025\n\rowner_address\030\001 \001(\014\022\013\n\003url\030\002 \001(\014\"B\n\025W" +
+      "itnessUpdateContract\022\025\n\rowner_address\030\001 " +
+      "\001(\014\022\022\n\nupdate_url\030\014 \001(\014\"\242\001\n\023VoteWitnessC" +
+      "ontract\022\025\n\rowner_address\030\001 \001(\014\0221\n\005votes\030" +
+      "\002 \003(\0132\".protocol.VoteWitnessContract.Vot" +
+      "e\022\017\n\007support\030\003 \001(\010\0320\n\004Vote\022\024\n\014vote_addre" +
+      "ss\030\001 \001(\014\022\022\n\nvote_count\030\002 \001(\003\"\233\001\n\026Exchang" +
+      "eCreateContract\022\025\n\rowner_address\030\001 \001(\014\022\026" +
+      "\n\016first_token_id\030\002 \001(\014\022\033\n\023first_token_ba" +
+      "lance\030\003 \001(\003\022\027\n\017second_token_id\030\004 \001(\014\022\034\n\024" +
+      "second_token_balance\030\005 \001(\003\"e\n\026ExchangeIn" +
+      "jectContract\022\025\n\rowner_address\030\001 \001(\014\022\023\n\013e" +
+      "xchange_id\030\002 \001(\003\022\020\n\010token_id\030\003 \001(\014\022\r\n\005qu" +
+      "ant\030\004 \001(\003\"g\n\030ExchangeWithdrawContract\022\025\n" +
+      "\rowner_address\030\001 \001(\014\022\023\n\013exchange_id\030\002 \001(" +
+      "\003\022\020\n\010token_id\030\003 \001(\014\022\r\n\005quant\030\004 \001(\003\"|\n\033Ex" +
+      "changeTransactionContract\022\025\n\rowner_addre" +
+      "ss\030\001 \001(\014\022\023\n\013exchange_id\030\002 \001(\003\022\020\n\010token_i" +
+      "d\030\003 \001(\014\022\r\n\005quant\030\004 \001(\003\022\020\n\010expected\030\005 \001(\003" +
+      "B\035\n\033org.vision.visionjsdk.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
