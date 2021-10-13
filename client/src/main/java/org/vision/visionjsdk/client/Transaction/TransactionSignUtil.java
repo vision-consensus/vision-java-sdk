@@ -271,34 +271,27 @@ public class TransactionSignUtil {
         }
     }
 
-    private static boolean verifySignature(String rawData, String signature,
+    public static boolean verifySignature(String hex, String sign,
                                           String address, boolean visible) {
-        if (visible) {
 
-            try {
-                Sha256Hash k = Sha256Hash.of(true,
-                        rawData.getBytes("UTF-8"));
-                byte[] in = k.getBytes();
-                // in = rawData.getBytes();
-                String rawDataHex = toHexString(in);
-                rawDataHex = toHexString(rawData.getBytes());
-                System.out.println("rawDataHex=" + rawDataHex);
-                byte[] dataBytes = ByteUtils.HexToBytes(rawDataHex);
-                byte[] hash = Sha256Hash.of(true,
-                        dataBytes).getBytes();
-
-                byte[] signatureEncoded = ByteUtils.HexToBytes(signature);
-                ByteString bs = ByteString.copyFrom(signatureEncoded);
-                byte[] addressGen = ECKey.signatureToAddress(hash, getBase64FromByteString(bs));
-                System.out.println("base58=" + Base58Check.bytesToBase58(addressGen));
-                return Base58Check.bytesToBase58(addressGen).toLowerCase().equals(address.toLowerCase());
-            } catch (Exception e) {
-                // e.printStackTrace();
-            }
-            return false;
-        } else {
-            return verifySignature(rawData, signature, address);
+        try {
+            byte[] bytes = ByteUtils.HexToBytes(hex);
+            byte[] signBytes = ByteUtils.HexToBytes(sign);
+            byte[] messageHash = Hash.sha3(bytes);
+            String signatureBase64 = TransactionSignUtil.getBase64FromByteString(ByteString.copyFrom(signBytes));
+//        ECKey.signatureToAddress(messageHash, ECKey.ECDSASignature.fromComponents())
+//        byte[] address = ECKey.signatureToAddress(messageHash,
+//                ECKey.ECDSASignature.fromComponents(
+//                        ByteUtils.HexToBytes(sign.substring(0, 64)),
+//                        ByteUtils.HexToBytes(sign.substring(64, 128)),
+//                                (byte) 27));
+            byte[] addr = ECKey.signatureToAddress(messageHash, signatureBase64);
+            return visible ? encode58Check(addr).equals(address) : ByteString.copyFrom(addr).toStringUtf8().equals(address);
+        } catch (Exception e) {
+            // e.printStackTrace();
         }
+        return false;
+
     }
 
     private static String toHexString(byte[] data) {
