@@ -11,34 +11,34 @@ task sourceJar(type: Jar) {
 }
 
 ////maven-publish 扩展名
-//publishing {
-//    // 配置发布的项目信息
-//    publications{
-//        library(MavenPublication){
-//            // MavenPublication 中有一些属性，主要包括groupId，artifactId，version,from,artifact
-//            // 其中groupId，artifactId，version，artifact都是选填的，不填默认去取项目的相关信息；
-//            groupId project.group // 项目的group
-//            artifactId 'client-'+project.name //项目name
-//            version project.version
-//            //如果打包成war包填写components.web，如果打成jar包填写components.java
-//            from components.java
-//            artifact sourceJar
-//        }
-//    }
-//    // 配置发布的地址
-//    repositories{
-//        maven{
-//            // 私服地址
-//            url = 'http://18.138.127.184:8081/nexus/content/repositories/releases/'
-//            // 验证信息
-//            credentials{
-//                // 私服的用户与密码
-//                username 'admin'
-//                password 'mgEVMquOZurl'
-//            }
-//        }
-//    }
-//}
+publishing {
+    // 配置发布的项目信息
+    publications{
+        library(MavenPublication){
+            // MavenPublication 中有一些属性，主要包括groupId，artifactId，version,from,artifact
+            // 其中groupId，artifactId，version，artifact都是选填的，不填默认去取项目的相关信息；
+            groupId project.group // 项目的group
+            artifactId 'client-'+project.name //项目name
+            version project.version
+            //如果打包成war包填写components.web，如果打成jar包填写components.java
+            from components.java
+            artifact sourceJar
+        }
+    }
+    // 配置发布的地址
+    repositories{
+        maven{
+            // 私服地址
+            url = 'http://18.138.127.184:8081/nexus/content/repositories/releases/'
+            // 验证信息
+            credentials{
+                // 私服的用户与密码
+                username 'admin'
+                password 'mgEVMquOZurl'
+            }
+        }
+    }
+}
 
 description 'Visionjsdk gRPC client classes'
 

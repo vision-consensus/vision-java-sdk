@@ -13,11 +13,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.vision.visionjsdk.client.Transaction.visioncore;
+package org.vision.visionjsdk.client.transaction.visioncore;
 
 import com.google.protobuf.ByteString;
 import org.bouncycastle.pqc.math.linearalgebra.ByteUtils;
-import org.vision.visionjsdk.client.Transaction.Sha256Hash;
+import org.vision.visionjsdk.client.transaction.Sha256Hash;
 
 public class StringUtil {
 

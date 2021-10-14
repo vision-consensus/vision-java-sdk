@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction;
+package org.vision.visionjsdk.client.transaction;
 
 public interface SignInterface {
 

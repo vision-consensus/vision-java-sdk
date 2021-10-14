@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction.visioncore;
+package org.vision.visionjsdk.client.transaction.visioncore;
 
 /**
  * Protobuf enum {@code protocol.Transaction.Contract.ContractType}

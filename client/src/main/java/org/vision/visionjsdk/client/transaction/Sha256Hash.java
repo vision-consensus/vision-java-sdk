@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction;
+package org.vision.visionjsdk.client.transaction;
 
 /*
  * Copyright 2011 Google Inc.

@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction;
+package org.vision.visionjsdk.client.transaction;
 /*
  * Copyright (c) [2016] [ <ether.camp> ]
  * This file is part of the ethereumJ library.

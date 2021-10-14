@@ -16,7 +16,7 @@
  * along with the ethereumJ library. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.vision.visionjsdk.client.Transaction;
+package org.vision.visionjsdk.client.transaction;
 
 import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;

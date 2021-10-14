@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction.visioncore;
+package org.vision.visionjsdk.client.transaction.visioncore;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;

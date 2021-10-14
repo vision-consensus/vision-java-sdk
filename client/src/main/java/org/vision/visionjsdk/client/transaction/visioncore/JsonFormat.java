@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction.visioncore;
+package org.vision.visionjsdk.client.transaction.visioncore;
 
 /*
   Copyright (c) 2009, Orbitz World Wide
@@ -37,7 +37,7 @@ import com.google.protobuf.Descriptors.EnumDescriptor;
 import com.google.protobuf.Descriptors.EnumValueDescriptor;
 import com.google.protobuf.Descriptors.FieldDescriptor;
 import org.bouncycastle.pqc.math.linearalgebra.ByteUtils;
-import org.vision.visionjsdk.client.Transaction.Sha256Hash;
+import org.vision.visionjsdk.client.transaction.Sha256Hash;
 
 import java.io.IOException;
 import java.math.BigInteger;

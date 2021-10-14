@@ -1,4 +1,4 @@
-package org.vision.visionjsdk.client.Transaction;
+package org.vision.visionjsdk.client.transaction;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -6,22 +6,18 @@ import com.google.protobuf.Any;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.GeneratedMessageV3;
 import com.google.protobuf.Message;
-import org.spongycastle.jcajce.provider.digest.Keccak;
 import org.spongycastle.util.encoders.Base64;
 import org.spongycastle.util.encoders.Hex;
-import org.vision.visionjsdk.client.Transaction.visioncore.Base58;
-import org.vision.visionjsdk.client.Transaction.visioncore.ContractType;
-import org.vision.visionjsdk.client.Transaction.visioncore.JsonFormat;
-import org.vision.visionjsdk.client.Transaction.visioncore.TransactionFactory;
+import org.vision.visionjsdk.client.transaction.visioncore.Base58;
+import org.vision.visionjsdk.client.transaction.visioncore.ContractType;
+import org.vision.visionjsdk.client.transaction.visioncore.JsonFormat;
+import org.vision.visionjsdk.client.transaction.visioncore.TransactionFactory;
 import org.vision.visionjsdk.crypto.Hash;
-import org.vision.visionjsdk.crypto.SECP256K1;
 import org.vision.visionjsdk.proto.Chain;
 import org.vision.visionjsdk.utils.Base58Check;
 import org.vision.visionjsdk.utils.ByteUtils;
 
 import java.lang.reflect.Constructor;
-import java.math.BigInteger;
-import java.security.NoSuchAlgorithmException;
 import java.security.SignatureException;
 import java.util.Arrays;
 
