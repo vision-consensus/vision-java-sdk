@@ -111,8 +111,8 @@ public class VisionClient {
         return new VisionClient("infragrid.v.network:50051", "infragrid.v.network:50052",hexPrivateKey);
     }
 
-    public static VisionClient ofVpionner(String hexPrivateKey) {
-        return new VisionClient("vpionner.infragrid.v.network:50051", "vpionner.infragrid.v.network:50052",hexPrivateKey);
+    public static VisionClient ofVpioneer(String hexPrivateKey) {
+        return new VisionClient("vpioneer.infragrid.v.network:50051", "vpioneer.infragrid.v.network:50052",hexPrivateKey);
     }
 
     /**
