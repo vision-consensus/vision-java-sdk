@@ -18,7 +18,7 @@ publishing {
             // MavenPublication 中有一些属性，主要包括groupId，artifactId，version,from,artifact
             // 其中groupId，artifactId，version，artifact都是选填的，不填默认去取项目的相关信息；
             groupId project.group // 项目的group
-            artifactId 'client-'+project.name //项目name
+            artifactId project.name //项目name
             version project.version
             //如果打包成war包填写components.web，如果打成jar包填写components.java
             from components.java
