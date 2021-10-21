@@ -19,14 +19,15 @@ import java.util.Collections;
 import java.util.List;
 
 public class BaseTrigger {
-    public static String constantOfUtf8String(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort,
+
+
+    public static String constantOfUtf8String(VisionClient client, String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort,
                                               String funcName) {
-        VisionClient client;
-        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
-            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
-        } else {
-            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
-        }
+//        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+//            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+//        } else {
+//            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+//        }
 
         Function function = new Function(funcName,
                 Collections.emptyList(), Arrays.asList(new TypeReference<Utf8String>() {}));
@@ -52,14 +53,13 @@ public class BaseTrigger {
     }
 
 
-    public static BigInteger constantOfBigInteger(String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
+    public static BigInteger constantOfBigInteger(VisionClient client, String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
                                                   String funcName) {
-        VisionClient client;
-        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
-            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
-        } else {
-            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
-        }
+//        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+//            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+//        } else {
+//            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+//        }
 
         Function function = new Function(funcName,
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint8>() {}));
@@ -83,15 +83,14 @@ public class BaseTrigger {
         return null;
     }
 
-    public static BigInteger constantOfBigInteger(String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
+    public static BigInteger constantOfBigInteger(VisionClient client, String hexAddressContract, String grpcIpPort, String grpcSolidityIpPort,
                                                   String funcName,
                                                   List<TypeReference<?>> outputParameters) {
-        VisionClient client;
-        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
-            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
-        } else {
-            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
-        }
+//        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+//            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+//        } else {
+//            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+//        }
 
         Function function = new Function(funcName,
                 Collections.emptyList(), outputParameters);

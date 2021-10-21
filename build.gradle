@@ -10,7 +10,7 @@ ext {
 }
 
 allprojects {
-    version '0.2.6'
+    version '0.2.8'
     group = 'io.github.vision-consensus'
 
     repositories {

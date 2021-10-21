@@ -18,13 +18,12 @@ import java.util.Collections;
 
 
 public class Vrc20Trigger extends BaseTrigger {
-    public static BigInteger decimalsVrc20Transaction(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
-        VisionClient client;
-        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
-            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
-        } else {
-            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
-        }
+    public static BigInteger decimalsVrc20Transaction(VisionClient client,String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
+//        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+//            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+//        } else {
+//            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+//        }
 
         Function decimals = new Function("decimals",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint8>() {}));
@@ -48,13 +47,12 @@ public class Vrc20Trigger extends BaseTrigger {
         return null;
     }
 
-    public static BigInteger totalSupplyVrc20Transaction(String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
-        VisionClient client;
-        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
-            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
-        } else {
-            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
-        }
+    public static BigInteger totalSupplyVrc20Transaction(VisionClient client, String hexAddressContract, String grpcIpPort,String grpcSolidityIpPort) {
+//        if (!isBlank(grpcIpPort) && !isBlank(grpcSolidityIpPort)) {
+//            client = VisionClient.ofSelfFullNode("0000000000000000000000000000000000000000000000000000000000000000", grpcIpPort, grpcSolidityIpPort);
+//        } else {
+//            client = VisionClient.ofVtestIp("0000000000000000000000000000000000000000000000000000000000000000");
+//        }
 
         Function totalSupply = new Function("totalSupply",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint256>() {}));
