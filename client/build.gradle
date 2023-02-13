@@ -10,36 +10,6 @@ task sourceJar(type: Jar) {
     classifier "sources"
 }
 
-////maven-publish 扩展名
-//publishing {
-//    // 配置发布的项目信息
-//    publications{
-//        library(MavenPublication){
-//            // MavenPublication 中有一些属性，主要包括groupId，artifactId，version,from,artifact
-//            // 其中groupId，artifactId，version，artifact都是选填的，不填默认去取项目的相关信息；
-//            groupId project.group // 项目的group
-//            artifactId 'client-'+project.name //项目name
-//            version project.version
-//            //如果打包成war包填写components.web，如果打成jar包填写components.java
-//            from components.java
-//            artifact sourceJar
-//        }
-//    }
-//    // 配置发布的地址
-//    repositories{
-//        maven{
-//            // 私服地址
-//            url = 'http://18.138.127.184:8081/nexus/content/repositories/releases/'
-//            // 验证信息
-//            credentials{
-//                // 私服的用户与密码
-//                username 'admin'
-//                password 'mgEVMquOZurl'
-//            }
-//        }
-//    }
-//}
-
 description 'Visionjsdk gRPC client classes'
 
 dependencies {
@@ -86,6 +56,25 @@ protobuf {
     generatedFilesBaseDir = "$projectDir/src"
 }
 
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/vision-consensus/vision-java-sdk"
+            credentials {
+                username = System.getenv('github_username')
+                password = System.getenv('github_token')
+            }
+        }
+    }
+
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
+
 bintray {
     user = System.getenv('BINTRAY_USER_VISION')
     key = System.getenv('BINTRAY_KEY_VISION')
@@ -98,8 +87,8 @@ bintray {
         // userOrg = 'visionjsdk'
         // configurations = ['archives']
         desc = description
-        websiteUrl = 'https://github.com/visionprotocol/visionjsdk'
-        vcsUrl = 'https://github.com/visionprotocol/visionjsdk.git'
+        websiteUrl = 'https://github.com/vision-consensus/vision-java-sdk'
+        vcsUrl = 'https://github.com/vision-consensus/vision-java-sdk.git'
         licenses = ['Apache-2.0']
         publish = true
         publicDownloadNumbers = true

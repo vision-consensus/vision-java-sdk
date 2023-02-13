@@ -12,13 +12,12 @@
  */
 package org.vision.visionjsdk.abi;
 
-import java.util.Arrays;
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
-
 import org.vision.visionjsdk.abi.datatypes.Event;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
+
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.vision.visionjsdk.abi.Utils.convert;

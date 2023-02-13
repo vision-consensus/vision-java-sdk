@@ -12,14 +12,13 @@
  */
 package org.vision.visionjsdk.abi.datatypes;
 
+import org.junit.jupiter.api.Test;
+import org.vision.visionjsdk.abi.TypeReference;
+import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-
-import org.junit.jupiter.api.Test;
-
-import org.vision.visionjsdk.abi.TypeReference;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

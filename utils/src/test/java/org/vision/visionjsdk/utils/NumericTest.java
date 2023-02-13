@@ -12,20 +12,15 @@
  */
 package org.vision.visionjsdk.utils;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
 import org.vision.visionjsdk.exceptions.MessageDecodingException;
 import org.vision.visionjsdk.exceptions.MessageEncodingException;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class NumericTest {
 

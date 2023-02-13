@@ -12,26 +12,17 @@
  */
 package org.vision.visionjsdk.abi;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
-
-import org.vision.visionjsdk.abi.datatypes.Bool;
-import org.vision.visionjsdk.abi.datatypes.DynamicArray;
-import org.vision.visionjsdk.abi.datatypes.DynamicBytes;
-import org.vision.visionjsdk.abi.datatypes.Fixed;
-import org.vision.visionjsdk.abi.datatypes.Int;
-import org.vision.visionjsdk.abi.datatypes.StaticArray;
-import org.vision.visionjsdk.abi.datatypes.Ufixed;
-import org.vision.visionjsdk.abi.datatypes.Uint;
-import org.vision.visionjsdk.abi.datatypes.Utf8String;
+import org.vision.visionjsdk.abi.datatypes.*;
 import org.vision.visionjsdk.abi.datatypes.generated.Int64;
 import org.vision.visionjsdk.abi.datatypes.generated.StaticArray2;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint64;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.vision.visionjsdk.abi.Utils.typeMap;

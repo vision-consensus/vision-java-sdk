@@ -12,16 +12,12 @@
  */
 package org.vision.visionjsdk.abi;
 
+import org.vision.visionjsdk.abi.datatypes.*;
+import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
+
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collections;
-
-import org.vision.visionjsdk.abi.datatypes.DynamicStruct;
-import org.vision.visionjsdk.abi.datatypes.StaticStruct;
-import org.vision.visionjsdk.abi.datatypes.Type;
-import org.vision.visionjsdk.abi.datatypes.Utf8String;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
-import org.vision.visionjsdk.abi.datatypes.*;
 
 public class AbiV2TestFixture {
 

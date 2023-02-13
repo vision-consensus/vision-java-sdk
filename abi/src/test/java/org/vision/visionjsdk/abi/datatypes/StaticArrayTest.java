@@ -12,13 +12,12 @@
  */
 package org.vision.visionjsdk.abi.datatypes;
 
-import java.util.stream.IntStream;
-
 import org.junit.jupiter.api.Test;
-
 import org.vision.visionjsdk.abi.datatypes.generated.StaticArray3;
 import org.vision.visionjsdk.abi.datatypes.generated.StaticArray32;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint8;
+
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
