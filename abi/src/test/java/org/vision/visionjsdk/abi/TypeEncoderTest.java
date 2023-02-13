@@ -12,92 +12,17 @@
  */
 package org.vision.visionjsdk.abi;
 
-import java.math.BigInteger;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import org.vision.visionjsdk.abi.datatypes.Address;
-import org.vision.visionjsdk.abi.datatypes.Bool;
-import org.vision.visionjsdk.abi.datatypes.Bytes;
-import org.vision.visionjsdk.abi.datatypes.DynamicArray;
-import org.vision.visionjsdk.abi.datatypes.DynamicBytes;
-import org.vision.visionjsdk.abi.datatypes.Int;
-import org.vision.visionjsdk.abi.datatypes.StaticArray;
-import org.vision.visionjsdk.abi.datatypes.Ufixed;
-import org.vision.visionjsdk.abi.datatypes.Uint;
-import org.vision.visionjsdk.abi.datatypes.Utf8String;
-import org.vision.visionjsdk.abi.datatypes.generated.Bytes1;
-import org.vision.visionjsdk.abi.datatypes.generated.Bytes4;
-import org.vision.visionjsdk.abi.datatypes.generated.Bytes6;
-import org.vision.visionjsdk.abi.datatypes.generated.Int104;
-import org.vision.visionjsdk.abi.datatypes.generated.Int112;
-import org.vision.visionjsdk.abi.datatypes.generated.Int120;
-import org.vision.visionjsdk.abi.datatypes.generated.Int128;
-import org.vision.visionjsdk.abi.datatypes.generated.Int136;
-import org.vision.visionjsdk.abi.datatypes.generated.Int144;
-import org.vision.visionjsdk.abi.datatypes.generated.Int152;
-import org.vision.visionjsdk.abi.datatypes.generated.Int16;
-import org.vision.visionjsdk.abi.datatypes.generated.Int160;
-import org.vision.visionjsdk.abi.datatypes.generated.Int168;
-import org.vision.visionjsdk.abi.datatypes.generated.Int176;
-import org.vision.visionjsdk.abi.datatypes.generated.Int184;
-import org.vision.visionjsdk.abi.datatypes.generated.Int192;
-import org.vision.visionjsdk.abi.datatypes.generated.Int200;
-import org.vision.visionjsdk.abi.datatypes.generated.Int208;
-import org.vision.visionjsdk.abi.datatypes.generated.Int216;
-import org.vision.visionjsdk.abi.datatypes.generated.Int224;
-import org.vision.visionjsdk.abi.datatypes.generated.Int232;
-import org.vision.visionjsdk.abi.datatypes.generated.Int24;
-import org.vision.visionjsdk.abi.datatypes.generated.Int240;
-import org.vision.visionjsdk.abi.datatypes.generated.Int248;
-import org.vision.visionjsdk.abi.datatypes.generated.Int32;
-import org.vision.visionjsdk.abi.datatypes.generated.Int40;
-import org.vision.visionjsdk.abi.datatypes.generated.Int48;
-import org.vision.visionjsdk.abi.datatypes.generated.Int56;
-import org.vision.visionjsdk.abi.datatypes.generated.Int64;
-import org.vision.visionjsdk.abi.datatypes.generated.Int72;
-import org.vision.visionjsdk.abi.datatypes.generated.Int8;
-import org.vision.visionjsdk.abi.datatypes.generated.Int80;
-import org.vision.visionjsdk.abi.datatypes.generated.Int88;
-import org.vision.visionjsdk.abi.datatypes.generated.Int96;
-import org.vision.visionjsdk.abi.datatypes.generated.StaticArray2;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint104;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint112;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint120;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint128;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint136;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint144;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint152;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint16;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint160;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint168;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint176;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint184;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint192;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint200;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint208;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint216;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint224;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint232;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint24;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint240;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint248;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint32;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint40;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint48;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint56;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint64;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint72;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint8;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint80;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint88;
-import org.vision.visionjsdk.abi.datatypes.generated.Uint96;
+import org.vision.visionjsdk.abi.datatypes.*;
+import org.vision.visionjsdk.abi.datatypes.generated.*;
 import org.vision.visionjsdk.abi.datatypes.primitive.Byte;
 import org.vision.visionjsdk.abi.datatypes.primitive.Char;
 import org.vision.visionjsdk.abi.datatypes.primitive.Long;
 import org.vision.visionjsdk.abi.datatypes.primitive.Short;
 import org.vision.visionjsdk.utils.Numeric;
+
+import java.math.BigInteger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -379,7 +304,7 @@ public class TypeEncoderTest {
         Uint max208 =
                 new Uint208(
                         new BigInteger(
-                                "461376139330301510538742295639337626245683966408394965837152255"));
+                                "411376139330301510538742295639337626245683966408394965837152255"));
         assertEquals(
                 TypeEncoder.encodeNumeric(max208),
                 "000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffff");

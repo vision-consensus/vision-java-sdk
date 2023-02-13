@@ -30,7 +30,7 @@ import org.vision.visionjsdk.utils.Numeric;
 public class ClientTest {
     @Test
     public void testGetNowBlockQuery() {
-        VisionClient client = VisionClient.ofVtest("53e34b2da1a3123d1eebaab791dbce2b19063c91bb80736fda8c287b89c208a5");
+        VisionClient client = VisionClient.ofMainnet("0000000000000000000000000000000000000000000000000000000000000000");
         BlockExtention block = client.blockingStub.getNowBlock2(EmptyMessage.newBuilder().build());
 
         System.out.println(block.getBlockHeader());
@@ -39,7 +39,7 @@ public class ClientTest {
 
     @Test
     public void testSendVrc20Transaction() {
-        VisionClient client = VisionClient.ofVtest("53e34b2da1a3123d1eebaab791dbce2b19063c91bb80736fda8c287b89c208a5");
+        VisionClient client = VisionClient.ofVpioneer("0000000000000000000000000000000000000000000000000000000000000000");
 
         // transfer(address,uint256) returns (bool)
         Function vrc20Transfer = new Function("transfer",
@@ -70,7 +70,7 @@ public class ClientTest {
 
     @Test
     public void testDecimalsVrc20Transaction() {
-        VisionClient client = VisionClient.ofVtest("0000000000000000000000000000000000000000000000000000000000000000");
+        VisionClient client = VisionClient.ofVpioneer("0000000000000000000000000000000000000000000000000000000000000000");
 
         Function decimals = new Function("decimals",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint8>() {}));
@@ -92,7 +92,7 @@ public class ClientTest {
 
     @Test
     public void testTotalSupplyVrc20Transaction() {
-        VisionClient client = VisionClient.ofVtest("0000000000000000000000000000000000000000000000000000000000000000");
+        VisionClient client = VisionClient.ofVpioneer("0000000000000000000000000000000000000000000000000000000000000000");
 
         Function totalSupply = new Function("totalSupply",
                 Collections.emptyList(), Arrays.asList(new TypeReference<Uint256>() {}));

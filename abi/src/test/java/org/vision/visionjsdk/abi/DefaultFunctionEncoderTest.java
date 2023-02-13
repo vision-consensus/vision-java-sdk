@@ -12,17 +12,17 @@
  */
 package org.vision.visionjsdk.abi;
 
-import java.lang.reflect.InvocationTargetException;
-import java.math.BigInteger;
-import java.util.*;
-
 import org.junit.jupiter.api.Test;
-
 import org.vision.visionjsdk.abi.datatypes.*;
 import org.vision.visionjsdk.abi.datatypes.generated.Bytes10;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
 import org.vision.visionjsdk.abi.datatypes.generated.Uint32;
-import org.vision.visionjsdk.abi.datatypes.*;
+
+import java.lang.reflect.InvocationTargetException;
+import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

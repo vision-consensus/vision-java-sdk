@@ -11,7 +11,7 @@ Add repo setting:
 ```groovy
 repositories {
     maven {
-        url  "xxxxxx"
+        url  "https://maven.pkg.github.com/vision-consensus/vision-java-sdk"
     }
 }
 ```
@@ -22,8 +22,9 @@ Then add `abi` as dependency.
 dependencies {
     ....
 
-    implementation 'org.vision.visionjsdk:abi:0.1.1'
-    implementation 'org.vision.visionjsdk:client:0.1.1'
+    implementation 'org.vision.visionjsdk:abi:0.5.0'
+    implementation 'org.vision.visionjsdk:client:0.5.0'
+    implementation 'org.vision.visionjsdk:utils:0.5.0'
 
     ....
 }
@@ -35,7 +36,23 @@ dependencies {
 <dependency>
   <groupId>org.vision.visionjsdk</groupId>
   <artifactId>abi</artifactId>
-  <version>0.1.1</version>
+  <version>0.5.0</version>
+  <type>pom</type>
+</dependency>
+```
+```xml
+<dependency>
+  <groupId>org.vision.visionjsdk</groupId>
+  <artifactId>client</artifactId>
+  <version>0.5.0</version>
+  <type>pom</type>
+</dependency>
+```
+```xml
+<dependency>
+  <groupId>org.vision.visionjsdk</groupId>
+  <artifactId>utils</artifactId>
+  <version>0.5.0</version>
   <type>pom</type>
 </dependency>
 ```

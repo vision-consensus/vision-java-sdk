@@ -12,30 +12,21 @@
  */
 package org.vision.visionjsdk.abi;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.vision.visionjsdk.abi.datatypes.*;
+import org.vision.visionjsdk.abi.datatypes.generated.Bytes16;
+import org.vision.visionjsdk.abi.datatypes.generated.Bytes32;
+import org.vision.visionjsdk.abi.datatypes.generated.StaticArray2;
+import org.vision.visionjsdk.abi.datatypes.generated.Uint256;
+import org.vision.visionjsdk.crypto.Hash;
+import org.vision.visionjsdk.utils.Numeric;
+
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
-import org.vision.visionjsdk.abi.TypeReference;
-import org.vision.visionjsdk.abi.FunctionReturnDecoder;
-import org.vision.visionjsdk.abi.datatypes.DynamicArray;
-import org.vision.visionjsdk.abi.datatypes.DynamicBytes;
-import org.vision.visionjsdk.abi.datatypes.Function;
-import org.vision.visionjsdk.abi.datatypes.StaticArray;
-import org.vision.visionjsdk.abi.datatypes.Type;
-import org.vision.visionjsdk.abi.datatypes.Uint;
-import org.vision.visionjsdk.abi.datatypes.Utf8String;
-import org.vision.visionjsdk.abi.datatypes.generated.Bytes16;
-import org.vision.visionjsdk.abi.datatypes.generated.Bytes32;
-import org.vision.visionjsdk.abi.datatypes.generated.StaticArray2;
-import org.vision.visionjsdk.abi.datatypes.generated.*;
-import org.vision.visionjsdk.crypto.Hash;
-import org.vision.visionjsdk.utils.Numeric;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -41,12 +41,9 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.2.5'
 
     // visionjsdk core libs
-    // implementation 'org.vision.visionjsdk:abi:0.1.0'
-    // implementation 'org.vision.visionjsdk:client:0.1.0'
-    // implementation 'org.vision.visionjsdk:utils:0.1.0'
-    implementation 'io.grpc:grpc-netty-shaded:1.31.0'
-    implementation 'io.grpc:grpc-netty:1.31.0'
-    implementation 'io.grpc:grpc-protobuf:1.31.0'
+    // implementation 'org.vision.visionjsdk:abi:0.5.0'
+    // implementation 'org.vision.visionjsdk:client:0.5.0'
+    // implementation 'org.vision.visionjsdk:utils:0.5.0'
 
 
     // For local test

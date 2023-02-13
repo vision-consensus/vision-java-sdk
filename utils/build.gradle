@@ -16,6 +16,24 @@ dependencies {
     compile group: 'com.madgag.spongycastle', name: 'core', version: '1.58.0.0'
 }
 
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/vision-consensus/vision-java-sdk"
+            credentials {
+                username = System.getenv('github_username')
+                password = System.getenv('github_token')
+            }
+        }
+    }
+
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
 
 bintray {
     user = System.getenv('BINTRAY_USER_VISION')
@@ -29,8 +47,8 @@ bintray {
         // userOrg = 'visionjsdk'
         // configurations = ['archives']
         desc = description
-        websiteUrl = 'https://github.com/visionprotocol/visionjsdk'
-        vcsUrl = 'https://github.com/visionprotocol/visionjsdk.git'
+        websiteUrl = 'https://github.com/vision-consensus/vision-java-sdk'
+        vcsUrl = 'https://github.com/vision-consensus/vision-java-sdk.git'
         licenses = ['Apache-2.0']
         publish = true
         publicDownloadNumbers = true

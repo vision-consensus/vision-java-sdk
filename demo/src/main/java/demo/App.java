@@ -74,7 +74,7 @@ public class App {
 
     /*public void signTransaction() {
         System.out.println("============= signTransaction =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             client.signTransaction(, 1_000_000L, 3L,1);
         } catch (Exception e) {
@@ -97,7 +97,7 @@ public class App {
 
     /*public void sendVs() {
         System.out.println("============= VRC transfer =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
         try {
             TransactionExtention transactionExtention = client.transfer("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP", 1_000_000);
             Transaction signedTxn = client.signTransaction(transactionExtention);
@@ -112,7 +112,7 @@ public class App {
 
     public void sendVs() {
         System.out.println("============= VRC transfer =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transaction = client.transfer("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP", 1_000_000);
             Transaction signedTxn = client.signTransaction(transaction);
@@ -125,7 +125,7 @@ public class App {
     }
     /*public void transferVrc10(){
         System.out.println("============= transferVrc10 =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
         try {
             TransactionExtention transactionExtention = client.transferVrc10("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP",
                     1000002, 1_000_000);
@@ -141,7 +141,7 @@ public class App {
 
     public void transferVrc10() {
         System.out.println("============= transferVrc10 =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transactionExtention = client.transferVrc10("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i",
                     1000002, 1_000_000);
@@ -156,7 +156,7 @@ public class App {
 
     /*public void freezeBalance() {
         System.out.println("============= freeze balance =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
         try {
             TransactionExtention transaction = client.freezeBalance("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", 1_000_000L, 3L,1);
             Transaction signedTxn = client.signTransaction(transaction);
@@ -171,7 +171,7 @@ public class App {
 
     public void freezeBalance() {
         System.out.println("============= freeze balance =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transaction = client.freezeBalance("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", 1_000_000L, 3L, 1, "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP");
             Transaction signedTxn = client.signTransaction(transaction);
@@ -185,7 +185,7 @@ public class App {
 
     public void unFreezeBalance() {
         System.out.println("============= unFreeze balance =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transaction = client.unfreezeBalance("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", 1, "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP");
             Transaction signedTxn = client.signTransaction(transaction);
@@ -199,7 +199,7 @@ public class App {
 
     public void getBlockByNum() {
         System.out.println("============= getBlockByNum =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             Block block = client.getBlockByNum(10);
             System.out.println(block);
@@ -210,7 +210,7 @@ public class App {
 
     /*public void getBlockByLatestNumSolidity() {
         System.out.println("============= getBlockByNum =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             BlockListExtention block = client.getBlockByLatestNumSolidity(1);
             System.out.println(block);
@@ -221,7 +221,7 @@ public class App {
 
     public void getNowBlock() {
         System.out.println("============= getNowBlock =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getNowBlock());
         } catch (Exception e) {
@@ -231,7 +231,7 @@ public class App {
 
     public void getNowBlockSolidity() {
         System.out.println("============= getNowBlockSolidity =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getNowBlockSolidity());
         } catch (Exception e) {
@@ -241,7 +241,7 @@ public class App {
 
     public void getNodeInfo() {
         System.out.println("============= getNodeInfo=============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getNodeInfo());
         } catch (Exception e) {
@@ -251,7 +251,7 @@ public class App {
 
     public void listNodes() {
         System.out.println("============= listNodes=============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.listNodes());
         } catch (Exception e) {
@@ -261,7 +261,7 @@ public class App {
 
     public void getTransactionInfoByBlockNum() {
         System.out.println("============= getTransactionInfoByBlockNum =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getTransactionInfoByBlockNum(-100));
         } catch (Exception e) {
@@ -271,8 +271,8 @@ public class App {
 
     // public void sendVrc20Transaction() {
     //     System.out.println("============ VRC20 transfer =============");
-    //     // Any of `ofVtest`, `ofMainnet`.
-    //     VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+    //     // Any of `ofVpioneer`, `ofMainnet`.
+    //     VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
 
     //     // transfer(address _to,uint256 _amount) returns (bool)
     //     // _to = VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP
@@ -307,8 +307,8 @@ public class App {
     // }
 
     /*public void transferVrc20() {
-        // Any of `ofVtest`, `ofMainnet`.
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        // Any of `ofVpioneer`, `ofMainnet`.
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             //JST transfer
             client.transferVrc20("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", 1000000000L, 10L, 18);
@@ -318,7 +318,7 @@ public class App {
     }*/
 
     public void getSmartContract() {
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
 
             Contract cntr = client.getContract("4648dd91ff64c11eba559e9f49c5094c97e43c6ab9");
@@ -335,7 +335,7 @@ public class App {
 
     public void getTransactionInfoById() {
         System.out.println("============= getTransactionInfoById =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getTransactionInfoById("683eb52596556af9ebd3ddb93d0d7bf60aa2e71a2314a825a8f71abafcee9345"));
         } catch (Exception e) {
@@ -345,7 +345,7 @@ public class App {
 
     public void getTransactionById() {
         System.out.println("============= getTransactionById =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getTransactionById("683eb52596556af9ebd3ddb93d0d7bf60aa2e71a2314a825a8f71abafcee9345"));
         } catch (Exception e) {
@@ -355,7 +355,7 @@ public class App {
 
     public void getTransactionByIdSolidity() {
         System.out.println("============= getTransactionByIdSolidity =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getTransactionByIdSolidity("683eb52596556af9ebd3ddb93d0d7bf60aa2e71a2314a825a8f71abafcee9345"));
         } catch (Exception e) {
@@ -367,7 +367,7 @@ public class App {
      * This is a constant call demo
      */
     public void viewContractName() {
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             Function viewName = new Function("name", Collections.emptyList(), Collections.emptyList());
             TransactionExtention txnExt = client.constantCall("VNTxQP1qojBwiMkVfjfwcZ9vj7LF3DRQPn", "VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", viewName);
@@ -379,7 +379,7 @@ public class App {
 
     public void getAccount() {
         System.out.println("============= getAccount =============");
-//        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+//        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         VisionClient client = VisionClient.ofSelfFullNode("3333333333333333333333333333333333333333333333333333333333333333", "3.22.117.236:50051", "3.22.117.236:50061");
 
         try {
@@ -391,7 +391,7 @@ public class App {
 
     public void updateAccount() {
         System.out.println("============= updateAccount =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transaction = client.updateAccount("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "xxx");
             System.out.println(transaction);
@@ -406,7 +406,7 @@ public class App {
 
     public void createAccount() {
         System.out.println("============= createAccount =============");
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             TransactionExtention transaction = client.createAccount("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP");
             System.out.println(transaction);
@@ -421,7 +421,7 @@ public class App {
 
     public void getAccountResource() {
         System.out.println("============= getAccountResource =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAccountResource("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i"));
         } catch (Exception e) {
@@ -431,7 +431,7 @@ public class App {
 
     public void getAccountPhoton() {
         System.out.println("============= getAccountPhoton =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAccountPhoton("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i"));
         } catch (Exception e) {
@@ -441,7 +441,7 @@ public class App {
 
     public void getDelegatedResource() {
         System.out.println("============= getDelegatedResource =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
 
             System.out.println(client.getDelegatedResource("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", "VXPGrussMYszd1cxRYne9vcGcnQSo1sBjP"));
@@ -452,7 +452,7 @@ public class App {
 
     public void getDelegatedResourceAccountIndex() {
         System.out.println("============= getDelegatedResourceAccountIndex =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             DelegatedResourceAccountIndex accountIndex = client.getDelegatedResourceAccountIndex("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i");
             ByteString account = accountIndex.getAccount();
@@ -478,7 +478,7 @@ public class App {
 
     public void getAccountSolidity() {
         System.out.println("============= getAccountSolidity =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAccountSolidity("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i"));
         } catch (Exception e) {
@@ -488,7 +488,7 @@ public class App {
 
     public void getRewardSolidity() {
         System.out.println("============= getRewardSolidity =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getRewardSolidity("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i"));
         } catch (Exception e) {
@@ -499,7 +499,7 @@ public class App {
 
     public void listWitnesses() {
         System.out.println("============= listWitnesses =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.listWitnesses());
         } catch (Exception e) {
@@ -509,7 +509,7 @@ public class App {
 
     public void listExchanges() {
         System.out.println("============= listExchanges =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.listExchanges());
         } catch (Exception e) {
@@ -520,7 +520,7 @@ public class App {
     /*public void voteWitness(){
         System.out.println("============= voteWitness =============");
         HashMap<String, String> witness = new HashMap<>();
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
         try {
             witness.put("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i","1");
             TransactionExtention transaction = client.voteWitness("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i",witness);
@@ -536,7 +536,7 @@ public class App {
     public void voteWitness() {
         System.out.println("============= voteWitness =============");
         HashMap<String, String> witness = new HashMap<>();
-        VisionClient client = VisionClient.ofVtest("bf9a7e2287ca47757c43230ab1844f4f26b27cf53933c09362158a37dace6d05");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             witness.put("VFnr6qYKsEvJY3h4iY8FwNESgYNeyzvxNc", "1");
             TransactionExtention transaction = client.voteWitness("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i", witness);
@@ -553,7 +553,7 @@ public class App {
      * This is a trigger call - transfer vrc-20 demo
      */
     public void triggerCallDemo() {
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             //function 'transfer'
             //params: function name, function params
@@ -590,7 +590,7 @@ public class App {
 
     public void getBlockByLatestNum() {
         System.out.println("============= getBlockByLatestNum =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             BlockListExtention blockListExtention = client.getBlockByLatestNum(100);
             System.out.println(blockListExtention);
@@ -601,7 +601,7 @@ public class App {
 
     public void getBlockByLimitNext() {
         System.out.println("============= getBlockByLimitNext =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             BlockListExtention blockListExtention = client.getBlockByLimitNext(-11, 0);
             System.out.println(blockListExtention);
@@ -612,7 +612,7 @@ public class App {
 
     public void getChainParameters() {
         System.out.println("============= getChainParameters =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getChainParameters());
         } catch (Exception e) {
@@ -622,7 +622,7 @@ public class App {
 
     public void getAssetIssueList() {
         System.out.println("============= getAssetIssueList =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAssetIssueList());
         } catch (Exception e) {
@@ -632,7 +632,7 @@ public class App {
 
     public void getPaginatedAssetIssueList() {
         System.out.println("============= getPaginatedAssetIssueList =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getPaginatedAssetIssueList(0, 20));
         } catch (Exception e) {
@@ -642,7 +642,7 @@ public class App {
 
     public void getAssetIssueByAccount() {
         System.out.println("============= getAssetIssueByAccount =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAssetIssueByAccount("VBZsQtsKdzFU5fLyHWeduQLHAw6HvSDd7i"));
         } catch (Exception e) {
@@ -652,7 +652,7 @@ public class App {
 
     public void getAssetIssueById() {
         System.out.println("============= getAssetIssueById =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.getAssetIssueById("1000134"));
         } catch (Exception e) {
@@ -662,7 +662,7 @@ public class App {
 
     public void listProposals() {
         System.out.println("============= listProposals =============");
-        VisionClient client = VisionClient.ofVtest("3333333333333333333333333333333333333333333333333333333333333333");
+        VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
         try {
             System.out.println(client.listProposals());
         } catch (Exception e) {
@@ -695,7 +695,7 @@ public class App {
         System.out.println("============= createAssetIssue =============");
 //        VisionClient client = VisionClient.ofNile("5bffa78c05e58d25e6d9fca69ece106678b5acdb558fd329972f0e860f27974f");
         try {
-            VisionClient client = VisionClient.ofVtest("5176b5624639dc479272605eb0e8feb54e3ff7104cfec4dd2b0faca33750fd99");
+            VisionClient client = VisionClient.ofVpioneer("3333333333333333333333333333333333333333333333333333333333333333");
             long start = 1711483775000l;
             long end = 1812483780000l;
 
@@ -714,7 +714,7 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
-        app.createAssetIssue();
+//        app.createAssetIssue();
         // System.out.println(app.encodeFunctionCalling());
 
 //         app.getAccountResource();
@@ -744,7 +744,7 @@ public class App {
 //         app.freezeBalance();
 //         app.unFreezeBalance();
         // app.getBlockByNum();
-        // app.getNowBlock();
+         app.getNowBlock();
         // app.getNodeInfo();
         // app.getBlockByLatestNum();
         // app.listNodes();

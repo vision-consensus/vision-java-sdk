@@ -12,13 +12,26 @@
  */
 package org.vision.visionjsdk.abi.datatypes;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
-public class AddressTest {
-    @Test
-    public void testToString() {
+import java.math.BigInteger;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class FixedPointTypeTest {
+
+    @Test
+    public void testConvert() {
+        assertEquals(
+                FixedPointType.convert(BigInteger.valueOf(0x2), BigInteger.valueOf(0x2)),
+                (new BigInteger("220000000000000000000000000000000", 16)));
+
+        assertEquals(
+                FixedPointType.convert(BigInteger.valueOf(0x8), BigInteger.valueOf(0x8)),
+                (new BigInteger("880000000000000000000000000000000", 16)));
+
+        assertEquals(
+                FixedPointType.convert(BigInteger.valueOf(0xAAFF), BigInteger.valueOf(0x1111)),
+                (new BigInteger("AAFF11110000000000000000000000000000", 16)));
     }
 }
