@@ -1,0 +1,12 @@
+pluginManagement {
+  plugins {
+    id 'com.jfrog.bintray' version '1.8.5'
+  }
+}
+
+rootProject.name = 'vision-java-sdk'
+
+include 'utils'
+include 'abi'
+include 'client'
+include 'demo'

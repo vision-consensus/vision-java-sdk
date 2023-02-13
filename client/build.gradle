@@ -1,0 +1,102 @@
+plugins {
+    id 'com.jfrog.bintray'
+    id 'com.google.protobuf' version '0.8.12'
+    id 'maven-publish'
+}
+
+// 源码包
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+    classifier "sources"
+}
+
+description 'Visionjsdk gRPC client classes'
+
+dependencies {
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation project(':utils')
+    implementation project(':abi')
+
+    implementation 'io.grpc:grpc-netty-shaded:1.31.0'
+    implementation 'io.grpc:grpc-netty:1.31.0'
+    implementation 'io.grpc:grpc-okhttp:1.31.0'
+    implementation 'io.grpc:grpc-protobuf:1.31.0'
+    implementation 'io.grpc:grpc-stub:1.31.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
+
+    implementation 'com.google.protobuf:protobuf-java-util:3.11.0'
+
+    implementation "org.bouncycastle:bcprov-jdk15on:$bouncycastleVersion"
+    // implementation 'org.apache.tuweni:tuweni-bytes:0.8.2'
+    implementation group: 'commons-codec', name: 'commons-codec', version: '1.15'
+
+    // https://mvnrepository.com/artifact/com.madgag.spongycastle/core
+    compile group: 'com.madgag.spongycastle', name: 'core', version: '1.58.0.0'
+    compile "com.madgag.spongycastle:prov:1.58.0.0"
+    compile 'com.alibaba:fastjson:1.2.60'
+
+}
+
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.12.0'
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.31.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc { }
+        }
+    }
+    generatedFilesBaseDir = "$projectDir/src"
+}
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/vision-consensus/vision-java-sdk"
+            credentials {
+                username = System.getenv('github_username')
+                password = System.getenv('github_token')
+            }
+        }
+    }
+
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
+
+bintray {
+    user = System.getenv('BINTRAY_USER_VISION')
+    key = System.getenv('BINTRAY_KEY_VISION')
+
+    configurations = ['archives']
+
+    pkg {
+        repo = 'visionjsdk'
+        name = 'client'
+        // userOrg = 'visionjsdk'
+        // configurations = ['archives']
+        desc = description
+        websiteUrl = 'https://github.com/vision-consensus/vision-java-sdk'
+        vcsUrl = 'https://github.com/vision-consensus/vision-java-sdk.git'
+        licenses = ['Apache-2.0']
+        publish = true
+        publicDownloadNumbers = true
+        version {
+            afterEvaluate {
+                name = "${project.version}"
+                released = new Date()
+            }
+        }
+    }
+}
