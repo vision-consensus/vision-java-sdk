@@ -16,7 +16,7 @@ repositories {
 }
 ```
 
-Then add `abi` as dependency.
+Then add `abi` `client` `utils` as dependency.
 
 ```groovy
 dependencies {
@@ -37,7 +37,6 @@ dependencies {
   <groupId>org.vision.visionjsdk</groupId>
   <artifactId>abi</artifactId>
   <version>0.5.0</version>
-  <type>pom</type>
 </dependency>
 ```
 ```xml
@@ -45,7 +44,6 @@ dependencies {
   <groupId>org.vision.visionjsdk</groupId>
   <artifactId>client</artifactId>
   <version>0.5.0</version>
-  <type>pom</type>
 </dependency>
 ```
 ```xml
@@ -53,7 +51,6 @@ dependencies {
   <groupId>org.vision.visionjsdk</groupId>
   <artifactId>utils</artifactId>
   <version>0.5.0</version>
-  <type>pom</type>
 </dependency>
 ```
 
@@ -88,6 +85,6 @@ Function function =
                                 new Uint(BigInteger.valueOf(3)))),
                 Collections.emptyList());
 String encodedHex = FunctionEncoder.encode(function);
-
-
 ```
+
+```demo code path: demo/src/main/java/demo```
